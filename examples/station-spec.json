@@ -6,7 +6,10 @@
   "name": "",                 // Human-friendly name of station
   "id": "",                   // Unique station ID for this database only, usually a slug of the name
   "disclamers": "",           // Any disclamers about using this data
+  "restriction": "",          // Any restrictions on this data's use
   "primary_station": "",      // True if this is a station with known harmonics, false if it is a secondary station
+  "latitude": 1,              // Latitude, in decimal degrees
+  "longitude": 1,              // Longitude, in decimal degrees
   "source": {                 // Where this data came from
     "name": "",               // name of the source, i.e. "NOAA"
     "id": "",                 //The source's station ID
