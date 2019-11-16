@@ -29,9 +29,17 @@ The `source` object defines where the station's information came from, and wheth
 - `name`: String - Name of the source, i.e. `NOAA`
 - `id`: String - The source's station ID
 - `published_harmonics`: Boolean - Are the harmonics from published harmonic data? False means harmonics were computed
-- `license`: String - Short description of any terms or conditions on this data
 - `url`: String - URL to this station's data or information in the source's website
 - `source_url`: String - URL to the source's homepage
+
+### License information
+
+The `license` object defines the license and whatever restrictions are placed on use of the data.
+
+- `type`: String - A short description of the type of license (i.e. MIT, public domain, etc)
+- `commercial_use`: Boolean - If `true` then there are no restrictions on commercial use
+- `url`: String - A URL to the license information
+- `notes`: String - Any additional restrictions or information on the license.
 
 ### Hamonic Constituents
 
