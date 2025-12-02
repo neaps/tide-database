@@ -1,0 +1,33 @@
+{
+  "name": "@neaps/tide-stations",
+  "version": "1.0.0",
+  "description": "A public database of tide harmonics",
+  "keywords": [
+    "tides",
+    "harmonics",
+    "database"
+  ],
+  "homepage": "https://github.com/neaps/tide-database#readme",
+  "bugs": {
+    "url": "https://github.com/neaps/tide-database/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neaps/tide-database.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "vite": "^7.2.6",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
