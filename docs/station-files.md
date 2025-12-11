@@ -16,7 +16,7 @@ The following fields define the basic station information:
 - `country`: String - ISO 3166-1 alpha-3 country code
 - `region`: String - ISO 3166-2 region code, if available. If not, whatever local postal codes
 - `timezone`: String - IANA time zone code (e.g. `America/Los_Angeles`)
-- `disclamers`: String - Any disclamers about using this data
+- `disclaimers`: String - Any disclaimers about using this data
 - `restriction`: String - Any restrictions on this data's use
 - `type`: String - Either `reference` if it's a referene station, or `secondary` if it's a secondary station. [More about station types](#station-types)
 - `latitude`: Float - Latitude, in decimal degrees
@@ -70,7 +70,7 @@ Stations can either be _reference_ or _secondary_, defined in the station's `typ
 
 ### Reference station
 
-Reference stations have defined hamonic constituents. They should have an array of `harmonic_constituents`. These are usually stations that have a long selection of real water level observations.
+Reference stations have defined harmonic constituents. They should have an array of `harmonic_constituents`. These are usually stations that have a long selection of real water level observations.
 
 ### Secondary station
 
