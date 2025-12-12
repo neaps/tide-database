@@ -30,3 +30,24 @@ Much effort has been made to cover the [requirements from libTCD](https://flater
 If you have **at least a year** of hourly water level observations, you can convert those to harmonic constituents and [submit them to this database online](https://neaps.js.org/harmonics) with a simple form.
 
 Your submission will be automatically converted to a Pull Request to this repository.
+
+## Installation
+
+```bash
+npm install @neaps/tide-stations
+```
+
+## Usage
+
+```typescript
+import { nearest, near, stations } from '@neaps/tide-stations';
+
+// All stations
+console.log('Total stations:', stations.length);
+
+// Find the nearest station to a given lat/lon
+console.log(`Nearest station:`, nearest({ lat: 26.722, lon: -80.031 }));
+
+// Find the 10 nearest stations to a given lat/lon, in order of distance
+console.log('5 nearest stations:', near({ lat: 26.722, lon: -80.031 }, 10));
+```
