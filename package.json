@@ -24,7 +24,7 @@
   },
   "scripts": {
     "build": "vite build",
-    "prepublishOnly": "npm run build"
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "moment": "^2.30.1",
