@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "VA",
-  "timezone": "America/New_York",
   "name": "Sewells Point",
-  "id": "united-states-va-sewells-point",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-va-sewells-point",
   "type": "reference",
-  "latitude": 36.946667,
-  "longitude": -76.33,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8638610",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638610",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8638610.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 36.94278,
+  "longitude": -76.32861,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638610",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638610",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8638610.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

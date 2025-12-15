@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "timezone": "America/Los_Angeles",
   "name": "Point Reyes",
-  "id": "united-states-ca-point-reyes",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ca-point-reyes",
   "type": "reference",
   "latitude": 37.994167,
-  "longitude": -122.973611,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9415020",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415020",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9415020.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -122.97361,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415020",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415020",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9415020.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

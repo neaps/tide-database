@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "timezone": "America/Chicago",
   "name": "Galveston Railroad Bridge",
-  "id": "united-states-tx-galveston-railroad-bridge",
-  "disclaimers": "[object Object]",
-  "restriction": "",
+  "id": "us-tx-galveston-railroad-bridge",
   "type": "reference",
-  "latitude": 29.302583,
-  "longitude": -94.897083,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8771486",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771486",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771486.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 29.3026,
+  "longitude": -94.8971,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8771486",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771486",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771486.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "[object Object]",
+  "restriction": ""
 }

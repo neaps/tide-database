@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "timezone": "America/Chicago",
   "name": "Nueces Bay",
-  "id": "united-states-tx-nueces-bay",
-  "disclaimers": "[object Object]",
-  "restriction": "",
+  "id": "us-tx-nueces-bay",
   "type": "reference",
-  "latitude": 27.83275,
-  "longitude": -97.485944,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8775244",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8775244",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8775244.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 27.8328,
+  "longitude": -97.4859,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8775244",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8775244",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8775244.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "[object Object]",
+  "restriction": ""
 }

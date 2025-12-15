@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "timezone": "America/Puerto_Rico",
   "name": "Culebra",
-  "id": "united-states-pr-culebra",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-pr-culebra",
   "type": "reference",
   "latitude": 18.300861,
-  "longitude": -65.302472,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9752235",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752235",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752235.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -65.302475,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9752235",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752235",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752235.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "timezone": "America/Chicago",
   "name": "San Luis Pass",
-  "id": "united-states-tx-san-luis-pass",
-  "disclaimers": "[object Object]",
-  "restriction": "",
+  "id": "us-tx-san-luis-pass",
   "type": "reference",
-  "latitude": 29.080972,
-  "longitude": -95.131333,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8771972",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771972",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771972.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 29.095,
+  "longitude": -95.1133,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8771972",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771972",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771972.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "[object Object]",
+  "restriction": ""
 }

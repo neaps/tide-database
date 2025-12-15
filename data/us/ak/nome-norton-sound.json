@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "timezone": "America/Nome",
   "name": "Nome, Norton Sound",
-  "id": "united-states-ak-nome-norton-sound",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ak-nome-norton-sound",
   "type": "reference",
-  "latitude": 64.494611,
-  "longitude": -165.439639,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9468756",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468756",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468756.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 64.49461,
+  "longitude": -165.43964,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9468756",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468756",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468756.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

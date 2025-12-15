@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "timezone": "America/New_York",
   "name": "Newport",
-  "id": "united-states-ri-newport",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ri-newport",
   "type": "reference",
   "latitude": 41.504333,
-  "longitude": -71.326139,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8452660",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8452660",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8452660.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -71.32614,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8452660",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8452660",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8452660.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

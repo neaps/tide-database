@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "timezone": "America/New_York",
   "name": "Providence",
-  "id": "united-states-ri-providence",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ri-providence",
   "type": "reference",
-  "latitude": 41.806667,
-  "longitude": -71.400556,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8454000",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8454000",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8454000.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 41.807167,
+  "longitude": -71.400665,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8454000",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8454000",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8454000.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

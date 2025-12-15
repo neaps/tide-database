@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "timezone": "America/Chicago",
   "name": "USS Lexington, Corpus Christi Bay",
-  "id": "united-states-tx-uss-lexington-corpus-christi-bay",
-  "disclaimers": "[object Object]",
-  "restriction": "",
+  "id": "us-tx-uss-lexington-corpus-christi-bay",
   "type": "reference",
-  "latitude": 27.811694,
-  "longitude": -97.39,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8775296",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8775296",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8775296.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 27.8149,
+  "longitude": -97.3892,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8775296",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8775296",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8775296.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "[object Object]",
+  "restriction": ""
 }

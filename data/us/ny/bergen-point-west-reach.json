@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "timezone": "America/New_York",
   "name": "Bergen Point West Reach",
-  "id": "united-states-ny-bergen-point-west-reach",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ny-bergen-point-west-reach",
   "type": "reference",
-  "latitude": 40.6391,
-  "longitude": -74.146306,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8519483",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8519483",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8519483.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 40.63911,
+  "longitude": -74.14631,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8519483",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8519483",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8519483.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

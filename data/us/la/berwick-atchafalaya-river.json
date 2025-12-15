@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "timezone": "America/Chicago",
   "name": "Berwick, Atchafalaya River",
-  "id": "united-states-la-berwick-atchafalaya-river",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-la-berwick-atchafalaya-river",
   "type": "reference",
   "latitude": 29.6675,
-  "longitude": -91.237611,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8764044",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8764044",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8764044.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -91.23761,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8764044",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8764044",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8764044.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

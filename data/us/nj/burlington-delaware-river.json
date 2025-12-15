@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "NJ",
-  "timezone": "America/New_York",
   "name": "Burlington, Delaware River",
-  "id": "united-states-nj-burlington-delaware-river",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-nj-burlington-delaware-river",
   "type": "reference",
-  "latitude": 40.08,
-  "longitude": -74.873333,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8539094",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8539094",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8539094.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 40.0817,
+  "longitude": -74.8697,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8539094",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8539094",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8539094.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

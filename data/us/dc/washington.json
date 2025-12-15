@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "DC",
-  "timezone": "America/New_York",
   "name": "Washington",
-  "id": "united-states-dc-washington",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-dc-washington",
   "type": "reference",
-  "latitude": 38.873,
-  "longitude": -77.0217,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8594900",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8594900",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8594900.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 38.873333,
+  "longitude": -77.02167,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8594900",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8594900",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8594900.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "timezone": "America/Chicago",
   "name": "Pilots Station East, S.W. Pass",
-  "id": "united-states-la-pilots-station-east-s.w.-pass",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-la-pilots-station-east-s-w-pass",
   "type": "reference",
-  "latitude": 28.932222,
+  "latitude": 28.9322,
   "longitude": -89.4075,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8760922",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760922",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760922.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760922",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760922",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760922.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

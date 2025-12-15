@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "timezone": "America/Los_Angeles",
   "name": "Port Townsend",
-  "id": "united-states-wa-port-townsend",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-wa-port-townsend",
   "type": "reference",
-  "latitude": 48.1129,
-  "longitude": -122.7595,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9444900",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9444900",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9444900.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 48.11122,
+  "longitude": -122.759674,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9444900",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9444900",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9444900.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

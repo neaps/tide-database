@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "timezone": "America/Los_Angeles",
   "name": "Crescent City",
-  "id": "united-states-ca-crescent-city",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ca-crescent-city",
   "type": "reference",
   "latitude": 41.74561,
   "longitude": -124.18439,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9419750",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9419750",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9419750.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9419750",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9419750",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9419750.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

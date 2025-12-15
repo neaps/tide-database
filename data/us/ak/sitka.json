@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "timezone": "America/Sitka",
   "name": "Sitka",
-  "id": "united-states-ak-sitka",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ak-sitka",
   "type": "reference",
-  "latitude": 57.051694,
+  "latitude": 57.051693,
   "longitude": -135.342,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451600",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451600",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451600.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451600",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451600",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451600.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

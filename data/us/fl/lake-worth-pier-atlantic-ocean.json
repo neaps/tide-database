@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "timezone": "America/New_York",
   "name": "Lake Worth Pier, Atlantic Ocean",
-  "id": "united-states-fl-lake-worth-pier-atlantic-ocean",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-fl-lake-worth-pier-atlantic-ocean",
   "type": "reference",
   "latitude": 26.612778,
-  "longitude": -80.034167,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8722670",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722670",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722670.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -80.034164,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -248,5 +233,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722670",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722670",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722670.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

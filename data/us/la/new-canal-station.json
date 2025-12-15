@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "timezone": "America/Chicago",
   "name": "New Canal Station",
-  "id": "united-states-la-new-canal-station",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-la-new-canal-station",
   "type": "reference",
   "latitude": 30.027222,
-  "longitude": -90.113333,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8761927",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761927",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8761927.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -90.113335,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8761927",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761927",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8761927.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

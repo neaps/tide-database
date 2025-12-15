@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "timezone": "America/New_York",
-  "name": "SOUTH PORT EVERGLADES",
-  "id": "united-states-fl-south-port-everglades",
-  "disclaimers": "",
-  "restriction": "",
+  "name": "South Port Everglades",
+  "id": "us-fl-south-port-everglades",
   "type": "reference",
   "latitude": 26.081667,
-  "longitude": -80.116667,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8722956",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722956",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722956.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -80.11667,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722956",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722956",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722956.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

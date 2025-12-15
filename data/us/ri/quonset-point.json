@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "timezone": "America/New_York",
   "name": "Quonset Point",
-  "id": "united-states-ri-quonset-point",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ri-quonset-point",
   "type": "reference",
-  "latitude": 41.58694,
-  "longitude": -71.41,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8454049",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8454049",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8454049.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 41.5868,
+  "longitude": -71.411,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8454049",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8454049",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8454049.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

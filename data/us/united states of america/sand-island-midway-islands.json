@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "United States of America",
-  "timezone": "Pacific/Midway",
   "name": "Sand Island, Midway Islands",
-  "id": "united-states-united-states-of-america-sand-island-midway-islands",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-united-states-of-america-sand-island-midway-islands",
   "type": "reference",
-  "latitude": 28.2117,
+  "latitude": 28.211666,
   "longitude": -177.36,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "1619910",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=1619910",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/1619910.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "Pacific/Midway",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "1619910",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=1619910",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/1619910.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "timezone": "America/Anchorage",
   "name": "Kodiak Island",
-  "id": "united-states-ak-kodiak-island",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ak-kodiak-island",
   "type": "reference",
-  "latitude": 57.730278,
-  "longitude": -152.513889,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9457292",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457292",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457292.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 57.7317,
+  "longitude": -152.512,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457292",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457292",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457292.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

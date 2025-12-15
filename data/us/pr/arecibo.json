@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "timezone": "America/Puerto_Rico",
   "name": "Arecibo",
-  "id": "united-states-pr-arecibo",
-  "disclaimers": "[object Object]",
-  "restriction": "",
+  "id": "us-pr-arecibo",
   "type": "reference",
   "latitude": 18.480528,
-  "longitude": -66.702361,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9757809",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9757809",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9757809.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -66.70236,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9757809",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9757809",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9757809.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "[object Object]",
+  "restriction": ""
 }

@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "timezone": "America/Los_Angeles",
   "name": "Oil Platform Harvest",
-  "id": "united-states-ca-oil-platform-harvest",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ca-oil-platform-harvest",
   "type": "reference",
-  "latitude": 34.469167,
-  "longitude": -120.681944,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9411406",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9411406",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9411406.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 34.469166,
+  "longitude": -120.681946,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9411406",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9411406",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9411406.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

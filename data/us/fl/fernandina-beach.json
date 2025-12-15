@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "timezone": "America/New_York",
   "name": "Fernandina Beach",
-  "id": "united-states-fl-fernandina-beach",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-fl-fernandina-beach",
   "type": "reference",
-  "latitude": 30.671389,
-  "longitude": -81.465833,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8720030",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720030",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720030.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 30.671356,
+  "longitude": -81.46584,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720030",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720030",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720030.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

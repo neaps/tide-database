@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "timezone": "America/Anchorage",
   "name": "Sand Point",
-  "id": "united-states-ak-sand-point",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ak-sand-point",
   "type": "reference",
-  "latitude": 55.33172,
-  "longitude": -160.5043,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9459450",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459450",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459450.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 55.331722,
+  "longitude": -160.50433,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9459450",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459450",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459450.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

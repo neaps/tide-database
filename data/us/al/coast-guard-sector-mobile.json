@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "timezone": "America/Chicago",
   "name": "Coast Guard Sector Mobile",
-  "id": "united-states-al-coast-guard-sector-mobile",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-al-coast-guard-sector-mobile",
   "type": "reference",
-  "latitude": 30.648306,
-  "longitude": -88.058306,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8736897",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8736897",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8736897.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 30.6495,
+  "longitude": -88.05811,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8736897",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8736897",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8736897.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

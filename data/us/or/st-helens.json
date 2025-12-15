@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "timezone": "America/Los_Angeles",
   "name": "St Helens",
-  "id": "united-states-or-st-helens",
-  "disclaimers": "[object Object]",
-  "restriction": "",
+  "id": "us-or-st-helens",
   "type": "reference",
-  "latitude": 45.8633,
-  "longitude": -122.7962,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9439201",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9439201",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9439201.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 45.865,
+  "longitude": -122.797,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9439201",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9439201",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9439201.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "[object Object]",
+  "restriction": ""
 }

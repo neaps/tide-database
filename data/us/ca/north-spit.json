@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "timezone": "America/Los_Angeles",
   "name": "North Spit",
-  "id": "united-states-ca-north-spit",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ca-north-spit",
   "type": "reference",
-  "latitude": 40.7663,
-  "longitude": -124.2172,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9418767",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9418767",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9418767.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 40.766907,
+  "longitude": -124.21735,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9418767",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9418767",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9418767.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "timezone": "America/Puerto_Rico",
   "name": "Mayaguez",
-  "id": "united-states-pr-mayaguez",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-pr-mayaguez",
   "type": "reference",
-  "latitude": 18.219,
-  "longitude": -67.1625,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9759394",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759394",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759394.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 18.218834,
+  "longitude": -67.162445,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9759394",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759394",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759394.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

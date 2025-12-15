@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "VI",
-  "timezone": "America/St_Thomas",
   "name": "Lameshur Bay, St John",
-  "id": "united-states-vi-lameshur-bay-st-john",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-vi-lameshur-bay-st-john",
   "type": "reference",
   "latitude": 18.31825,
-  "longitude": -64.724222,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9751381",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9751381",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9751381.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -64.72422,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/St_Thomas",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9751381",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9751381",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9751381.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

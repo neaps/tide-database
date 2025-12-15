@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "timezone": "America/New_York",
   "name": "Fall River",
-  "id": "united-states-ma-fall-river",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ma-fall-river",
   "type": "reference",
-  "latitude": 41.704306,
-  "longitude": -71.164111,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8447386",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447386",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447386.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 41.7043,
+  "longitude": -71.1641,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447386",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447386",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447386.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

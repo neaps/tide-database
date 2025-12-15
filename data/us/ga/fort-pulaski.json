@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "GA",
-  "timezone": "America/New_York",
   "name": "Fort Pulaski",
-  "id": "united-states-ga-fort-pulaski",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ga-fort-pulaski",
   "type": "reference",
-  "latitude": 32.0367,
-  "longitude": -80.9017,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8670870",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8670870",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8670870.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 32.034695,
+  "longitude": -80.90303,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8670870",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8670870",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8670870.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

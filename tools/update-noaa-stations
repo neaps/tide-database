@@ -17,6 +17,9 @@ const STATIONS_LIST_URL =
 
 async function main() {
   const existingIds = new Set()
+  // Fetch stations list and add any new reference stations (type=R)
+  console.log('Fetching NOAA stations list (type=R)...')
+  const stations = await fetchReferenceStations()
 
   // Find all NOAA station files
   for await (const filePath of walkDirectory(DATA_DIR)) {
@@ -27,18 +30,15 @@ async function main() {
     }
 
     existingIds.add(station.source.id)
-    await saveStation(await updateData(station.source.id, station))
+
+    const meta = stations.find((s) => s.id === station.source?.id)
+    const data = meta ? buildStation(meta) : station
+    await saveStation(await updateData(station.source.id, data))
   }
 
-  // Fetch stations list and add any new reference stations (type=R)
-  console.log('Fetching NOAA stations list (type=R)...')
-  const stations = await fetchReferenceStations()
-
   for (const meta of stations) {
-    if (existingIds.has(meta.id)) {
-      console.log(`Station ID ${meta.id} already exists, skipping creation.`)
-      continue
-    }
+    // Already exists, skip creation
+    if (existingIds.has(meta.id)) continue
 
     await createStation(meta)
   }

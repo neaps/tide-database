@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "timezone": "America/New_York",
   "name": "Boston",
-  "id": "united-states-ma-boston",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ma-boston",
   "type": "reference",
-  "latitude": 42.353889,
-  "longitude": -71.050278,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8443970",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8443970",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8443970.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 42.35389,
+  "longitude": -71.05028,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8443970",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8443970",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8443970.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

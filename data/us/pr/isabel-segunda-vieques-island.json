@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "timezone": "America/Puerto_Rico",
   "name": "Isabel Segunda, Vieques Island",
-  "id": "united-states-pr-isabel-segunda-vieques-island",
-  "disclaimers": "[object Object]",
-  "restriction": "",
+  "id": "us-pr-isabel-segunda-vieques-island",
   "type": "reference",
-  "latitude": 18.1525,
-  "longitude": -65.443889,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9752619",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752619",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752619.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 18.152527,
+  "longitude": -65.4438,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9752619",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752619",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752619.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "[object Object]",
+  "restriction": ""
 }

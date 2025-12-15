@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "MS",
-  "timezone": "America/Chicago",
   "name": "Bay Waveland Yacht Club",
-  "id": "united-states-ms-bay-waveland-yacht-club",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ms-bay-waveland-yacht-club",
   "type": "reference",
-  "latitude": 30.325,
-  "longitude": -89.325,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8747437",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8747437",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8747437.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 30.326342,
+  "longitude": -89.3258,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8747437",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8747437",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8747437.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

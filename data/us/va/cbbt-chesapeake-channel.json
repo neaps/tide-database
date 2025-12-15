@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "VA",
-  "timezone": "America/New_York",
   "name": "CBBT, Chesapeake Channel",
-  "id": "united-states-va-cbbt-chesapeake-channel",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-va-cbbt-chesapeake-channel",
   "type": "reference",
-  "latitude": 37.032902,
-  "longitude": -76.083298,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8638901",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638901",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8638901.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 37.0329,
+  "longitude": -76.0833,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638901",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638901",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8638901.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

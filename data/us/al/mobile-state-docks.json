@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "timezone": "America/Chicago",
   "name": "Mobile State Docks",
-  "id": "united-states-al-mobile-state-docks",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-al-mobile-state-docks",
   "type": "reference",
   "latitude": 30.70461,
   "longitude": -88.03961,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8737048",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8737048",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8737048.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8737048",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8737048",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8737048.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

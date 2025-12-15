@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "PA",
-  "timezone": "America/New_York",
   "name": "Marcus Hook",
-  "id": "united-states-pa-marcus-hook",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-pa-marcus-hook",
   "type": "reference",
-  "latitude": 39.811667,
-  "longitude": -75.409444,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8540433",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8540433",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8540433.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 39.811806,
+  "longitude": -75.4095,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8540433",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8540433",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8540433.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

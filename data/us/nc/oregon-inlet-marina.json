@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "timezone": "America/New_York",
   "name": "Oregon Inlet Marina",
-  "id": "united-states-nc-oregon-inlet-marina",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-nc-oregon-inlet-marina",
   "type": "reference",
-  "latitude": 35.795,
-  "longitude": -75.548056,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8652587",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8652587",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8652587.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 35.795696,
+  "longitude": -75.548195,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8652587",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8652587",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8652587.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

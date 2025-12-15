@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "timezone": "America/New_York",
   "name": "Duck",
-  "id": "united-states-nc-duck",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-nc-duck",
   "type": "reference",
-  "latitude": 36.183306,
-  "longitude": -75.746694,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8651370",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8651370",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8651370.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 36.1833,
+  "longitude": -75.7467,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8651370",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8651370",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8651370.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

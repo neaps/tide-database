@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "VA",
-  "timezone": "America/New_York",
   "name": "Money Point",
-  "id": "united-states-va-money-point",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-va-money-point",
   "type": "reference",
-  "latitude": 36.778306,
-  "longitude": -76.301694,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8639348",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8639348",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8639348.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 36.778194,
+  "longitude": -76.301865,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8639348",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8639348",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8639348.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

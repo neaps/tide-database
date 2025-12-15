@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "timezone": "America/Los_Angeles",
   "name": "Longview",
-  "id": "united-states-wa-longview",
-  "disclaimers": "[object Object]",
-  "restriction": "",
+  "id": "us-wa-longview",
   "type": "reference",
-  "latitude": 46.106139,
-  "longitude": -122.954194,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9440422",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440422",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440422.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 46.1061,
+  "longitude": -122.9542,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9440422",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440422",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440422.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "[object Object]",
+  "restriction": ""
 }

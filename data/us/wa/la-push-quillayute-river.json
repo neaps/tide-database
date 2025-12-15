@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "timezone": "America/Los_Angeles",
   "name": "La Push, Quillayute River",
-  "id": "united-states-wa-la-push-quillayute-river",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-wa-la-push-quillayute-river",
   "type": "reference",
-  "latitude": 47.913,
-  "longitude": -124.63694,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9442396",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9442396",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9442396.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 47.912838,
+  "longitude": -124.63574,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9442396",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9442396",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9442396.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

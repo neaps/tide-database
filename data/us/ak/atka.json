@@ -1,27 +1,12 @@
 {
   "continent": "North America",
   "country": "United States",
-  "region": "",
-  "timezone": "America/Adak",
+  "region": "AK",
   "name": "Atka",
-  "id": "united-states-atka",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ak-atka",
   "type": "reference",
-  "latitude": 52.232,
-  "longitude": -174.1726,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9461710",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9461710",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9461710.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 52.231945,
+  "longitude": -174.1725,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -240,5 +225,20 @@
       "speed": 30.082138
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9461710",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9461710",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9461710.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

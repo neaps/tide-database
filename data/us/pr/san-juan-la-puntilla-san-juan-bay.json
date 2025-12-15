@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "timezone": "America/Puerto_Rico",
   "name": "San Juan, La Puntilla, San Juan Bay",
-  "id": "united-states-pr-san-juan-la-puntilla-san-juan-bay",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-pr-san-juan-la-puntilla-san-juan-bay",
   "type": "reference",
-  "latitude": 18.459167,
-  "longitude": -66.116389,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9755371",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9755371",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9755371.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 18.458944,
+  "longitude": -66.11642,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9755371",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9755371",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9755371.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

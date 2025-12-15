@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "timezone": "America/New_York",
   "name": "Trident Pier, Port Canaveral",
-  "id": "united-states-fl-trident-pier-port-canaveral",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-fl-trident-pier-port-canaveral",
   "type": "reference",
-  "latitude": 28.415833,
-  "longitude": -80.593056,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8721604",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8721604",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8721604.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 28.4158,
+  "longitude": -80.5931,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8721604",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8721604",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8721604.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

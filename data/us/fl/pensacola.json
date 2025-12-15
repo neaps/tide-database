@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "timezone": "America/Chicago",
   "name": "Pensacola",
-  "id": "united-states-fl-pensacola",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-fl-pensacola",
   "type": "reference",
-  "latitude": 30.404389,
-  "longitude": -87.211194,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729840",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729840",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729840.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 30.4044,
+  "longitude": -87.2112,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729840",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729840",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729840.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

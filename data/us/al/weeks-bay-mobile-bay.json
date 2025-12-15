@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "timezone": "America/Chicago",
   "name": "Weeks Bay, Mobile Bay",
-  "id": "united-states-al-weeks-bay-mobile-bay",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-al-weeks-bay-mobile-bay",
   "type": "reference",
-  "latitude": 30.416889,
-  "longitude": -87.825389,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8732828",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8732828",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8732828.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 30.4169,
+  "longitude": -87.8254,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8732828",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8732828",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8732828.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

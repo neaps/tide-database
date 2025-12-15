@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "timezone": "America/New_York",
   "name": "Beaufort, Duke Marine Lab",
-  "id": "united-states-nc-beaufort-duke-marine-lab",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-nc-beaufort-duke-marine-lab",
   "type": "reference",
-  "latitude": 34.72,
-  "longitude": -76.67,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8656483",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656483",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656483.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 34.71733,
+  "longitude": -76.67066,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656483",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656483",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656483.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "PA",
-  "timezone": "America/New_York",
   "name": "Newbold",
-  "id": "united-states-pa-newbold",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-pa-newbold",
   "type": "reference",
-  "latitude": 40.137306,
-  "longitude": -74.751889,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8548989",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8548989",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8548989.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 40.137333,
+  "longitude": -74.75183,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8548989",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8548989",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8548989.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

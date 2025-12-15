@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "Antigua and Barbuda",
-  "timezone": "America/Antigua",
   "name": "Barbuda",
-  "id": "united-states-antigua-and-barbuda-barbuda",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-antigua-and-barbuda-barbuda",
   "type": "reference",
   "latitude": 17.590834,
   "longitude": -61.820557,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9761115",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9761115",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9761115.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -176,5 +161,20 @@
       "speed": 30.082138
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Antigua",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9761115",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9761115",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9761115.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

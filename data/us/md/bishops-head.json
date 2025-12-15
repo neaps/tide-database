@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "timezone": "America/New_York",
   "name": "Bishops Head",
-  "id": "united-states-md-bishops-head",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-md-bishops-head",
   "type": "reference",
-  "latitude": 38.220389,
-  "longitude": -76.038667,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8571421",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571421",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571421.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 38.22,
+  "longitude": -76.0383,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571421",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571421",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571421.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

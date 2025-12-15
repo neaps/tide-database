@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "VA",
-  "timezone": "America/New_York",
   "name": "Wachapreague",
-  "id": "united-states-va-wachapreague",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-va-wachapreague",
   "type": "reference",
-  "latitude": 37.607778,
-  "longitude": -75.685833,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8631044",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8631044",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8631044.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 37.607777,
+  "longitude": -75.68584,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8631044",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8631044",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8631044.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

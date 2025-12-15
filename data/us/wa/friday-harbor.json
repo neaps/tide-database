@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "timezone": "America/Los_Angeles",
   "name": "Friday Harbor",
-  "id": "united-states-wa-friday-harbor",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-wa-friday-harbor",
   "type": "reference",
-  "latitude": 48.545306,
-  "longitude": -123.012889,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9449880",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9449880",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9449880.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 48.545277,
+  "longitude": -123.0125,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9449880",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9449880",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9449880.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

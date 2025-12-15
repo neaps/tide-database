@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "timezone": "America/New_York",
   "name": "The Battery",
-  "id": "united-states-ny-the-battery",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ny-the-battery",
   "type": "reference",
-  "latitude": 40.700556,
-  "longitude": -74.014167,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8518750",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518750",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8518750.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 40.700554,
+  "longitude": -74.01417,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8518750",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518750",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8518750.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

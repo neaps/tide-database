@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "PA",
-  "timezone": "America/New_York",
   "name": "Bridesburg",
-  "id": "united-states-pa-bridesburg",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-pa-bridesburg",
   "type": "reference",
-  "latitude": 39.983333,
-  "longitude": -75.075,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8546252",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8546252",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8546252.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 39.979683,
+  "longitude": -75.079315,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8546252",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8546252",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8546252.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

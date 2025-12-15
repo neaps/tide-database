@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "VA",
-  "timezone": "America/New_York",
   "name": "Dahlgren",
-  "id": "united-states-va-dahlgren",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-va-dahlgren",
   "type": "reference",
   "latitude": 38.31975,
-  "longitude": -77.036611,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8635027",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8635027",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8635027.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -77.0366,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8635027",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8635027",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8635027.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

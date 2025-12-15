@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "timezone": "America/New_York",
   "name": "Conimicut Light",
-  "id": "united-states-ri-conimicut-light",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ri-conimicut-light",
   "type": "reference",
-  "latitude": 41.716667,
-  "longitude": -71.343333,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8452944",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8452944",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8452944.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 41.7167,
+  "longitude": -71.3433,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8452944",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8452944",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8452944.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

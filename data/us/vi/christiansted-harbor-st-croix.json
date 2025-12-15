@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "VI",
-  "timezone": "America/St_Thomas",
   "name": "Christiansted Harbor, St Croix",
-  "id": "united-states-vi-christiansted-harbor-st-croix",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-vi-christiansted-harbor-st-croix",
   "type": "reference",
-  "latitude": 17.75,
-  "longitude": -64.705,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9751364",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9751364",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9751364.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 17.747694,
+  "longitude": -64.69839,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/St_Thomas",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9751364",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9751364",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9751364.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

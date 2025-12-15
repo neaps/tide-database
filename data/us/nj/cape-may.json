@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "NJ",
-  "timezone": "America/New_York",
   "name": "Cape May",
-  "id": "united-states-nj-cape-may",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-nj-cape-may",
   "type": "reference",
-  "latitude": 38.967778,
-  "longitude": -74.959722,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8536110",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8536110",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8536110.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 38.9683,
+  "longitude": -74.96,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8536110",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8536110",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8536110.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

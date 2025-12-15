@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "PA",
-  "timezone": "America/New_York",
   "name": "Philadelphia",
-  "id": "united-states-pa-philadelphia",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-pa-philadelphia",
   "type": "reference",
-  "latitude": 39.933333,
-  "longitude": -75.141667,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8545240",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8545240",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8545240.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 39.933056,
+  "longitude": -75.14198,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8545240",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8545240",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8545240.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

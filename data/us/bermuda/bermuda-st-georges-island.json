@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "Bermuda",
-  "timezone": "Atlantic/Bermuda",
   "name": "Bermuda, St. Georges Island",
-  "id": "united-states-bermuda-bermuda-st.-georges-island",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-bermuda-bermuda-st-georges-island",
   "type": "reference",
-  "latitude": 32.373306,
-  "longitude": -64.703306,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "2695540",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=2695540",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/2695540.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 32.3734,
+  "longitude": -64.7033,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "Atlantic/Bermuda",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "2695540",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=2695540",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/2695540.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

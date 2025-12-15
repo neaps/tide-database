@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "American Samoa",
-  "timezone": "Pacific/Pago_Pago",
   "name": "Pago Pago, American Samoa",
-  "id": "united-states-american-samoa-pago-pago-american-samoa",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-american-samoa-pago-pago-american-samoa",
   "type": "reference",
-  "latitude": -14.276667,
-  "longitude": -170.689444,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "1770000",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=1770000",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/1770000.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": -14.28,
+  "longitude": -170.69,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "Pacific/Pago_Pago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "1770000",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=1770000",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/1770000.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

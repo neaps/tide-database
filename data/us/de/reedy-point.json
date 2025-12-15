@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "DE",
-  "timezone": "America/New_York",
   "name": "Reedy Point",
-  "id": "united-states-de-reedy-point",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-de-reedy-point",
   "type": "reference",
-  "latitude": 39.5583,
-  "longitude": -75.5733,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8551910",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8551910",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8551910.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 39.558334,
+  "longitude": -75.571945,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8551910",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8551910",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8551910.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

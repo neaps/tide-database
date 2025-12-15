@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "timezone": "America/New_York",
   "name": "Montauk",
-  "id": "united-states-ny-montauk",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ny-montauk",
   "type": "reference",
-  "latitude": 41.048333,
-  "longitude": -71.959444,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8510560",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8510560",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8510560.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 41.048332,
+  "longitude": -71.95944,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8510560",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8510560",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8510560.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

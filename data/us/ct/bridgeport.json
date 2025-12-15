@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "CT",
-  "timezone": "America/New_York",
   "name": "Bridgeport",
-  "id": "united-states-ct-bridgeport",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-ct-bridgeport",
   "type": "reference",
-  "latitude": 41.17575,
-  "longitude": -73.184028,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8467150",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8467150",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8467150.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 41.17582,
+  "longitude": -73.18397,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8467150",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8467150",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8467150.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

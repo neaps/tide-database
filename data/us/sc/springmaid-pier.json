@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "SC",
-  "timezone": "America/New_York",
   "name": "Springmaid Pier",
-  "id": "united-states-sc-springmaid-pier",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-sc-springmaid-pier",
   "type": "reference",
   "latitude": 33.655,
-  "longitude": -78.918306,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8661070",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8661070",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8661070.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "longitude": -78.9183,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8661070",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8661070",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8661070.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

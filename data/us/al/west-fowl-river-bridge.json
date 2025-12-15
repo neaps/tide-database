@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "timezone": "America/Chicago",
   "name": "West Fowl River Bridge",
-  "id": "united-states-al-west-fowl-river-bridge",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-al-west-fowl-river-bridge",
   "type": "reference",
-  "latitude": 30.376639,
-  "longitude": -88.158556,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8738043",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8738043",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8738043.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 30.3766,
+  "longitude": -88.1586,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8738043",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8738043",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8738043.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }

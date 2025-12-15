@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "NJ",
-  "timezone": "America/New_York",
   "name": "Sandy Hook",
-  "id": "united-states-nj-sandy-hook",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-nj-sandy-hook",
   "type": "reference",
-  "latitude": 40.466944,
-  "longitude": -74.009444,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8531680",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8531680",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8531680.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 40.4669,
+  "longitude": -74.0094,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8531680",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8531680",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8531680.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }
