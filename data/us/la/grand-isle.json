@@ -2,26 +2,11 @@
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "timezone": "America/Chicago",
   "name": "Grand Isle",
-  "id": "united-states-la-grand-isle",
-  "disclaimers": "",
-  "restriction": "",
+  "id": "us-la-grand-isle",
   "type": "reference",
-  "latitude": 29.263,
-  "longitude": -89.957,
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8761724",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761724",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8761724.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
+  "latitude": 29.263334,
+  "longitude": -89.956665,
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -320,5 +305,20 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {}
+  "secondary_offset": {},
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8761724",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761724",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8761724.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "restriction": ""
 }
