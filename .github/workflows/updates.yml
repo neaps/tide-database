@@ -1,0 +1,69 @@
+name: Update Stations
+
+on:
+  schedule:
+    # Run on the 1st of every month at 2:00 AM UTC
+    - cron: "0 2 1 * *"
+  workflow_dispatch: # Allow manual triggering
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  noaa:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run NOAA stations update
+        run: tools/update-noaa-stations
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [[ -n $(git status --porcelain data/) ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in data directory"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: update NOAA tide station data"
+          title: "Update NOAA Tide Station Data"
+          body: |
+            ## Automated NOAA Station Update
+
+            This PR contains updates to NOAA tide station data from the official NOAA API.
+
+            ### Changes
+            - Updated harmonic constituents for existing stations
+            - Added any new stations discovered
+
+            ### Source
+            - Stations list: https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=tidepredictions
+            - Harmonic constituents: https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/{id}/harcon.json
+
+            ### Workflow
+            Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            This PR was automatically created by the monthly NOAA station update workflow.
+          branch: update-noaa-stations-${{ github.run_number }}
+          delete-branch: true
+          labels: |
+            automated
+            data
