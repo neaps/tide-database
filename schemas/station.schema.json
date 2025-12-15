@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://neaps.js.org/station.schema.json",
+  "title": "Tide Station",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "continent",
+    "country",
+    "type",
+    "latitude",
+    "longitude",
+    "timezone",
+    "source",
+    "license",
+    "harmonic_constituents",
+    "secondary_offset"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "continent": {
+      "type": "string",
+      "minLength": 1
+    },
+    "country": {
+      "type": "string",
+      "minLength": 1
+    },
+    "region": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "disclaimers": {
+      "type": "string"
+    },
+    "restriction": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "reference",
+        "secondary"
+      ]
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "name",
+        "id",
+        "published_harmonics",
+        "url",
+        "source_url"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": [
+            "string",
+            "number"
+          ]
+        },
+        "published_harmonics": {
+          "type": "boolean"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "license": {
+      "type": "object",
+      "required": [
+        "type",
+        "commercial_use",
+        "url"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "commercial_use": {
+          "type": "boolean"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "harmonic_constituents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "amplitude",
+          "phase_UTC",
+          "phase_local"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          },
+          "amplitude": {
+            "type": "number"
+          },
+          "phase_UTC": {
+            "type": "number"
+          },
+          "phase_local": {
+            "type": "number"
+          },
+          "speed": {
+            "type": "number"
+          },
+          "comments": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "secondary_offset": {
+      "anyOf": [
+        {
+          "type": "object",
+          "maxProperties": 0
+        },
+        {
+          "type": "object",
+          "required": [
+            "reference_station",
+            "height_offset",
+            "time_offset"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "reference_station": {
+              "type": "string"
+            },
+            "height_offset": {
+              "type": "object",
+              "required": [
+                "high",
+                "low"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "high": {
+                  "type": "number"
+                },
+                "low": {
+                  "type": "number"
+                }
+              }
+            },
+            "time_offset": {
+              "type": "object",
+              "required": [
+                "high",
+                "low"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "high": {
+                  "type": "number"
+                },
+                "low": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "secondary"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "harmonic_constituents": {
+            "maxItems": 0
+          },
+          "secondary_offset": {
+            "anyOf": [
+              {
+                "type": "object",
+                "required": [
+                  "reference_station",
+                  "height_offset",
+                  "time_offset"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "reference_station": {
+                    "type": "string"
+                  },
+                  "height_offset": {
+                    "type": "object",
+                    "required": [
+                      "high",
+                      "low"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                      "high": {
+                        "type": "number"
+                      },
+                      "low": {
+                        "type": "number"
+                      }
+                    }
+                  },
+                  "time_offset": {
+                    "type": "object",
+                    "required": [
+                      "high",
+                      "low"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                      "high": {
+                        "type": "number"
+                      },
+                      "low": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

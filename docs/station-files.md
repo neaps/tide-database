@@ -1,8 +1,8 @@
 # Station files
 
-Each tide station is defined in a single JSON file. This file includes basic station information, like location and name, harmonics, and secondary station offsets. The files are a single JSON object.
+Each tide station is defined in a single JSON file as defined by the schema in [../schemas/station.schema.json](../schemas/station.schema.json). This file includes basic station information, like location and name, harmonics, and secondary station offsets. The files are a single JSON object.
 
-Each station's ID is a slug of the name preceeded by the country and region of the station. For example, the station ID for Puerto Madryn, Chubut, Argentina, would be `argentina-chubut-puerto-madryn`. The file names match these IDs.
+Each station's ID is a slug of the name preceeded by the ISO country/region code of the station. For example, the station ID for Puerto Madryn, Chubut, Argentina, would be `ar-u-puerto-madryn`. The file names match these IDs.
 
 ## File structure
 

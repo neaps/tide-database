@@ -24,12 +24,16 @@
   },
   "scripts": {
     "build": "vite build",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "vitest"
   },
   "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
     "geo-tz": "^8.1.4",
     "moment": "^2.30.1",
     "vite": "^7.2.6",
-    "vite-plugin-dts": "^4.5.4"
+    "vite-plugin-dts": "^4.5.4",
+    "vitest": "^4.0.15"
   }
 }
