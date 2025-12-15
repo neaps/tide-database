@@ -4,6 +4,7 @@ import { readFile, writeFile, readdir, mkdir } from 'fs/promises'
 import { join } from 'path'
 import { fileURLToPath } from 'url'
 import { dirname } from 'path'
+import { find as findTz } from 'geo-tz/all'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -12,7 +13,7 @@ const DATA_DIR = join(__dirname, '..', 'data')
 const NOAA_SOURCE_NAME = 'US National Oceanic and Atmospheric Administration'
 const NEW_STATIONS_DIR = join(DATA_DIR, 'us')
 const STATIONS_LIST_URL =
-  'https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=tidepredictions'
+  'https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=harcon'
 
 async function main() {
   const existingIds = new Set()
@@ -65,12 +66,8 @@ async function isNOAAStation(data) {
 
 // Fetch list of NOAA tide prediction stations (reference only for now)
 async function fetchReferenceStations() {
-  const res = await fetch(STATIONS_LIST_URL)
-  if (!res.ok)
-    throw new Error(`Failed to fetch stations list: HTTP ${res.status}`)
-  const json = await res.json()
-  const stations = json?.stations || []
-  return stations.filter((s) => (s.type || s.Type) === 'R')
+  const { stations } = await doFetch(STATIONS_LIST_URL)
+  return stations
 }
 
 function slugify(text) {
@@ -86,12 +83,11 @@ function buildStation(meta) {
     continent: 'North America',
     country: 'United States',
     region: meta.state,
-    timezone: meta.timezone,
     name: meta.name,
     id,
-    type: meta.type === 'R' ? 'reference' : 'secondary',
+    type: 'reference',
     latitude: meta.lat,
-    longitude: meta.lon,
+    longitude: meta.lng,
     harmonic_constituents: [],
     secondary_offset: {},
   }
@@ -133,7 +129,7 @@ async function updateData(id, data) {
 
   return {
     ...data,
-
+    timezone: findTz(data.latitude, data.longitude)[0],
     // Update source URLs to ensure they're current
     source: {
       name: NOAA_SOURCE_NAME,
