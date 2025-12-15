@@ -14,8 +14,8 @@
     "name": "US National Oceanic and Atmospheric Administration",
     "id": "9414290",
     "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414290",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414290.json"
+    "url": "https://tidesandcurrents.noaa.gov/map/index.html?id=9414290",
+    "source_url": "https://tidesandcurrents.noaa.gov/mdapi/v1.0/webapi/stations/9414290/details.json"
   },
   "license": {
     "type": "public domain",
@@ -25,15 +25,15 @@
   "harmonic_constituents": [
     {
       "name": "M2",
-      "description": "Principal lunar semidiurnal constituent",
+      "description": "",
       "amplitude": 0.576,
       "phase_UTC": 208.2,
-      "phase_local": 336.4,
+      "phase_local": 336.3,
       "speed": 28.984104
     },
     {
       "name": "S2",
-      "description": "Principal solar semidiurnal constituent",
+      "description": "",
       "amplitude": 0.137,
       "phase_UTC": 216.2,
       "phase_local": 336.2,
@@ -41,23 +41,23 @@
     },
     {
       "name": "N2",
-      "description": "Larger lunar elliptic semidiurnal constituent",
+      "description": "",
       "amplitude": 0.122,
       "phase_UTC": 183.2,
-      "phase_local": 315.7,
+      "phase_local": 315.6,
       "speed": 28.43973
     },
     {
       "name": "K1",
-      "description": "Lunar diurnal constituent",
+      "description": "",
       "amplitude": 0.37,
       "phase_UTC": 225.4,
-      "phase_local": 105.1,
+      "phase_local": 105,
       "speed": 15.041069
     },
     {
       "name": "M4",
-      "description": "Shallow water overtides of principal lunar constituent",
+      "description": "",
       "amplitude": 0.022,
       "phase_UTC": 136.8,
       "phase_local": 33,
@@ -65,7 +65,7 @@
     },
     {
       "name": "O1",
-      "description": "Lunar diurnal constituent",
+      "description": "",
       "amplitude": 0.23,
       "phase_UTC": 208.4,
       "phase_local": 96.8,
@@ -73,15 +73,15 @@
     },
     {
       "name": "M6",
-      "description": "Shallow water overtides of principal lunar constituent",
+      "description": "",
       "amplitude": 0.002,
       "phase_UTC": 7.3,
-      "phase_local": 31.7,
+      "phase_local": 31.6,
       "speed": 86.95232
     },
     {
       "name": "MK3",
-      "description": "Shallow water terdiurnal",
+      "description": "",
       "amplitude": 0.018,
       "phase_UTC": 124.1,
       "phase_local": 131.9,
@@ -89,7 +89,7 @@
     },
     {
       "name": "S4",
-      "description": "Shallow water overtides of principal solar constituent",
+      "description": "",
       "amplitude": 0,
       "phase_UTC": 0,
       "phase_local": 0,
@@ -97,15 +97,15 @@
     },
     {
       "name": "MN4",
-      "description": "Shallow water quarter diurnal constituent",
+      "description": "",
       "amplitude": 0.008,
       "phase_UTC": 112,
-      "phase_local": 12.7,
+      "phase_local": 12.6,
       "speed": 57.423832
     },
     {
       "name": "NU2",
-      "description": "Larger lunar evectional constituent",
+      "description": "",
       "amplitude": 0.026,
       "phase_UTC": 189.9,
       "phase_local": 321.8,
@@ -113,7 +113,7 @@
     },
     {
       "name": "S6",
-      "description": "Shallow water overtides of principal solar constituent",
+      "description": "",
       "amplitude": 0,
       "phase_UTC": 0,
       "phase_local": 0,
@@ -121,7 +121,7 @@
     },
     {
       "name": "MU2",
-      "description": "Variational constituent",
+      "description": "",
       "amplitude": 0.007,
       "phase_UTC": 100.2,
       "phase_local": 236.4,
@@ -129,23 +129,23 @@
     },
     {
       "name": "2N2",
-      "description": "Lunar elliptical semidiurnal second-order constituent",
+      "description": "",
       "amplitude": 0.013,
       "phase_UTC": 153.3,
-      "phase_local": 290.1,
+      "phase_local": 290,
       "speed": 27.895355
     },
     {
       "name": "OO1",
-      "description": "Lunar diurnal",
+      "description": "",
       "amplitude": 0.012,
       "phase_UTC": 260,
-      "phase_local": 130.9,
+      "phase_local": 130.8,
       "speed": 16.139101
     },
     {
       "name": "LAM2",
-      "description": "Smaller lunar evectional constituent",
+      "description": "",
       "amplitude": 0.007,
       "phase_UTC": 214.3,
       "phase_local": 338.6,
@@ -153,15 +153,15 @@
     },
     {
       "name": "S1",
-      "description": "Solar diurnal constituent",
+      "description": "",
       "amplitude": 0.007,
       "phase_UTC": 282.6,
-      "phase_local": 162.6,
+      "phase_local": 162.5,
       "speed": 15
     },
     {
       "name": "M1",
-      "description": "Smaller lunar elliptic diurnal constituent",
+      "description": "",
       "amplitude": 0.011,
       "phase_UTC": 237.5,
       "phase_local": 121.5,
@@ -169,15 +169,15 @@
     },
     {
       "name": "J1",
-      "description": "Smaller lunar elliptic diurnal constituent",
+      "description": "",
       "amplitude": 0.019,
       "phase_UTC": 244.3,
-      "phase_local": 119.6,
+      "phase_local": 119.5,
       "speed": 15.5854435
     },
     {
       "name": "MM",
-      "description": "Lunar monthly constituent",
+      "description": "",
       "amplitude": 0,
       "phase_UTC": 0,
       "phase_local": 0,
@@ -185,23 +185,23 @@
     },
     {
       "name": "SSA",
-      "description": "Solar semiannual constituent",
+      "description": "",
       "amplitude": 0.03,
       "phase_UTC": 272.3,
-      "phase_local": 271.7,
+      "phase_local": 271.6,
       "speed": 0.0821373
     },
     {
       "name": "SA",
-      "description": "Solar annual constituent",
+      "description": "",
       "amplitude": 0.044,
       "phase_UTC": 200.2,
-      "phase_local": 199.9,
+      "phase_local": 199.8,
       "speed": 0.0410686
     },
     {
       "name": "MSF",
-      "description": "Lunisolar synodic fortnightly constituent",
+      "description": "",
       "amplitude": 0,
       "phase_UTC": 0,
       "phase_local": 0,
@@ -209,7 +209,7 @@
     },
     {
       "name": "MF",
-      "description": "Lunisolar fortnightly constituent",
+      "description": "",
       "amplitude": 0.015,
       "phase_UTC": 153.1,
       "phase_local": 144.3,
@@ -217,39 +217,39 @@
     },
     {
       "name": "RHO",
-      "description": "Larger lunar evectional diurnal constituent",
+      "description": "",
       "amplitude": 0.009,
       "phase_UTC": 200,
-      "phase_local": 92.3,
+      "phase_local": 92.2,
       "speed": 13.471515
     },
     {
       "name": "Q1",
-      "description": "Larger lunar elliptic diurnal constituent",
+      "description": "",
       "amplitude": 0.041,
       "phase_UTC": 202.4,
-      "phase_local": 95.2,
+      "phase_local": 95.1,
       "speed": 13.398661
     },
     {
       "name": "T2",
-      "description": "Larger solar elliptic constituent",
+      "description": "",
       "amplitude": 0.009,
       "phase_UTC": 204.6,
-      "phase_local": 325,
+      "phase_local": 324.9,
       "speed": 29.958933
     },
     {
       "name": "R2",
-      "description": "Smaller solar elliptic constituent",
+      "description": "",
       "amplitude": 0.001,
       "phase_UTC": 126.8,
-      "phase_local": 246.5,
+      "phase_local": 246.4,
       "speed": 30.041067
     },
     {
       "name": "2Q1",
-      "description": "Larger elliptic diurnal",
+      "description": "",
       "amplitude": 0.006,
       "phase_UTC": 208.6,
       "phase_local": 105.7,
@@ -257,7 +257,7 @@
     },
     {
       "name": "P1",
-      "description": "Solar diurnal constituent",
+      "description": "",
       "amplitude": 0.114,
       "phase_UTC": 222.1,
       "phase_local": 102.4,
@@ -265,7 +265,7 @@
     },
     {
       "name": "2SM2",
-      "description": "Shallow water semidiurnal constituent",
+      "description": "",
       "amplitude": 0.003,
       "phase_UTC": 37.3,
       "phase_local": 149.1,
@@ -273,7 +273,7 @@
     },
     {
       "name": "M3",
-      "description": "Lunar terdiurnal constituent",
+      "description": "",
       "amplitude": 0.003,
       "phase_UTC": 37.6,
       "phase_local": 49.8,
@@ -281,7 +281,7 @@
     },
     {
       "name": "L2",
-      "description": "Smaller lunar elliptic semidiurnal constituent",
+      "description": "",
       "amplitude": 0.018,
       "phase_UTC": 229.6,
       "phase_local": 353.4,
@@ -289,15 +289,15 @@
     },
     {
       "name": "2MK3",
-      "description": "Shallow water terdiurnal constituent",
+      "description": "",
       "amplitude": 0.014,
       "phase_UTC": 92.2,
-      "phase_local": 108.8,
+      "phase_local": 108.7,
       "speed": 42.92714
     },
     {
       "name": "K2",
-      "description": "Lunisolar semidiurnal constituent",
+      "description": "",
       "amplitude": 0.04,
       "phase_UTC": 206,
       "phase_local": 325.3,
@@ -305,7 +305,7 @@
     },
     {
       "name": "M8",
-      "description": "Shallow water eighth diurnal constituent",
+      "description": "",
       "amplitude": 0.001,
       "phase_UTC": 108.5,
       "phase_local": 261,
@@ -313,10 +313,10 @@
     },
     {
       "name": "MS4",
-      "description": "Shallow water quarter diurnal constituent",
+      "description": "",
       "amplitude": 0.01,
       "phase_UTC": 149,
-      "phase_local": 37.1,
+      "phase_local": 37,
       "speed": 58.984104
     }
   ],
