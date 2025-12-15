@@ -1,0 +1,165 @@
+#!/usr/bin/env node
+
+import { readFile, writeFile, readdir, mkdir } from 'fs/promises'
+import { join } from 'path'
+import { fileURLToPath } from 'url'
+import { dirname } from 'path'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+const DATA_DIR = join(__dirname, '..', 'data')
+const NOAA_SOURCE_NAME = 'US National Oceanic and Atmospheric Administration'
+const NEW_STATIONS_DIR = join(DATA_DIR, 'us')
+const STATIONS_LIST_URL =
+  'https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=tidepredictions'
+
+async function main() {
+  const existingIds = new Set()
+
+  // Find all NOAA station files
+  for await (const filePath of walkDirectory(DATA_DIR)) {
+    const station = JSON.parse(await readFile(filePath, 'utf-8'))
+    if (!isNOAAStation(station)) {
+      console.log('Not a NOAA station, skipping:', filePath)
+      continue
+    }
+
+    existingIds.add(station.source.id)
+    await saveStation(await updateData(station.source.id, station))
+  }
+
+  // Fetch stations list and add any new reference stations (type=R)
+  console.log('Fetching NOAA stations list (type=R)...')
+  const stations = await fetchReferenceStations()
+
+  for (const meta of stations) {
+    if (existingIds.has(meta.id)) {
+      console.log(`Station ID ${meta.id} already exists, skipping creation.`)
+      continue
+    }
+
+    await createStation(meta)
+  }
+}
+
+// Helper to recursively find all JSON files
+async function* walkDirectory(dir) {
+  const entries = await readdir(dir, { withFileTypes: true })
+
+  for (const entry of entries) {
+    const fullPath = join(dir, entry.name)
+
+    if (entry.isDirectory()) {
+      yield* walkDirectory(fullPath)
+    } else if (entry.isFile() && entry.name.endsWith('.json')) {
+      yield fullPath
+    }
+  }
+}
+
+// Check if a file is a NOAA station
+async function isNOAAStation(data) {
+  return data.source?.name === NOAA_SOURCE_NAME && data.source?.id
+}
+
+// Fetch list of NOAA tide prediction stations (reference only for now)
+async function fetchReferenceStations() {
+  const res = await fetch(STATIONS_LIST_URL)
+  if (!res.ok)
+    throw new Error(`Failed to fetch stations list: HTTP ${res.status}`)
+  const json = await res.json()
+  const stations = json?.stations || []
+  return stations.filter((s) => (s.type || s.Type) === 'R')
+}
+
+function slugify(text) {
+  return String(text)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+function buildStation(meta) {
+  const id = slugify(['us', meta.state, meta.name].filter(Boolean).join('-'))
+  return {
+    continent: 'North America',
+    country: 'United States',
+    region: meta.state,
+    timezone: meta.timezone,
+    name: meta.name,
+    id,
+    type: meta.type === 'R' ? 'reference' : 'secondary',
+    latitude: meta.lat,
+    longitude: meta.lon,
+    harmonic_constituents: [],
+    secondary_offset: {},
+  }
+}
+
+async function doFetch(url) {
+  const res = await fetch(url)
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}: ${res.statusText}`)
+  }
+  return res.json()
+}
+
+// Create a new station file skeleton and populate harmonics
+async function createStation(meta) {
+  console.log(`Creating new station file for ID: ${meta.id}...`)
+  return saveStation(await updateData(meta.id, buildStation(meta)))
+}
+
+async function saveStation(data) {
+  let dir = NEW_STATIONS_DIR
+  if (data.region) dir = join(dir, data.region.toLowerCase())
+  const filePath = join(dir, `${slugify(data.name)}.json`)
+  await mkdir(dir, { recursive: true })
+  await writeFile(filePath, JSON.stringify(data, null, 2) + '\n')
+  return filePath
+}
+
+async function updateData(id, data) {
+  console.log(`Updating station data for ID: ${id}...`)
+  const [harcon, { disclaimers }] = await Promise.all([
+    doFetch(
+      `https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/${id}/harcon.json?units=metric`
+    ),
+    doFetch(
+      `https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/${id}/disclaimers.json`
+    ),
+  ])
+
+  return {
+    ...data,
+
+    // Update source URLs to ensure they're current
+    source: {
+      name: NOAA_SOURCE_NAME,
+      id: id,
+      published_harmonics: true,
+      url: `https://tidesandcurrents.noaa.gov/stationhome.html?id=${id}`,
+      source_url: `https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/${id}.json`,
+    },
+    license: {
+      type: 'public domain',
+      commercial_use: true,
+      url: 'https://tidesandcurrents.noaa.gov/disclaimers.html',
+    },
+    disclaimers: disclaimers ? disclaimers.join(' ') : '',
+    restriction: '',
+
+    harmonic_constituents: harcon.HarmonicConstituents.map((h) => ({
+      name: h.name,
+      description: h.description,
+      amplitude: h.amplitude,
+      phase_UTC: h.phase_GMT,
+      phase_local: h.phase_local,
+      speed: h.speed,
+      // TODO: add comments
+    })),
+  }
+}
+
+main().catch(console.error)

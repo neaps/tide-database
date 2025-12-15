@@ -51,3 +51,25 @@ console.log(`Nearest station:`, nearest({ lat: 26.722, lon: -80.031 }));
 // Find the 10 nearest stations to a given lat/lon, in order of distance
 console.log('5 nearest stations:', near({ lat: 26.722, lon: -80.031 }, 10));
 ```
+
+## Maintenance
+
+### Automated Updates
+
+A GitHub Action runs monthly on the 1st of each month to automatically update NOAA tide station data. The workflow:
+- Fetches the latest station list and harmonic constituents from NOAA's API
+- Updates existing station files with new data
+- Adds any newly discovered reference stations
+- Creates a pull request if changes are detected
+
+You can also manually trigger the workflow from the Actions tab in GitHub.
+
+### Manual Updates
+
+To manually update NOAA stations:
+
+```bash
+$ tools/update-noaa-stations
+```
+
+This will scan all existing NOAA station files, fetch any new stations from NOAA's API, and update harmonic constituents for all stations.

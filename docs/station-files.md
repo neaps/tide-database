@@ -18,7 +18,7 @@ The following fields define the basic station information:
 - `timezone`: String - IANA time zone code (e.g. `America/Los_Angeles`)
 - `disclaimers`: String - Any disclaimers about using this data
 - `restriction`: String - Any restrictions on this data's use
-- `type`: String - Either `reference` if it's a referene station, or `secondary` if it's a secondary station. [More about station types](#station-types)
+- `type`: String - Either `reference` if it's a reference station, or `secondary` if it's a secondary station. [More about station types](#station-types)
 - `latitude`: Float - Latitude, in decimal degrees
 - `longitude`: Float - Longitude, in decimal degrees
 
