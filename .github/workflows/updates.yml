@@ -40,13 +40,11 @@ jobs:
 
       - name: Create Pull Request
         if: steps.changes.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "chore: update NOAA tide station data"
-          title: "Update NOAA Tide Station Data"
+          title: "Update NOAA Stations"
           body: |
-            ## Automated NOAA Station Update
-
             This PR contains updates to NOAA tide station data from the official NOAA API.
 
             ### Changes
@@ -62,7 +60,3 @@ jobs:
 
             This PR was automatically created by the monthly NOAA station update workflow.
           branch: update-noaa-stations-${{ github.run_number }}
-          delete-branch: true
-          labels: |
-            automated
-            data
