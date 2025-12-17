@@ -1,0 +1,279 @@
+{
+  "id": "helsingborg-hel-swe-cmems",
+  "name": "helsingborg-hel-swe-cmems",
+  "continent": "Europe",
+  "country": "Sweden",
+  "latitude": 56.041199,
+  "longitude": 12.6845,
+  "type": "reference",
+  "timezone": "Europe/Stockholm",
+  "disclaimers": "No obvious issues",
+  "source": {
+    "name": "TICON-4",
+    "url": "https://www.seanoe.org/data/00980/109129/",
+    "id": "helsingborg-hel-swe-cmems",
+    "datum": "BSCD2000",
+    "observation_period": {
+      "start": "01/07/2019",
+      "end": "01/07/2025",
+      "years": 7
+    }
+  },
+  "license": {
+    "name": "cc-by-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 7.069864,
+      "phase_UTC": -108.912329
+    },
+    {
+      "name": "N2",
+      "amplitude": 1.772261,
+      "phase_UTC": -151.384994
+    },
+    {
+      "name": "S2",
+      "amplitude": 2.026773,
+      "phase_UTC": -154.584683
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.457754,
+      "phase_UTC": -177.336192
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.205049,
+      "phase_UTC": 169.783956
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.701426,
+      "phase_UTC": 162.341412
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.19978,
+      "phase_UTC": 7.474868
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.160255,
+      "phase_UTC": -103.170786
+    },
+    {
+      "name": "O1",
+      "amplitude": 1.7963,
+      "phase_UTC": -21.567085
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.623789,
+      "phase_UTC": -87.156168
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.216602,
+      "phase_UTC": -76.320363
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.234671,
+      "phase_UTC": -90.243187
+    },
+    {
+      "name": "MM",
+      "amplitude": 1.832355,
+      "phase_UTC": 146.769295
+    },
+    {
+      "name": "MF",
+      "amplitude": 1.00868,
+      "phase_UTC": 173.811939
+    },
+    {
+      "name": "SA",
+      "amplitude": 5.655918,
+      "phase_UTC": -137.025087
+    },
+    {
+      "name": "SSA",
+      "amplitude": 4.044171,
+      "phase_UTC": -106.246298
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.286564,
+      "phase_UTC": -127.243204
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.059715,
+      "phase_UTC": -50.759418
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.746175,
+      "phase_UTC": -13.898389
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.094245,
+      "phase_UTC": 12.051478
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.133404,
+      "phase_UTC": -117.400963
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0.275753,
+      "phase_UTC": 91.184654
+    },
+    {
+      "name": "MSQM",
+      "amplitude": 0.162184,
+      "phase_UTC": -91.6709
+    },
+    {
+      "name": "EP2",
+      "amplitude": 0.269991,
+      "phase_UTC": 41.985493
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.205754,
+      "phase_UTC": -91.443087
+    },
+    {
+      "name": "MU2",
+      "amplitude": 1.397084,
+      "phase_UTC": 66.066047
+    },
+    {
+      "name": "MTM",
+      "amplitude": 0.620974,
+      "phase_UTC": -124.002422
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.608772,
+      "phase_UTC": -121.743301
+    },
+    {
+      "name": "LAMBDA2",
+      "amplitude": 0.381875,
+      "phase_UTC": -15.298367
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.12725,
+      "phase_UTC": -164.881914
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.075231,
+      "phase_UTC": 60.184728
+    },
+    {
+      "name": "MKS2",
+      "amplitude": 0.144074,
+      "phase_UTC": 166.725044
+    },
+    {
+      "name": "N4",
+      "amplitude": 0.018101,
+      "phase_UTC": 28.451016
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.12898,
+      "phase_UTC": -124.48615
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.023401,
+      "phase_UTC": 29.672023
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.088204,
+      "phase_UTC": 161.561393
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.289081,
+      "phase_UTC": 20.704379
+    },
+    {
+      "name": "S3",
+      "amplitude": 0.063267,
+      "phase_UTC": 38.340237
+    },
+    {
+      "name": "MA2",
+      "amplitude": 0.634563,
+      "phase_UTC": -55.683049
+    },
+    {
+      "name": "MB2",
+      "amplitude": 0.320094,
+      "phase_UTC": 50.575975
+    },
+    {
+      "name": "T3",
+      "amplitude": 0.098985,
+      "phase_UTC": -12.441627
+    },
+    {
+      "name": "R3",
+      "amplitude": 0.070476,
+      "phase_UTC": 173.352916
+    },
+    {
+      "name": "RHO1",
+      "amplitude": 0.050938,
+      "phase_UTC": 154.797898
+    },
+    {
+      "name": "SGM",
+      "amplitude": 0.144067,
+      "phase_UTC": 29.018586
+    },
+    {
+      "name": "3L2",
+      "amplitude": 0.205255,
+      "phase_UTC": 137.250484
+    },
+    {
+      "name": "3N2",
+      "amplitude": 0.066453,
+      "phase_UTC": -52.758264
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.288108,
+      "phase_UTC": -55.289602
+    },
+    {
+      "name": "2MS6",
+      "amplitude": 0.126753,
+      "phase_UTC": -35.929123
+    },
+    {
+      "name": "2MK5",
+      "amplitude": 0.012328,
+      "phase_UTC": 63.406208
+    },
+    {
+      "name": "2MO5",
+      "amplitude": 0.021842,
+      "phase_UTC": 95.583598
+    }
+  ],
+  "secondary_offset": null
+}
