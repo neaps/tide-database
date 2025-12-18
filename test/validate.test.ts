@@ -19,12 +19,16 @@ describe('schema', () => {
   stations.forEach((station) => {
     test(`Station ${station.id}`, () => {
       const valid = validate(station)
-      if (!valid) throw new Error(ajv.errorsText(validate.errors))
+      if (!valid)
+        throw new Error(
+          ajv.errorsText(validate.errors) +
+            `\n${JSON.stringify(validate.errors, null, 2)}`
+        )
     })
   })
 })
 
-test('Does not have uplicate stations', () => {
+test('Does not have duplicate stations', () => {
   const seen = new Map()
   stations.forEach((station) => {
     const dup = seen.get(station.source.id)

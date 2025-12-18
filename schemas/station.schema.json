@@ -15,7 +15,8 @@
     "source",
     "license",
     "harmonic_constituents",
-    "secondary_offset"
+    "secondary_offset",
+    "datums"
   ],
   "additionalProperties": false,
   "properties": {
@@ -213,7 +214,7 @@
     "datums": {
       "type": "object",
       "patternProperties": {
-        "^[A-Z0-9]+$": {
+        "^[A-Z0-9_]+$": {
           "type": "number"
         }
       },
