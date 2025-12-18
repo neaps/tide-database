@@ -126,7 +126,7 @@
           "phase_UTC",
           "phase_local"
         ],
-        "additionalProperties": true,
+        "additionalProperties": false,
         "properties": {
           "name": {
             "type": "string"
@@ -209,6 +209,14 @@
           }
         }
       ]
+    },
+    "datums": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-Z]+$": {
+          "type": "number"
+        }
+      }
     }
   },
   "allOf": [

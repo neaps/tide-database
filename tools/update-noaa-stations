@@ -118,12 +118,15 @@ async function saveStation(data) {
 
 async function updateData(id, data) {
   console.log(`Updating station data for ID: ${id}...`)
-  const [harcon, { disclaimers }] = await Promise.all([
+  const [harcon, { disclaimers }, datums] = await Promise.all([
     doFetch(
       `https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/${id}/harcon.json?units=metric`
     ),
     doFetch(
       `https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/${id}/disclaimers.json`
+    ),
+    doFetch(
+      `https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/${id}/datums.json?units=metric`
     ),
   ])
 
@@ -155,6 +158,14 @@ async function updateData(id, data) {
       speed: h.speed,
       // TODO: add comments
     })),
+    datums: {
+      ...(datums.LAT ? { LAT: datums.LAT } : {}),
+      ...(datums.HAT ? { HAT: datums.HAT } : {}),
+      // Some stations don't have all datums
+      ...(datums.datums
+        ? Object.fromEntries(datums.datums.map((d) => [d.name, d.value]))
+        : {}),
+    },
   }
 }
 
