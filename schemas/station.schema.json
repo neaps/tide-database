@@ -213,7 +213,7 @@
     "datums": {
       "type": "object",
       "patternProperties": {
-        "^[A-Z]+$": {
+        "^[A-Z0-9]+$": {
           "type": "number"
         }
       }
