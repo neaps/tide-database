@@ -216,7 +216,8 @@
         "^[A-Z0-9]+$": {
           "type": "number"
         }
-      }
+      },
+      "additionalProperties": false
     }
   },
   "allOf": [
