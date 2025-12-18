@@ -47,6 +47,8 @@ export interface Station {
     height_offset: { high: number; low: number }
     time_offset: { high: number; low: number }
   }
+
+  datums: Record<string, number>
 }
 
 const stations: Station[] = Object.values(
