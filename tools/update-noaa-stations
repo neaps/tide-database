@@ -60,7 +60,7 @@ async function* walkDirectory(dir) {
 }
 
 // Check if a file is a NOAA station
-async function isNOAAStation(data) {
+function isNOAAStation(data) {
   return data.source?.name === NOAA_SOURCE_NAME && data.source?.id
 }
 
