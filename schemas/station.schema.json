@@ -13,10 +13,7 @@
     "longitude",
     "timezone",
     "source",
-    "license",
-    "harmonic_constituents",
-    "secondary_offset",
-    "datums"
+    "license"
   ],
   "additionalProperties": false,
   "properties": {
@@ -45,13 +42,10 @@
     "disclaimers": {
       "type": "string"
     },
-    "restriction": {
-      "type": "string"
-    },
     "type": {
       "enum": [
         "reference",
-        "secondary"
+        "subordinate"
       ]
     },
     "latitude": {
@@ -157,7 +151,7 @@
         }
       }
     },
-    "secondary_offset": {
+    "offsets": {
       "anyOf": [
         {
           "type": "object",
@@ -166,16 +160,16 @@
         {
           "type": "object",
           "required": [
-            "reference_station",
-            "height_offset",
-            "time_offset"
+            "reference",
+            "height",
+            "time"
           ],
           "additionalProperties": false,
           "properties": {
-            "reference_station": {
+            "reference": {
               "type": "string"
             },
-            "height_offset": {
+            "height": {
               "type": "object",
               "required": [
                 "high",
@@ -191,7 +185,7 @@
                 }
               }
             },
-            "time_offset": {
+            "time": {
               "type": "object",
               "required": [
                 "high",
@@ -226,7 +220,7 @@
       "if": {
         "properties": {
           "type": {
-            "const": "secondary"
+            "const": "subordinate"
           }
         }
       },
@@ -235,21 +229,21 @@
           "harmonic_constituents": {
             "maxItems": 0
           },
-          "secondary_offset": {
+          "offsets": {
             "anyOf": [
               {
                 "type": "object",
                 "required": [
-                  "reference_station",
-                  "height_offset",
-                  "time_offset"
+                  "reference",
+                  "height",
+                  "time"
                 ],
                 "additionalProperties": false,
                 "properties": {
-                  "reference_station": {
+                  "reference": {
                     "type": "string"
                   },
-                  "height_offset": {
+                  "height": {
                     "type": "object",
                     "required": [
                       "high",
@@ -265,7 +259,7 @@
                       }
                     }
                   },
-                  "time_offset": {
+                  "time": {
                     "type": "object",
                     "required": [
                       "high",
