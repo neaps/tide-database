@@ -6,7 +6,6 @@
   "required": [
     "id",
     "name",
-    "continent",
     "country",
     "type",
     "latitude",
@@ -22,10 +21,6 @@
       "minLength": 1
     },
     "name": {
-      "type": "string",
-      "minLength": 1
-    },
-    "continent": {
       "type": "string",
       "minLength": 1
     },

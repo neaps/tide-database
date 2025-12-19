@@ -11,7 +11,6 @@ export interface Station {
   // Basic station information
   id: string
   name: string
-  continent: string
   country: string
   region: string
   timezone: string
@@ -51,7 +50,7 @@ export interface Station {
 }
 
 const stations: Station[] = Object.values(
-  import.meta.glob('../data/**/*.json', { eager: true, import: 'default' })
+  import.meta.glob('../data/**/*.json', { eager: true, import: 'default' }),
 )
 
 export default stations

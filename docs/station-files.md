@@ -12,7 +12,6 @@ The following fields define the basic station information:
 
 - `id`: String - Unique station ID for this database only, in the format of `country-region-[slug of name]`
 - `name`: String - Human-friendly name of station
-- `continent`: String - One of `africa`, `antartica` `asia`, `australia`, `europe`, `north america`, `south america`
 - `country`: String - ISO 3166-1 alpha-3 country code
 - `region`: String - ISO 3166-2 region code, if available. If not, whatever local postal codes
 - `timezone`: String - IANA time zone code (e.g. `America/Los_Angeles`)

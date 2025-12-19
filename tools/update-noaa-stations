@@ -6,6 +6,20 @@ import { fileURLToPath } from 'url'
 import { dirname } from 'path'
 import { find as findTz } from 'geo-tz/all'
 import createFetch from 'make-fetch-happen'
+import geocoder from 'local-reverse-geocoder'
+import { promisify } from 'util'
+import slugify from '@sindresorhus/slugify'
+import countryCode from 'country-code-lookup'
+
+console.log('Initializing local-reverse-geocoder database...')
+await promisify(geocoder.init.bind(geocoder))({
+  load: {
+    admin1: true,
+    admin2: false,
+    admin3And4: false,
+    alternateNames: false,
+  },
+})
 
 const fetch = createFetch.defaults({
   cachePath: 'node_modules/.cache',
@@ -18,7 +32,6 @@ const __dirname = dirname(__filename)
 
 const DATA_DIR = join(__dirname, '..', 'data')
 const NOAA_SOURCE_NAME = 'US National Oceanic and Atmospheric Administration'
-const NEW_STATIONS_DIR = join(DATA_DIR, 'us')
 const STATIONS_URL =
   'https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json'
 
@@ -27,7 +40,7 @@ const idMap = new Map()
 async function main() {
   console.log('Creating harmonic stations:')
   const { stations: harmonicStations } = await fetch(
-    `${STATIONS_URL}?type=harcon&expand=details&units=metric`
+    `${STATIONS_URL}?type=harcon&expand=details&units=metric`,
   ).then((r) => r.json())
 
   for (const meta of harmonicStations) {
@@ -39,7 +52,7 @@ async function main() {
   console.log('Creating subordinate stations:')
 
   let { stations: subordinateStations } = await fetch(
-    `${STATIONS_URL}?type=tidepredictions&expand=details,tidepredoffsets&units=metric`
+    `${STATIONS_URL}?type=tidepredictions&expand=details,tidepredoffsets&units=metric`,
   ).then((r) => r.json())
   // Only process subordinate stations
   subordinateStations = subordinateStations.filter((s) => s.type === 'S')
@@ -57,35 +70,41 @@ async function main() {
   console.log(`\nDone. Created ${subordinateStations.length} stations.`)
 }
 
-function slugify(text) {
-  return String(text)
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-}
-
 async function saveStation(data) {
-  let dir = NEW_STATIONS_DIR
-  if (data.region) dir = join(dir, data.region.toLowerCase())
-  const filePath = join(dir, `${slugify(data.name)}.json`)
+  // FIXME: move this a normalization step
+  const [[geo]] = await promisify(geocoder.lookUp.bind(geocoder))(data, 1)
+
+  const { country } = countryCode.byIso(geo.countryCode) || {}
+  const region = geo.admin1Code?.name || data.region
+  const timezone = findTz(data.latitude, data.longitude)[0] || data.timezone
+
+  // Replace country name in station name
+  const name = data.name.replace(new RegExp(`, ${country}$`), '')
+
+  const id = [country, region, name].filter(Boolean).map(slugify).join('/')
+
+  Object.assign(data, {
+    id,
+    name,
+    country,
+    region,
+    timezone,
+  })
+
+  const filePath = join(DATA_DIR, `${data.id}.json`)
+  let dir = dirname(filePath)
   await mkdir(dir, { recursive: true })
   await writeFile(filePath, JSON.stringify(data, null, 2) + '\n')
   return data
 }
 
 async function buildStation(meta) {
-  const id = slugify(['us', meta.state, meta.name].filter(Boolean).join('-'))
-
   const station = {
-    id,
     name: meta.name,
-    continent: 'North America',
-    country: 'United States',
     region: meta.state,
     type: meta.type == 'S' ? 'subordinate' : 'reference',
     latitude: meta.lat,
     longitude: meta.lng,
-    timezone: findTz(meta.lat, meta.lng)[0],
     source: {
       name: NOAA_SOURCE_NAME,
       id: meta.id,
@@ -104,7 +123,7 @@ async function buildStation(meta) {
     const refId = idMap.get(meta.tidepredoffsets.refStationId)
     if (!refId) {
       throw new Error(
-        `Reference station ID ${meta.tidepredoffsets.refStationId} not found for subordinate station ${meta.id}`
+        `Reference station ID ${meta.tidepredoffsets.refStationId} not found for subordinate station ${meta.id}`,
       )
     }
 
@@ -124,7 +143,7 @@ async function buildStation(meta) {
   } else {
     // Fetch full station details
     const res = await fetch(
-      `https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/${meta.id}.json?expand=details,datums,harcon,disclaimers,notices&units=metric`
+      `https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/${meta.id}.json?expand=details,datums,harcon,disclaimers,notices&units=metric`,
     ).then((r) => r.json())
     const data = res.stations[0]
 
@@ -144,7 +163,7 @@ async function buildStation(meta) {
           phase_local: h.phase_local,
           speed: h.speed,
           // TODO: add comments
-        })
+        }),
       ),
       datums: {
         ...(data.datums.LAT ? { LAT: data.datums.LAT } : {}),
