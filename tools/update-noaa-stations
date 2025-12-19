@@ -5,6 +5,13 @@ import { join } from 'path'
 import { fileURLToPath } from 'url'
 import { dirname } from 'path'
 import { find as findTz } from 'geo-tz/all'
+import createFetch from 'make-fetch-happen'
+
+const fetch = createFetch.defaults({
+  cachePath: 'node_modules/.cache',
+  cache: 'force-cache',
+  retry: 10,
+})
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
