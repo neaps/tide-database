@@ -16,8 +16,7 @@ export interface Station {
   region: string
   timezone: string
   disclaimers: string
-  restriction: string
-  type: 'reference' | 'secondary'
+  type: 'reference' | 'subordinate'
   latitude: number
   longitude: number
 
@@ -38,14 +37,14 @@ export interface Station {
     notes?: string
   }
 
-  // Harmonic constituents (empty array for secondary stations)
+  // Harmonic constituents (empty array for subordinate stations)
   harmonic_constituents: HarmonicConstituent[]
 
-  // Secondary station offsets (empty object for reference stations)
-  secondary_offset?: {
-    reference_station: string
-    height_offset: { high: number; low: number }
-    time_offset: { high: number; low: number }
+  // Subordinate station offsets (empty object for reference stations)
+  offsets?: {
+    reference: string
+    height: { high: number; low: number, type: 'ratio' | 'fixed' }
+    time: { high: number; low: number }
   }
 
   datums: Record<string, number>

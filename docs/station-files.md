@@ -1,6 +1,6 @@
 # Station files
 
-Each tide station is defined in a single JSON file as defined by the schema in [../schemas/station.schema.json](../schemas/station.schema.json). This file includes basic station information, like location and name, harmonics, and secondary station offsets. The files are a single JSON object.
+Each tide station is defined in a single JSON file as defined by the schema in [../schemas/station.schema.json](../schemas/station.schema.json). This file includes basic station information, like location and name, harmonics, and subordinate station offsets. The files are a single JSON object.
 
 Each station's ID is a slug of the name preceeded by the ISO country/region code of the station. For example, the station ID for Puerto Madryn, Chubut, Argentina, would be `ar-u-puerto-madryn`. The file names match these IDs.
 
@@ -17,8 +17,7 @@ The following fields define the basic station information:
 - `region`: String - ISO 3166-2 region code, if available. If not, whatever local postal codes
 - `timezone`: String - IANA time zone code (e.g. `America/Los_Angeles`)
 - `disclaimers`: String - Any disclaimers about using this data
-- `restriction`: String - Any restrictions on this data's use
-- `type`: String - Either `reference` if it's a reference station, or `secondary` if it's a secondary station. [More about station types](#station-types)
+- `type`: String - Either `reference` or `subordinate`. [More about station types](#station-types)
 - `latitude`: Float - Latitude, in decimal degrees
 - `longitude`: Float - Longitude, in decimal degrees
 
@@ -41,9 +40,9 @@ The `license` object defines the license and whatever restrictions are placed on
 - `url`: String - A URL to the license information
 - `notes`: String - Any additional restrictions or information on the license.
 
-### Hamonic Constituents
+### Harmonic Constituents
 
-If a station is a `reference` station, it needs to define all the harmonic constituents of the station in the field `harmonic_constituents`. If the station is a secondary station, leave this as an empty array. It is an array of objects:
+If a station is a `reference` station, it needs to define all the harmonic constituents of the station in the field `harmonic_constituents`. If the station is a subordinate station, leave this as an empty array. It is an array of objects:
 
 - `name`: String- Harmonic Constituent code (i.e. `M2`) - should be upper-case,
 - `description`: String- Optional - name of constituent
@@ -52,28 +51,28 @@ If a station is a `reference` station, it needs to define all the harmonic const
 - `phase_local`: Float - Phase for local timezone
 - `speed`: Float - Angular speed (optional)
 
-### Secondary station offets
+### Subordinate station offets
 
-If a sation is a `secondary` station, then it should point to a reference station and provide offsets in a `secondary_offset` field:
+If a station is a `subordinate` station, then it should point to a reference station and provide offsets in a `offsets` field:
 
-- `reference_station`: String - The ID of the reference station
-- `height_offset`: Object - Defines the values to add to water levels
+- `reference`: String - The ID of the reference station
+- `height`: Object - Defines the values to add to water levels
   - `high`: Float - Height offset to add to the high tide (can be negative)
-  - `high`: Float - Height offset to add to the low tide (can be negative)
-- `time_offset`: Object - Defines the time to add to when a high or low tide will occur
+  - `low`: Float - Height offset to add to the low tide (can be negative)
+- `time`: Object - Defines the time to add to when a high or low tide will occur
   - `high`: Float - Time offset, **in minutes**, to add to the high tide (can be negative)
-  - `high`: Float - Time offset, **in minutes**, to add to the low tide (can be negative)
+  - `low`: Float - Time offset, **in minutes**, to add to the low tide (can be negative)
 
 ## <a name="station-types"/>Types of stations
 
-Stations can either be _reference_ or _secondary_, defined in the station's `type` field.
+Stations can either be _reference_ or _subordinate_, defined in the station's `type` field.
 
 ### Reference station
 
 Reference stations have defined harmonic constituents. They should have an array of `harmonic_constituents`. These are usually stations that have a long selection of real water level observations.
 
-### Secondary station
+### Subordinate station
 
-Secondary stations (commonly called "subordinate stations") are locations that have a very similar tides to a reference station. Usually these are geographically close to another reference station.
+Subordinate stations (commonly called "subordinate stations") are locations that have a very similar tides to a reference station. Usually these are geographically close to another reference station.
 
-Secondary stations have four kinds of offsets, two to correct for water level, and two for the time of high and low tide. They use a `secondary_offset` object to define these items, along with the name of the reference station they are based on.
+Subordinate stations have four kinds of offsets, two to correct for water level, and two for the time of high and low tide. They use an `offsets` object to define these items, along with the name of the reference station they are based on.
