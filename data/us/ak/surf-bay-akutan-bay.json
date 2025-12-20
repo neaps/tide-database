@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-surf-bay-akutan-bay",
+  "name": "Surf Bay, Akutan Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Surf Bay, Akutan Bay",
-  "id": "us-ak-surf-bay-akutan-bay",
   "type": "reference",
-  "latitude": 54.150833,
+  "latitude": 54.15083333333333,
   "longitude": -165.615,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9462711",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462711",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462711.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9462711",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462711",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462711.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 16.712,
     "HAT": 18.913,
@@ -336,5 +333,6 @@
     "MN": 0.754,
     "DHQ": 0.089,
     "DLQ": 0.304
-  }
+  },
+  "disclaimers": ""
 }

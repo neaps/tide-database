@@ -1,0 +1,35 @@
+{
+  "id": "us-va-revel-creek-revel-island",
+  "name": "Revel Creek, Revel Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 37.4967,
+  "longitude": -75.6833,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8631234",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8631234",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8631234.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-md-ocean-city-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.19,
+      "low": 1
+    },
+    "time": {
+      "high": 35,
+      "low": 27
+    }
+  }
+}

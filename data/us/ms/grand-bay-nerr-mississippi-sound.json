@@ -1,12 +1,25 @@
 {
+  "id": "us-ms-grand-bay-nerr-mississippi-sound",
+  "name": "Grand Bay NERR, Mississippi Sound",
   "continent": "North America",
   "country": "United States",
   "region": "MS",
-  "name": "Grand Bay NERR, Mississippi Sound",
-  "id": "us-ms-grand-bay-nerr-mississippi-sound",
   "type": "reference",
-  "latitude": 30.413195,
-  "longitude": -88.402885,
+  "latitude": 30.41319444444444,
+  "longitude": -88.4028888888889,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8740166",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8740166",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8740166.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8740166",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8740166",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8740166.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.071,
     "HAT": 4.986,
@@ -337,5 +334,6 @@
     "DHQ": 0.029,
     "DLQ": 0.04,
     "NAVD88": 4.48
-  }
+  },
+  "disclaimers": ""
 }

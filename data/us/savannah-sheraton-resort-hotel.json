@@ -1,0 +1,35 @@
+{
+  "id": "us-savannah-sheraton-resort-hotel",
+  "name": "Savannah Sheraton Resort Hotel",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 32,
+  "longitude": -81,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3405",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3405",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC3405.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ga-fort-pulaski-savannah-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1.14
+    },
+    "time": {
+      "high": 14,
+      "low": 6
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-marco-big-marco-river",
+  "name": "Marco, Big Marco River",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "MARCO, BIG MARCO RIVER",
-  "id": "us-fl-marco-big-marco-river",
   "type": "reference",
   "latitude": 25.9717,
   "longitude": -81.7283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724991",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724991",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724991.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8724991",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724991",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724991.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.09499997,
     "HAT": 1.5239999,
@@ -339,5 +336,6 @@
     "HWI": 6.11,
     "LWI": 12.05,
     "NAVD88": 1.097
-  }
+  },
+  "disclaimers": ""
 }

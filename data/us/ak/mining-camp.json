@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-mining-camp",
+  "name": "Mining Camp",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 57.46,
+  "longitude": -153.817,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457671",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457671",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457671.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-seldovia-kachemak-bay",
+    "height": {
+      "type": "fixed",
+      "high": -1.25,
+      "low": -0.03
+    },
+    "time": {
+      "high": -37,
+      "low": -10
+    }
+  }
+}

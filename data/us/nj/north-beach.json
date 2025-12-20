@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-north-beach",
+  "name": "North Beach",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.675,
+  "longitude": -74.16,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8533862",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8533862",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8533862.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-sandy-hook-fort-hancock",
+    "height": {
+      "type": "ratio",
+      "high": 0.22,
+      "low": 0.22
+    },
+    "time": {
+      "high": 182,
+      "low": 247
+    }
+  }
+}

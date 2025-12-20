@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-cedar-creek-entrance-nantuxent-cove",
+  "name": "Cedar Creek entrance, Nantuxent Cove",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.2983,
+  "longitude": -75.2467,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537101",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537101",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8537101.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-reedy-point",
+    "height": {
+      "type": "ratio",
+      "high": 1.08,
+      "low": 1.08
+    },
+    "time": {
+      "high": -97,
+      "low": -111
+    }
+  }
+}

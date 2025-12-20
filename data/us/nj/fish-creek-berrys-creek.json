@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-fish-creek-berrys-creek",
+  "name": "Fish Creek, Berrys Creek",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 40.7933,
+  "longitude": -74.0917,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8530586",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8530586",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8530586.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-new-york-the-battery",
+    "height": {
+      "type": "ratio",
+      "high": 1.16,
+      "low": 1
+    },
+    "time": {
+      "high": 62,
+      "low": 60
+    }
+  }
+}

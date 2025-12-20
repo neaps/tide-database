@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-papke-s-landing",
+  "name": "Papke's Landing",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Papke's Landing",
-  "id": "us-ak-papke-s-landing",
   "type": "reference",
   "latitude": 56.6767,
   "longitude": -132.933,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451346",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451346",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451346.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451346",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451346",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451346.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 2.0172513,
     "HAT": 9.768251,
@@ -338,5 +335,6 @@
     "DLQ": 0.483,
     "HWI": 9.96,
     "LWI": 3.93
-  }
+  },
+  "disclaimers": ""
 }

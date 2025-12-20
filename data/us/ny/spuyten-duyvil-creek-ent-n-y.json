@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-spuyten-duyvil-creek-ent-n-y",
+  "name": "Spuyten Duyvil Creek ent., N.Y.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.8783,
+  "longitude": -73.925,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8518903",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518903",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8518903.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-new-york-the-battery",
+    "height": {
+      "type": "ratio",
+      "high": 0.84,
+      "low": 0.84
+    },
+    "time": {
+      "high": 52,
+      "low": 48
+    }
+  }
+}

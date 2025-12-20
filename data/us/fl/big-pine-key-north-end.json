@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-big-pine-key-north-end",
+  "name": "Big Pine Key, north end",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.745,
+  "longitude": -81.395,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724231",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724231",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724231.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.83
+    },
+    "time": {
+      "high": 264,
+      "low": 356
+    }
+  }
+}

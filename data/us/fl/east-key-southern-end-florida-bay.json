@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-east-key-southern-end-florida-bay",
+  "name": "East Key, southern end, Florida Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.9967,
+  "longitude": -80.61,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723752",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723752",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723752.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-government-cut-miami-harbor-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.22,
+      "low": 0.14
+    },
+    "time": {
+      "high": 163,
+      "low": 246
+    }
+  }
+}

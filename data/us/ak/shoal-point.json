@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-shoal-point",
+  "name": "Shoal Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 51.87,
+  "longitude": -177.068,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9461292",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9461292",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9461292.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sweeper-cove-kuluk-bay-adak-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.86
+    },
+    "time": {
+      "high": 1,
+      "low": -16
+    }
+  }
+}

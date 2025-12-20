@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-hogg-bay-port-bainbridge",
+  "name": "Hogg Bay, Port Bainbridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 60.0767,
+  "longitude": -148.195,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454805",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454805",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454805.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-cordova",
+    "height": {
+      "type": "fixed",
+      "high": -0.58,
+      "low": -0.03
+    },
+    "time": {
+      "high": -12,
+      "low": -3
+    }
+  }
+}

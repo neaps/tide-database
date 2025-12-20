@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-barren-island-rockaway-inlet",
+  "name": "Barren Island, Rockaway Inlet",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.5783,
+  "longitude": -73.8883,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8517394",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517394",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8517394.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-sandy-hook-fort-hancock",
+    "height": {
+      "type": "ratio",
+      "high": 1.07,
+      "low": 1.05
+    },
+    "time": {
+      "high": -1,
+      "low": -4
+    }
+  }
+}

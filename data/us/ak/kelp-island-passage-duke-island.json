@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-kelp-island-passage-duke-island",
+  "name": "Kelp Island Passage, Duke Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 54.8767,
+  "longitude": -131.3,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450142",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450142",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450142.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-ketchikan",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.96
+    },
+    "time": {
+      "high": -4,
+      "low": 3
+    }
+  }
+}

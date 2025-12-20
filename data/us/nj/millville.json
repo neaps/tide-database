@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-millville",
+  "name": "Millville",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.3917,
+  "longitude": -75.0417,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537359",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537359",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8537359.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-lewes-breakwater-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 1.21,
+      "low": 1.21
+    },
+    "time": {
+      "high": 213,
+      "low": 216
+    }
+  }
+}

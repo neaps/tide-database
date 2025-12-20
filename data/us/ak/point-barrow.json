@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-point-barrow",
+  "name": "Point Barrow",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 71.36,
+  "longitude": -156.353,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9495048",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9495048",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9495048.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-kodiak-womens-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.04,
+      "low": 0.04
+    },
+    "time": {
+      "high": -37,
+      "low": -26
+    }
+  }
+}

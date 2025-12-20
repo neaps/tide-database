@@ -1,0 +1,35 @@
+{
+  "id": "us-dc-washington-naval-yard",
+  "name": "Washington Naval Yard",
+  "continent": "North America",
+  "country": "United States",
+  "region": "DC",
+  "type": "subordinate",
+  "latitude": 38.8717,
+  "longitude": -76.995,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8593005",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8593005",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8593005.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-dc-washington-washington-channel-d-c",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 1.2
+    },
+    "time": {
+      "high": 18,
+      "low": -6
+    }
+  }
+}

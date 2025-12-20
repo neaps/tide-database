@@ -1,0 +1,35 @@
+{
+  "id": "us-port-houghton-robert-islands",
+  "name": "Port Houghton, Robert Islands",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 57.3,
+  "longitude": -133.46666666667008,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1673",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1673",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC1673.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-juneau",
+    "height": {
+      "type": "fixed",
+      "high": -0.24,
+      "low": -0.03
+    },
+    "time": {
+      "high": -21,
+      "low": -17
+    }
+  }
+}

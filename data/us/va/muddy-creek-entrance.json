@@ -1,0 +1,35 @@
+{
+  "id": "us-va-muddy-creek-entrance",
+  "name": "Muddy Creek Entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 37.855,
+  "longitude": -75.675,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8633604",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8633604",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8633604.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-chesapeake-bay-bridge-tunnel",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.83
+    },
+    "time": {
+      "high": 254,
+      "low": 291
+    }
+  }
+}

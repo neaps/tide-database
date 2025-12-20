@@ -1,0 +1,35 @@
+{
+  "id": "us-la-comfort-island",
+  "name": "Comfort Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "LA",
+  "type": "subordinate",
+  "latitude": 29.8233,
+  "longitude": -89.27,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760742",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760742",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760742.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-south-pass",
+    "height": {
+      "type": "ratio",
+      "high": 1.28,
+      "low": 1.28
+    },
+    "time": {
+      "high": 167,
+      "low": 134
+    }
+  }
+}

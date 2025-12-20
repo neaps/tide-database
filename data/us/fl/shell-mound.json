@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-shell-mound",
+  "name": "Shell Mound",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Shell Mound",
-  "id": "us-fl-shell-mound",
   "type": "reference",
-  "latitude": 29.2064,
-  "longitude": -83.0697,
+  "latitude": 29.20639991760254,
+  "longitude": -83.0697021484375,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727535",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727535",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727535.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8727535",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727535",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727535.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.957,
     "HAT": 7.015,
@@ -339,5 +336,6 @@
     "HWI": 6.123,
     "LWI": 0.177,
     "NAVD88": 6.221
-  }
+  },
+  "disclaimers": ""
 }

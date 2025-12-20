@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-upper-matecumbe-key-hawk-channel",
+  "name": "Upper Matecumbe Key, Hawk Channel",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.915,
+  "longitude": -80.6317,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723814",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723814",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723814.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-government-cut-miami-harbor-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.87,
+      "low": 1.21
+    },
+    "time": {
+      "high": 34,
+      "low": 49
+    }
+  }
+}

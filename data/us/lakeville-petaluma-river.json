@@ -1,0 +1,35 @@
+{
+  "id": "us-lakeville-petaluma-river",
+  "name": "Lakeville, Petaluma River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 38.2,
+  "longitude": -122.56666666666995,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC0649",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC0649",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC0649.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-san-francisco-golden-gate",
+    "height": {
+      "type": "ratio",
+      "high": 1.11,
+      "low": 0.81
+    },
+    "time": {
+      "high": 119,
+      "low": 170
+    }
+  }
+}

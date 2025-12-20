@@ -1,0 +1,35 @@
+{
+  "id": "us-eniirikku-island-bikini-atoll",
+  "name": "Eniirikku Island, Bikini Atoll",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 11.5,
+  "longitude": 165.33333333332993,
+  "timezone": "Pacific/Majuro",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2689",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2689",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2689.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-kwajalein-atoll-kwajalein-i",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.85
+    },
+    "time": {
+      "high": -15,
+      "low": -16
+    }
+  }
+}

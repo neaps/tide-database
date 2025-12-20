@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-motts-basin",
+  "name": "Motts Basin",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.6167,
+  "longitude": -73.7583,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8516925",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516925",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8516925.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-sandy-hook-fort-hancock",
+    "height": {
+      "type": "ratio",
+      "high": 1.16,
+      "low": 1.15
+    },
+    "time": {
+      "high": 39,
+      "low": 48
+    }
+  }
+}

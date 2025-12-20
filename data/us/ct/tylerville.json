@@ -1,0 +1,35 @@
+{
+  "id": "us-ct-tylerville",
+  "name": "Tylerville",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CT",
+  "type": "subordinate",
+  "latitude": 41.4517,
+  "longitude": -72.465,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8463348",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8463348",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8463348.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ct-new-london-state-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 1.02
+    },
+    "time": {
+      "high": 158,
+      "low": 171
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-nairai-island",
+  "name": "Nairai Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -17.8,
+  "longitude": 179.3666666666667,
+  "timezone": "Pacific/Fiji",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2885",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2885",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2885.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-suva-harbor-viti-levu-island",
+    "height": {
+      "type": "fixed",
+      "high": -0.03,
+      "low": 0.09
+    },
+    "time": {
+      "high": -11,
+      "low": 8
+    }
+  }
+}

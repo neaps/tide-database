@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-st-george-island-east-end",
+  "name": "St. George Island, East End",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 29.6867,
+  "longitude": -84.7867,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728548",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728548",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728548.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-apalachicola",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1
+    },
+    "time": {
+      "high": -122,
+      "low": -168
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-wetappo-creek-east-bay",
+  "name": "Wetappo Creek, East Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.0383,
+  "longitude": -85.3933,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728973",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728973",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728973.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-pensacola",
+    "height": {
+      "type": "ratio",
+      "high": 1.1,
+      "low": 1.1
+    },
+    "time": {
+      "high": 61,
+      "low": 100
+    }
+  }
+}

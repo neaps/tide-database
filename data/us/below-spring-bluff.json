@@ -1,0 +1,35 @@
+{
+  "id": "us-below-spring-bluff",
+  "name": "Below Spring Bluff",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 31.16666666666701,
+  "longitude": -81.616666666667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3531",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3531",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC3531.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-fernandina-beach-amelia-river",
+    "height": {
+      "type": "ratio",
+      "high": 1.23,
+      "low": 1.23
+    },
+    "time": {
+      "high": 69,
+      "low": 91
+    }
+  }
+}

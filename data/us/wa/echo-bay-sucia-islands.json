@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-echo-bay-sucia-islands",
+  "name": "Echo Bay, Sucia Islands",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.7567,
+  "longitude": -122.897,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9449712",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9449712",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9449712.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-port-townsend",
+    "height": {
+      "type": "fixed",
+      "high": 0.03,
+      "low": 0
+    },
+    "time": {
+      "high": 61,
+      "low": 94
+    }
+  }
+}

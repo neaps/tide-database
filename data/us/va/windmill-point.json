@@ -1,12 +1,25 @@
 {
+  "id": "us-va-windmill-point",
+  "name": "Windmill Point",
   "continent": "North America",
   "country": "United States",
   "region": "VA",
-  "name": "Windmill Point",
-  "id": "us-va-windmill-point",
   "type": "reference",
   "latitude": 37.6155,
-  "longitude": -76.28978,
+  "longitude": -76.28977777777777,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8636580",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8636580",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8636580.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8636580",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8636580",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8636580.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.49500003,
     "HAT": 1.283,
@@ -339,5 +336,6 @@
     "HWI": 3.483,
     "LWI": 10.068,
     "NAVD88": 1.033
-  }
+  },
+  "disclaimers": ""
 }

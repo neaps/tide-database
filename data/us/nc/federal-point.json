@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-federal-point",
+  "name": "Federal Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 33.9617,
+  "longitude": -77.94,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8658715",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8658715",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8658715.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-wilmington",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.93
+    },
+    "time": {
+      "high": -77,
+      "low": -112
+    }
+  }
+}

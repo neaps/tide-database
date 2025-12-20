@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-yamato-icww",
+  "name": "Yamato, ICWW",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 26.4033,
+  "longitude": -80.07,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722784",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722784",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722784.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-government-cut-miami-harbor-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 1.14
+    },
+    "time": {
+      "high": 82,
+      "low": 117
+    }
+  }
+}

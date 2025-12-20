@@ -1,0 +1,35 @@
+{
+  "id": "us-ga-creighton-narrows-entrance-crescent-river",
+  "name": "Creighton Narrows Entrance, Crescent River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "GA",
+  "type": "subordinate",
+  "latitude": 31.4983,
+  "longitude": -81.325,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8674875",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8674875",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8674875.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ga-fort-pulaski-savannah-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 1.08,
+      "low": 1.09
+    },
+    "time": {
+      "high": 49,
+      "low": 37
+    }
+  }
+}

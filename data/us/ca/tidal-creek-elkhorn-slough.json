@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-tidal-creek-elkhorn-slough",
+  "name": "Tidal Creek, Elkhorn Slough",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "Tidal Creek, Elkhorn Slough",
-  "id": "us-ca-tidal-creek-elkhorn-slough",
   "type": "reference",
-  "latitude": 36.8333,
-  "longitude": -121.745,
+  "latitude": 36.83330154418945,
+  "longitude": -121.74500274658203,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9413643",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9413643",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9413643.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9413643",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9413643",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9413643.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.134,
     "HAT": 9.774,
@@ -338,5 +335,6 @@
     "DLQ": 0.326,
     "HWI": 6.86,
     "LWI": 12.365
-  }
+  },
+  "disclaimers": ""
 }

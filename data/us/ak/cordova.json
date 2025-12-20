@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-cordova",
+  "name": "CORDOVA",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Cordova",
-  "id": "us-ak-cordova",
   "type": "reference",
   "latitude": 60.5575,
-  "longitude": -145.7554,
+  "longitude": -145.7554083333333,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454050",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454050",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454050.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9454050",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454050",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454050.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.7072408,
     "HAT": 6.847241,
@@ -338,5 +335,6 @@
     "DLQ": 0.459,
     "HWI": 10.073,
     "LWI": 3.708
-  }
+  },
+  "disclaimers": ""
 }

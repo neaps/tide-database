@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-apollo-beach-hillsborough-bay",
+  "name": "APOLLO BEACH, HILLSBOROUGH BAY",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 27.786699295043945,
+  "longitude": -82.42669677734375,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726537",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726537",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726537.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-st-petersburg",
+    "height": {
+      "type": "ratio",
+      "high": 1.1,
+      "low": 1.2
+    },
+    "time": {
+      "high": 53,
+      "low": 32
+    }
+  }
+}

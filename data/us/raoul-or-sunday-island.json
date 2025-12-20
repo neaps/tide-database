@@ -1,0 +1,35 @@
+{
+  "id": "us-raoul-or-sunday-island",
+  "name": "Raoul or Sunday Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -29.25,
+  "longitude": -177.93,
+  "timezone": "Pacific/Auckland",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2905",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2905",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2905.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-as-apia-observatory-upolu-island",
+    "height": {
+      "type": "fixed",
+      "high": 0.58,
+      "low": 0.46
+    },
+    "time": {
+      "high": -112,
+      "low": -140
+    }
+  }
+}

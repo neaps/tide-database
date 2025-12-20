@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-billingsport-n-j",
+  "name": "Billingsport, N.J.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.85,
+  "longitude": -75.25,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8538552",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8538552",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8538552.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pa-philadelphia-us-coast-guard-station-pa",
+    "height": {
+      "type": "ratio",
+      "high": 0.93,
+      "low": 0.95
+    },
+    "time": {
+      "high": -35,
+      "low": -28
+    }
+  }
+}

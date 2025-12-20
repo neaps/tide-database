@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-peters-point-st-pierre-creek",
+  "name": "Peters Point, St. Pierre Creek",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 32.54,
+  "longitude": -80.34,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8667425",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8667425",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8667425.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ga-fort-pulaski-savannah-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.88,
+      "low": 0.95
+    },
+    "time": {
+      "high": 22,
+      "low": 9
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-elk-river-railroad-bridge",
+  "name": "Elk River Railroad Bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 40.7567,
+  "longitude": -124.193,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9418757",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9418757",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9418757.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-humboldt-bay-north-spit",
+    "height": {
+      "type": "ratio",
+      "high": 0.71,
+      "low": 0.31
+    },
+    "time": {
+      "high": 19,
+      "low": 92
+    }
+  }
+}

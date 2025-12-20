@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-sunny-point-army-base-wharf-no-1",
+  "name": "Sunny Point Army Base, Wharf no.1",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 33.99,
+  "longitude": -77.9567,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8658654",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8658654",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8658654.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-wilmington",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 0.93
+    },
+    "time": {
+      "high": -63,
+      "low": -105
+    }
+  }
+}

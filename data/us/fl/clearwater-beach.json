@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-clearwater-beach",
+  "name": "Clearwater Beach",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Clearwater Beach",
-  "id": "us-fl-clearwater-beach",
   "type": "reference",
-  "latitude": 27.978333,
-  "longitude": -82.831665,
+  "latitude": 27.9783333,
+  "longitude": -82.8316667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726724",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726724",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726724.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8726724",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726724",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726724.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.102999985,
     "HAT": 1.654,
@@ -339,5 +336,6 @@
     "HWI": 4.393,
     "LWI": 10.426,
     "NAVD88": 1.073
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-la-freshwater-canal-locks",
+  "name": "Freshwater Canal Locks",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Freshwater Canal Locks",
-  "id": "us-la-freshwater-canal-locks",
   "type": "reference",
-  "latitude": 29.551695,
-  "longitude": -92.30519,
+  "latitude": 29.55169444444444,
+  "longitude": -92.30519444444444,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8766072",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8766072",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8766072.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8766072",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8766072",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8766072.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.946,
     "HAT": 7.241,
@@ -337,5 +334,6 @@
     "DHQ": 0.046,
     "DLQ": 0.153,
     "NAVD88": 6.775
-  }
+  },
+  "disclaimers": ""
 }

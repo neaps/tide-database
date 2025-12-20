@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-ship-harbor-fidalgo-island",
+  "name": "Ship Harbor, Fidalgo Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.5067,
+  "longitude": -122.677,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9448772",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9448772",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9448772.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-port-townsend",
+    "height": {
+      "type": "ratio",
+      "high": 0.93,
+      "low": 1.02
+    },
+    "time": {
+      "high": 18,
+      "low": 29
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-nh-fort-point",
+  "name": "Fort Point",
   "continent": "North America",
   "country": "United States",
   "region": "NH",
-  "name": "Fort Point",
-  "id": "us-nh-fort-point",
   "type": "reference",
-  "latitude": 43.0717,
-  "longitude": -70.7117,
+  "latitude": 43.07170104980469,
+  "longitude": -70.71170043945312,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8423898",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8423898",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8423898.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8423898",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8423898",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8423898.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.1730001,
     "HAT": 4.342,
@@ -339,5 +336,6 @@
     "HWI": 3.737,
     "LWI": 9.852,
     "NAVD88": 2.35
-  }
+  },
+  "disclaimers": ""
 }

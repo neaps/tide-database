@@ -1,12 +1,25 @@
 {
+  "id": "us-ri-kickamuit-river",
+  "name": "KICKAMUIT RIVER",
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "name": "Kickamuit River",
-  "id": "us-ri-kickamuit-river",
   "type": "reference",
-  "latitude": 41.7078,
-  "longitude": -71.2417,
+  "latitude": 41.707801818847656,
+  "longitude": -71.24169921875,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8455137",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8455137",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8455137.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8455137",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8455137",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8455137.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.661,
     "HAT": 9.764999,
@@ -338,5 +335,6 @@
     "DLQ": 0.054,
     "HWI": 0.635,
     "LWI": 6.149
-  }
+  },
+  "disclaimers": ""
 }

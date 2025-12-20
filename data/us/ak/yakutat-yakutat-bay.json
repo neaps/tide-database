@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-yakutat-yakutat-bay",
+  "name": "Yakutat, Yakutat Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Yakutat, Yakutat Bay",
-  "id": "us-ak-yakutat-yakutat-bay",
   "type": "reference",
-  "latitude": 59.548332,
-  "longitude": -139.73306,
+  "latitude": 59.5483333,
+  "longitude": -139.7330556,
+  "timezone": "America/Yakutat",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9453220",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9453220",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9453220.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Yakutat",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9453220",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9453220",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9453220.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.64399993,
     "HAT": 4.357,
@@ -339,5 +336,6 @@
     "HWI": 9.73,
     "LWI": 3.46,
     "NAVD88": 0.543
-  }
+  },
+  "disclaimers": ""
 }

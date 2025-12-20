@@ -1,0 +1,35 @@
+{
+  "id": "us-burnt-fort",
+  "name": "Burnt Fort",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 30.95,
+  "longitude": -81.9,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3541",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3541",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC3541.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-fernandina-beach-amelia-river",
+    "height": {
+      "type": "ratio",
+      "high": 0.53,
+      "low": 0.53
+    },
+    "time": {
+      "high": 235,
+      "low": 305
+    }
+  }
+}

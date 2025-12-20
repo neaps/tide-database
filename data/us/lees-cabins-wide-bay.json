@@ -1,0 +1,35 @@
+{
+  "id": "us-lees-cabins-wide-bay",
+  "name": "Lees Cabins, Wide Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 57.43333333333299,
+  "longitude": -156.3,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2101",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2101",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC2101.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-kodiak-womens-bay",
+    "height": {
+      "type": "fixed",
+      "high": 0.98,
+      "low": 0.06
+    },
+    "time": {
+      "high": 21,
+      "low": 32
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-brooklyn-bridge",
+  "name": "Brooklyn Bridge",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "Brooklyn Bridge",
-  "id": "us-ny-brooklyn-bridge",
   "type": "reference",
   "latitude": 40.7033,
   "longitude": -73.995,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8517847",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517847",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8517847.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8517847",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517847",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8517847.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.281,
     "HAT": 1.0539999,
@@ -338,5 +335,6 @@
     "DLQ": 0.061,
     "HWI": 1.25,
     "LWI": 7.17
-  }
+  },
+  "disclaimers": ""
 }

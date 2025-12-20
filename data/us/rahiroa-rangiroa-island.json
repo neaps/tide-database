@@ -1,0 +1,35 @@
+{
+  "id": "us-rahiroa-rangiroa-island",
+  "name": "Rahiroa (Rangiroa) Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -14.95,
+  "longitude": -147.7333333333333,
+  "timezone": "Pacific/Tahiti",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2839",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2839",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2839.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pago-pago-harbor-tutuila-island",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 1.01
+    },
+    "time": {
+      "high": -177,
+      "low": -174
+    }
+  }
+}

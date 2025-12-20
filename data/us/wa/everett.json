@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-everett",
+  "name": "Everett",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "EVERETT",
-  "id": "us-wa-everett",
   "type": "reference",
   "latitude": 47.98,
   "longitude": -122.223,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9447659",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447659",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9447659.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9447659",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447659",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9447659.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.384,
     "HAT": 3.9359999,
@@ -339,5 +336,6 @@
     "HWI": 0.411,
     "LWI": 6.613,
     "NAVD88": 0.54
-  }
+  },
+  "disclaimers": ""
 }

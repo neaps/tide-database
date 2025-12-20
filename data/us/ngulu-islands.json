@@ -1,0 +1,35 @@
+{
+  "id": "us-ngulu-islands",
+  "name": "Ngulu Islands",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 8.300000190734863,
+  "longitude": 137.48330688476562,
+  "timezone": "Pacific/Chuuk",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2639",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2639",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2639.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fm-malakal-harbor-palau-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.77,
+      "low": 0.77
+    },
+    "time": {
+      "high": 40,
+      "low": 19
+    }
+  }
+}

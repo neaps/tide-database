@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-seal-bay",
+  "name": "Seal Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.3717,
+  "longitude": -152.238,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457201",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457201",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457201.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-kodiak-womens-bay",
+    "height": {
+      "type": "fixed",
+      "high": 0.73,
+      "low": 0.09
+    },
+    "time": {
+      "high": 29,
+      "low": 36
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-galt-island-pine-island-sound",
+  "name": "Galt Island, Pine Island Sound",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 26.5133,
+  "longitude": -82.1067,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725411",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725411",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725411.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-st-petersburg",
+    "height": {
+      "type": "ratio",
+      "high": 0.91,
+      "low": 0.91
+    },
+    "time": {
+      "high": -25,
+      "low": 16
+    }
+  }
+}

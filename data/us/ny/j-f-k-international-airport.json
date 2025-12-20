@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-j-f-k-international-airport",
+  "name": "J.F.K. International Airport",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.6233,
+  "longitude": -73.7833,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8516999",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516999",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8516999.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-sandy-hook-fort-hancock",
+    "height": {
+      "type": "ratio",
+      "high": 1.14,
+      "low": 1.15
+    },
+    "time": {
+      "high": 25,
+      "low": 45
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-port-ludlow",
+  "name": "Port Ludlow",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 47.925,
+  "longitude": -122.68,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9445017",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9445017",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9445017.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-seattle-madison-st-elliott-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.87,
+      "low": 0.95
+    },
+    "time": {
+      "high": -14,
+      "low": -14
+    }
+  }
+}

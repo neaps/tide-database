@@ -1,0 +1,35 @@
+{
+  "id": "us-md-keydash-isle-of-wight-bay",
+  "name": "Keydash, Isle of Wight Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MD",
+  "type": "subordinate",
+  "latitude": 38.3417,
+  "longitude": -75.085,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8570255",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8570255",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8570255.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-md-ocean-city-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 0.47,
+      "low": 0.81
+    },
+    "time": {
+      "high": -57,
+      "low": 54
+    }
+  }
+}

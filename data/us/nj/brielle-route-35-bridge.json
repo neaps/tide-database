@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-brielle-route-35-bridge",
+  "name": "Brielle, Route 35 bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 40.105,
+  "longitude": -74.055,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8532585",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8532585",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8532585.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-sandy-hook-fort-hancock",
+    "height": {
+      "type": "ratio",
+      "high": 0.83,
+      "low": 0.83
+    },
+    "time": {
+      "high": -6,
+      "low": -20
+    }
+  }
+}

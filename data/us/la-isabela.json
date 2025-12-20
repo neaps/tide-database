@@ -1,0 +1,35 @@
+{
+  "id": "us-la-isabela",
+  "name": "La Isabela",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 22.933333333332993,
+  "longitude": -80,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4645",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4645",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4645.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-hampton-roads-sewells-point",
+    "height": {
+      "type": "ratio",
+      "high": 0.64,
+      "low": 0.64
+    },
+    "time": {
+      "high": 20,
+      "low": 16
+    }
+  }
+}

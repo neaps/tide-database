@@ -1,12 +1,25 @@
 {
+  "id": "us-la-east-bank-1-norco-b-labranche",
+  "name": "East Bank 1, Norco, B. LaBranche",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "East Bank 1, Norco, B. LaBranche",
-  "id": "us-la-east-bank-1-norco-b-labranche",
   "type": "reference",
-  "latitude": 30.050333,
+  "latitude": 30.05033333333333,
   "longitude": -90.368,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8762372",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762372",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762372.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8762372",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762372",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762372.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 9.729,
     "HAT": 10.190001,
@@ -336,5 +333,6 @@
     "MN": 0.138,
     "DHQ": 0.001,
     "DLQ": 0.001
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-minim-creek-ent-icww-north-santee-bay",
+  "name": "Minim Creek ent., ICWW, North Santee Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 33.195,
+  "longitude": -79.275,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8662796",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8662796",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8662796.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-charleston-customhouse-wharf",
+    "height": {
+      "type": "ratio",
+      "high": 0.77,
+      "low": 0.95
+    },
+    "time": {
+      "high": 16,
+      "low": 60
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-tuxedni-channel",
+  "name": "Tuxedni Channel",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 60.1533,
+  "longitude": -152.635,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9456204",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9456204",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9456204.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-seldovia-kachemak-bay",
+    "height": {
+      "type": "fixed",
+      "high": -0.4,
+      "low": 0.06
+    },
+    "time": {
+      "high": 39,
+      "low": 53
+    }
+  }
+}

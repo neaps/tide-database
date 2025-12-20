@@ -1,12 +1,25 @@
 {
+  "id": "us-nc-rodanthe-pamlico-sound",
+  "name": "Rodanthe, Pamlico Sound",
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "name": "RODANTHE, PAMLICO SOUND",
-  "id": "us-nc-rodanthe-pamlico-sound",
   "type": "reference",
-  "latitude": 35.595,
-  "longitude": -75.4717,
+  "latitude": 35.595001220703125,
+  "longitude": -75.4717025756836,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8653215",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8653215",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8653215.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8653215",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8653215",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8653215.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.208,
     "HAT": 0.155,
@@ -337,5 +334,6 @@
     "DHQ": 0.025,
     "DLQ": 0.041,
     "NAVD88": -0.006
-  }
+  },
+  "disclaimers": ""
 }

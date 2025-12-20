@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-sands-key-northwest-point-biscayne-bay",
+  "name": "Sands Key, northwest point, Biscayne Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 25.5067,
+  "longitude": -80.1883,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723372",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723372",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723372.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-government-cut-miami-harbor-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.63,
+      "low": 0.64
+    },
+    "time": {
+      "high": 85,
+      "low": 146
+    }
+  }
+}

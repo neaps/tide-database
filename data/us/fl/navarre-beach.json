@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-navarre-beach",
+  "name": "Navarre Beach",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "NAVARRE BEACH",
-  "id": "us-fl-navarre-beach",
   "type": "reference",
   "latitude": 30.3767,
   "longitude": -86.865,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729678",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729678",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729678.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729678",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729678",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729678.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.54,
     "HAT": 8.534,
@@ -337,5 +334,6 @@
     "DHQ": 0.02,
     "DLQ": 0.016,
     "NAVD88": 8
-  }
+  },
+  "disclaimers": ""
 }

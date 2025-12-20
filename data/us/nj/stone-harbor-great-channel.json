@@ -1,12 +1,25 @@
 {
+  "id": "us-nj-stone-harbor-great-channel",
+  "name": "Stone Harbor, Great Channel",
   "continent": "North America",
   "country": "United States",
   "region": "NJ",
-  "name": "STONE HARBOR, GREAT CHANNEL",
-  "id": "us-nj-stone-harbor-great-channel",
   "type": "reference",
-  "latitude": 39.0567,
-  "longitude": -74.765,
+  "latitude": 39.05670166015625,
+  "longitude": -74.76499938964844,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8535581",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8535581",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8535581.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8535581",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8535581",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8535581.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.147,
     "HAT": 0.949,
@@ -339,5 +336,6 @@
     "HWI": 0.828,
     "LWI": 7.057,
     "NAVD88": 0
-  }
+  },
+  "disclaimers": ""
 }

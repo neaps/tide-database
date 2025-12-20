@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-old-brazos-river-freeport",
+  "name": "Old Brazos River, Freeport",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Old Brazos River Freeport",
-  "id": "us-tx-old-brazos-river-freeport",
   "type": "reference",
-  "latitude": 28.9611,
-  "longitude": -95.3674,
+  "latitude": 28.96109962463379,
+  "longitude": -95.36740112304688,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8772391",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8772391",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8772391.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8772391",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8772391",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8772391.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.8859997,
     "HAT": 8.081,
@@ -337,5 +334,6 @@
     "DHQ": 0.037,
     "DLQ": 0.074,
     "NAVD88": 7.371
-  }
+  },
+  "disclaimers": ""
 }

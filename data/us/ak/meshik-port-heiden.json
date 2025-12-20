@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-meshik-port-heiden",
+  "name": "Meshik, Port Heiden",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Meshik, Port Heiden",
-  "id": "us-ak-meshik-port-heiden",
   "type": "reference",
-  "latitude": 56.9083,
-  "longitude": -158.6849,
+  "latitude": 56.90829849243164,
+  "longitude": -158.68490600585938,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9464075",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9464075",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9464075.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9464075",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9464075",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9464075.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 10.516,
     "HAT": 16.19,
@@ -338,5 +335,6 @@
     "DLQ": 0.707,
     "HWI": 8.88,
     "LWI": 3.25
-  }
+  },
+  "disclaimers": ""
 }

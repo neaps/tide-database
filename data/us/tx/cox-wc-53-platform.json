@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-cox-wc-53-platform",
+  "name": "COX WC-53 Platform",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "COX WC-53 Platform",
-  "id": "us-tx-cox-wc-53-platform",
   "type": "reference",
-  "latitude": 29.624,
+  "latitude": 29.62400054931641,
   "longitude": -93.75,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8770752",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8770752",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8770752.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8770752",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8770752",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8770752.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -17.784,
     "HAT": -16.421001,
@@ -337,5 +334,6 @@
     "DHQ": 0.077,
     "DLQ": 0.176,
     "NAVD88": -16.87
-  }
+  },
+  "disclaimers": ""
 }

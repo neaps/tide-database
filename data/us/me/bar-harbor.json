@@ -1,12 +1,25 @@
 {
+  "id": "us-me-bar-harbor",
+  "name": "BAR HARBOR",
   "continent": "North America",
   "country": "United States",
   "region": "ME",
-  "name": "Bar Harbor",
-  "id": "us-me-bar-harbor",
   "type": "reference",
-  "latitude": 44.392193,
-  "longitude": -68.20428,
+  "latitude": 44.39219444444444,
+  "longitude": -68.20427777777778,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8413320",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8413320",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8413320.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8413320",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8413320",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8413320.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.385,
     "HAT": 5.231,
@@ -338,5 +335,6 @@
     "DLQ": 0.115,
     "HWI": 3.29,
     "LWI": 9.51
-  }
+  },
+  "disclaimers": ""
 }

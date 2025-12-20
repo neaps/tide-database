@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-kings-ferry",
+  "name": "Kings Ferry",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.7867,
+  "longitude": -81.84,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720001",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720001",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720001.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-fernandina-beach-amelia-river",
+    "height": {
+      "type": "ratio",
+      "high": 0.49,
+      "low": 1.16
+    },
+    "time": {
+      "high": 245,
+      "low": 249
+    }
+  }
+}

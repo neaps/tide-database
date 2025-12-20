@@ -1,0 +1,35 @@
+{
+  "id": "us-rapa-oparo-island",
+  "name": "Rapa (Oparo) Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -27.6,
+  "longitude": -144.2833333333333,
+  "timezone": "Pacific/Tahiti",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2847",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2847",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2847.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pago-pago-harbor-tutuila-island",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.05
+    },
+    "time": {
+      "high": 293,
+      "low": 299
+    }
+  }
+}

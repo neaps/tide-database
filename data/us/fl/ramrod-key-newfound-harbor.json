@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-ramrod-key-newfound-harbor",
+  "name": "Ramrod Key, Newfound Harbor",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.65,
+  "longitude": -81.4033,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724239",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724239",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724239.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.5
+    },
+    "time": {
+      "high": -41,
+      "low": 5
+    }
+  }
+}

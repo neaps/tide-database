@@ -1,12 +1,25 @@
 {
+  "id": "us-nj-bivalve-maurice-river",
+  "name": "Bivalve, Maurice River",
   "continent": "North America",
   "country": "United States",
   "region": "NJ",
-  "name": "Bivalve, Maurice River",
-  "id": "us-nj-bivalve-maurice-river",
   "type": "reference",
-  "latitude": 39.2325,
-  "longitude": -75.0328,
+  "latitude": 39.23249816894531,
+  "longitude": -75.03279876708984,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8535055",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8535055",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8535055.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8535055",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8535055",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8535055.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.371,
     "HAT": 1.204,
@@ -339,5 +336,6 @@
     "HWI": 1.715,
     "LWI": 8.341,
     "NAVD88": -0.013
-  }
+  },
+  "disclaimers": ""
 }

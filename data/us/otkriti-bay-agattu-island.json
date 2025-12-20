@@ -1,0 +1,35 @@
+{
+  "id": "us-otkriti-bay-agattu-island",
+  "name": "Otkriti Bay, Agattu Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 52.36669921875,
+  "longitude": 173.61669921875,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2311",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2311",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC2311.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-massacre-bay",
+    "height": {
+      "type": "ratio",
+      "high": 1.03,
+      "low": 1.03
+    },
+    "time": {
+      "high": -74,
+      "low": -73
+    }
+  }
+}

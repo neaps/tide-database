@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-bald-point-ochlockonee-bay",
+  "name": "Bald Point, Ochlockonee Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "BALD POINT,  OCHLOCKONEE BAY",
-  "id": "us-fl-bald-point-ochlockonee-bay",
   "type": "reference",
   "latitude": 29.9483,
   "longitude": -84.3417,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728237",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728237",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728237.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728237",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728237",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728237.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.983,
     "HAT": 0.74700004,
@@ -339,5 +336,6 @@
     "HWI": 7.273,
     "LWI": 1.163,
     "NAVD88": -0.006
-  }
+  },
+  "disclaimers": ""
 }

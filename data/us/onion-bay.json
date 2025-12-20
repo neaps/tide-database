@@ -1,0 +1,35 @@
+{
+  "id": "us-onion-bay",
+  "name": "Onion Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 58.05,
+  "longitude": -153.2333333333299,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2075",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2075",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC2075.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-seldovia-kachemak-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.8,
+      "low": 0.8
+    },
+    "time": {
+      "high": 0,
+      "low": -1
+    }
+  }
+}

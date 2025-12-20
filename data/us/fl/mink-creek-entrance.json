@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-mink-creek-entrance",
+  "name": "Mink Creek entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.5367,
+  "longitude": -81.5817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720119",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720119",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720119.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-fernandina-beach-amelia-river",
+    "height": {
+      "type": "ratio",
+      "high": 0.72,
+      "low": 1.05
+    },
+    "time": {
+      "high": 73,
+      "low": 125
+    }
+  }
+}

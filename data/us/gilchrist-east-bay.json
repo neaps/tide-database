@@ -1,0 +1,35 @@
+{
+  "id": "us-gilchrist-east-bay",
+  "name": "Gilchrist, East Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 29.516666666667007,
+  "longitude": -94.483333333333,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4525",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4525",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4525.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-tx-galveston-galveston-channel",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.86
+    },
+    "time": {
+      "high": 196,
+      "low": 258
+    }
+  }
+}

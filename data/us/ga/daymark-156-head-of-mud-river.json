@@ -1,12 +1,25 @@
 {
+  "id": "us-ga-daymark-156-head-of-mud-river",
+  "name": "Daymark #156, Head of Mud River",
   "continent": "North America",
   "country": "United States",
   "region": "GA",
-  "name": "Daymark #156, Head of Mud River",
-  "id": "us-ga-daymark-156-head-of-mud-river",
   "type": "reference",
   "latitude": 31.4867,
   "longitude": -81.32,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8674975",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8674975",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8674975.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8674975",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8674975",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8674975.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.365,
     "HAT": 3.332,
@@ -338,5 +335,6 @@
     "DLQ": 0.068,
     "HWI": 1.292,
     "LWI": 7.448
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-edgewater-n-j",
+  "name": "Edgewater, N.J.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 40.8133,
+  "longitude": -73.9783,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8530505",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8530505",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8530505.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-new-york-the-battery",
+    "height": {
+      "type": "ratio",
+      "high": 0.93,
+      "low": 0.93
+    },
+    "time": {
+      "high": 31,
+      "low": 28
+    }
+  }
+}

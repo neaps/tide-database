@@ -1,0 +1,35 @@
+{
+  "id": "us-md-riverside-md",
+  "name": "Riverside, Md.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MD",
+  "type": "subordinate",
+  "latitude": 38.3867,
+  "longitude": -77.145,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8578853",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8578853",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8578853.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-dc-washington-washington-channel-d-c",
+    "height": {
+      "type": "ratio",
+      "high": 0.48,
+      "low": 0.53
+    },
+    "time": {
+      "high": -203,
+      "low": -264
+    }
+  }
+}

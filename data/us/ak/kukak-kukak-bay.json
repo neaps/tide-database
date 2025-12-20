@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-kukak-kukak-bay",
+  "name": "Kukak, Kukak Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.3417,
+  "longitude": -154.117,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9456835",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9456835",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9456835.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-seldovia-kachemak-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.74,
+      "low": 0.74
+    },
+    "time": {
+      "high": -8,
+      "low": 5
+    }
+  }
+}

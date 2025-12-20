@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-folly-river-north-folly-island",
+  "name": "Folly River, north, Folly Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 32.67,
+  "longitude": -79.9167,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8666467",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8666467",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8666467.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-charleston-customhouse-wharf",
+    "height": {
+      "type": "ratio",
+      "high": 1.03,
+      "low": 0.95
+    },
+    "time": {
+      "high": 24,
+      "low": -5
+    }
+  }
+}

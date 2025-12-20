@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-trocadero-bay",
+  "name": "TROCADERO BAY",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Trocadero Bay",
-  "id": "us-ak-trocadero-bay",
   "type": "reference",
-  "latitude": 55.351665,
-  "longitude": -132.93805,
+  "latitude": 55.35166666666667,
+  "longitude": -132.9380555555556,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450463",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450463",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450463.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9450463",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450463",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450463.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.73000014,
     "HAT": 4,
@@ -338,5 +335,6 @@
     "DLQ": 0.413,
     "HWI": 9.367,
     "LWI": 3.112
-  }
+  },
+  "disclaimers": ""
 }

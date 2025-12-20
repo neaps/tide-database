@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-ortega-river-entrance",
+  "name": "Ortega River entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.2783,
+  "longitude": -81.705,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720296",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720296",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720296.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-mayport-bar-pilot-dock",
+    "height": {
+      "type": "ratio",
+      "high": 0.25,
+      "low": 0.47
+    },
+    "time": {
+      "high": 129,
+      "low": 167
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ms-pass-christian-yacht-club-mississippi-sound",
+  "name": "Pass Christian Yacht Club, Mississippi Sound",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MS",
+  "type": "subordinate",
+  "latitude": 30.31,
+  "longitude": -89.245,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8746819",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8746819",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8746819.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-south-pass",
+    "height": {
+      "type": "ratio",
+      "high": 1.37,
+      "low": 1.37
+    },
+    "time": {
+      "high": 156,
+      "low": 124
+    }
+  }
+}

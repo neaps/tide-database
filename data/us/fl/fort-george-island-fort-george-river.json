@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-fort-george-island-fort-george-river",
+  "name": "Fort George Island, Fort George River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.44,
+  "longitude": -81.4383,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720186",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720186",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720186.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-fernandina-beach-amelia-river",
+    "height": {
+      "type": "ratio",
+      "high": 0.79,
+      "low": 0.74
+    },
+    "time": {
+      "high": 10,
+      "low": 33
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-smith-island",
+  "name": "Smith Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 60.53333333333299,
+  "longitude": -147.31666666667007,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1907",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1907",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC1907.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-cordova",
+    "height": {
+      "type": "fixed",
+      "high": -0.24,
+      "low": -0.03
+    },
+    "time": {
+      "high": -5,
+      "low": -4
+    }
+  }
+}

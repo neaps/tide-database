@@ -1,0 +1,35 @@
+{
+  "id": "us-me-green-island-petit-manan-bar",
+  "name": "Green Island, Petit Manan Bar",
+  "continent": "North America",
+  "country": "United States",
+  "region": "ME",
+  "type": "subordinate",
+  "latitude": 44.3717,
+  "longitude": -67.87,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8412568",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8412568",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8412568.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-portland",
+    "height": {
+      "type": "ratio",
+      "high": 1.16,
+      "low": 1.16
+    },
+    "time": {
+      "high": -28,
+      "low": -24
+    }
+  }
+}

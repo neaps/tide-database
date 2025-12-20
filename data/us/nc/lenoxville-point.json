@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-lenoxville-point",
+  "name": "Lenoxville Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 34.7083,
+  "longitude": -76.62,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656539",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656539",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656539.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-cape-hatteras-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 0.8,
+      "low": 1
+    },
+    "time": {
+      "high": 78,
+      "low": 71
+    }
+  }
+}

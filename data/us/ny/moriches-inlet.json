@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-moriches-inlet",
+  "name": "Moriches Inlet",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "Moriches Inlet",
-  "id": "us-ny-moriches-inlet",
   "type": "reference",
-  "latitude": 40.764416,
-  "longitude": -72.755974,
+  "latitude": 40.76441666666667,
+  "longitude": -72.75597222222223,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8513398",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8513398",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8513398.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8513398",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8513398",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8513398.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.179,
     "HAT": 6.686,
@@ -338,5 +335,6 @@
     "DLQ": 0.045,
     "HWI": 0.108,
     "LWI": 5.501
-  }
+  },
+  "disclaimers": ""
 }

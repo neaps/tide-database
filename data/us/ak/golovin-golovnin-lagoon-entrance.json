@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-golovin-golovnin-lagoon-entrance",
+  "name": "Golovin, Golovnin Lagoon Entrance",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Golovin, Golovnin Lagoon Entrance",
-  "id": "us-ak-golovin-golovnin-lagoon-entrance",
   "type": "reference",
-  "latitude": 64.5463,
-  "longitude": -163.0317,
+  "latitude": 64.54630279541016,
+  "longitude": -163.0316925048828,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9468793",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468793",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468793.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9468793",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468793",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468793.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.516,
     "HAT": 8.389999,
@@ -337,5 +334,6 @@
     "DHQ": 0.024,
     "DLQ": 0.011,
     "NAVD88": 6.273
-  }
+  },
+  "disclaimers": ""
 }

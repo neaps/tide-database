@@ -1,0 +1,35 @@
+{
+  "id": "us-dc-kingman-lake",
+  "name": "Kingman Lake",
+  "continent": "North America",
+  "country": "United States",
+  "region": "DC",
+  "type": "subordinate",
+  "latitude": 38.895,
+  "longitude": -76.9683,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8593545",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8593545",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8593545.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-dc-washington-washington-channel-d-c",
+    "height": {
+      "type": "ratio",
+      "high": 1.03,
+      "low": 1.2
+    },
+    "time": {
+      "high": 22,
+      "low": 4
+    }
+  }
+}

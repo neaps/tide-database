@@ -1,0 +1,35 @@
+{
+  "id": "us-eyak-river-entrance",
+  "name": "Eyak River entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 60.46666666666701,
+  "longitude": -145.66666666667007,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1869",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1869",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC1869.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-cordova",
+    "height": {
+      "type": "fixed",
+      "high": -0.49,
+      "low": -0.03
+    },
+    "time": {
+      "high": 14,
+      "low": 58
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ma-pleasant-bay",
+  "name": "Pleasant Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MA",
+  "type": "subordinate",
+  "latitude": 41.7367,
+  "longitude": -69.9817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447291",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447291",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447291.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ma-boston",
+    "height": {
+      "type": "ratio",
+      "high": 0.34,
+      "low": 0.34
+    },
+    "time": {
+      "high": 148,
+      "low": 207
+    }
+  }
+}

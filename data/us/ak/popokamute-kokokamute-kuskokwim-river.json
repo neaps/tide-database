@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-popokamute-kokokamute-kuskokwim-river",
+  "name": "Popokamute (Kokokamute), Kuskokwim River",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Popokamute (Kokokamute), Kuskokwim River",
-  "id": "us-ak-popokamute-kokokamute-kuskokwim-river",
   "type": "reference",
-  "latitude": 60.12328,
-  "longitude": -162.50037,
+  "latitude": 60.12327777777778,
+  "longitude": -162.5003611111111,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9466057",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9466057",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9466057.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9466057",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9466057",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9466057.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.836,
     "HAT": 10.578,
@@ -338,5 +335,6 @@
     "DLQ": 0.188,
     "HWI": 8.86,
     "LWI": 3.56
-  }
+  },
+  "disclaimers": ""
 }

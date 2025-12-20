@@ -1,0 +1,35 @@
+{
+  "id": "us-ri-westerly-pawcatuck-river",
+  "name": "Westerly, Pawcatuck River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "RI",
+  "type": "subordinate",
+  "latitude": 41.3817,
+  "longitude": -71.8317,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8455189",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8455189",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8455189.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ct-new-london-state-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 1
+    },
+    "time": {
+      "high": -21,
+      "low": 3
+    }
+  }
+}

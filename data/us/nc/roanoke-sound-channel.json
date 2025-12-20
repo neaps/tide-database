@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-roanoke-sound-channel",
+  "name": "Roanoke Sound Channel",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 35.7983,
+  "longitude": -75.5833,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8652591",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8652591",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8652591.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-oregon-inlet-marina",
+    "height": {
+      "type": "ratio",
+      "high": 0.47,
+      "low": 0.14
+    },
+    "time": {
+      "high": 97,
+      "low": 77
+    }
+  }
+}

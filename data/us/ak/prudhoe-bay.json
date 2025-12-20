@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-prudhoe-bay",
+  "name": "PRUDHOE BAY",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Prudhoe Bay",
-  "id": "us-ak-prudhoe-bay",
   "type": "reference",
-  "latitude": 70.41139,
-  "longitude": -148.53166,
+  "latitude": 70.4113889,
+  "longitude": -148.5316667,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9497645",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9497645",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9497645.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9497645",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9497645",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9497645.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 10.757,
     "HAT": 11.344,
@@ -338,5 +335,6 @@
     "DLQ": 0.025,
     "HWI": 9.64,
     "LWI": 3.54
-  }
+  },
+  "disclaimers": ""
 }

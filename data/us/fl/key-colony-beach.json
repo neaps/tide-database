@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-key-colony-beach",
+  "name": "Key Colony Beach",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Key Colony Beach",
-  "id": "us-fl-key-colony-beach",
   "type": "reference",
   "latitude": 24.7183,
   "longitude": -81.0167,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723962",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723962",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723962.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8723962",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723962",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723962.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.78700006,
     "HAT": 1.9660001,
@@ -339,5 +336,6 @@
     "HWI": 1.484,
     "LWI": 7.514,
     "NAVD88": 1.675
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-largo-sound-key-largo",
+  "name": "Largo Sound, Key Largo",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 25.14,
+  "longitude": -80.395,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723651",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723651",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723651.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-government-cut-miami-harbor-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.35,
+      "low": 0.5
+    },
+    "time": {
+      "high": 133,
+      "low": 183
+    }
+  }
+}

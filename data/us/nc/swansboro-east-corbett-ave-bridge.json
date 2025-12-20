@@ -1,12 +1,25 @@
 {
+  "id": "us-nc-swansboro-east-corbett-ave-bridge",
+  "name": "Swansboro, East Corbett Ave. Bridge",
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "name": "Swansboro, East Corbett Ave Bridge",
-  "id": "us-nc-swansboro-east-corbett-ave-bridge",
   "type": "reference",
-  "latitude": 34.6866,
-  "longitude": -77.1181,
+  "latitude": 34.68659973144531,
+  "longitude": -77.11810302734375,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656613",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656613",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656613.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8656613",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656613",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656613.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.13300002,
     "HAT": 0.857,
@@ -339,5 +336,6 @@
     "HWI": 1.815,
     "LWI": 8.325,
     "NAVD88": 0.45
-  }
+  },
+  "disclaimers": ""
 }

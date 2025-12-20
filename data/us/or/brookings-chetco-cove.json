@@ -1,0 +1,35 @@
+{
+  "id": "us-or-brookings-chetco-cove",
+  "name": "Brookings, Chetco Cove",
+  "continent": "North America",
+  "country": "United States",
+  "region": "OR",
+  "type": "subordinate",
+  "latitude": 42.0433,
+  "longitude": -124.285,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9430104",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9430104",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9430104.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-crescent-city",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1
+    },
+    "time": {
+      "high": 1,
+      "low": 4
+    }
+  }
+}

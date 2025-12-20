@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-elkhorn-slough-railroad-bridge",
+  "name": "Elkhorn Slough railroad bridge",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "Elkhorn Slough Railroad Bridge",
-  "id": "us-ca-elkhorn-slough-railroad-bridge",
   "type": "reference",
   "latitude": 36.85667,
   "longitude": -121.755,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9413663",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9413663",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9413663.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9413663",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9413663",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9413663.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.9540005,
     "HAT": 7.7200003,
@@ -339,5 +336,6 @@
     "HWI": 6.823,
     "LWI": 0.07,
     "NAVD88": 5.49
-  }
+  },
+  "disclaimers": ""
 }

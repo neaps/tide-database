@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-barroom-bay",
+  "name": "Barroom Bay",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Barroom Bay",
-  "id": "us-tx-barroom-bay",
   "type": "reference",
-  "latitude": 28.403,
-  "longitude": -96.4808,
+  "latitude": 28.402999877929688,
+  "longitude": -96.48079681396484,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8773808",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8773808",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8773808.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8773808",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8773808",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8773808.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 9.405001,
     "HAT": 9.589001,
@@ -337,5 +334,6 @@
     "DHQ": 0.002,
     "DLQ": 0.004,
     "NAVD88": 9.276
-  }
+  },
+  "disclaimers": ""
 }

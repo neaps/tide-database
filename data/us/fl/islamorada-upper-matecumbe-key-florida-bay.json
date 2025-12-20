@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-islamorada-upper-matecumbe-key-florida-bay",
+  "name": "Islamorada, Upper Matecumbe Key, Florida Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.925,
+  "longitude": -80.6317,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723808",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723808",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723808.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 0.37,
+      "low": 0.37
+    },
+    "time": {
+      "high": 39,
+      "low": 127
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-cook-landing-cemetery",
+  "name": "Cook Landing Cemetery",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 32.195,
+  "longitude": -81,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8669277",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8669277",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8669277.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ga-fort-pulaski-savannah-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.69,
+      "low": 1.41
+    },
+    "time": {
+      "high": 189,
+      "low": 180
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-hookton-slough",
+  "name": "Hookton Slough",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 40.6867,
+  "longitude": -124.222,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9418686",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9418686",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9418686.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-humboldt-bay-north-spit",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 0.98
+    },
+    "time": {
+      "high": 6,
+      "low": 15
+    }
+  }
+}

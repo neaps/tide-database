@@ -1,0 +1,35 @@
+{
+  "id": "us-lahaina",
+  "name": "Lahaina",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 20.883333333332992,
+  "longitude": -156.68333333332993,
+  "timezone": "Pacific/Honolulu",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2799",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2799",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2799.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-hi-kahului",
+    "height": {
+      "type": "ratio",
+      "high": 0.89,
+      "low": 0.81
+    },
+    "time": {
+      "high": 78,
+      "low": 61
+    }
+  }
+}

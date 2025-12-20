@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-cortez-sarasota-bay",
+  "name": "Cortez, Sarasota Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 27.4667,
+  "longitude": -82.6867,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726217",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726217",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726217.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-st-petersburg",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.96
+    },
+    "time": {
+      "high": -120,
+      "low": -85
+    }
+  }
+}

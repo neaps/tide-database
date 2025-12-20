@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-crescent-bay",
+  "name": "Crescent Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.1617,
+  "longitude": -123.725,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9443826",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9443826",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9443826.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-port-townsend",
+    "height": {
+      "type": "ratio",
+      "high": 0.8,
+      "low": 0.8
+    },
+    "time": {
+      "high": -161,
+      "low": -122
+    }
+  }
+}

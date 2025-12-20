@@ -1,0 +1,35 @@
+{
+  "id": "us-los-patos-highway-bridge",
+  "name": "Los Patos (highway bridge)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 33.71666666666701,
+  "longitude": -118.05,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC0427",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC0427",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC0427.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-los-angeles-outer-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 0.83,
+      "low": 0.6
+    },
+    "time": {
+      "high": 60,
+      "low": 72
+    }
+  }
+}

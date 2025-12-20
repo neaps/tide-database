@@ -1,12 +1,25 @@
 {
+  "id": "us-de-mahon-river-entrance",
+  "name": "Mahon River entrance",
   "continent": "North America",
   "country": "United States",
   "region": "DE",
-  "name": "Mahon River Entrance",
-  "id": "us-de-mahon-river-entrance",
   "type": "reference",
   "latitude": 39.185,
   "longitude": -75.4,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8554399",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8554399",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8554399.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8554399",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8554399",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8554399.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 2.118,
     "HAT": 4.67,
@@ -338,5 +335,6 @@
     "DLQ": 0.054,
     "HWI": 2.102,
     "LWI": 8.634
-  }
+  },
+  "disclaimers": ""
 }

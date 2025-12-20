@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-plumb-beach-channel",
+  "name": "Plumb Beach Channel",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.585,
+  "longitude": -73.925,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8517531",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517531",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8517531.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-sandy-hook-fort-hancock",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.05
+    },
+    "time": {
+      "high": 2,
+      "low": -3
+    }
+  }
+}

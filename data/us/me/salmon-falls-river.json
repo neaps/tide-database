@@ -1,0 +1,35 @@
+{
+  "id": "us-me-salmon-falls-river",
+  "name": "Salmon Falls River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "ME",
+  "type": "subordinate",
+  "latitude": 43.1917,
+  "longitude": -70.825,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8419997",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8419997",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8419997.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-portland",
+    "height": {
+      "type": "ratio",
+      "high": 0.75,
+      "low": 0.75
+    },
+    "time": {
+      "high": 95,
+      "low": 112
+    }
+  }
+}

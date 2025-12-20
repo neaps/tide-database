@@ -1,0 +1,35 @@
+{
+  "id": "us-shipyard-creek-0-8-mile-above-entrance",
+  "name": "Shipyard Creek, 0.8 mile above entrance.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 32.833333333332995,
+  "longitude": -79.95,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3061",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3061",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC3061.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-charleston-customhouse-wharf",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 1
+    },
+    "time": {
+      "high": 34,
+      "low": 20
+    }
+  }
+}

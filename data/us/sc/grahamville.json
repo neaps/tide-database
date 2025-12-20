@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-grahamville",
+  "name": "Grahamville",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 33.83,
+  "longitude": -78.9533,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8660315",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8660315",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8660315.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-charleston-customhouse-wharf",
+    "height": {
+      "type": "ratio",
+      "high": 0.2,
+      "low": 0.58
+    },
+    "time": {
+      "high": 497,
+      "low": 512
+    }
+  }
+}

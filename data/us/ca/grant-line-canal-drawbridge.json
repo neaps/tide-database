@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-grant-line-canal-drawbridge",
+  "name": "Grant Line Canal (drawbridge)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 37.82,
+  "longitude": -121.447,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414785",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414785",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414785.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-port-chicago-suisun-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.76,
+      "low": 0.68
+    },
+    "time": {
+      "high": 374,
+      "low": 380
+    }
+  }
+}

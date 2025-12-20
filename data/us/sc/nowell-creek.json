@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-nowell-creek",
+  "name": "Nowell Creek",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 32.9,
+  "longitude": -79.9,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8664701",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8664701",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8664701.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-charleston-customhouse-wharf",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1.05
+    },
+    "time": {
+      "high": 47,
+      "low": 23
+    }
+  }
+}

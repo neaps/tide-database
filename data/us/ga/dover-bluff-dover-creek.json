@@ -1,0 +1,35 @@
+{
+  "id": "us-ga-dover-bluff-dover-creek",
+  "name": "Dover Bluff, Dover Creek",
+  "continent": "North America",
+  "country": "United States",
+  "region": "GA",
+  "type": "subordinate",
+  "latitude": 31.0167,
+  "longitude": -81.5283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8678111",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8678111",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8678111.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-fernandina-beach-amelia-river",
+    "height": {
+      "type": "ratio",
+      "high": 1.15,
+      "low": 1.15
+    },
+    "time": {
+      "high": 6,
+      "low": 31
+    }
+  }
+}

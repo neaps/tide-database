@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-sheep-bay",
+  "name": "Sheep Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Sheep Bay",
-  "id": "us-ak-sheep-bay",
   "type": "reference",
-  "latitude": 60.67189,
-  "longitude": -145.99217,
+  "latitude": 60.67189025878906,
+  "longitude": -145.99217224121094,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454124",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454124",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454124.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9454124",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454124",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454124.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.7510004,
     "HAT": 10.729,
@@ -339,5 +336,6 @@
     "HWI": 9.988,
     "LWI": 3.691,
     "NAVD88": 6.19
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ms-dock-e-port-of-pascagoula",
+  "name": "Dock E, Port of Pascagoula",
   "continent": "North America",
   "country": "United States",
   "region": "MS",
-  "name": "Dock E, Port of Pascagoula",
-  "id": "us-ms-dock-e-port-of-pascagoula",
   "type": "reference",
-  "latitude": 30.347778,
-  "longitude": -88.50584,
+  "latitude": 30.3477778,
+  "longitude": -88.5058333,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8741041",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8741041",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8741041.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8741041",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8741041",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8741041.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.204,
     "HAT": 7.336,
@@ -336,5 +333,6 @@
     "MN": 0.416,
     "DHQ": 0.028,
     "DLQ": 0.026
-  }
+  },
+  "disclaimers": ""
 }

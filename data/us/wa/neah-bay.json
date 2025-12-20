@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-neah-bay",
+  "name": "NEAH BAY",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Neah Bay",
-  "id": "us-wa-neah-bay",
   "type": "reference",
-  "latitude": 48.370724,
-  "longitude": -124.601585,
+  "latitude": 48.37072222222222,
+  "longitude": -124.6015888888889,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9443090",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9443090",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9443090.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9443090",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9443090",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9443090.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.2976551,
     "HAT": 3.7623448,
@@ -339,5 +336,6 @@
     "HWI": 8.546,
     "LWI": 2.286,
     "NAVD88": 0.866
-  }
+  },
+  "disclaimers": ""
 }

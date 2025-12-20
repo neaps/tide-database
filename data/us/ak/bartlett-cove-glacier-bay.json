@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-bartlett-cove-glacier-bay",
+  "name": "Bartlett Cove, Glacier Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "BARTLETT COVE, GLACIER BAY",
-  "id": "us-ak-bartlett-cove-glacier-bay",
   "type": "reference",
-  "latitude": 58.4567,
-  "longitude": -135.883,
+  "latitude": 58.45669937133789,
+  "longitude": -135.88299560546875,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452534",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452534",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452534.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Juneau",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9452534",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452534",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452534.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.625,
     "HAT": 11.717999,
@@ -339,5 +336,6 @@
     "HWI": 9.943,
     "LWI": 3.75,
     "NAVD88": 6.829
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-rollover-pass",
+  "name": "Rollover Pass",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Rollover Pass",
-  "id": "us-tx-rollover-pass",
   "type": "reference",
-  "latitude": 29.515,
-  "longitude": -94.5133,
+  "latitude": 29.514999389648438,
+  "longitude": -94.51329803466797,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8770971",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8770971",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8770971.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8770971",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8770971",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8770971.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "[object Object]",
-  "restriction": "",
   "datums": {
     "LAT": 0.566,
     "HAT": 1.605,
@@ -337,5 +334,6 @@
     "DHQ": 0.031,
     "DLQ": 0.055,
     "NAVD88": 1.202
-  }
+  },
+  "disclaimers": "These data and associated tidal datums are derived from the Texas Coastal Ocean Observation Network (TCOON), a state-wide coastal observing system. Leveling information used to verify vertical positioning for navigational purposes may not meet NOS standards. Subsequent review of these data based upon field inspections may result in revisions. Data users are cautioned before using these data for critical decisions such as those that concern physical or public safety."
 }

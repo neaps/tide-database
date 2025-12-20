@@ -1,12 +1,25 @@
 {
+  "id": "us-md-solomons-island",
+  "name": "Solomons Island",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "Solomons Island",
-  "id": "us-md-solomons-island",
   "type": "reference",
-  "latitude": 38.3167,
-  "longitude": -76.4517,
+  "latitude": 38.31669998168945,
+  "longitude": -76.45169830322266,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8577330",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8577330",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8577330.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8577330",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8577330",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8577330.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.974537,
     "HAT": 1.704537,
@@ -339,5 +336,6 @@
     "HWI": 6.899,
     "LWI": 0.933,
     "NAVD88": 1.394
-  }
+  },
+  "disclaimers": ""
 }

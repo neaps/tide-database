@@ -1,0 +1,35 @@
+{
+  "id": "us-ri-bristol-bristol-harbor",
+  "name": "Bristol, Bristol Harbor",
+  "continent": "North America",
+  "country": "United States",
+  "region": "RI",
+  "type": "subordinate",
+  "latitude": 41.6683,
+  "longitude": -71.28,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8451929",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8451929",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8451929.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ri-newport",
+    "height": {
+      "type": "ratio",
+      "high": 1.16,
+      "low": 1.14
+    },
+    "time": {
+      "high": 13,
+      "low": 0
+    }
+  }
+}

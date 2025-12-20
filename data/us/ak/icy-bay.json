@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-icy-bay",
+  "name": "Icy Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 59.885,
+  "longitude": -141.457,
+  "timezone": "America/Yakutat",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9453456",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9453456",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9453456.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-yakutat-yakutat-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 1.01
+    },
+    "time": {
+      "high": 2,
+      "low": 3
+    }
+  }
+}

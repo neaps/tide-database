@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-channel-five-east-side-hawk-channel",
+  "name": "Channel Five, east side, Hawk Channel",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.8367,
+  "longitude": -80.7667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723874",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723874",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723874.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.58
+    },
+    "time": {
+      "high": -54,
+      "low": -42
+    }
+  }
+}

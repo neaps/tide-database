@@ -1,0 +1,35 @@
+{
+  "id": "us-me-cross-river-entrance",
+  "name": "Cross River entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "ME",
+  "type": "subordinate",
+  "latitude": 43.925,
+  "longitude": -69.67,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8416928",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8416928",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8416928.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-portland",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1
+    },
+    "time": {
+      "high": 7,
+      "low": 4
+    }
+  }
+}

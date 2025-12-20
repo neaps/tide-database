@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-lake-worth-creek-day-beacon-19-icww",
+  "name": "Lake Worth Creek, Day Beacon 19, ICWW",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 26.9117,
+  "longitude": -80.08,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722512",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722512",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722512.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-government-cut-miami-harbor-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.92,
+      "low": 1.21
+    },
+    "time": {
+      "high": 29,
+      "low": 68
+    }
+  }
+}

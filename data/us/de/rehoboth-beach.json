@@ -1,0 +1,35 @@
+{
+  "id": "us-de-rehoboth-beach",
+  "name": "Rehoboth Beach",
+  "continent": "North America",
+  "country": "United States",
+  "region": "DE",
+  "type": "subordinate",
+  "latitude": 38.72,
+  "longitude": -75.0833,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8557863",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8557863",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8557863.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-md-ocean-city-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1.33
+    },
+    "time": {
+      "high": 15,
+      "low": 8
+    }
+  }
+}

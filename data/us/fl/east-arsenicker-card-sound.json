@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-east-arsenicker-card-sound",
+  "name": "East Arsenicker, Card Sound",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "EAST ARSENICKER, CARD SOUND",
-  "id": "us-fl-east-arsenicker-card-sound",
   "type": "reference",
   "latitude": 25.3733,
   "longitude": -80.29,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723465",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723465",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723465.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8723465",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723465",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723465.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.771,
     "HAT": 1.396,
@@ -338,5 +335,6 @@
     "DLQ": 0.024,
     "HWI": 3.61,
     "LWI": 10.142
-  }
+  },
+  "disclaimers": ""
 }

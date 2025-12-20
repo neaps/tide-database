@@ -1,12 +1,25 @@
 {
+  "id": "us-ms-pascagoula-noaa-lab",
+  "name": "Pascagoula NOAA Lab",
   "continent": "North America",
   "country": "United States",
   "region": "MS",
-  "name": "Pascagoula NOAA Lab",
-  "id": "us-ms-pascagoula-noaa-lab",
   "type": "reference",
-  "latitude": 30.367777,
-  "longitude": -88.56306,
+  "latitude": 30.36777777777778,
+  "longitude": -88.56305555555555,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8741533",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8741533",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8741533.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8741533",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8741533",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8741533.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.295,
     "HAT": 7.3900003,
@@ -337,5 +334,6 @@
     "DHQ": 0.028,
     "DLQ": 0.026,
     "NAVD88": 6.869
-  }
+  },
+  "disclaimers": ""
 }

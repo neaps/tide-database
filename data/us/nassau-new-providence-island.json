@@ -1,0 +1,35 @@
+{
+  "id": "us-nassau-new-providence-island",
+  "name": "Nassau, New Providence Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 25.08333333333299,
+  "longitude": -77.35,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4623",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4623",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4623.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-settlement-point-grand-bahamas-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 1.44
+    },
+    "time": {
+      "high": -8,
+      "low": -3
+    }
+  }
+}

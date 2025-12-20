@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-gowanus-bay",
+  "name": "Gowanus Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.665,
+  "longitude": -74.0133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8517921",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517921",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8517921.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-new-york-the-battery",
+    "height": {
+      "type": "ratio",
+      "high": 1.03,
+      "low": 0.95
+    },
+    "time": {
+      "high": -18,
+      "low": -12
+    }
+  }
+}

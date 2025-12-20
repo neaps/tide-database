@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-onion-key-lostmans-river",
+  "name": "Onion Key, Lostmans River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 25.6117,
+  "longitude": -81.1333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724863",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724863",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724863.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-naples-outer-coast",
+    "height": {
+      "type": "ratio",
+      "high": 0.26,
+      "low": 0.16
+    },
+    "time": {
+      "high": 189,
+      "low": 293
+    }
+  }
+}

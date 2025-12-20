@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-ventura",
+  "name": "Ventura",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 34.2667,
+  "longitude": -119.283,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9411189",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9411189",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9411189.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-los-angeles-outer-harbor",
+    "height": {
+      "type": "fixed",
+      "high": -0.03,
+      "low": 0
+    },
+    "time": {
+      "high": 9,
+      "low": 16
+    }
+  }
+}

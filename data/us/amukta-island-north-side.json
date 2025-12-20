@@ -1,0 +1,35 @@
+{
+  "id": "us-amukta-island-north-side",
+  "name": "Amukta Island, north side",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 52.51666666666701,
+  "longitude": -171.2333333333299,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2229",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2229",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC2229.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-unalaska",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 1.1
+    },
+    "time": {
+      "high": -152,
+      "low": -183
+    }
+  }
+}

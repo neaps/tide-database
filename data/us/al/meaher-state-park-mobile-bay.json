@@ -1,12 +1,25 @@
 {
+  "id": "us-al-meaher-state-park-mobile-bay",
+  "name": "Meaher State Park, Mobile Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "name": "Meaher State Park, Mobile Bay",
-  "id": "us-al-meaher-state-park-mobile-bay",
   "type": "reference",
-  "latitude": 30.667166,
-  "longitude": -87.93645,
+  "latitude": 30.66716666666667,
+  "longitude": -87.93644444444445,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8733839",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8733839",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8733839.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8733839",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8733839",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8733839.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.711,
     "HAT": 9.771,
@@ -336,5 +333,6 @@
     "MN": 0.452,
     "DHQ": 0.001,
     "DLQ": 0.016
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-white-city-gulf-county-canal",
+  "name": "White City, Gulf County Canal",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "White City, Gulf County Canal",
-  "id": "us-fl-white-city-gulf-county-canal",
   "type": "reference",
-  "latitude": 29.8668,
-  "longitude": -85.2706,
+  "latitude": 29.86680030822754,
+  "longitude": -85.27059936523438,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728886",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728886",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728886.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728886",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728886",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728886.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.061,
     "HAT": 7.908,
@@ -337,5 +334,6 @@
     "DHQ": 0.042,
     "DLQ": 0.021,
     "NAVD88": 7.401
-  }
+  },
+  "disclaimers": ""
 }

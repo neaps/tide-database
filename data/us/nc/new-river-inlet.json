@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-new-river-inlet",
+  "name": "New River Inlet",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 34.5333,
+  "longitude": -77.3417,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8657167",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8657167",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8657167.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-cape-hatteras-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.83
+    },
+    "time": {
+      "high": 16,
+      "low": 17
+    }
+  }
+}

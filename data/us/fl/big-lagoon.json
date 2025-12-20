@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-big-lagoon",
+  "name": "Big Lagoon",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "BIG LAGOON",
-  "id": "us-fl-big-lagoon",
   "type": "reference",
-  "latitude": 30.3267,
-  "longitude": -87.3567,
+  "latitude": 30.32670021057129,
+  "longitude": -87.35669708251953,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729909",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729909",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729909.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729909",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729909",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729909.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.63399994,
     "HAT": 1.437,
@@ -337,5 +334,6 @@
     "DHQ": 0.01,
     "DLQ": 0.013,
     "NAVD88": 0.962
-  }
+  },
+  "disclaimers": ""
 }

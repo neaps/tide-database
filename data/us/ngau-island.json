@@ -1,0 +1,35 @@
+{
+  "id": "us-ngau-island",
+  "name": "Ngau Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -18,
+  "longitude": 179.2166666666667,
+  "timezone": "Pacific/Fiji",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2883",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2883",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2883.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-suva-harbor-viti-levu-island",
+    "height": {
+      "type": "fixed",
+      "high": 0.12,
+      "low": 0.24
+    },
+    "time": {
+      "high": 14,
+      "low": -12
+    }
+  }
+}

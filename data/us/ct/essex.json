@@ -1,0 +1,35 @@
+{
+  "id": "us-ct-essex",
+  "name": "Essex",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CT",
+  "type": "subordinate",
+  "latitude": 41.3483,
+  "longitude": -72.385,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8462925",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8462925",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8462925.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ct-new-london-state-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.16,
+      "low": 1.15
+    },
+    "time": {
+      "high": 99,
+      "low": 98
+    }
+  }
+}

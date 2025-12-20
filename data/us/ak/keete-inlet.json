@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-keete-inlet",
+  "name": "Keete Inlet",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 55.08,
+  "longitude": -132.49,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450281",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450281",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450281.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sitka",
+    "height": {
+      "type": "fixed",
+      "high": 0.88,
+      "low": 0.03
+    },
+    "time": {
+      "high": -11,
+      "low": -1
+    }
+  }
+}

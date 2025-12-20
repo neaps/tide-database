@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-aialik-sill-aialik-bay",
+  "name": "Aialik Sill, Aialik Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "AIALIK SILL, AIALIK BAY",
-  "id": "us-ak-aialik-sill-aialik-bay",
   "type": "reference",
   "latitude": 59.885,
   "longitude": -149.718,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455146",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455146",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455146.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9455146",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455146",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455146.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.272,
     "HAT": 13.425,
@@ -338,5 +335,6 @@
     "DLQ": 0.414,
     "HWI": 9.988,
     "LWI": 3.72
-  }
+  },
+  "disclaimers": ""
 }

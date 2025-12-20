@@ -1,0 +1,35 @@
+{
+  "id": "us-va-smithfield-pagan-river",
+  "name": "Smithfield, Pagan River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 36.9833,
+  "longitude": -76.63,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638418",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638418",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8638418.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-hampton-roads-sewells-point",
+    "height": {
+      "type": "ratio",
+      "high": 1.14,
+      "low": 0.83
+    },
+    "time": {
+      "high": 94,
+      "low": 98
+    }
+  }
+}

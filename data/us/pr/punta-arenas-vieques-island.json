@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-punta-arenas-vieques-island",
+  "name": "Punta Arenas, Vieques Island",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "PUNTA ARENAS, VIEQUES ISLAND",
-  "id": "us-pr-punta-arenas-vieques-island",
   "type": "reference",
-  "latitude": 18.1124,
-  "longitude": -65.5759,
+  "latitude": 18.11240005493164,
+  "longitude": -65.57589721679688,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9752998",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752998",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752998.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9752998",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752998",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752998.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.123,
     "HAT": 8.594001,
@@ -337,5 +334,6 @@
     "DHQ": 0.005,
     "DLQ": 0.008,
     "PRVD02": 8.377
-  }
+  },
+  "disclaimers": ""
 }

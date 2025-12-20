@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-aialik-bay-north-end",
+  "name": "Aialik Bay, North end",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "AIALIK BAY, NORTH END",
-  "id": "us-ak-aialik-bay-north-end",
   "type": "reference",
   "latitude": 59.9533,
   "longitude": -149.715,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455145",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455145",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455145.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9455145",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455145",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455145.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 11.543,
     "HAT": 16.841,
@@ -338,5 +335,6 @@
     "DLQ": 0.41,
     "HWI": 9.96,
     "LWI": 3.74
-  }
+  },
+  "disclaimers": ""
 }

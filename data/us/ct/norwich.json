@@ -1,0 +1,35 @@
+{
+  "id": "us-ct-norwich",
+  "name": "Norwich",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CT",
+  "type": "subordinate",
+  "latitude": 41.5233,
+  "longitude": -72.0783,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8461392",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8461392",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8461392.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ct-new-london-state-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.18,
+      "low": 1.21
+    },
+    "time": {
+      "high": 24,
+      "low": 19
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-hampton-river-entrance",
+  "name": "Hampton River entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 31.21666666666701,
+  "longitude": -81.316666666667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3495",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3495",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC3495.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ga-fort-pulaski-savannah-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.95
+    },
+    "time": {
+      "high": 16,
+      "low": 4
+    }
+  }
+}

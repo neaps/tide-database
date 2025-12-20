@@ -1,0 +1,35 @@
+{
+  "id": "us-uganik-passage",
+  "name": "Uganik Passage",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 57.8,
+  "longitude": -153.3,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2071",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2071",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC2071.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-seldovia-kachemak-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.81,
+      "low": 0.81
+    },
+    "time": {
+      "high": -7,
+      "low": 2
+    }
+  }
+}

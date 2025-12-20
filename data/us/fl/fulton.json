@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-fulton",
+  "name": "Fulton",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.39,
+  "longitude": -81.5067,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720221",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720221",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720221.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-mayport-bar-pilot-dock",
+    "height": {
+      "type": "ratio",
+      "high": 0.8,
+      "low": 0.73
+    },
+    "time": {
+      "high": 24,
+      "low": 40
+    }
+  }
+}

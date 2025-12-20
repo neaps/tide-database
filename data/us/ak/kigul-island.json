@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-kigul-island",
+  "name": "Kigul Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 53.045,
+  "longitude": -168.442,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9462398",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462398",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462398.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-unalaska",
+    "height": {
+      "type": "ratio",
+      "high": 1.37,
+      "low": 1.27
+    },
+    "time": {
+      "high": -184,
+      "low": -222
+    }
+  }
+}

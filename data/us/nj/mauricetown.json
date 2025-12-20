@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-mauricetown",
+  "name": "Mauricetown",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.285,
+  "longitude": -74.9917,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537059",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537059",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8537059.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-lewes-breakwater-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.05
+    },
+    "time": {
+      "high": 137,
+      "low": 150
+    }
+  }
+}

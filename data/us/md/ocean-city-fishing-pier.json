@@ -1,12 +1,25 @@
 {
+  "id": "us-md-ocean-city-fishing-pier",
+  "name": "OCEAN CITY (FISHING PIER)",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "OCEAN CITY, FISHING PIER",
-  "id": "us-md-ocean-city-fishing-pier",
   "type": "reference",
   "latitude": 38.3267,
   "longitude": -75.0833,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8570280",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8570280",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8570280.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8570280",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8570280",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8570280.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.91300005,
     "HAT": 2.8569999,
@@ -339,5 +336,6 @@
     "HWI": 12.32,
     "LWI": 6.175,
     "NAVD88": 1.993
-  }
+  },
+  "disclaimers": ""
 }

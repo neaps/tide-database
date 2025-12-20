@@ -1,12 +1,25 @@
 {
+  "id": "us-nc-cape-hatteras-fishing-pier",
+  "name": "CAPE HATTERAS FISHING PIER",
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "name": "Cape Hatteras Fishing Pier",
-  "id": "us-nc-cape-hatteras-fishing-pier",
   "type": "reference",
   "latitude": 35.2233,
   "longitude": -75.635,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8654400",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8654400",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8654400.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8654400",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8654400",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8654400.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.6489999,
     "HAT": 2.393,
@@ -339,5 +336,6 @@
     "HWI": 12.18,
     "LWI": 5.97,
     "NAVD88": 1.588
-  }
+  },
+  "disclaimers": ""
 }

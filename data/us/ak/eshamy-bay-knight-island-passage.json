@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-eshamy-bay-knight-island-passage",
+  "name": "Eshamy Bay, Knight Island Passage",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 60.4483,
+  "longitude": -147.978,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454735",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454735",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454735.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-cordova",
+    "height": {
+      "type": "fixed",
+      "high": -0.12,
+      "low": 0
+    },
+    "time": {
+      "high": 1,
+      "low": 4
+    }
+  }
+}

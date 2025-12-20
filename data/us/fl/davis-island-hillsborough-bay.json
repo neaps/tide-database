@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-davis-island-hillsborough-bay",
+  "name": "Davis Island, Hillsborough Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 27.9083,
+  "longitude": -82.4517,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726657",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726657",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726657.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-st-petersburg",
+    "height": {
+      "type": "ratio",
+      "high": 1.16,
+      "low": 1.24
+    },
+    "time": {
+      "high": 3,
+      "low": 32
+    }
+  }
+}

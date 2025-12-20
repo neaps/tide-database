@@ -1,0 +1,35 @@
+{
+  "id": "us-md-holland-island-bar-light",
+  "name": "Holland Island Bar Light",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MD",
+  "type": "subordinate",
+  "latitude": 38.0683,
+  "longitude": -76.0967,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571214",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571214",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571214.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-chesapeake-bay-bridge-tunnel",
+    "height": {
+      "type": "ratio",
+      "high": 0.56,
+      "low": 0.58
+    },
+    "time": {
+      "high": 316,
+      "low": 330
+    }
+  }
+}

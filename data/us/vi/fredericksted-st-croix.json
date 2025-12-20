@@ -1,12 +1,25 @@
 {
+  "id": "us-vi-fredericksted-st-croix",
+  "name": "Fredericksted, St. Croix",
   "continent": "North America",
   "country": "United States",
   "region": "VI",
-  "name": "Fredericksted, St. Croix",
-  "id": "us-vi-fredericksted-st-croix",
   "type": "reference",
   "latitude": 17.7133,
   "longitude": -64.8833,
+  "timezone": "America/St_Thomas",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9751584",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9751584",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9751584.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/St_Thomas",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9751584",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9751584",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9751584.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.365,
     "HAT": 7.8329997,
@@ -336,5 +333,6 @@
     "MN": 0.214,
     "DHQ": 0.004,
     "DLQ": 0.002
-  }
+  },
+  "disclaimers": ""
 }

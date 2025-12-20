@@ -1,0 +1,35 @@
+{
+  "id": "us-milton-blackwater-river",
+  "name": "Milton, Blackwater River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 30.616666666667008,
+  "longitude": -87.03333333333299,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4383",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4383",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4383.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-pensacola",
+    "height": {
+      "type": "ratio",
+      "high": 1.2,
+      "low": 1.2
+    },
+    "time": {
+      "high": 100,
+      "low": 107
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-la-pilottown",
+  "name": "Pilottown",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Pilottown",
-  "id": "us-la-pilottown",
   "type": "reference",
-  "latitude": 29.179306,
-  "longitude": -89.258835,
+  "latitude": 29.17930555555556,
+  "longitude": -89.25883333333333,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760721",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760721",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760721.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8760721",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760721",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760721.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.516,
     "HAT": 2.299,
@@ -336,5 +333,6 @@
     "MN": 0.243,
     "DHQ": 0.001,
     "DLQ": 0.003
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-allston-creek",
+  "name": "Allston Creek",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 33.5317,
+  "longitude": -79.0533,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8661608",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8661608",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8661608.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-springmaid-pier-myrtle-beach",
+    "height": {
+      "type": "ratio",
+      "high": 0.84,
+      "low": 0.95
+    },
+    "time": {
+      "high": 52,
+      "low": 92
+    }
+  }
+}

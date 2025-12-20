@@ -1,0 +1,35 @@
+{
+  "id": "us-nh-dover-point",
+  "name": "Dover Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NH",
+  "type": "subordinate",
+  "latitude": 43.1217,
+  "longitude": -70.8333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8421897",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8421897",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8421897.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-portland",
+    "height": {
+      "type": "ratio",
+      "high": 0.7,
+      "low": 0.7
+    },
+    "time": {
+      "high": 93,
+      "low": 87
+    }
+  }
+}

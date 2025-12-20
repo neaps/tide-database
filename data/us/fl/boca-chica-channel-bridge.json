@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-boca-chica-channel-bridge",
+  "name": "Boca Chica Channel Bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.5767,
+  "longitude": -81.7217,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724503",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724503",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724503.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 0.57,
+      "low": 0.67
+    },
+    "time": {
+      "high": 83,
+      "low": 89
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-casilda",
+  "name": "Casilda",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 21.75,
+  "longitude": -79.983333333333,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4675",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4675",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4675.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pr-san-juan",
+    "height": {
+      "type": "ratio",
+      "high": 0.65,
+      "low": 0.65
+    },
+    "time": {
+      "high": 64,
+      "low": 52
+    }
+  }
+}

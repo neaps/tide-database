@@ -1,0 +1,35 @@
+{
+  "id": "us-sagua-de-tanamo-bahia-de",
+  "name": "Sagua de Tanamo, Bahia de",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 20.71666666666701,
+  "longitude": -75.316666666667,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4661",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4661",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4661.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-hampton-roads-sewells-point",
+    "height": {
+      "type": "ratio",
+      "high": 0.76,
+      "low": 0.76
+    },
+    "time": {
+      "high": -60,
+      "low": -68
+    }
+  }
+}

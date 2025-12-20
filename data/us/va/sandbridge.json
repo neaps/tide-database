@@ -1,0 +1,35 @@
+{
+  "id": "us-va-sandbridge",
+  "name": "Sandbridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 36.6917,
+  "longitude": -75.92,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8639428",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8639428",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8639428.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-duck-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 1.04
+    },
+    "time": {
+      "high": 7,
+      "low": 7
+    }
+  }
+}

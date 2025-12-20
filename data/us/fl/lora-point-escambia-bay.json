@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-lora-point-escambia-bay",
+  "name": "Lora Point, Escambia Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "LORA POINT, ESCAMBIA BAY",
-  "id": "us-fl-lora-point-escambia-bay",
   "type": "reference",
-  "latitude": 30.515,
-  "longitude": -87.1617,
+  "latitude": 30.514999389648438,
+  "longitude": -87.16169738769531,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729816",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729816",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729816.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729816",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729816",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729816.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.62600005,
     "HAT": 1.633,
@@ -336,5 +333,6 @@
     "MN": 0.395,
     "DHQ": 0.019,
     "DLQ": 0.015
-  }
+  },
+  "disclaimers": ""
 }

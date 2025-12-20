@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-horseshoe-point",
+  "name": "HORSESHOE POINT",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "HORSESHOE POINT",
-  "id": "us-fl-horseshoe-point",
   "type": "reference",
   "latitude": 29.4367,
   "longitude": -83.2933,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727648",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727648",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727648.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8727648",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727648",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727648.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.16899997,
     "HAT": 1.646,
@@ -339,5 +336,6 @@
     "HWI": 6.135,
     "LWI": 0.469,
     "NAVD88": 0.87
-  }
+  },
+  "disclaimers": ""
 }

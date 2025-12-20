@@ -1,12 +1,25 @@
 {
+  "id": "us-nc-davis-core-sound",
+  "name": "Davis, Core Sound",
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "name": "Davis, Core Sound",
-  "id": "us-nc-davis-core-sound",
   "type": "reference",
-  "latitude": 34.7968,
-  "longitude": -76.4555,
+  "latitude": 34.79679870605469,
+  "longitude": -76.45549774169922,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656201",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656201",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656201.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8656201",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656201",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656201.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.573999,
     "HAT": 9.287,
@@ -338,5 +335,6 @@
     "DLQ": 0.029,
     "HWI": 2.97,
     "LWI": 9.607
-  }
+  },
+  "disclaimers": ""
 }

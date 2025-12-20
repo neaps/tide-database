@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-target-island-mitchell-bay",
+  "name": "Target Island, Mitchell Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Target Island, Mitchell Bay",
-  "id": "us-ak-target-island-mitchell-bay",
   "type": "reference",
   "latitude": 57.5333,
   "longitude": -134.417,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451953",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451953",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451953.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Juneau",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451953",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451953",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451953.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 14.66374,
     "HAT": 19.699741,
@@ -338,5 +335,6 @@
     "DLQ": 0.322,
     "HWI": 11.31,
     "LWI": 5.18
-  }
+  },
+  "disclaimers": ""
 }

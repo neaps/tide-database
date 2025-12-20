@@ -1,0 +1,35 @@
+{
+  "id": "us-brown-cove",
+  "name": "Brown Cove",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 56.88333333333299,
+  "longitude": -132.8,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1659",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1659",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC1659.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-juneau",
+    "height": {
+      "type": "fixed",
+      "high": -0.09,
+      "low": -0.03
+    },
+    "time": {
+      "high": -14,
+      "low": -10
+    }
+  }
+}

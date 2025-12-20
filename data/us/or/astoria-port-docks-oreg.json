@@ -1,0 +1,35 @@
+{
+  "id": "us-or-astoria-port-docks-oreg",
+  "name": "Astoria (Port Docks), Oreg.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "OR",
+  "type": "subordinate",
+  "latitude": 46.1867,
+  "longitude": -123.86,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9439023",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9439023",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9439023.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-or-astoria-tongue-point-oreg",
+    "height": {
+      "type": "fixed",
+      "high": -0.15,
+      "low": 0
+    },
+    "time": {
+      "high": -8,
+      "low": -3
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-va-richmond-deepwater-terminal-james-river",
+  "name": "Richmond Deepwater Terminal, James River",
   "continent": "North America",
   "country": "United States",
   "region": "VA",
-  "name": "Richmond Deepwater Terminal, James River",
-  "id": "us-va-richmond-deepwater-terminal-james-river",
   "type": "reference",
-  "latitude": 37.459557,
-  "longitude": -77.42078,
+  "latitude": 37.45955555555555,
+  "longitude": -77.42077777777777,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8636941",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8636941",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8636941.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8636941",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8636941",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8636941.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.42299998,
     "HAT": 1.787,
@@ -338,5 +335,6 @@
     "DLQ": 0.042,
     "HWI": 8.831,
     "LWI": 3.756
-  }
+  },
+  "disclaimers": ""
 }

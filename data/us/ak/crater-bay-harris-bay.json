@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-crater-bay-harris-bay",
+  "name": "Crater Bay, Harris Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "CRATER BAY, HARRIS BAY",
-  "id": "us-ak-crater-bay-harris-bay",
   "type": "reference",
   "latitude": 59.7133,
   "longitude": -149.787,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455159",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455159",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455159.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9455159",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455159",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455159.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.91499996,
     "HAT": 6.283,
@@ -338,5 +335,6 @@
     "DLQ": 0.401,
     "HWI": 10.007,
     "LWI": 3.737
-  }
+  },
+  "disclaimers": ""
 }

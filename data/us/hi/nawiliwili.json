@@ -1,12 +1,25 @@
 {
+  "id": "us-hi-nawiliwili",
+  "name": "NAWILIWILI",
   "continent": "North America",
   "country": "United States",
   "region": "HI",
-  "name": "Nawiliwili",
-  "id": "us-hi-nawiliwili",
   "type": "reference",
   "latitude": 21.9544,
   "longitude": -159.3561,
+  "timezone": "Pacific/Honolulu",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "1611400",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=1611400",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/1611400.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "Pacific/Honolulu",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "1611400",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=1611400",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/1611400.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.537,
     "HAT": 1.498,
@@ -338,5 +335,6 @@
     "DLQ": 0.06,
     "HWI": 1.74,
     "LWI": 7.97
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-ri-castle-hill",
+  "name": "Castle Hill",
+  "continent": "North America",
+  "country": "United States",
+  "region": "RI",
+  "type": "subordinate",
+  "latitude": 41.4633,
+  "longitude": -71.3617,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8453201",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8453201",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8453201.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ri-newport",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 1
+    },
+    "time": {
+      "high": -5,
+      "low": 13
+    }
+  }
+}

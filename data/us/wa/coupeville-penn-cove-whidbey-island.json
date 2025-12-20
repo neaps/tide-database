@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-coupeville-penn-cove-whidbey-island",
+  "name": "Coupeville, Penn Cove, Whidbey Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.2233,
+  "longitude": -122.69,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9447929",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447929",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9447929.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-seattle-madison-st-elliott-bay",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 0.99
+    },
+    "time": {
+      "high": 15,
+      "low": 9
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-nh-atlantic-heights",
+  "name": "Atlantic Heights",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NH",
+  "type": "subordinate",
+  "latitude": 43.09,
+  "longitude": -70.7633,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8423635",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8423635",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8423635.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-portland",
+    "height": {
+      "type": "ratio",
+      "high": 0.82,
+      "low": 0.82
+    },
+    "time": {
+      "high": 37,
+      "low": 28
+    }
+  }
+}

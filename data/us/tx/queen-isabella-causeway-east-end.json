@@ -1,0 +1,35 @@
+{
+  "id": "us-tx-queen-isabella-causeway-east-end",
+  "name": "Queen Isabella Causeway (east end)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "TX",
+  "type": "subordinate",
+  "latitude": 26.0783,
+  "longitude": -97.17,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8779724",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8779724",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8779724.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-tx-padre-island-south-end",
+    "height": {
+      "type": "ratio",
+      "high": 0.87,
+      "low": 0.75
+    },
+    "time": {
+      "high": 24,
+      "low": 21
+    }
+  }
+}

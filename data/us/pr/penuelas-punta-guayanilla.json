@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-penuelas-punta-guayanilla",
+  "name": "Penuelas (Punta Guayanilla)",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Penuelas (Punta Guayanilla)",
-  "id": "us-pr-penuelas-punta-guayanilla",
   "type": "reference",
-  "latitude": 17.972528,
-  "longitude": -66.76178,
+  "latitude": 17.97252777777778,
+  "longitude": -66.76177777777778,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9758053",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9758053",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9758053.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9758053",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9758053",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9758053.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "[object Object]",
-  "restriction": "",
   "datums": {
     "LAT": 9.6050005,
     "HAT": 10.074,
@@ -336,5 +333,6 @@
     "MN": 0.202,
     "DHQ": 0.004,
     "DLQ": 0.006
-  }
+  },
+  "disclaimers": "These data are measured by the Puerto Rico Seismic Network (PRSN), located at the University of Puerto Rico Mayaguez. PRSN is a National Ocean Service (NOS) partner that adheres to NOS data collection standards. For more information on the PRSN, visit their <a href=\"http://tidesandcurrents.noaa.gov/redirect.shtml?url=45\">website</a>."
 }

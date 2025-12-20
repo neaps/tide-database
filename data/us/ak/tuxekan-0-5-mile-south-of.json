@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-tuxekan-0-5-mile-south-of",
+  "name": "Tuxekan, 0.5 mile south of",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 55.8833,
+  "longitude": -133.243,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450817",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450817",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450817.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sitka",
+    "height": {
+      "type": "fixed",
+      "high": 0.27,
+      "low": -0.03
+    },
+    "time": {
+      "high": -17,
+      "low": -7
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-skamokawa",
+  "name": "Skamokawa",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Skamokawa",
-  "id": "us-wa-skamokawa",
   "type": "reference",
-  "latitude": 46.270306,
+  "latitude": 46.27030555555555,
   "longitude": -123.4565,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9440569",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440569",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440569.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9440569",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440569",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440569.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "[object Object]",
-  "restriction": "",
   "datums": {
     "LAT": -0.411,
     "HAT": 2.9629998,
@@ -340,5 +337,6 @@
     "LWI": 4.378,
     "NAVD88": -0.398,
     "CRD_OFFSET": -0.018
-  }
+  },
+  "disclaimers": "<a href=\"https://tidesandcurrents.noaa.gov/crd.html\">Columbia River Datum (CRD)</a> is the adopted fixed low water reference plane for this area. CRD is a U.S. Army Corps of Engineers non-tidal datum defined at distinct river miles relative to NAVD88, and is used as chart datum above river mile 23 on the Columbia River. Datums are computed using observations from the low river stages of the year, generally August through October due to the masking of the tidal signal from strong seasonal river runoff during other portions of the year. Depending on river flow, water levels can be significantly higher than Columbia River Datum. As of 2014, the U.S. Army Corps of Engineers provided updated offsets for CRD that have been applied to this station. Station Datum (STND) is no longer set equal to CRD."
 }

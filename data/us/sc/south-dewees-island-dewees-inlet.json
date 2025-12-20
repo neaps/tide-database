@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-south-dewees-island-dewees-inlet",
+  "name": "South Dewees Island, Dewees Inlet",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 32.8333,
+  "longitude": -79.7267,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8665111",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8665111",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8665111.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-charleston-customhouse-wharf",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.89
+    },
+    "time": {
+      "high": -1,
+      "low": -17
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-locust-point-hog-island",
+  "name": "Locust Point, Hog Island",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "LOCUST POINT, HOG ISLAND",
-  "id": "us-fl-locust-point-hog-island",
   "type": "reference",
   "latitude": 26.93,
   "longitude": -82.1367,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725745",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725745",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725745.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8725745",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725745",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725745.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.596,
     "HAT": 1.714,
@@ -338,5 +335,6 @@
     "DLQ": 0.127,
     "HWI": 8.255,
     "LWI": 2.03
-  }
+  },
+  "disclaimers": ""
 }

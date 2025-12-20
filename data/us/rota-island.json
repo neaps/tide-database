@@ -1,0 +1,35 @@
+{
+  "id": "us-rota-island",
+  "name": "Rota Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 14.1333,
+  "longitude": 145.1333,
+  "timezone": "Pacific/Saipan",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2627",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2627",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2627.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-apra-harbor-guam",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.94
+    },
+    "time": {
+      "high": -3,
+      "low": -6
+    }
+  }
+}

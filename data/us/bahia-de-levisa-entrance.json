@@ -1,0 +1,35 @@
+{
+  "id": "us-bahia-de-levisa-entrance",
+  "name": "Bahia de Levisa entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 20.75,
+  "longitude": -75.46666666666701,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4659",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4659",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4659.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-hampton-roads-sewells-point",
+    "height": {
+      "type": "ratio",
+      "high": 0.77,
+      "low": 0.77
+    },
+    "time": {
+      "high": -63,
+      "low": -67
+    }
+  }
+}

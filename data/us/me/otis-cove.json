@@ -1,0 +1,35 @@
+{
+  "id": "us-me-otis-cove",
+  "name": "Otis Cove",
+  "continent": "North America",
+  "country": "United States",
+  "region": "ME",
+  "type": "subordinate",
+  "latitude": 43.9867,
+  "longitude": -69.2367,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8415867",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8415867",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8415867.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-portland",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1
+    },
+    "time": {
+      "high": -15,
+      "low": -14
+    }
+  }
+}

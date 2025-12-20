@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-palmas-del-mar",
+  "name": "Palmas del Mar",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Palmas del Mar",
-  "id": "us-pr-palmas-del-mar",
   "type": "reference",
-  "latitude": 18.0781,
-  "longitude": -65.7956,
+  "latitude": 18.078100204467773,
+  "longitude": -65.79560089111328,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9754057",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9754057",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9754057.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9754057",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9754057",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9754057.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.316,
     "HAT": 8.78,
@@ -337,5 +334,6 @@
     "DHQ": -0.001,
     "DLQ": -0.002,
     "PRVD02": 8.616
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-kupreanof-harbor-paul-island",
+  "name": "Kupreanof Harbor, Paul Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 55.79,
+  "longitude": -159.35,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9459145",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459145",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459145.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-kodiak-womens-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.89,
+      "low": 1.28
+    },
+    "time": {
+      "high": 19,
+      "low": 35
+    }
+  }
+}

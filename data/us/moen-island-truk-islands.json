@@ -1,0 +1,35 @@
+{
+  "id": "us-moen-island-truk-islands",
+  "name": "Moen Island, Truk Islands",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 7.45,
+  "longitude": 151.85,
+  "timezone": "Pacific/Chuuk",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2659",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2659",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2659.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fm-chuuk-moen-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.85
+    },
+    "time": {
+      "high": 10,
+      "low": 11
+    }
+  }
+}

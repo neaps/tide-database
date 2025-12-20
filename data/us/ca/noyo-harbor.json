@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-noyo-harbor",
+  "name": "NOYO HARBOR",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "NOYO HARBOR",
-  "id": "us-ca-noyo-harbor",
   "type": "reference",
-  "latitude": 39.425777,
-  "longitude": -123.805115,
+  "latitude": 39.42577777777778,
+  "longitude": -123.8051111111111,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9417426",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9417426",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9417426.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9417426",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9417426",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9417426.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.792,
     "HAT": 2.376,
@@ -338,5 +335,6 @@
     "DLQ": 0.371,
     "HWI": 6.877,
     "LWI": 0.569
-  }
+  },
+  "disclaimers": ""
 }

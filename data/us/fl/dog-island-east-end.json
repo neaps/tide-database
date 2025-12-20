@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-dog-island-east-end",
+  "name": "Dog Island, East End",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "DOG ISLAND, EAST END",
-  "id": "us-fl-dog-island-east-end",
   "type": "reference",
   "latitude": 29.81,
   "longitude": -84.585,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728408",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728408",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728408.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728408",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728408",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728408.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.323,
     "HAT": 1.1240001,
@@ -339,5 +336,6 @@
     "HWI": 7.053,
     "LWI": 0.81,
     "NAVD88": 0.635
-  }
+  },
+  "disclaimers": ""
 }

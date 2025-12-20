@@ -1,0 +1,35 @@
+{
+  "id": "us-me-isle-au-haut",
+  "name": "Isle Au Haut",
+  "continent": "North America",
+  "country": "United States",
+  "region": "ME",
+  "type": "subordinate",
+  "latitude": 44.0733,
+  "longitude": -68.6367,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8414288",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8414288",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8414288.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-bar-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 0.87,
+      "low": 0.88
+    },
+    "time": {
+      "high": -1,
+      "low": -27
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-coopers-creek-bridge",
+  "name": "Coopers Creek bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.5133,
+  "longitude": -75.4467,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537779",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537779",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8537779.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-reedy-point",
+    "height": {
+      "type": "ratio",
+      "high": 0.78,
+      "low": 0.78
+    },
+    "time": {
+      "high": 111,
+      "low": 60
+    }
+  }
+}

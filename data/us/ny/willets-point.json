@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-willets-point",
+  "name": "Willets Point",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "Willets Point",
-  "id": "us-ny-willets-point",
   "type": "reference",
   "latitude": 40.7933,
   "longitude": -73.7817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8516990",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516990",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8516990.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8516990",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516990",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8516990.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.103,
     "HAT": 4.4490004,
@@ -339,5 +336,6 @@
     "HWI": 4.05,
     "LWI": 10.77,
     "NAVD88": 2.81
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-toke-point",
+  "name": "Toke Point",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Toke Point",
-  "id": "us-wa-toke-point",
   "type": "reference",
   "latitude": 46.7075,
-  "longitude": -123.96694,
+  "longitude": -123.9669444,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9440910",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440910",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440910.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9440910",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440910",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440910.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.44706798,
     "HAT": 4.834068,
@@ -339,5 +336,6 @@
     "HWI": 8.779,
     "LWI": 2.544,
     "NAVD88": 1.627
-  }
+  },
+  "disclaimers": ""
 }

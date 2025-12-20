@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-cape-island-creek-cape-may",
+  "name": "Cape Island Creek, Cape May",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 38.9467,
+  "longitude": -74.9133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8535902",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8535902",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8535902.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-atlantic-city-ocean",
+    "height": {
+      "type": "ratio",
+      "high": 1.11,
+      "low": 1.19
+    },
+    "time": {
+      "high": 40,
+      "low": 20
+    }
+  }
+}

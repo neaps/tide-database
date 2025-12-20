@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-mystery-bay-marrowstone-island",
+  "name": "Mystery Bay, Marrowstone Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.0583,
+  "longitude": -122.692,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9444971",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9444971",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9444971.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-port-townsend",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 0.99
+    },
+    "time": {
+      "high": 15,
+      "low": 52
+    }
+  }
+}

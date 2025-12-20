@@ -1,0 +1,35 @@
+{
+  "id": "us-md-indian-head-md",
+  "name": "Indian Head, Md.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MD",
+  "type": "subordinate",
+  "latitude": 38.6017,
+  "longitude": -77.185,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8579381",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8579381",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8579381.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-dc-washington-washington-channel-d-c",
+    "height": {
+      "type": "ratio",
+      "high": 0.65,
+      "low": 0.73
+    },
+    "time": {
+      "high": -14,
+      "low": -93
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-guayaquil",
+  "name": "Guayaquil",
   "continent": "North America",
   "country": "United States",
   "region": "",
-  "name": "Guayaquil",
-  "id": "us-guayaquil",
   "type": "reference",
-  "latitude": -2.203333,
-  "longitude": -79.87,
+  "latitude": -2.2033329010009766,
+  "longitude": -79.87000274658203,
+  "timezone": "America/Guayaquil",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9991475",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9991475",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9991475.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,25 +318,10 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Guayaquil",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9991475",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9991475",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9991475.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "STND": 0,
     "MSL": 0,
     "MLLW": -1.935
-  }
+  },
+  "disclaimers": ""
 }

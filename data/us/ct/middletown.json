@@ -1,0 +1,35 @@
+{
+  "id": "us-ct-middletown",
+  "name": "Middletown",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CT",
+  "type": "subordinate",
+  "latitude": 41.56,
+  "longitude": -72.645,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8464336",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8464336",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8464336.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ct-new-london-state-pier",
+    "height": {
+      "type": "ratio",
+      "high": 0.83,
+      "low": 0.83
+    },
+    "time": {
+      "high": 234,
+      "low": 279
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-va-deep-creek-entrance",
+  "name": "Deep Creek Entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 36.755,
+  "longitude": -76.2933,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8639414",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8639414",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8639414.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-hampton-roads-sewells-point",
+    "height": {
+      "type": "ratio",
+      "high": 1.21,
+      "low": 1.25
+    },
+    "time": {
+      "high": 22,
+      "low": 18
+    }
+  }
+}

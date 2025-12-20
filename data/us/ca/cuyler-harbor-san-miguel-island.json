@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-cuyler-harbor-san-miguel-island",
+  "name": "Cuyler Harbor, San Miguel Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 34.0567,
+  "longitude": -120.355,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9410988",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410988",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9410988.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-los-angeles-outer-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.94
+    },
+    "time": {
+      "high": 33,
+      "low": 34
+    }
+  }
+}

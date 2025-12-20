@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-carlstadt-garretts-reach",
+  "name": "Carlstadt, Garretts Reach",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 40.8067,
+  "longitude": -74.06,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8530528",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8530528",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8530528.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-new-york-the-battery",
+    "height": {
+      "type": "ratio",
+      "high": 1.26,
+      "low": 1.29
+    },
+    "time": {
+      "high": 59,
+      "low": 45
+    }
+  }
+}

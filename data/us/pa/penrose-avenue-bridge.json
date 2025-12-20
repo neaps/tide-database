@@ -1,0 +1,35 @@
+{
+  "id": "us-pa-penrose-avenue-bridge",
+  "name": "Penrose Avenue Bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "PA",
+  "type": "subordinate",
+  "latitude": 39.8983,
+  "longitude": -75.2117,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8543925",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8543925",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8543925.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pa-philadelphia-us-coast-guard-station-pa",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.85
+    },
+    "time": {
+      "high": -22,
+      "low": -11
+    }
+  }
+}

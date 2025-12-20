@@ -1,12 +1,25 @@
 {
+  "id": "us-la-texas-gas-platform-caillou-bay",
+  "name": "Texas Gas Platform, Caillou Bay",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Texas Gas Platform, Caillou Bay",
-  "id": "us-la-texas-gas-platform-caillou-bay",
   "type": "reference",
-  "latitude": 29.174778,
-  "longitude": -90.97645,
+  "latitude": 29.17477777777778,
+  "longitude": -90.97644444444444,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8763535",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8763535",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8763535.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8763535",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8763535",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8763535.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.4729996,
     "HAT": 7.344,
@@ -336,5 +333,6 @@
     "MN": 0.403,
     "DHQ": 0.034,
     "DLQ": 0.057
-  }
+  },
+  "disclaimers": ""
 }

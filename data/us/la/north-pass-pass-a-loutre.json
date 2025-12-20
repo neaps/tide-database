@@ -1,0 +1,35 @@
+{
+  "id": "us-la-north-pass-pass-a-loutre",
+  "name": "North Pass, Pass a Loutre",
+  "continent": "North America",
+  "country": "United States",
+  "region": "LA",
+  "type": "subordinate",
+  "latitude": 29.205,
+  "longitude": -89.0367,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760412",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760412",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760412.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-south-pass",
+    "height": {
+      "type": "ratio",
+      "high": 0.91,
+      "low": 0.91
+    },
+    "time": {
+      "high": 42,
+      "low": 43
+    }
+  }
+}

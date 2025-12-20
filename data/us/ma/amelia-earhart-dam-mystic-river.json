@@ -1,12 +1,25 @@
 {
+  "id": "us-ma-amelia-earhart-dam-mystic-river",
+  "name": "Amelia Earhart Dam, Mystic River",
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "name": "AMELIA EARHART DAM, MYSTIC RIVER",
-  "id": "us-ma-amelia-earhart-dam-mystic-river",
   "type": "reference",
   "latitude": 42.395,
   "longitude": -71.0767,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8443662",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8443662",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8443662.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8443662",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8443662",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8443662.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.5740001,
     "HAT": 5.0340004,
@@ -338,5 +335,6 @@
     "DLQ": 0.102,
     "HWI": 3.748,
     "LWI": 9.965
-  }
+  },
+  "disclaimers": ""
 }

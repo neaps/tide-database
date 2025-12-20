@@ -1,0 +1,35 @@
+{
+  "id": "us-va-saunders-wharf",
+  "name": "Saunders Wharf",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 38.09,
+  "longitude": -77.0333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8635554",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8635554",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8635554.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-dc-washington-washington-channel-d-c",
+    "height": {
+      "type": "ratio",
+      "high": 0.54,
+      "low": 0.66
+    },
+    "time": {
+      "high": -233,
+      "low": -281
+    }
+  }
+}

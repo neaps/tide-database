@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-akun-cove-akun-island",
+  "name": "Akun Cove, Akun Island",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Akun Cove, Akun Island",
-  "id": "us-ak-akun-cove-akun-island",
   "type": "reference",
   "latitude": 54.2333,
   "longitude": -165.533,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9462719",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462719",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462719.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9462719",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462719",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462719.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.362,
     "HAT": 2.333,
@@ -336,5 +333,6 @@
     "MN": 0.73,
     "DHQ": 0.06,
     "DLQ": 0.15
-  }
+  },
+  "disclaimers": ""
 }

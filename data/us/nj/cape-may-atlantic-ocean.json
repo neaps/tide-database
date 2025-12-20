@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-cape-may-atlantic-ocean",
+  "name": "Cape May, Atlantic Ocean",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 38.93,
+  "longitude": -74.935,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8535962",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8535962",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8535962.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-atlantic-city-ocean",
+    "height": {
+      "type": "ratio",
+      "high": 1.12,
+      "low": 1.06
+    },
+    "time": {
+      "high": 34,
+      "low": 21
+    }
+  }
+}

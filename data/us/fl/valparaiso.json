@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-valparaiso",
+  "name": "Valparaiso",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Valparaiso",
-  "id": "us-fl-valparaiso",
   "type": "reference",
-  "latitude": 30.5033,
-  "longitude": -86.4933,
+  "latitude": 30.503299713134766,
+  "longitude": -86.49330139160156,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729501",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729501",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729501.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729501",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729501",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729501.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.185,
     "HAT": 1.64,
@@ -337,5 +334,6 @@
     "DHQ": 0.001,
     "DLQ": 0.001,
     "NAVD88": 1.314
-  }
+  },
+  "disclaimers": ""
 }

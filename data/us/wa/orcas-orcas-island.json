@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-orcas-orcas-island",
+  "name": "Orcas, Orcas Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.6,
+  "longitude": -122.95,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9449798",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9449798",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9449798.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-port-townsend",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.9
+    },
+    "time": {
+      "high": 33,
+      "low": 56
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-port-mackenzie",
+  "name": "Port MacKenzie",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Port Mackenzie",
-  "id": "us-ak-port-mackenzie",
   "type": "reference",
-  "latitude": 61.2683,
-  "longitude": -149.917,
+  "latitude": 61.2682991027832,
+  "longitude": -149.91700744628906,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455934",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455934",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455934.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9455934",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455934",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455934.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.4749999,
     "HAT": 13.184,
@@ -338,5 +335,6 @@
     "DLQ": 0.68,
     "HWI": 3.767,
     "LWI": 10.463
-  }
+  },
+  "disclaimers": ""
 }

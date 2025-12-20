@@ -1,12 +1,25 @@
 {
+  "id": "us-ri-bay-spring-bullock-cove",
+  "name": "Bay Spring, Bullock Cove",
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "name": "BAY SPRING, BULLOCK COVE",
-  "id": "us-ri-bay-spring-bullock-cove",
   "type": "reference",
-  "latitude": 41.7517,
-  "longitude": -71.3517,
+  "latitude": 41.75170135498047,
+  "longitude": -71.35169982910156,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8453033",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8453033",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8453033.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8453033",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8453033",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8453033.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.14399993,
     "HAT": 2.2719998,
@@ -338,5 +335,6 @@
     "DLQ": 0.054,
     "HWI": 0.457,
     "LWI": 5.941
-  }
+  },
+  "disclaimers": ""
 }

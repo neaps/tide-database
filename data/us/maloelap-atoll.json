@@ -1,0 +1,35 @@
+{
+  "id": "us-maloelap-atoll",
+  "name": "Maloelap Atoll",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 8.716666666666704,
+  "longitude": 171.2333333333299,
+  "timezone": "Pacific/Majuro",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2719",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2719",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2719.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-kwajalein-atoll-kwajalein-i",
+    "height": {
+      "type": "fixed",
+      "high": 0.03,
+      "low": -0.03
+    },
+    "time": {
+      "high": -4,
+      "low": -5
+    }
+  }
+}

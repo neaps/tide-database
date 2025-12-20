@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-culebrita",
+  "name": "Culebrita",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Culebrita",
-  "id": "us-pr-culebrita",
   "type": "reference",
-  "latitude": 18.3194,
-  "longitude": -65.2381,
+  "latitude": 18.319400787353516,
+  "longitude": -65.23809814453125,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9752062",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752062",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752062.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9752062",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752062",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752062.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.305,
     "HAT": 6.996,
@@ -337,5 +334,6 @@
     "DHQ": 0.069,
     "DLQ": 0.041,
     "PRVD02": 6.632
-  }
+  },
+  "disclaimers": ""
 }

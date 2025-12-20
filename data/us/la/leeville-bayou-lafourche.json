@@ -1,12 +1,25 @@
 {
+  "id": "us-la-leeville-bayou-lafourche",
+  "name": "Leeville, Bayou LaFourche",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "LEEVILLE, BAYOU LAFOURCHE",
-  "id": "us-la-leeville-bayou-lafourche",
   "type": "reference",
   "latitude": 29.2483,
   "longitude": -90.2117,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8762084",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762084",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762084.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8762084",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762084",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762084.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.81,
     "HAT": 1.506,
@@ -336,5 +333,6 @@
     "MN": 0.26,
     "DHQ": 0.003,
     "DLQ": 0.005
-  }
+  },
+  "disclaimers": ""
 }

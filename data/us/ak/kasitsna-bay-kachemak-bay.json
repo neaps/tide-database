@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-kasitsna-bay-kachemak-bay",
+  "name": "Kasitsna Bay, Kachemak Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Kasitsna Bay, Kachemak Bay",
-  "id": "us-ak-kasitsna-bay-kachemak-bay",
   "type": "reference",
-  "latitude": 59.468304,
+  "latitude": 59.46830555555555,
   "longitude": -151.565,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455517",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455517",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455517.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9455517",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455517",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455517.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -5.8510003,
     "HAT": 3.059,
@@ -338,5 +335,6 @@
     "DLQ": 0.514,
     "HWI": 11.19,
     "LWI": 4.86
-  }
+  },
+  "disclaimers": ""
 }

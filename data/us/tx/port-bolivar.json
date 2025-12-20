@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-port-bolivar",
+  "name": "Port Bolivar",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Port Bolivar",
-  "id": "us-tx-port-bolivar",
   "type": "reference",
   "latitude": 29.365,
   "longitude": -94.78,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8771328",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771328",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771328.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8771328",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771328",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771328.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.78200006,
     "HAT": 1.942,
@@ -336,5 +333,6 @@
     "MN": 0.343,
     "DHQ": 0.024,
     "DLQ": 0.059
-  }
+  },
+  "disclaimers": ""
 }

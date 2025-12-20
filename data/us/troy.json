@@ -1,0 +1,35 @@
+{
+  "id": "us-troy",
+  "name": "Troy",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 42.71666666666667,
+  "longitude": -73.7,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC1603",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC1603",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC1603.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-albany",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1
+    },
+    "time": {
+      "high": 8,
+      "low": 10
+    }
+  }
+}

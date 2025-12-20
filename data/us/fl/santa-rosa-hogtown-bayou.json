@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-santa-rosa-hogtown-bayou",
+  "name": "Santa Rosa, Hogtown Bayou",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "SANTA ROSA HOGTOWN BAYOU",
-  "id": "us-fl-santa-rosa-hogtown-bayou",
   "type": "reference",
-  "latitude": 30.4,
-  "longitude": -86.2283,
+  "latitude": 30.399999618530273,
+  "longitude": -86.22830200195312,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729376",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729376",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729376.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729376",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729376",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729376.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.18900001,
     "HAT": 0.32999998,
@@ -337,5 +334,6 @@
     "DHQ": 0.006,
     "DLQ": 0,
     "NAVD88": -0.002
-  }
+  },
+  "disclaimers": ""
 }

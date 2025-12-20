@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-cape-chunu",
+  "name": "Cape Chunu",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 51.665,
+  "longitude": -177.637,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9461183",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9461183",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9461183.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sweeper-cove-kuluk-bay-adak-island",
+    "height": {
+      "type": "ratio",
+      "high": 1.11,
+      "low": 1.11
+    },
+    "time": {
+      "high": -104,
+      "low": -114
+    }
+  }
+}

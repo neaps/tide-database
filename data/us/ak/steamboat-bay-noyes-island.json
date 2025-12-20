@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-steamboat-bay-noyes-island",
+  "name": "Steamboat Bay, Noyes Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 55.5333,
+  "longitude": -133.637,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450578",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450578",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450578.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sitka",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 0.93
+    },
+    "time": {
+      "high": -12,
+      "low": -13
+    }
+  }
+}

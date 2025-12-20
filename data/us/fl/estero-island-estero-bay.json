@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-estero-island-estero-bay",
+  "name": "Estero Island, Estero Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "ESTERO ISLAND, ESTERO BAY",
-  "id": "us-fl-estero-island-estero-bay",
   "type": "reference",
   "latitude": 26.4383,
   "longitude": -81.9183,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725351",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725351",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725351.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8725351",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725351",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725351.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.397,
     "HAT": 1.708,
@@ -339,5 +336,6 @@
     "HWI": 5.89,
     "LWI": 12.28,
     "NAVD88": 1.345
-  }
+  },
+  "disclaimers": ""
 }

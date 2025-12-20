@@ -1,12 +1,25 @@
 {
+  "id": "us-or-charleston",
+  "name": "CHARLESTON",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "Charleston",
-  "id": "us-or-charleston",
   "type": "reference",
-  "latitude": 43.345,
-  "longitude": -124.322,
+  "latitude": 43.345001220703125,
+  "longitude": -124.3219985961914,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9432780",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9432780",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9432780.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9432780",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9432780",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9432780.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.33800006,
     "HAT": 4.0880003,
@@ -339,5 +336,6 @@
     "HWI": 7.92,
     "LWI": 1.55,
     "NAVD88": 1.298
-  }
+  },
+  "disclaimers": ""
 }

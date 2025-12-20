@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-prisoners-harbor-santa-cruz-island",
+  "name": "Prisoners Harbor, Santa Cruz Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 34.02,
+  "longitude": -119.683,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9410971",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410971",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9410971.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-los-angeles-outer-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 1.01
+    },
+    "time": {
+      "high": 19,
+      "low": 18
+    }
+  }
+}

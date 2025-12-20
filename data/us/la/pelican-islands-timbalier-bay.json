@@ -1,0 +1,35 @@
+{
+  "id": "us-la-pelican-islands-timbalier-bay",
+  "name": "Pelican Islands, Timbalier Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "LA",
+  "type": "subordinate",
+  "latitude": 29.1283,
+  "longitude": -90.4233,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8762481",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762481",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762481.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-east-point-grand-isle",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1.13
+    },
+    "time": {
+      "high": 146,
+      "low": 146
+    }
+  }
+}

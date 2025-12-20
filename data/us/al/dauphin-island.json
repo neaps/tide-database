@@ -1,12 +1,25 @@
 {
+  "id": "us-al-dauphin-island",
+  "name": "DAUPHIN ISLAND",
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "name": "Dauphin Island",
-  "id": "us-al-dauphin-island",
   "type": "reference",
   "latitude": 30.25,
-  "longitude": -88.075,
+  "longitude": -88.07499694824219,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8735180",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8735180",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8735180.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8735180",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8735180",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8735180.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.5519999,
     "HAT": 1.4879999,
@@ -337,5 +334,6 @@
     "DHQ": 0.007,
     "DLQ": 0.004,
     "NAVD88": 1.034
-  }
+  },
+  "disclaimers": ""
 }

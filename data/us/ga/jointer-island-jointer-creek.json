@@ -1,0 +1,35 @@
+{
+  "id": "us-ga-jointer-island-jointer-creek",
+  "name": "Jointer Island, Jointer Creek",
+  "continent": "North America",
+  "country": "United States",
+  "region": "GA",
+  "type": "subordinate",
+  "latitude": 31.095,
+  "longitude": -81.505,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8677576",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8677576",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8677576.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-fernandina-beach-amelia-river",
+    "height": {
+      "type": "ratio",
+      "high": 1.18,
+      "low": 1.18
+    },
+    "time": {
+      "high": 11,
+      "low": 31
+    }
+  }
+}

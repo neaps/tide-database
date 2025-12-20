@@ -1,0 +1,35 @@
+{
+  "id": "us-ma-falmouth-heights",
+  "name": "Falmouth Heights",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MA",
+  "type": "subordinate",
+  "latitude": 41.545,
+  "longitude": -70.5933,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447865",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447865",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447865.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ma-boston",
+    "height": {
+      "type": "ratio",
+      "high": 0.14,
+      "low": 0.14
+    },
+    "time": {
+      "high": -16,
+      "low": -9
+    }
+  }
+}

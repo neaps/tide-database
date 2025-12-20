@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-sandy-point-whidbey-island",
+  "name": "Sandy Point, Whidbey Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.035,
+  "longitude": -122.377,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9447856",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447856",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9447856.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-seattle-madison-st-elliott-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 1
+    },
+    "time": {
+      "high": 3,
+      "low": -1
+    }
+  }
+}

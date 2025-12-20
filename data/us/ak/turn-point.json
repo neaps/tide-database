@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-turn-point",
+  "name": "Turn Point",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Turn Point",
-  "id": "us-ak-turn-point",
   "type": "reference",
   "latitude": 56.8,
   "longitude": -132.98,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451434",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451434",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451434.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451434",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451434",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451434.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -2.417749,
     "HAT": 4.8632507,
@@ -338,5 +335,6 @@
     "DLQ": 0.458,
     "HWI": 9.83,
     "LWI": 3.74
-  }
+  },
+  "disclaimers": ""
 }

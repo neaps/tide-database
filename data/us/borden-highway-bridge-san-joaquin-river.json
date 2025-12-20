@@ -1,0 +1,35 @@
+{
+  "id": "us-borden-highway-bridge-san-joaquin-river",
+  "name": "Borden Highway Bridge, San Joaquin River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 37.93666666666701,
+  "longitude": -121.33333333333005,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414367",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414367",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414367.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-port-chicago-suisun-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.78,
+      "low": 0.64
+    },
+    "time": {
+      "high": 268,
+      "low": 288
+    }
+  }
+}

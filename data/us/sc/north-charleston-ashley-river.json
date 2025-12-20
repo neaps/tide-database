@@ -1,12 +1,25 @@
 {
+  "id": "us-sc-north-charleston-ashley-river",
+  "name": "North Charleston, Ashley river",
   "continent": "North America",
   "country": "United States",
   "region": "SC",
-  "name": "North Charleston, Ashley River",
-  "id": "us-sc-north-charleston-ashley-river",
   "type": "reference",
-  "latitude": 32.9003,
-  "longitude": -80.1175,
+  "latitude": 32.900299072265625,
+  "longitude": -80.11750030517578,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8664699",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8664699",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8664699.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8664699",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8664699",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8664699.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.5360003,
     "HAT": 9.436,
@@ -339,5 +336,6 @@
     "HWI": 2.086,
     "LWI": 7.853,
     "NAVD88": 7.993
-  }
+  },
+  "disclaimers": ""
 }

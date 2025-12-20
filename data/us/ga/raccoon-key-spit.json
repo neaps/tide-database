@@ -1,12 +1,25 @@
 {
+  "id": "us-ga-raccoon-key-spit",
+  "name": "Raccoon Key Spit",
   "continent": "North America",
   "country": "United States",
   "region": "GA",
-  "name": "Raccoon Key Spit",
-  "id": "us-ga-raccoon-key-spit",
   "type": "reference",
-  "latitude": 31.014805,
-  "longitude": -81.45597,
+  "latitude": 31.01480555555555,
+  "longitude": -81.45597222222223,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8678124",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8678124",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8678124.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8678124",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8678124",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8678124.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.0299997,
     "HAT": 10.357,
@@ -338,5 +335,6 @@
     "DLQ": 0.063,
     "HWI": 1.05,
     "LWI": 7.41
-  }
+  },
+  "disclaimers": ""
 }

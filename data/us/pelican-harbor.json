@@ -1,0 +1,35 @@
+{
+  "id": "us-pelican-harbor",
+  "name": "Pelican Harbor",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 26.383333333332992,
+  "longitude": -76.96666666666701,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4621",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4621",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4621.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-settlement-point-grand-bahamas-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 1.11
+    },
+    "time": {
+      "high": 18,
+      "low": 28
+    }
+  }
+}

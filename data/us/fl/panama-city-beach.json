@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-panama-city-beach",
+  "name": "Panama City Beach",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Panama City Beach",
-  "id": "us-fl-panama-city-beach",
   "type": "reference",
   "latitude": 30.21375,
-  "longitude": -85.878586,
+  "longitude": -85.87858333333334,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729210",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729210",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729210.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729210",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729210",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729210.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.919,
     "HAT": 8.934,
@@ -337,5 +334,6 @@
     "DHQ": 0.023,
     "DLQ": 0.02,
     "NAVD88": 8.393
-  }
+  },
+  "disclaimers": ""
 }

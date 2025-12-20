@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-cherry-point",
+  "name": "CHERRY POINT",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Cherry Point",
-  "id": "us-wa-cherry-point",
   "type": "reference",
-  "latitude": 48.862717,
-  "longitude": -122.75858,
+  "latitude": 48.86271666666666,
+  "longitude": -122.7585833333333,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9449424",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9449424",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9449424.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9449424",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9449424",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9449424.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.74099994,
     "HAT": 5.273,
@@ -338,5 +335,6 @@
     "DLQ": 0.796,
     "HWI": 0.79,
     "LWI": 7.08
-  }
+  },
+  "disclaimers": ""
 }

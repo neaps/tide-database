@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-parker",
+  "name": "Parker",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.1267,
+  "longitude": -85.6117,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729084",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729084",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729084.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-pensacola",
+    "height": {
+      "type": "ratio",
+      "high": 1.2,
+      "low": 1.2
+    },
+    "time": {
+      "high": -5,
+      "low": 22
+    }
+  }
+}

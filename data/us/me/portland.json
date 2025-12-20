@@ -1,12 +1,25 @@
 {
+  "id": "us-me-portland",
+  "name": "PORTLAND",
   "continent": "North America",
   "country": "United States",
   "region": "ME",
-  "name": "Portland",
-  "id": "us-me-portland",
   "type": "reference",
-  "latitude": 43.658054,
-  "longitude": -70.24416,
+  "latitude": 43.65805555555556,
+  "longitude": -70.24416666666667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8418150",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8418150",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8418150.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8418150",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8418150",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8418150.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.9585259,
     "HAT": 6.2555256,
@@ -339,5 +336,6 @@
     "HWI": 3.593,
     "LWI": 9.751,
     "NAVD88": 4.208
-  }
+  },
+  "disclaimers": ""
 }

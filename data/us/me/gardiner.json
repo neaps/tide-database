@@ -1,12 +1,25 @@
 {
+  "id": "us-me-gardiner",
+  "name": "Gardiner",
   "continent": "North America",
   "country": "United States",
   "region": "ME",
-  "name": "Gardiner",
-  "id": "us-me-gardiner",
   "type": "reference",
   "latitude": 44.2333,
   "longitude": -69.7667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8417134",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8417134",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8417134.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8417134",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8417134",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8417134.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.4040003,
     "HAT": 8.981,
@@ -338,5 +335,6 @@
     "DLQ": 0.066,
     "HWI": 7.063,
     "LWI": 1.511
-  }
+  },
+  "disclaimers": ""
 }

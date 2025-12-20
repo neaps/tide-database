@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-bayside-copano-bay",
+  "name": "Bayside, Copano Bay",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "BAYSIDE, COPANO BAY",
-  "id": "us-tx-bayside-copano-bay",
   "type": "reference",
-  "latitude": 28.0683,
-  "longitude": -97.1956,
+  "latitude": 28.068300247192383,
+  "longitude": -97.19560241699219,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8774652",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8774652",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8774652.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8774652",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8774652",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8774652.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.74,
     "HAT": 6.9519997,
@@ -337,5 +334,6 @@
     "DHQ": 0.001,
     "DLQ": 0.005,
     "NAVD88": 6.614
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-cedar-swamp-creek-tuckahoe-river",
+  "name": "Cedar Swamp Creek, Tuckahoe River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.2467,
+  "longitude": -74.7183,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8535001",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8535001",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8535001.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-atlantic-city-ocean",
+    "height": {
+      "type": "ratio",
+      "high": 0.78,
+      "low": 1.53
+    },
+    "time": {
+      "high": 194,
+      "low": 183
+    }
+  }
+}

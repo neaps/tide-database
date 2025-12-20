@@ -1,0 +1,35 @@
+{
+  "id": "us-md-deep-neck-point-broad-creek",
+  "name": "Deep Neck Point, Broad Creek",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MD",
+  "type": "subordinate",
+  "latitude": 38.7317,
+  "longitude": -76.235,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8572204",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8572204",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8572204.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-md-baltimore-fort-mchenry",
+    "height": {
+      "type": "ratio",
+      "high": 1.25,
+      "low": 1.41
+    },
+    "time": {
+      "high": -177,
+      "low": -167
+    }
+  }
+}

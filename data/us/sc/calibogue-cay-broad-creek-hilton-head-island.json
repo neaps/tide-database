@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-calibogue-cay-broad-creek-hilton-head-island",
+  "name": "Calibogue Cay, Broad Creek, Hilton Head Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 32.1533,
+  "longitude": -80.795,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8669464",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8669464",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8669464.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ga-fort-pulaski-savannah-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 1
+    },
+    "time": {
+      "high": 20,
+      "low": 9
+    }
+  }
+}

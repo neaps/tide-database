@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-puale-bay",
+  "name": "Puale Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Puale Bay",
-  "id": "us-ak-puale-bay",
   "type": "reference",
   "latitude": 57.7067,
   "longitude": -155.393,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9458209",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9458209",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9458209.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9458209",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9458209",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9458209.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.5,
     "HAT": 5.583,
@@ -338,5 +335,6 @@
     "DLQ": 0.482,
     "HWI": 11.054,
     "LWI": 4.949
-  }
+  },
+  "disclaimers": ""
 }

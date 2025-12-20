@@ -1,0 +1,35 @@
+{
+  "id": "us-playa-cortada",
+  "name": "Playa Cortada",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 17.983333333332993,
+  "longitude": -66.45,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4735",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4735",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4735.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pr-magueyes-island",
+    "height": {
+      "type": "ratio",
+      "high": 1.14,
+      "low": 1.14
+    },
+    "time": {
+      "high": 16,
+      "low": -37
+    }
+  }
+}

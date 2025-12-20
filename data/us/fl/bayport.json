@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-bayport",
+  "name": "Bayport",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "BAYPORT",
-  "id": "us-fl-bayport",
   "type": "reference",
   "latitude": 28.5333,
   "longitude": -82.65,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727151",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727151",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727151.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8727151",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727151",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727151.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.14099997,
     "HAT": 1.746,
@@ -339,5 +336,6 @@
     "HWI": 6.473,
     "LWI": 1.045,
     "NAVD88": 1.059
-  }
+  },
+  "disclaimers": ""
 }

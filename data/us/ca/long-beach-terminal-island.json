@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-long-beach-terminal-island",
+  "name": "Long Beach, Terminal Island",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "LONG BEACH, TERMINAL ISLAND",
-  "id": "us-ca-long-beach-terminal-island",
   "type": "reference",
   "latitude": 33.7517,
   "longitude": -118.227,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9410680",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410680",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9410680.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9410680",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410680",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9410680.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.02700007,
     "HAT": 2.868,
@@ -338,5 +335,6 @@
     "DLQ": 0.287,
     "HWI": 5.126,
     "LWI": 11.198
-  }
+  },
+  "disclaimers": ""
 }

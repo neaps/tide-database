@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-beach-channel-bridge",
+  "name": "Beach Channel (bridge)",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "Beach Channel (bridge)",
-  "id": "us-ny-beach-channel-bridge",
   "type": "reference",
   "latitude": 40.5883,
   "longitude": -73.82,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8517137",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517137",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8517137.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8517137",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517137",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8517137.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.9639997,
     "HAT": 7.641,
@@ -338,5 +335,6 @@
     "DLQ": 0.066,
     "HWI": 0.574,
     "LWI": 6.985
-  }
+  },
+  "disclaimers": ""
 }

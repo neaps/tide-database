@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-table-bay-kuiu-island",
+  "name": "Table Bay, Kuiu Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 56.1667,
+  "longitude": -134.245,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451001",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451001",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451001.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sitka",
+    "height": {
+      "type": "fixed",
+      "high": 0.34,
+      "low": 0
+    },
+    "time": {
+      "high": -15,
+      "low": -13
+    }
+  }
+}

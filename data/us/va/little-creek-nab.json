@@ -1,0 +1,35 @@
+{
+  "id": "us-va-little-creek-nab",
+  "name": "Little Creek, NAB",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 36.9117,
+  "longitude": -76.175,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638776",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638776",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8638776.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-chesapeake-bay-bridge-tunnel",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 1.17
+    },
+    "time": {
+      "high": 8,
+      "low": 9
+    }
+  }
+}

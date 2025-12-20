@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-puerto-maunabo",
+  "name": "Puerto Maunabo",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Puerto Maunabo",
-  "id": "us-pr-puerto-maunabo",
   "type": "reference",
-  "latitude": 17.9914,
-  "longitude": -65.8888,
+  "latitude": 17.99139976501465,
+  "longitude": -65.88880157470703,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9754487",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9754487",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9754487.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9754487",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9754487",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9754487.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.274,
     "HAT": 8.742001,
@@ -337,5 +334,6 @@
     "DHQ": 0,
     "DLQ": 0,
     "PRVD02": 8.524
-  }
+  },
+  "disclaimers": ""
 }

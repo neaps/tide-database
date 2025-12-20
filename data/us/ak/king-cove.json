@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-king-cove",
+  "name": "King Cove",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "King Cove",
-  "id": "us-ak-king-cove",
   "type": "reference",
-  "latitude": 55.05989,
-  "longitude": -162.32611,
+  "latitude": 55.05988888888889,
+  "longitude": -162.3261111111111,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9459881",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459881",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459881.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9459881",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459881",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459881.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.41200006,
     "HAT": 3.977,
@@ -339,5 +336,6 @@
     "HWI": 11.363,
     "LWI": 4.944,
     "NAVD88": 1.385
-  }
+  },
+  "disclaimers": ""
 }

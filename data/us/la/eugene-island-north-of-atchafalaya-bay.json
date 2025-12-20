@@ -1,12 +1,25 @@
 {
+  "id": "us-la-eugene-island-north-of-atchafalaya-bay",
+  "name": "Eugene Island, North of, Atchafalaya Bay",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Eugene Island, North of, Atchafalaya Bay",
-  "id": "us-la-eugene-island-north-of-atchafalaya-bay",
   "type": "reference",
-  "latitude": 29.3675,
-  "longitude": -91.3839,
+  "latitude": 29.36750030517578,
+  "longitude": -91.38390350341797,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8764314",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8764314",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8764314.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8764314",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8764314",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8764314.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 3.3370001,
     "HAT": 4.525,
@@ -336,5 +333,6 @@
     "MN": 0.404,
     "DHQ": 0.042,
     "DLQ": 0.12
-  }
+  },
+  "disclaimers": ""
 }

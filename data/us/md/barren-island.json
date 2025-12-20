@@ -1,12 +1,25 @@
 {
+  "id": "us-md-barren-island",
+  "name": "Barren Island",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "Barren Island",
-  "id": "us-md-barren-island",
   "type": "reference",
   "latitude": 38.3417,
   "longitude": -76.265,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571579",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571579",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571579.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8571579",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571579",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571579.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.661,
     "HAT": 9.425,
@@ -339,5 +336,6 @@
     "HWI": 6.775,
     "LWI": 0.761,
     "NAVD88": 9.204
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-st-george-island-rattlesnake-cove",
+  "name": "St. George Island, Rattlesnake Cove",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 29.691694259643555,
+  "longitude": -84.79169464111328,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728552",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728552",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728552.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-apalachicola",
+    "height": {
+      "type": "ratio",
+      "high": 1.33,
+      "low": 1.2
+    },
+    "time": {
+      "high": -60,
+      "low": -95
+    }
+  }
+}

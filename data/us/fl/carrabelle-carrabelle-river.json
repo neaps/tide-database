@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-carrabelle-carrabelle-river",
+  "name": "Carrabelle, Carrabelle River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 29.85,
+  "longitude": -84.665,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728464",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728464",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728464.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-apalachicola",
+    "height": {
+      "type": "ratio",
+      "high": 1.6,
+      "low": 1.6
+    },
+    "time": {
+      "high": -85,
+      "low": -133
+    }
+  }
+}

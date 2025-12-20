@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-vallejo-mare-island-strait",
+  "name": "Vallejo, Mare Island Strait",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 38.1117,
+  "longitude": -122.273,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415165",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415165",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9415165.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-san-francisco-golden-gate",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 0.84
+    },
+    "time": {
+      "high": 107,
+      "low": 132
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-culross-bay-wells-passage",
+  "name": "Culross Bay, Wells Passage",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 60.7417,
+  "longitude": -148.172,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454798",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454798",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454798.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-cordova",
+    "height": {
+      "type": "fixed",
+      "high": -0.12,
+      "low": 0
+    },
+    "time": {
+      "high": -15,
+      "low": -1
+    }
+  }
+}

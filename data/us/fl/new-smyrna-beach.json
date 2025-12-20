@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-new-smyrna-beach",
+  "name": "New Smyrna Beach",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "New Smyrna Beach",
-  "id": "us-fl-new-smyrna-beach",
   "type": "reference",
   "latitude": 29.0233,
   "longitude": -80.9183,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8721164",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8721164",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8721164.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8721164",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8721164",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8721164.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.746,
     "HAT": 0.45500004,
@@ -339,5 +336,6 @@
     "HWI": 1.455,
     "LWI": 7.779,
     "NAVD88": 0.005
-  }
+  },
+  "disclaimers": ""
 }

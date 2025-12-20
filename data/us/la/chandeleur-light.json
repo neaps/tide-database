@@ -1,0 +1,35 @@
+{
+  "id": "us-la-chandeleur-light",
+  "name": "Chandeleur Light",
+  "continent": "North America",
+  "country": "United States",
+  "region": "LA",
+  "type": "subordinate",
+  "latitude": 30.0483,
+  "longitude": -88.8717,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760172",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760172",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760172.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-south-pass",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.98
+    },
+    "time": {
+      "high": 110,
+      "low": 114
+    }
+  }
+}

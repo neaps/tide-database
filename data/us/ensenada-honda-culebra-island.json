@@ -1,0 +1,35 @@
+{
+  "id": "us-ensenada-honda-culebra-island",
+  "name": "Ensenada Honda, Culebra Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 18.3,
+  "longitude": -65.28333333333299,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4749",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4749",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4749.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pr-san-juan",
+    "height": {
+      "type": "ratio",
+      "high": 0.63,
+      "low": 0.63
+    },
+    "time": {
+      "high": -34,
+      "low": -15
+    }
+  }
+}

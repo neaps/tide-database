@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-upper-golovnin-lagoon",
+  "name": "Upper Golovnin Lagoon",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Upper Golovnin Lagoon",
-  "id": "us-ak-upper-golovnin-lagoon",
   "type": "reference",
-  "latitude": 64.6208,
-  "longitude": -163.149,
+  "latitude": 64.62079620361328,
+  "longitude": -163.1490020751953,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9468841",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468841",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468841.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9468841",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468841",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468841.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.3120003,
     "HAT": 9.052,
@@ -337,5 +334,6 @@
     "DHQ": 0.026,
     "DLQ": 0.014,
     "NAVD88": 6.973
-  }
+  },
+  "disclaimers": ""
 }

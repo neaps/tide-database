@@ -1,12 +1,25 @@
 {
+  "id": "us-va-chesapeake-bay-bridge-tunnel",
+  "name": "CHESAPEAKE BAY BRIDGE TUNNEL",
   "continent": "North America",
   "country": "United States",
   "region": "VA",
-  "name": "Chesapeake Bay Bridge Tunnel",
-  "id": "us-va-chesapeake-bay-bridge-tunnel",
   "type": "reference",
-  "latitude": 36.9667,
-  "longitude": -76.1133,
+  "latitude": 36.96670150756836,
+  "longitude": -76.11329650878906,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638863",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638863",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8638863.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8638863",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638863",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8638863.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.4150066,
     "HAT": 8.900007,
@@ -338,5 +335,6 @@
     "DLQ": 0.037,
     "HWI": 0.646,
     "LWI": 6.841
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-nukshak-island-shelikof-strait",
+  "name": "Nukshak Island, Shelikof Strait",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "NUKSHAK ISLAND, SHELIKOF STRAIT",
-  "id": "us-ak-nukshak-island-shelikof-strait",
   "type": "reference",
   "latitude": 58.3917,
   "longitude": -153.958,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9456717",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9456717",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9456717.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9456717",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9456717",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9456717.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -2.302,
     "HAT": 4.377,
@@ -338,5 +335,6 @@
     "DLQ": 0.49,
     "HWI": 11.214,
     "LWI": 5.029
-  }
+  },
+  "disclaimers": ""
 }

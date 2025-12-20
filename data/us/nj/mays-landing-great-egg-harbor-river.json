@@ -1,12 +1,25 @@
 {
+  "id": "us-nj-mays-landing-great-egg-harbor-river",
+  "name": "Mays Landing, Great Egg Harbor River",
   "continent": "North America",
   "country": "United States",
   "region": "NJ",
-  "name": "MAYS LANDING, GREAT EGG HARBOR RIVER",
-  "id": "us-nj-mays-landing-great-egg-harbor-river",
   "type": "reference",
   "latitude": 39.4483,
   "longitude": -74.7283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8534468",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8534468",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8534468.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8534468",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8534468",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8534468.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.551,
     "HAT": 2.195,
@@ -338,5 +335,6 @@
     "DLQ": 0.059,
     "HWI": 2.735,
     "LWI": 9.279
-  }
+  },
+  "disclaimers": ""
 }

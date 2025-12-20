@@ -1,12 +1,25 @@
 {
+  "id": "us-al-fly-creek-mobile-bay",
+  "name": "Fly Creek, Mobile Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "name": "Fly Creek, Mobile Bay",
-  "id": "us-al-fly-creek-mobile-bay",
   "type": "reference",
-  "latitude": 30.5428,
-  "longitude": -87.901,
+  "latitude": 30.542800903320312,
+  "longitude": -87.9010009765625,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8733502",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8733502",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8733502.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8733502",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8733502",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8733502.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.496,
     "HAT": 5.659,
@@ -336,5 +333,6 @@
     "MN": 0.515,
     "DHQ": 0.015,
     "DLQ": -0.003
-  }
+  },
+  "disclaimers": ""
 }

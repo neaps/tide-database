@@ -1,12 +1,25 @@
 {
+  "id": "us-sc-oyster-landing-n-inlet-estuary",
+  "name": "Oyster Landing (N. Inlet Estuary)",
   "continent": "North America",
   "country": "United States",
   "region": "SC",
-  "name": "Oyster Landing (N Inlet Estuary)",
-  "id": "us-sc-oyster-landing-n-inlet-estuary",
   "type": "reference",
-  "latitude": 33.3517,
-  "longitude": -79.1867,
+  "latitude": 33.35169982910156,
+  "longitude": -79.18669891357422,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8662245",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8662245",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8662245.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8662245",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8662245",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8662245.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.8920001,
     "HAT": 3.147,
@@ -339,5 +336,6 @@
     "HWI": 1.07,
     "LWI": 7.05,
     "NAVD88": 2.04
-  }
+  },
+  "disclaimers": ""
 }

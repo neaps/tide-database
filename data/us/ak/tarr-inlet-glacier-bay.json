@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-tarr-inlet-glacier-bay",
+  "name": "Tarr Inlet, Glacier Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Tarr Inlet, Glacier Bay",
-  "id": "us-ak-tarr-inlet-glacier-bay",
   "type": "reference",
-  "latitude": 58.96478,
-  "longitude": -136.87758,
+  "latitude": 58.96477777777778,
+  "longitude": -136.8775833333333,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452749",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452749",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452749.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Juneau",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9452749",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452749",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452749.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -3.335,
     "HAT": 4.604,
@@ -338,5 +335,6 @@
     "DLQ": 0.528,
     "HWI": 10.21,
     "LWI": 4.17
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-arroyo",
+  "name": "Arroyo",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 17.96666666666701,
+  "longitude": -66.066666666667,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4737",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4737",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4737.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pr-magueyes-island",
+    "height": {
+      "type": "ratio",
+      "high": 1.14,
+      "low": 1.14
+    },
+    "time": {
+      "high": 52,
+      "low": 13
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-ma-sesuit-harbor-east-dennis",
+  "name": "Sesuit Harbor, East Dennis",
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "name": "SESUIT HARBOR, EAST DENNIS",
-  "id": "us-ma-sesuit-harbor-east-dennis",
   "type": "reference",
   "latitude": 41.7517,
   "longitude": -70.155,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447241",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447241",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447241.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8447241",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447241",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447241.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.020999908,
     "HAT": 4.6260004,
@@ -338,5 +335,6 @@
     "DLQ": 0.084,
     "HWI": 3.755,
     "LWI": 9.912
-  }
+  },
+  "disclaimers": ""
 }

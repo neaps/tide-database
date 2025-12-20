@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-tocoi",
+  "name": "Tocoi",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 29.8583,
+  "longitude": -81.5533,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720596",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720596",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720596.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-mayport-bar-pilot-dock",
+    "height": {
+      "type": "ratio",
+      "high": 0.21,
+      "low": 0.27
+    },
+    "time": {
+      "high": 362,
+      "low": 423
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-shakan-strait-kosciusko-island",
+  "name": "Shakan Strait, Kosciusko Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 56.1483,
+  "longitude": -133.46,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450987",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450987",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450987.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sitka",
+    "height": {
+      "type": "ratio",
+      "high": 1.16,
+      "low": 0.95
+    },
+    "time": {
+      "high": -7,
+      "low": -10
+    }
+  }
+}

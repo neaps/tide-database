@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-ukolnoi-island",
+  "name": "Ukolnoi Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 55.2583,
+  "longitude": -161.537,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9459696",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459696",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459696.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sand-point-popof-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.98
+    },
+    "time": {
+      "high": 7,
+      "low": 0
+    }
+  }
+}

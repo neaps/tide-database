@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-panacea-dickerson-bay",
+  "name": "Panacea, Dickerson Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "PANACEA, DICKERSON BAY",
-  "id": "us-fl-panacea-dickerson-bay",
   "type": "reference",
-  "latitude": 30.0283,
-  "longitude": -84.3867,
+  "latitude": 30.02829933166504,
+  "longitude": -84.38670349121094,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728269",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728269",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728269.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728269",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728269",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728269.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.071,
     "HAT": 0.787,
@@ -339,5 +336,6 @@
     "HWI": 7.331,
     "LWI": 1.153,
     "NAVD88": -0.002
-  }
+  },
+  "disclaimers": ""
 }

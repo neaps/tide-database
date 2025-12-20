@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-college-point-flushing-bay",
+  "name": "College Point, Flushing Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.7833,
+  "longitude": -73.8567,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8517276",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517276",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8517276.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-kings-point",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 1.04
+    },
+    "time": {
+      "high": 17,
+      "low": 16
+    }
+  }
+}

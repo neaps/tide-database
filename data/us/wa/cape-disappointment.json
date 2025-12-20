@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-cape-disappointment",
+  "name": "Cape Disappointment",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Cape Disappointment",
-  "id": "us-wa-cape-disappointment",
   "type": "reference",
-  "latitude": 46.28103,
-  "longitude": -124.04628,
+  "latitude": 46.28102777777778,
+  "longitude": -124.0462777777778,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9440581",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440581",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440581.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9440581",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440581",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440581.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 15.094,
     "HAT": 19.092,
@@ -339,5 +336,6 @@
     "HWI": 8.623,
     "LWI": 2.047,
     "NAVD88": 16.073
-  }
+  },
+  "disclaimers": ""
 }

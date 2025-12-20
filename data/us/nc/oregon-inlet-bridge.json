@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-oregon-inlet-bridge",
+  "name": "Oregon Inlet Bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 35.7733,
+  "longitude": -75.5383,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8652659",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8652659",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8652659.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-oregon-inlet-marina",
+    "height": {
+      "type": "ratio",
+      "high": 1.89,
+      "low": 0.64
+    },
+    "time": {
+      "high": -17,
+      "low": -55
+    }
+  }
+}

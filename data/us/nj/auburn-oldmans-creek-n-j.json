@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-auburn-oldmans-creek-n-j",
+  "name": "Auburn, Oldmans Creek, N.J.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.715,
+  "longitude": -75.36,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8538274",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8538274",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8538274.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-reedy-point",
+    "height": {
+      "type": "ratio",
+      "high": 0.55,
+      "low": 0.55
+    },
+    "time": {
+      "high": 252,
+      "low": 210
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-tindalls-wharf-cohansey-river",
+  "name": "Tindalls Wharf, Cohansey River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.3783,
+  "longitude": -75.235,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537353",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537353",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8537353.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-reedy-point",
+    "height": {
+      "type": "ratio",
+      "high": 1.09,
+      "low": 1.09
+    },
+    "time": {
+      "high": 61,
+      "low": -2
+    }
+  }
+}

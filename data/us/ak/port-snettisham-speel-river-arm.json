@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-port-snettisham-speel-river-arm",
+  "name": "Port Snettisham, Speel River Arm",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Port Snettisham, Speel River Arm",
-  "id": "us-ak-port-snettisham-speel-river-arm",
   "type": "reference",
-  "latitude": 58.116695,
-  "longitude": -133.69,
+  "latitude": 58.116695404052734,
+  "longitude": -133.69000244140625,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452081",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452081",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452081.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Juneau",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9452081",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452081",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452081.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 3.097,
     "HAT": 10.364,
@@ -339,5 +336,6 @@
     "HWI": 9.77,
     "LWI": 3.663,
     "NAVD88": 5.238
-  }
+  },
+  "disclaimers": ""
 }

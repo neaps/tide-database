@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-st-matthew-island",
+  "name": "St. Matthew Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 60.358299255371094,
+  "longitude": -172.71499633789062,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9466203",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9466203",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9466203.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-village-cove-st-paul-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.61,
+      "low": 0.61
+    },
+    "time": {
+      "high": 6,
+      "low": 29
+    }
+  }
+}

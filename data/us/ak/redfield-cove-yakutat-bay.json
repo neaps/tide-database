@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-redfield-cove-yakutat-bay",
+  "name": "Redfield Cove, Yakutat Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 59.6117,
+  "longitude": -139.58,
+  "timezone": "America/Yakutat",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9453208",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9453208",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9453208.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-yakutat-yakutat-bay",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 0.92
+    },
+    "time": {
+      "high": 1,
+      "low": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-albatross-anchorage-balboa-bay",
+  "name": "Albatross Anchorage, Balboa Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 55.59,
+  "longitude": -160.613,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9459464",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459464",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459464.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sand-point-popof-island",
+    "height": {
+      "type": "ratio",
+      "high": 1.06,
+      "low": 1.05
+    },
+    "time": {
+      "high": -2,
+      "low": 3
+    }
+  }
+}

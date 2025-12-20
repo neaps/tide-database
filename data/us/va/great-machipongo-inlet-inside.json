@@ -1,0 +1,35 @@
+{
+  "id": "us-va-great-machipongo-inlet-inside",
+  "name": "Great Machipongo Inlet (inside)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 37.3933,
+  "longitude": -75.7133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8631411",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8631411",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8631411.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-md-ocean-city-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.16,
+      "low": 1.25
+    },
+    "time": {
+      "high": 65,
+      "low": 56
+    }
+  }
+}

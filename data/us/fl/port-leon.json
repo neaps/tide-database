@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-port-leon",
+  "name": "Port Leon",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Port Leon",
-  "id": "us-fl-port-leon",
   "type": "reference",
-  "latitude": 30.1244,
-  "longitude": -84.149,
+  "latitude": 30.124399185180664,
+  "longitude": -84.14900207519531,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728104",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728104",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728104.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728104",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728104",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728104.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.577,
     "HAT": 8.455,
@@ -339,5 +336,6 @@
     "HWI": 7.963,
     "LWI": 1.507,
     "NAVD88": 7.653
-  }
+  },
+  "disclaimers": ""
 }

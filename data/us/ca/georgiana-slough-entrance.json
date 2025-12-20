@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-georgiana-slough-entrance",
+  "name": "Georgiana Slough entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 38.125,
+  "longitude": -121.578,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415287",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415287",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9415287.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-port-chicago-suisun-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.67,
+      "low": 0.59
+    },
+    "time": {
+      "high": 209,
+      "low": 221
+    }
+  }
+}

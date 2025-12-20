@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-custom-house-cove-mary-island",
+  "name": "Custom House Cove, Mary Island",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Custom House Cove, Mary Island",
-  "id": "us-ak-custom-house-cove-mary-island",
   "type": "reference",
   "latitude": 55.1,
   "longitude": -131.217,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450296",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450296",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450296.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9450296",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450296",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450296.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -2.4477491,
     "HAT": 4.702251,
@@ -338,5 +335,6 @@
     "DLQ": 0.474,
     "HWI": 9.41,
     "LWI": 3.08
-  }
+  },
+  "disclaimers": ""
 }

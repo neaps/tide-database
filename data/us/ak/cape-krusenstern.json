@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-cape-krusenstern",
+  "name": "Cape Krusenstern",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Cape Krusenstern",
-  "id": "us-ak-cape-krusenstern",
   "type": "reference",
-  "latitude": 67.05419,
-  "longitude": -163.32127,
+  "latitude": 67.05419444444445,
+  "longitude": -163.3212777777778,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9490571",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9490571",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9490571.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9490571",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9490571",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9490571.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 12.156,
     "HAT": 12.412,
@@ -336,5 +333,6 @@
     "MN": 0.147,
     "DHQ": 0.017,
     "DLQ": 0.037
-  }
+  },
+  "disclaimers": ""
 }

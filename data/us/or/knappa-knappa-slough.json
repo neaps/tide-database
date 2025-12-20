@@ -1,0 +1,35 @@
+{
+  "id": "us-or-knappa-knappa-slough",
+  "name": "Knappa, Knappa Slough",
+  "continent": "North America",
+  "country": "United States",
+  "region": "OR",
+  "type": "subordinate",
+  "latitude": 46.1867,
+  "longitude": -123.588,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9439069",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9439069",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9439069.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-or-astoria-tongue-point-oreg",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.86
+    },
+    "time": {
+      "high": 29,
+      "low": 58
+    }
+  }
+}

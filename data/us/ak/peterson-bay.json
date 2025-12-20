@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-peterson-bay",
+  "name": "Peterson Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 54.3933,
+  "longitude": -162.637,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9459939",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459939",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459939.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sand-point-popof-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.83,
+      "low": 1.05
+    },
+    "time": {
+      "high": -5,
+      "low": -8
+    }
+  }
+}

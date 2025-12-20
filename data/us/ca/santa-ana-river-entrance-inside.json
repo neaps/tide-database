@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-santa-ana-river-entrance-inside",
+  "name": "Santa Ana River entrance (inside)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 33.63,
+  "longitude": -117.958,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9410599",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410599",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9410599.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-los-angeles-outer-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 0.54,
+      "low": 0.2
+    },
+    "time": {
+      "high": 23,
+      "low": 107
+    }
+  }
+}

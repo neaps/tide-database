@@ -1,0 +1,35 @@
+{
+  "id": "us-me-belfast",
+  "name": "Belfast",
+  "continent": "North America",
+  "country": "United States",
+  "region": "ME",
+  "type": "subordinate",
+  "latitude": 44.4267,
+  "longitude": -69.005,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8415191",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8415191",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8415191.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-bar-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 1.03
+    },
+    "time": {
+      "high": 9,
+      "low": 4
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-san-salvador",
+  "name": "San Salvador",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 24.05,
+  "longitude": -74.55,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4631",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4631",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4631.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-settlement-point-grand-bahamas-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 1.11
+    },
+    "time": {
+      "high": -8,
+      "low": -6
+    }
+  }
+}

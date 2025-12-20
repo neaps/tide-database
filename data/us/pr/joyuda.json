@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-joyuda",
+  "name": "Joyuda",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Joyuda",
-  "id": "us-pr-joyuda",
   "type": "reference",
-  "latitude": 18.1158,
-  "longitude": -67.1832,
+  "latitude": 18.115800857543945,
+  "longitude": -67.18319702148438,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9759183",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759183",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759183.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9759183",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759183",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759183.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.253,
     "HAT": 8.798,
@@ -337,5 +334,6 @@
     "DHQ": 0.036,
     "DLQ": 0.051,
     "PRVD02": 8.555
-  }
+  },
+  "disclaimers": ""
 }

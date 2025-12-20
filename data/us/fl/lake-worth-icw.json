@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-lake-worth-icw",
+  "name": "Lake Worth ICW",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Lake Worth ICW",
-  "id": "us-fl-lake-worth-icw",
   "type": "reference",
   "latitude": 26.6133,
   "longitude": -80.0467,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722669",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722669",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722669.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8722669",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722669",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722669.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.757,
     "HAT": 8.974,
@@ -338,5 +335,6 @@
     "DLQ": 0.04,
     "HWI": 1.826,
     "LWI": 8.436
-  }
+  },
+  "disclaimers": ""
 }

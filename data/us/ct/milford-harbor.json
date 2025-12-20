@@ -1,0 +1,35 @@
+{
+  "id": "us-ct-milford-harbor",
+  "name": "Milford Harbor",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CT",
+  "type": "subordinate",
+  "latitude": 41.2183,
+  "longitude": -73.055,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8466442",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8466442",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8466442.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ct-bridgeport",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 1.04
+    },
+    "time": {
+      "high": -2,
+      "low": -3
+    }
+  }
+}

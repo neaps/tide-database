@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-coral-bay-atlantic-beach",
+  "name": "Coral Bay, Atlantic Beach",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 34.7,
+  "longitude": -76.7683,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656566",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656566",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656566.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-cape-hatteras-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 0.53,
+      "low": 0.83
+    },
+    "time": {
+      "high": 107,
+      "low": 134
+    }
+  }
+}

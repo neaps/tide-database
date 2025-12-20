@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-morehead-city",
+  "name": "Morehead City",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 34.7183,
+  "longitude": -76.695,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656496",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656496",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656496.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-cape-hatteras-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 1.25
+    },
+    "time": {
+      "high": 26,
+      "low": 27
+    }
+  }
+}

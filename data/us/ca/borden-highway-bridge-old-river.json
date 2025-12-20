@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-borden-highway-bridge-old-river",
+  "name": "Borden Highway Bridge, Old River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 37.8833,
+  "longitude": -121.577,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414836",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414836",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414836.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-port-chicago-suisun-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.64,
+      "low": 0.61
+    },
+    "time": {
+      "high": 280,
+      "low": 275
+    }
+  }
+}

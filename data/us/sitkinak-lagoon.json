@@ -1,0 +1,35 @@
+{
+  "id": "us-sitkinak-lagoon",
+  "name": "Sitkinak Lagoon",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 56.5,
+  "longitude": -154.13333333332992,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2051",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2051",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC2051.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-kodiak-womens-bay",
+    "height": {
+      "type": "fixed",
+      "high": -0.3,
+      "low": 0.06
+    },
+    "time": {
+      "high": -20,
+      "low": 7
+    }
+  }
+}

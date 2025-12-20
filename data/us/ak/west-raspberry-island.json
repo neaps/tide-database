@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-west-raspberry-island",
+  "name": "West Raspberry Island",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "West Raspberry Island",
-  "id": "us-ak-west-raspberry-island",
   "type": "reference",
-  "latitude": 58.107166,
-  "longitude": -153.34012,
+  "latitude": 58.10716666666666,
+  "longitude": -153.3401111111111,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457535",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457535",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457535.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9457535",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457535",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457535.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.313,
     "HAT": 5.667,
@@ -338,5 +335,6 @@
     "DLQ": 0.5,
     "HWI": 11.154,
     "LWI": 5.006
-  }
+  },
+  "disclaimers": ""
 }

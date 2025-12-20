@@ -1,12 +1,25 @@
 {
+  "id": "us-ga-halfmoon-reef-halfmoon-river",
+  "name": "Halfmoon Reef, Halfmoon River",
   "continent": "North America",
   "country": "United States",
   "region": "GA",
-  "name": "HALFMOON REEF, HALFMOON RIVER",
-  "id": "us-ga-halfmoon-reef-halfmoon-river",
   "type": "reference",
-  "latitude": 31.9633,
-  "longitude": -80.9433,
+  "latitude": 31.963300704956055,
+  "longitude": -80.94329833984375,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8671314",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8671314",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8671314.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8671314",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8671314",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8671314.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.644272,
     "HAT": 5.083272,
@@ -338,5 +335,6 @@
     "DLQ": 0.068,
     "HWI": 0.74,
     "LWI": 6.87
-  }
+  },
+  "disclaimers": ""
 }

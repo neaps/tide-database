@@ -1,12 +1,25 @@
 {
+  "id": "us-md-ocean-city-inlet",
+  "name": "Ocean City Inlet",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "Ocean City Inlet",
-  "id": "us-md-ocean-city-inlet",
   "type": "reference",
   "latitude": 38.32833,
-  "longitude": -75.09167,
+  "longitude": -75.09166666666667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8570283",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8570283",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8570283.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8570283",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8570283",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8570283.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 2.182,
     "HAT": 3.447,
@@ -339,5 +336,6 @@
     "HWI": 0.379,
     "LWI": 6.418,
     "NAVD88": 2.984
-  }
+  },
+  "disclaimers": ""
 }

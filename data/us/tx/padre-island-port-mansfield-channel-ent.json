@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-padre-island-port-mansfield-channel-ent",
+  "name": "Padre Island, Port Mansfield Channel Ent.",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Padre Island, Port Mansfield Channel Ent",
-  "id": "us-tx-padre-island-port-mansfield-channel-ent",
   "type": "reference",
-  "latitude": 26.5642,
-  "longitude": -97.2765,
+  "latitude": 26.564199447631836,
+  "longitude": -97.27649688720703,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8778485",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8778485",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8778485.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8778485",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8778485",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8778485.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.856,
     "HAT": 7.941,
@@ -337,5 +334,6 @@
     "DHQ": 0.018,
     "DLQ": 0.051,
     "NAVD88": 7.507
-  }
+  },
+  "disclaimers": ""
 }

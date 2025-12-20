@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-ocean-city-beach-fishing-pier",
+  "name": "Ocean City Beach (fishing pier)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 34.4517,
+  "longitude": -77.495,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8657419",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8657419",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8657419.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-cape-hatteras-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.4,
+      "low": 1.33
+    },
+    "time": {
+      "high": 3,
+      "low": -1
+    }
+  }
+}

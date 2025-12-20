@@ -1,0 +1,35 @@
+{
+  "id": "us-ga-tybee-light",
+  "name": "Tybee Light",
+  "continent": "North America",
+  "country": "United States",
+  "region": "GA",
+  "type": "subordinate",
+  "latitude": 32.0283,
+  "longitude": -80.855,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8670892",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8670892",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8670892.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ga-fort-pulaski-savannah-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 0.99
+    },
+    "time": {
+      "high": -10,
+      "low": -12
+    }
+  }
+}

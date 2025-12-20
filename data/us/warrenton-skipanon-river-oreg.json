@@ -1,0 +1,35 @@
+{
+  "id": "us-warrenton-skipanon-river-oreg",
+  "name": "Warrenton, Skipanon River, Oreg.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 46.166666666667005,
+  "longitude": -123.91666666666995,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC0883",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC0883",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC0883.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-or-astoria-tongue-point-oreg",
+    "height": {
+      "type": "fixed",
+      "high": -0.03,
+      "low": 0.03
+    },
+    "time": {
+      "high": -13,
+      "low": -19
+    }
+  }
+}

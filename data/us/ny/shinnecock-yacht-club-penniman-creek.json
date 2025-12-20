@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-shinnecock-yacht-club-penniman-creek",
+  "name": "Shinnecock Yacht Club, Penniman Creek",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "SHINNECOCK YACHT CLUB, PENNIMAN CREEK",
-  "id": "us-ny-shinnecock-yacht-club-penniman-creek",
   "type": "reference",
-  "latitude": 40.818554,
-  "longitude": -72.58661,
+  "latitude": 40.81855555555556,
+  "longitude": -72.58661111111111,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8512769",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8512769",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8512769.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8512769",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8512769",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8512769.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.472,
     "HAT": 2.769,
@@ -338,5 +335,6 @@
     "DLQ": 0.032,
     "HWI": 1.14,
     "LWI": 8.269
-  }
+  },
+  "disclaimers": ""
 }

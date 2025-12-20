@@ -1,0 +1,35 @@
+{
+  "id": "us-md-benedict",
+  "name": "Benedict",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MD",
+  "type": "subordinate",
+  "latitude": 38.5133,
+  "longitude": -76.67,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8579135",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8579135",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8579135.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-md-baltimore-fort-mchenry",
+    "height": {
+      "type": "ratio",
+      "high": 1.47,
+      "low": 1.82
+    },
+    "time": {
+      "high": -234,
+      "low": -234
+    }
+  }
+}

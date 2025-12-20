@@ -1,12 +1,25 @@
 {
+  "id": "us-al-gulf-state-park-pier",
+  "name": "Gulf State Park Pier",
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "name": "Gulf State Park Pier",
-  "id": "us-al-gulf-state-park-pier",
   "type": "reference",
-  "latitude": 30.2483,
-  "longitude": -87.6683,
+  "latitude": 30.248300552368164,
+  "longitude": -87.66829681396484,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8731269",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8731269",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8731269.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8731269",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8731269",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8731269.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.409,
     "HAT": 7.403,
@@ -337,5 +334,6 @@
     "DHQ": 0.009,
     "DLQ": 0.004,
     "NAVD88": 6.93
-  }
+  },
+  "disclaimers": ""
 }

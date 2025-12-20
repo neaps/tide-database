@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-mayport-ferry-depot",
+  "name": "Mayport (Ferry Depot)",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Mayport (Ferry Depot)",
-  "id": "us-fl-mayport-ferry-depot",
   "type": "reference",
   "latitude": 30.3933,
   "longitude": -81.4317,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720220",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720220",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720220.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8720220",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720220",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720220.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.09078598,
     "HAT": 2.469786,
@@ -339,5 +336,6 @@
     "HWI": 1.149,
     "LWI": 7.081,
     "NAVD88": 1.466
-  }
+  },
+  "disclaimers": ""
 }

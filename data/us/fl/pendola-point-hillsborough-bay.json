@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-pendola-point-hillsborough-bay",
+  "name": "Pendola Point, Hillsborough Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 27.8983,
+  "longitude": -82.4267,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726651",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726651",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726651.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-st-petersburg",
+    "height": {
+      "type": "ratio",
+      "high": 1.14,
+      "low": 1.18
+    },
+    "time": {
+      "high": 21,
+      "low": 5
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-kvichak",
+  "name": "Kvichak",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.97,
+  "longitude": -156.947,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9465342",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465342",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9465342.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-port-moller",
+    "height": {
+      "type": "ratio",
+      "high": 1.54,
+      "low": 0.41
+    },
+    "time": {
+      "high": 321,
+      "low": 469
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-dc-kenilworth-aquatic-garden",
+  "name": "Kenilworth Aquatic Garden",
+  "continent": "North America",
+  "country": "United States",
+  "region": "DC",
+  "type": "subordinate",
+  "latitude": 38.91,
+  "longitude": -76.955,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8593909",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8593909",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8593909.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-dc-washington-washington-channel-d-c",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.07
+    },
+    "time": {
+      "high": 29,
+      "low": 10
+    }
+  }
+}

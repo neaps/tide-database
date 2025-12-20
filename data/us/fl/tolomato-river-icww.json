@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-tolomato-river-icww",
+  "name": "Tolomato River (ICWW)",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "TOLOMATO RIVER, ICWW",
-  "id": "us-fl-tolomato-river-icww",
   "type": "reference",
-  "latitude": 29.9944,
-  "longitude": -81.3295,
+  "latitude": 29.994400024414062,
+  "longitude": -81.32949829101562,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720494",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720494",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720494.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8720494",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720494",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720494.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.2360001,
     "HAT": 0.987,
@@ -339,5 +336,6 @@
     "HWI": 1.924,
     "LWI": 8.077,
     "NAVD88": -0.008
-  }
+  },
+  "disclaimers": ""
 }

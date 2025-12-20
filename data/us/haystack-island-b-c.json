@@ -1,0 +1,35 @@
+{
+  "id": "us-haystack-island-b-c",
+  "name": "Haystack Island, B.C.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 54.71666666666667,
+  "longitude": -130.6166666666667,
+  "timezone": "America/Vancouver",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8218362",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8218362",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8218362.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-ketchikan",
+    "height": {
+      "type": "fixed",
+      "high": -0.12,
+      "low": 0
+    },
+    "time": {
+      "high": 45,
+      "low": 49
+    }
+  }
+}

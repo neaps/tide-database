@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-national-city-san-diego-bay",
+  "name": "National City, San Diego Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 32.665,
+  "longitude": -117.118,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9410152",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410152",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9410152.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-san-diego-broadway",
+    "height": {
+      "type": "fixed",
+      "high": 0.06,
+      "low": 0
+    },
+    "time": {
+      "high": 4,
+      "low": 10
+    }
+  }
+}

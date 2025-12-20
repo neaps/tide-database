@@ -1,0 +1,35 @@
+{
+  "id": "us-wolf-river-henderson-avenue-bridge",
+  "name": "Wolf River, Henderson Avenue bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 30.358333333332993,
+  "longitude": -89.27333333333299,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8748038",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8748038",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8748038.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-south-pass",
+    "height": {
+      "type": "ratio",
+      "high": 1.36,
+      "low": 1.36
+    },
+    "time": {
+      "high": 198,
+      "low": 171
+    }
+  }
+}

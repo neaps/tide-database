@@ -1,0 +1,35 @@
+{
+  "id": "us-md-tilghman-island-ferry-cove-eastern-bay",
+  "name": "Tilghman Island, Ferry Cove, Eastern Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MD",
+  "type": "subordinate",
+  "latitude": 38.765,
+  "longitude": -76.3283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571979",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571979",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571979.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-md-baltimore-fort-mchenry",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 1
+    },
+    "time": {
+      "high": -153,
+      "low": -162
+    }
+  }
+}

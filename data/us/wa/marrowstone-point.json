@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-marrowstone-point",
+  "name": "Marrowstone Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.0917,
+  "longitude": -122.69,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9444972",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9444972",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9444972.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-port-townsend",
+    "height": {
+      "type": "fixed",
+      "high": 0.12,
+      "low": -0.03
+    },
+    "time": {
+      "high": 2,
+      "low": 5
+    }
+  }
+}

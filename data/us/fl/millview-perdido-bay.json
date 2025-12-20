@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-millview-perdido-bay",
+  "name": "Millview, Perdido Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Millview, Perdido Bay",
-  "id": "us-fl-millview-perdido-bay",
   "type": "reference",
   "latitude": 30.4183,
   "longitude": -87.3567,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729905",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729905",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729905.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729905",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729905",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729905.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.508,
     "HAT": 0.953,
@@ -337,5 +334,6 @@
     "DHQ": 0.007,
     "DLQ": -0.001,
     "NAVD88": 0.6
-  }
+  },
+  "disclaimers": ""
 }

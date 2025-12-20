@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-ponce",
+  "name": "Ponce",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Ponce",
-  "id": "us-pr-ponce",
   "type": "reference",
-  "latitude": 17.9696,
-  "longitude": -66.6199,
+  "latitude": 17.969600677490234,
+  "longitude": -66.61990356445312,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9757487",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9757487",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9757487.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9757487",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9757487",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9757487.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.037001,
     "HAT": 8.496,
@@ -336,5 +333,6 @@
     "MN": 0.212,
     "DHQ": -0.003,
     "DLQ": 0.002
-  }
+  },
+  "disclaimers": ""
 }

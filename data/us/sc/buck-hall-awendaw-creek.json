@@ -1,12 +1,25 @@
 {
+  "id": "us-sc-buck-hall-awendaw-creek",
+  "name": "Buck Hall, Awendaw Creek",
   "continent": "North America",
   "country": "United States",
   "region": "SC",
-  "name": "BUCK HALL, AWENDAW CREEK",
-  "id": "us-sc-buck-hall-awendaw-creek",
   "type": "reference",
-  "latitude": 33.04,
-  "longitude": -79.56,
+  "latitude": 33.040000915527344,
+  "longitude": -79.55999755859375,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8663858",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8663858",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8663858.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8663858",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8663858",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8663858.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "STND": 0,
     "MHHW": 2.227,
@@ -337,5 +334,6 @@
     "HWI": 0.416,
     "LWI": 6.788,
     "NAVD88": 1.49
-  }
+  },
+  "disclaimers": ""
 }

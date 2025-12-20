@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-bidwell-creek-route-47-bridge",
+  "name": "Bidwell Creek, Route 47 bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.1183,
+  "longitude": -74.8683,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8536551",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8536551",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8536551.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-lewes-breakwater-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 1.36,
+      "low": 1.36
+    },
+    "time": {
+      "high": 36,
+      "low": 48
+    }
+  }
+}

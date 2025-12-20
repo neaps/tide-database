@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-nuka-passage",
+  "name": "Nuka Passage",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 59.4083,
+  "longitude": -150.667,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455308",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455308",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455308.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-seward-resurrection-bay",
+    "height": {
+      "type": "ratio",
+      "high": 1.09,
+      "low": 1.01
+    },
+    "time": {
+      "high": 11,
+      "low": 12
+    }
+  }
+}

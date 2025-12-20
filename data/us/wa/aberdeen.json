@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-aberdeen",
+  "name": "ABERDEEN",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Aberdeen",
-  "id": "us-wa-aberdeen",
   "type": "reference",
   "latitude": 46.9683,
   "longitude": -123.853,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9441187",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9441187",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9441187.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9441187",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9441187",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9441187.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.3110001,
     "HAT": 5.9309998,
@@ -339,5 +336,6 @@
     "HWI": 8.956,
     "LWI": 2.61,
     "NAVD88": 2.646
-  }
+  },
+  "disclaimers": ""
 }

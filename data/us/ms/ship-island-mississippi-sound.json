@@ -1,12 +1,25 @@
 {
+  "id": "us-ms-ship-island-mississippi-sound",
+  "name": "Ship Island, Mississippi Sound",
   "continent": "North America",
   "country": "United States",
   "region": "MS",
-  "name": "Ship Island, Mississippi Sound",
-  "id": "us-ms-ship-island-mississippi-sound",
   "type": "reference",
   "latitude": 30.2133,
   "longitude": -88.9717,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8744756",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8744756",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8744756.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8744756",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8744756",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8744756.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.8069999,
     "HAT": 1.901,
@@ -336,5 +333,6 @@
     "MN": 0.454,
     "DHQ": 0.008,
     "DLQ": 0.027
-  }
+  },
+  "disclaimers": ""
 }

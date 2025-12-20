@@ -1,0 +1,35 @@
+{
+  "id": "us-hao-bow-or-la-harpe-island",
+  "name": "Hao (Bow or La Harpe) Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -18.06666666666667,
+  "longitude": -140.9833333333333,
+  "timezone": "Pacific/Tahiti",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2837",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2837",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2837.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pago-pago-harbor-tutuila-island",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.05
+    },
+    "time": {
+      "high": -315,
+      "low": -310
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-matecumbe-bight-lower-matecumbe-key-fla-bay",
+  "name": "Matecumbe Bight, Lower Matecumbe Key, Fla. Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.865,
+  "longitude": -80.7167,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723852",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723852",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723852.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 0.55,
+      "low": 0.38
+    },
+    "time": {
+      "high": -18,
+      "low": 33
+    }
+  }
+}

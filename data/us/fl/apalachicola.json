@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-apalachicola",
+  "name": "APALACHICOLA",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Apalachicola",
-  "id": "us-fl-apalachicola",
   "type": "reference",
-  "latitude": 29.724445,
-  "longitude": -84.98055,
+  "latitude": 29.7244444,
+  "longitude": -84.9805556,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728690",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728690",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728690.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728690",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728690",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728690.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.95311004,
     "HAT": 2.00211,
@@ -339,5 +336,6 @@
     "HWI": 8.761,
     "LWI": 2.811,
     "NAVD88": 1.539
-  }
+  },
+  "disclaimers": ""
 }

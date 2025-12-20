@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-renaissance-sa-13-platform",
+  "name": "Renaissance SA-13 Platform",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Renaissance SA-13 Platform",
-  "id": "us-tx-renaissance-sa-13-platform",
   "type": "reference",
-  "latitude": 29.479,
-  "longitude": -93.64,
+  "latitude": 29.47900009155273,
+  "longitude": -93.63999938964844,
+  "timezone": "Etc/GMT+6",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8771050",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771050",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771050.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "Etc/GMT+6",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8771050",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771050",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771050.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -18.863,
     "HAT": -17.456001,
@@ -337,5 +334,6 @@
     "DHQ": 0.048,
     "DLQ": 0.156,
     "NAVD88": -17.911
-  }
+  },
+  "disclaimers": ""
 }

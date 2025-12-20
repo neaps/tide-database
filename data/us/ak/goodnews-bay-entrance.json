@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-goodnews-bay-entrance",
+  "name": "Goodnews Bay entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 59.045,
+  "longitude": -161.808,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9465368",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465368",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9465368.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-platinum",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 0.95
+    },
+    "time": {
+      "high": 4,
+      "low": 11
+    }
+  }
+}

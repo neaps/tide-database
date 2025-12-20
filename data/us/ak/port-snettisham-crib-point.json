@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-port-snettisham-crib-point",
+  "name": "Port Snettisham, Crib Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.0967,
+  "longitude": -133.742,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452082",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452082",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452082.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-juneau",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.97
+    },
+    "time": {
+      "high": -3,
+      "low": -3
+    }
+  }
+}

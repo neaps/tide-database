@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-cape-san-blas-western-cape",
+  "name": "Cape San Blas, Western Cape",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Cape San Blas, Western Cape",
-  "id": "us-fl-cape-san-blas-western-cape",
   "type": "reference",
-  "latitude": 29.7644,
-  "longitude": -85.4025,
+  "latitude": 29.764400482177734,
+  "longitude": -85.40249633789062,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728978",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728978",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728978.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728978",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728978",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728978.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.075999,
     "HAT": 9.141999,
@@ -337,5 +334,6 @@
     "DHQ": 0.018,
     "DLQ": 0.019,
     "NAVD88": 8.633
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-burrough-bay-behm-canal",
+  "name": "Burrough Bay, Behm Canal",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Burrough Bay, Behm Canal",
-  "id": "us-ak-burrough-bay-behm-canal",
   "type": "reference",
   "latitude": 56.0383,
   "longitude": -131.095,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450914",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450914",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450914.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9450914",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450914",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450914.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -3.287749,
     "HAT": 4.266251,
@@ -338,5 +335,6 @@
     "DLQ": 0.474,
     "HWI": 9.4,
     "LWI": 3.1
-  }
+  },
+  "disclaimers": ""
 }

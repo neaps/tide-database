@@ -1,0 +1,35 @@
+{
+  "id": "us-la-southwest-pass-vermilion-bay",
+  "name": "Southwest Pass, Vermilion Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "LA",
+  "type": "subordinate",
+  "latitude": 29.58,
+  "longitude": -92.035,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8765551",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8765551",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8765551.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-tx-galveston-galveston-channel",
+    "height": {
+      "type": "ratio",
+      "high": 1.14,
+      "low": 1.14
+    },
+    "time": {
+      "high": -32,
+      "low": -33
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-jack-bay",
+  "name": "Jack Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 61.04,
+  "longitude": -146.615,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454309",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454309",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454309.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-valdez-port-valdez",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 0.99
+    },
+    "time": {
+      "high": -1,
+      "low": -2
+    }
+  }
+}

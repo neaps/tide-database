@@ -1,0 +1,35 @@
+{
+  "id": "us-va-oyster-harbor",
+  "name": "Oyster Harbor",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 37.2883,
+  "longitude": -75.925,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8631591",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8631591",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8631591.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-md-ocean-city-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.34,
+      "low": 1.13
+    },
+    "time": {
+      "high": 60,
+      "low": 36
+    }
+  }
+}

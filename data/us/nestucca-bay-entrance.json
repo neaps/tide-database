@@ -1,0 +1,35 @@
+{
+  "id": "us-nestucca-bay-entrance",
+  "name": "Nestucca Bay entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 45.166666666667005,
+  "longitude": -123.96666666666995,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC0857",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC0857",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC0857.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-crescent-city",
+    "height": {
+      "type": "ratio",
+      "high": 1.1,
+      "low": 0.92
+    },
+    "time": {
+      "high": 55,
+      "low": 72
+    }
+  }
+}

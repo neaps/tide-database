@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-west-bay-creek-west-bay",
+  "name": "West Bay Creek, West Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "WEST BAY CREEK  WEST BAY",
-  "id": "us-fl-west-bay-creek-west-bay",
   "type": "reference",
-  "latitude": 30.2933,
-  "longitude": -85.8583,
+  "latitude": 30.29330062866211,
+  "longitude": -85.8582992553711,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729197",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729197",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729197.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729197",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729197",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729197.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.334,
     "HAT": 5.351,
@@ -337,5 +334,6 @@
     "DHQ": 0.022,
     "DLQ": 0.025,
     "NAVD88": 4.822
-  }
+  },
+  "disclaimers": ""
 }

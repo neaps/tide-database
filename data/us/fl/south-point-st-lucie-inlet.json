@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-south-point-st-lucie-inlet",
+  "name": "South Point, St. Lucie Inlet",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "SOUTH POINT, ST LUCIE INLET",
-  "id": "us-fl-south-point-st-lucie-inlet",
   "type": "reference",
   "latitude": 27.1583,
   "longitude": -80.1567,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722375",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722375",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722375.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8722375",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722375",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722375.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.902,
     "HAT": 0.153,
@@ -339,5 +336,6 @@
     "HWI": 1.322,
     "LWI": 7.019,
     "NAVD88": 0.001
-  }
+  },
+  "disclaimers": ""
 }

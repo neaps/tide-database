@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-ugak-bay-saltery-cove",
+  "name": "Ugak Bay (Saltery Cove)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 57.4817,
+  "longitude": -152.718,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457351",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457351",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457351.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-kodiak-womens-bay",
+    "height": {
+      "type": "fixed",
+      "high": -0.09,
+      "low": -0.03
+    },
+    "time": {
+      "high": -29,
+      "low": -20
+    }
+  }
+}

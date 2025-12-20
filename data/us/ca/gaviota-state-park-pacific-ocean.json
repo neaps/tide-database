@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-gaviota-state-park-pacific-ocean",
+  "name": "Gaviota State Park, Pacific Ocean",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "Gaviota State Park, Pacific Ocean",
-  "id": "us-ca-gaviota-state-park-pacific-ocean",
   "type": "reference",
-  "latitude": 34.469387,
-  "longitude": -120.2283,
+  "latitude": 34.46938888888889,
+  "longitude": -120.2283055555556,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9411399",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9411399",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9411399.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9411399",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9411399",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9411399.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 12.66,
     "HAT": 15.474,
@@ -339,5 +336,6 @@
     "HWI": 5.59,
     "LWI": 11.64,
     "NAVD88": 13.318
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-paris-road-bridge-icww",
+  "name": "Paris Road Bridge (ICWW)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 30,
+  "longitude": -89.933333333333,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4445",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4445",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4445.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-east-point-grand-isle",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 1.04
+    },
+    "time": {
+      "high": 353,
+      "low": 358
+    }
+  }
+}

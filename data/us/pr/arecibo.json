@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-arecibo",
+  "name": "Arecibo",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Arecibo",
-  "id": "us-pr-arecibo",
   "type": "reference",
-  "latitude": 18.480528,
-  "longitude": -66.70236,
+  "latitude": 18.48052777777778,
+  "longitude": -66.70236111111112,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9757809",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9757809",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9757809.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9757809",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9757809",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9757809.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "[object Object]",
-  "restriction": "",
   "datums": {
     "LAT": 6.574,
     "HAT": 7.463,
@@ -338,5 +335,6 @@
     "DLQ": 0.061,
     "HWI": 0.075,
     "LWI": 6.377
-  }
+  },
+  "disclaimers": "These data are measured by the Puerto Rico Seismic Network (PRSN), located at the University of Puerto Rico Mayaguez. PRSN is a National Ocean Service (NOS) partner that adheres to NOS data collection standards. For more information on the PRSN, visit their <a href=\"http://tidesandcurrents.noaa.gov/redirect.shtml?url=45\">website</a>."
 }

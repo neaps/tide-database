@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-new-rochelle",
+  "name": "New Rochelle",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.8933,
+  "longitude": -73.7817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8518490",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518490",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8518490.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-kings-point",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 0.93
+    },
+    "time": {
+      "high": -16,
+      "low": -18
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-menantico-creek-entrance",
+  "name": "Menantico Creek entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.3433,
+  "longitude": -75.0083,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537242",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537242",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8537242.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-lewes-breakwater-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 1.1,
+      "low": 1.1
+    },
+    "time": {
+      "high": 186,
+      "low": 189
+    }
+  }
+}

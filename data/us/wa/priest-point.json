@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-priest-point",
+  "name": "Priest Point",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Priest Point",
-  "id": "us-wa-priest-point",
   "type": "reference",
-  "latitude": 48.034943,
-  "longitude": -122.227196,
+  "latitude": 48.03494444444444,
+  "longitude": -122.2271944444445,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9447717",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447717",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9447717.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9447717",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447717",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9447717.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.2799997,
     "HAT": 9.578,
@@ -339,5 +336,6 @@
     "HWI": 0.49,
     "LWI": 6.88,
     "NAVD88": 6.194
-  }
+  },
+  "disclaimers": ""
 }

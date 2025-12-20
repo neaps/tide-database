@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-general-fish-company-pier",
+  "name": "General Fish Company Pier",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 36.8017,
+  "longitude": -121.787,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9413617",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9413617",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9413617.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-monterey-monterey-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.95
+    },
+    "time": {
+      "high": 1,
+      "low": 1
+    }
+  }
+}

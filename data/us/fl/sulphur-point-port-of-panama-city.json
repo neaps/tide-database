@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-sulphur-point-port-of-panama-city",
+  "name": "Sulphur Point, Port of Panama City",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Sulphur Point, Port of Panama City",
-  "id": "us-fl-sulphur-point-port-of-panama-city",
   "type": "reference",
-  "latitude": 30.183,
-  "longitude": -85.7328,
+  "latitude": 30.183000564575195,
+  "longitude": -85.73280334472656,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729142",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729142",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729142.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729142",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729142",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729142.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.295,
     "HAT": 8.347,
@@ -337,5 +334,6 @@
     "DHQ": 0.014,
     "DLQ": 0.014,
     "NAVD88": 7.818
-  }
+  },
+  "disclaimers": ""
 }

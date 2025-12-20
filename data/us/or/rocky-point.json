@@ -1,12 +1,25 @@
 {
+  "id": "us-or-rocky-point",
+  "name": "Rocky Point",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "Rocky Point",
-  "id": "us-or-rocky-point",
   "type": "reference",
   "latitude": 45.6967,
   "longitude": -122.868,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9439189",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9439189",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9439189.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9439189",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9439189",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9439189.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.40600002,
     "HAT": 1.758,
@@ -338,5 +335,6 @@
     "DLQ": 0.07,
     "HWI": 1.06,
     "LWI": 9.004
-  }
+  },
+  "disclaimers": ""
 }

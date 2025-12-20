@@ -1,12 +1,25 @@
 {
+  "id": "us-ga-howe-street-pier-brunswick",
+  "name": "Howe Street Pier, Brunswick",
   "continent": "North America",
   "country": "United States",
   "region": "GA",
-  "name": "Howe Street Pier, Brunswick",
-  "id": "us-ga-howe-street-pier-brunswick",
   "type": "reference",
-  "latitude": 31.144556,
-  "longitude": -81.4968,
+  "latitude": 31.14455555555556,
+  "longitude": -81.49680555555555,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8677406",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8677406",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8677406.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8677406",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8677406",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8677406.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.575,
     "HAT": 9.166,
@@ -338,5 +335,6 @@
     "DLQ": 0.068,
     "HWI": 1.25,
     "LWI": 7.48
-  }
+  },
+  "disclaimers": ""
 }

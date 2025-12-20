@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-cape-mordvinof",
+  "name": "Cape Mordvinof",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 54.9283,
+  "longitude": -164.467,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9462838",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462838",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462838.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-unalaska",
+    "height": {
+      "type": "ratio",
+      "high": 1.73,
+      "low": 1.36
+    },
+    "time": {
+      "high": 26,
+      "low": 19
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ct-guilford-harbor",
+  "name": "Guilford Harbor",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CT",
+  "type": "subordinate",
+  "latitude": 41.2717,
+  "longitude": -72.6667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8464445",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8464445",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8464445.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ct-bridgeport",
+    "height": {
+      "type": "ratio",
+      "high": 0.77,
+      "low": 0.96
+    },
+    "time": {
+      "high": -11,
+      "low": -21
+    }
+  }
+}

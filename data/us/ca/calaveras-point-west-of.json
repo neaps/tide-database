@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-calaveras-point-west-of",
+  "name": "Calaveras Point, west of",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 37.4667,
+  "longitude": -122.067,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414539",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414539",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414539.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-san-francisco-golden-gate",
+    "height": {
+      "type": "fixed",
+      "high": 0.85,
+      "low": 0.03
+    },
+    "time": {
+      "high": 65,
+      "low": 109
+    }
+  }
+}

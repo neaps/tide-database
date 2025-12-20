@@ -1,12 +1,25 @@
 {
+  "id": "us-ri-weekapaug-point-block-island-sound",
+  "name": "Weekapaug Point, Block Island Sound",
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "name": "WEEKAPAUG POINT, BLOCK ISLAND SOUND",
-  "id": "us-ri-weekapaug-point-block-island-sound",
   "type": "reference",
   "latitude": 41.3283,
   "longitude": -71.7617,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8458022",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8458022",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8458022.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8458022",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8458022",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8458022.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.031000018,
     "HAT": 1.3180001,
@@ -338,5 +335,6 @@
     "DLQ": 0.04,
     "HWI": 0.949,
     "LWI": 7.014
-  }
+  },
+  "disclaimers": ""
 }

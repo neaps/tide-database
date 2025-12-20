@@ -1,0 +1,35 @@
+{
+  "id": "us-cienfuegos",
+  "name": "Cienfuegos",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 22.133333333332992,
+  "longitude": -80.45,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4679",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4679",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4679.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pr-san-juan",
+    "height": {
+      "type": "ratio",
+      "high": 0.81,
+      "low": 0.81
+    },
+    "time": {
+      "high": 51,
+      "low": 58
+    }
+  }
+}

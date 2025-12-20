@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-boot-key-harbor-bridge-boot-key",
+  "name": "Boot Key Harbor bridge, Boot Key",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.7033,
+  "longitude": -81.105,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723971",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723971",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723971.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 0.75
+    },
+    "time": {
+      "high": -63,
+      "low": -37
+    }
+  }
+}

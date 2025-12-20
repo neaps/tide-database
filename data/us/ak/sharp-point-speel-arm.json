@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-sharp-point-speel-arm",
+  "name": "Sharp Point, Speel Arm",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Sharp Point, Speel Arm",
-  "id": "us-ak-sharp-point-speel-arm",
   "type": "reference",
-  "latitude": 58.022335,
-  "longitude": -133.80728,
+  "latitude": 58.022335052490234,
+  "longitude": -133.80728149414062,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452089",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452089",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452089.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Juneau",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9452089",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452089",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452089.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.0330005,
     "HAT": 11.51,
@@ -338,5 +335,6 @@
     "DLQ": 0.482,
     "HWI": 9.773,
     "LWI": 3.51
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-pelican-harbor-lisianski-inlet-ak",
+  "name": "Pelican Harbor, Lisianski Inlet, AK",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Pelican Harbor, Lisianski Inlet, AK",
-  "id": "us-ak-pelican-harbor-lisianski-inlet-ak",
   "type": "reference",
-  "latitude": 57.95778,
-  "longitude": -136.22678,
+  "latitude": 57.95777777777778,
+  "longitude": -136.2267777777778,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452611",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452611",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452611.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Juneau",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9452611",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452611",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452611.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.4097407,
     "HAT": 6.4597406,
@@ -338,5 +335,6 @@
     "DLQ": 0.444,
     "HWI": 9.61,
     "LWI": 3.33
-  }
+  },
+  "disclaimers": ""
 }

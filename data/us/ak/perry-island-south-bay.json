@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-perry-island-south-bay",
+  "name": "Perry Island (South Bay)",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "PERRY ISLAND (SOUTH BAY)",
-  "id": "us-ak-perry-island-south-bay",
   "type": "reference",
   "latitude": 60.6717,
   "longitude": -147.932,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454721",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454721",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454721.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9454721",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454721",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9454721.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.5940001,
     "HAT": 4.3380003,
@@ -338,5 +335,6 @@
     "DLQ": 0.451,
     "HWI": 10.033,
     "LWI": 3.743
-  }
+  },
+  "disclaimers": ""
 }

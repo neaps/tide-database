@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-galveston-pleasure-pier",
+  "name": "Galveston Pleasure Pier",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Galveston Pleasure Pier",
-  "id": "us-tx-galveston-pleasure-pier",
   "type": "reference",
   "latitude": 29.2853,
   "longitude": -94.7894,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8771510",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771510",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771510.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8771510",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771510",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771510.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.605,
     "HAT": 1.98,
@@ -337,5 +334,6 @@
     "DHQ": 0.059,
     "DLQ": 0.119,
     "NAVD88": 1.252
-  }
+  },
+  "disclaimers": ""
 }

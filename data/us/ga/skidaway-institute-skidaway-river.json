@@ -1,12 +1,25 @@
 {
+  "id": "us-ga-skidaway-institute-skidaway-river",
+  "name": "Skidaway Institute, Skidaway River",
   "continent": "North America",
   "country": "United States",
   "region": "GA",
-  "name": "SKIDAWAY INSTITUTE, SKIDAWAY RIVER",
-  "id": "us-ga-skidaway-institute-skidaway-river",
   "type": "reference",
   "latitude": 31.99,
   "longitude": -81.0233,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8671086",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8671086",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8671086.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8671086",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8671086",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8671086.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.7582719,
     "HAT": 5.523272,
@@ -338,5 +335,6 @@
     "DLQ": 0.075,
     "HWI": 1.29,
     "LWI": 7.12
-  }
+  },
+  "disclaimers": ""
 }

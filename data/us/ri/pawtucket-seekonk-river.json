@@ -1,0 +1,35 @@
+{
+  "id": "us-ri-pawtucket-seekonk-river",
+  "name": "Pawtucket, Seekonk River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "RI",
+  "type": "subordinate",
+  "latitude": 41.8683,
+  "longitude": -71.38,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8453611",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8453611",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8453611.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ri-newport",
+    "height": {
+      "type": "ratio",
+      "high": 1.31,
+      "low": 1.29
+    },
+    "time": {
+      "high": 18,
+      "low": 9
+    }
+  }
+}

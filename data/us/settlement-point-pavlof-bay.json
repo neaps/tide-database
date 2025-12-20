@@ -1,0 +1,35 @@
+{
+  "id": "us-settlement-point-pavlof-bay",
+  "name": "Settlement Point, Pavlof Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 55.5,
+  "longitude": -161.46666666667008,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9463195",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9463195",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9463195.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sand-point-popof-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.9
+    },
+    "time": {
+      "high": 9,
+      "low": 8
+    }
+  }
+}

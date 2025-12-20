@@ -1,12 +1,25 @@
 {
+  "id": "us-md-cove-point",
+  "name": "Cove Point",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "COVE POINT",
-  "id": "us-md-cove-point",
   "type": "reference",
   "latitude": 38.3917,
   "longitude": -76.3983,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8577188",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8577188",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8577188.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8577188",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8577188",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8577188.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.599,
     "HAT": 1.248,
@@ -338,5 +335,6 @@
     "DLQ": 0.028,
     "HWI": 7.36,
     "LWI": 1.28
-  }
+  },
+  "disclaimers": ""
 }

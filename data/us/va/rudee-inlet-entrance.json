@@ -1,0 +1,35 @@
+{
+  "id": "us-va-rudee-inlet-entrance",
+  "name": "Rudee Inlet entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 36.8317,
+  "longitude": -75.9683,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8639208",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8639208",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8639208.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-duck-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 0.86
+    },
+    "time": {
+      "high": 2,
+      "low": 2
+    }
+  }
+}

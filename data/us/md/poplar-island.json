@@ -1,12 +1,25 @@
 {
+  "id": "us-md-poplar-island",
+  "name": "Poplar Island",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "Poplar Island",
-  "id": "us-md-poplar-island",
   "type": "reference",
-  "latitude": 38.758335,
+  "latitude": 38.75833333333333,
   "longitude": -76.375,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8572271",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8572271",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8572271.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8572271",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8572271",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8572271.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.11499998,
     "HAT": 0.691,
@@ -338,5 +335,6 @@
     "DLQ": 0.065,
     "HWI": 8.99,
     "LWI": 3.008
-  }
+  },
+  "disclaimers": ""
 }

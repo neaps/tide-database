@@ -1,0 +1,35 @@
+{
+  "id": "us-caroline-island",
+  "name": "Caroline Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -10,
+  "longitude": -150.233333,
+  "timezone": "Pacific/Kiritimati",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2821",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2821",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2821.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pago-pago-harbor-tutuila-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.54,
+      "low": 0.54
+    },
+    "time": {
+      "high": -197,
+      "low": -193
+    }
+  }
+}

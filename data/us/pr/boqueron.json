@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-boqueron",
+  "name": "Boqueron",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Boqueron",
-  "id": "us-pr-boqueron",
   "type": "reference",
-  "latitude": 18.024,
-  "longitude": -67.1731,
+  "latitude": 18.02400016784668,
+  "longitude": -67.17310333251953,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9759173",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759173",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759173.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9759173",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759173",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759173.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.0390005,
     "HAT": 8.514,
@@ -337,5 +334,6 @@
     "DHQ": 0.009,
     "DLQ": 0.02,
     "PRVD02": 8.291
-  }
+  },
+  "disclaimers": ""
 }

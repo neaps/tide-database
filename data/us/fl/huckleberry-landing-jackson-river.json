@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-huckleberry-landing-jackson-river",
+  "name": "Huckleberry Landing, Jackson River",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "HUCKLEBERRY LANDING, JACKSON RIVER",
-  "id": "us-fl-huckleberry-landing-jackson-river",
   "type": "reference",
-  "latitude": 29.77,
-  "longitude": -85.085,
+  "latitude": 29.770000457763672,
+  "longitude": -85.08499908447266,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728757",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728757",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728757.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728757",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728757",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728757.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.11199999,
     "HAT": 0.697,
@@ -339,5 +336,6 @@
     "HWI": 10.893,
     "LWI": 4.675,
     "NAVD88": 0.331
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-edmonds",
+  "name": "Edmonds",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 47.8133,
+  "longitude": -122.383,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9447427",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447427",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9447427.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-seattle-madison-st-elliott-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.99
+    },
+    "time": {
+      "high": 0,
+      "low": -4
+    }
+  }
+}

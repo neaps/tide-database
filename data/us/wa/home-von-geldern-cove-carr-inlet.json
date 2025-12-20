@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-home-von-geldern-cove-carr-inlet",
+  "name": "Home, Von Geldern Cove, Carr Inlet",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 47.275,
+  "longitude": -122.758,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9446500",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9446500",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9446500.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-seattle-madison-st-elliott-bay",
+    "height": {
+      "type": "ratio",
+      "high": 1.19,
+      "low": 1.04
+    },
+    "time": {
+      "high": 37,
+      "low": 45
+    }
+  }
+}

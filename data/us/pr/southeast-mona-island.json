@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-southeast-mona-island",
+  "name": "Southeast Mona Island",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Southeast Mona Island",
-  "id": "us-pr-southeast-mona-island",
   "type": "reference",
-  "latitude": 18.0653,
-  "longitude": -67.8661,
+  "latitude": 18.06529998779297,
+  "longitude": -67.86609649658203,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9759866",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759866",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759866.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9759866",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759866",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759866.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.191,
     "HAT": 1.629,
@@ -337,5 +334,6 @@
     "DHQ": -0.003,
     "DLQ": 0,
     "PRVD02": 1.462
-  }
+  },
+  "disclaimers": ""
 }

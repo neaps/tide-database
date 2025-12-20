@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-tyndall-glacier-icy-bay",
+  "name": "Tyndall Glacier, Icy Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "TYNDALL GLACIER, ICY BAY",
-  "id": "us-ak-tyndall-glacier-icy-bay",
   "type": "reference",
-  "latitude": 60.0783,
-  "longitude": -141.275,
+  "latitude": 60.07830047607422,
+  "longitude": -141.27499389648438,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9453431",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9453431",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9453431.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9453431",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9453431",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9453431.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.2390003,
     "HAT": 11.162001,
@@ -339,5 +336,6 @@
     "HWI": 9.733,
     "LWI": 3.56,
     "NAVD88": 7.178
-  }
+  },
+  "disclaimers": ""
 }

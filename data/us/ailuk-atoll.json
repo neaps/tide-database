@@ -1,0 +1,35 @@
+{
+  "id": "us-ailuk-atoll",
+  "name": "Ailuk Atoll",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 10.216666666667008,
+  "longitude": 169.9833333333299,
+  "timezone": "Pacific/Majuro",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2711",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2711",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2711.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-kwajalein-atoll-kwajalein-i",
+    "height": {
+      "type": "fixed",
+      "high": 0,
+      "low": 0
+    },
+    "time": {
+      "high": -10,
+      "low": -10
+    }
+  }
+}

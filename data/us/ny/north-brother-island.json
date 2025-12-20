@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-north-brother-island",
+  "name": "North Brother Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.7983,
+  "longitude": -73.8983,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8518635",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518635",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8518635.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-kings-point",
+    "height": {
+      "type": "ratio",
+      "high": 0.93,
+      "low": 1.11
+    },
+    "time": {
+      "high": 18,
+      "low": 18
+    }
+  }
+}

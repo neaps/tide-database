@@ -1,0 +1,35 @@
+{
+  "id": "us-nj-pleasantville-lakes-bay-great-egg-harbor-inlet",
+  "name": "Pleasantville, Lakes Bay, Great Egg Harbor Inlet",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NJ",
+  "type": "subordinate",
+  "latitude": 39.3817,
+  "longitude": -74.5183,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8534657",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8534657",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8534657.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nj-atlantic-city-ocean",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.82
+    },
+    "time": {
+      "high": 60,
+      "low": 97
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-cyrus-cove-sea-otter-sound",
+  "name": "Cyrus Cove, Sea Otter Sound",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 55.916666666667005,
+  "longitude": -133.4,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1579",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1579",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC1579.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sitka",
+    "height": {
+      "type": "fixed",
+      "high": 0.34,
+      "low": 0
+    },
+    "time": {
+      "high": -16,
+      "low": -12
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-al-wolf-bay",
+  "name": "Wolf Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "name": "Wolf Bay",
-  "id": "us-al-wolf-bay",
   "type": "reference",
-  "latitude": 30.355,
-  "longitude": -87.6,
+  "latitude": 30.354999542236328,
+  "longitude": -87.5999984741211,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8730849",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8730849",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8730849.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8730849",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8730849",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8730849.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.223,
     "HAT": 6.8459997,
@@ -336,5 +333,6 @@
     "MN": 0.255,
     "DHQ": 0.007,
     "DLQ": 0.008
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-port-aransas-h-caldwell-pier",
+  "name": "Port Aransas (H. Caldwell Pier)",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "PORT ARANSAS, H. CALDWELL PIER",
-  "id": "us-tx-port-aransas-h-caldwell-pier",
   "type": "reference",
-  "latitude": 27.8267,
-  "longitude": -97.05,
+  "latitude": 27.82670021057129,
+  "longitude": -97.05000305175781,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8775270",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8775270",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8775270.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8775270",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8775270",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8775270.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.781,
     "HAT": 2.22,
@@ -337,5 +334,6 @@
     "DHQ": 0.034,
     "DLQ": 0.069,
     "NAVD88": 1.439
-  }
+  },
+  "disclaimers": ""
 }
