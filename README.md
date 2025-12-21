@@ -1,56 +1,58 @@
-## Tide harmonics database
+# Neaps Tide Database
 
-The availability of good harmonic constituent data varies from country
-to country, resulting in very different tide predeictions depending on
-what products you use. Within the United States, NOAA provides excellent
-harmonic constituents for free, but internationally it is a different
-story.
+> A public database of tide harmonics
 
-We first observed these challenges in Gulfo Nuevo in Argentina. The gulf
-is very deep, with a narrow mouth to the Atlantic and sloping benthic
-profile. As a result, the difference between high and low tides is
-consistently 5 meters or more. Various websites and products we used had
-different levels of accuracy when predicting the tides. We found one
-that was just predicting tides from a station over 200km away, outside
-the gulf, and therefore completely different in terms of water level and
-timing.
+This database includes harmonic constituents for tide prediction from various sources around the world. These constants can be used with a tide harmonic calculator like [Neaps](https://github.com/neaps/neaps) to create astronomical tide predictions.
 
-The various surf or weather report apps either use old data, or base
-large areas of coastline on one station. Many people are still using
-pre-2004 data published in Xtide's Harmbase. Harmbase is great, but it's
-data is locked in binary files and SQL, and the maintainer [has given up on maintaining it outside the US](https://flaterco.com/xtide/faq.html#60)
-.
+## Sources
 
-**All** constituent data is delivered in Meters.
+- ✅ [**NOAA**](https://tidesandcurrents.noaa.gov): National Oceanic and Atmospheric Administration
+  ~3379 stations, mostly in the United States and its territories. Updated monthly via [NOAA's API](https://api.tidesandcurrents.noaa.gov/mdapi/prod/).
 
-Much effort has been made to cover the [requirements from libTCD](https://flaterco.com/xtide/libtcd.html).
+- 🔜 [**TICON-4**](https://www.seanoe.org/data/00980/109129/): TIdal CONstants based on GESLA-4 sea-level records
+  4,838 global stations - ([#16](https://github.com/neaps/tide-database/pull/16))
 
-## Submitting data
-
-If you have **at least a year** of hourly water level observations, you can convert those to harmonic constituents and [submit them to this database online](https://neaps.js.org/harmonics) with a simple form.
-
-Your submission will be automatically converted to a Pull Request to this repository.
-
-## Installation
-
-```bash
-npm install @neaps/tide-stations
-```
+If you know of other public sources of harmonic constituents, please [open an issue](https://github.com/neaps/tide-database/issues/new) to discuss adding them.
 
 ## Usage
 
-```typescript
-import { nearest, near, stations } from '@neaps/tide-stations';
+The database is currently only available as an NPM package, but may be available in other formats like [sqlite](https://github.com/neaps/tide-database/issues/18) and [xtide's tcd format](https://github.com/neaps/tide-database/issues/19) in the future.
 
-// All stations
-console.log('Total stations:', stations.length);
+### JavaScript / TypeScript
 
-// Find the nearest station to a given lat/lon
-console.log(`Nearest station:`, nearest({ lat: 26.722, lon: -80.031 }));
+Install the package:
 
-// Find the 10 nearest stations to a given lat/lon, in order of distance
-console.log('5 nearest stations:', near({ lat: 26.722, lon: -80.031 }, 10));
+```sh
+$ npm install @neaps/tide-database
 ```
+
+The package exports an array of all tide stations in the database:
+
+```typescript
+import stations from '@neaps/tide-database';
+
+// Stations is an array of all the files in `data/`
+console.log('Total stations:', stations.length);
+console.log(stations[0]);
+```
+
+## Data Format
+
+Each tide station is defined in a single JSON file in the [`data/`](./data) directory that includes basic station information, like location and name, and harmonics or subordinate station offsets. The format is defined by the schema in [../schemas/station.schema.json](schemas/station.schema.json), which includes more detailed descriptions of each field. All data is validated against this schema automatically on each change.
+
+## Station Types
+
+Stations can either be _reference_ or _subordinate_, defined in the station's `type` field.
+
+### Reference station
+
+Reference stations have defined harmonic constituents. They should have an array of `harmonic_constituents`. These are usually stations that have a long selection of real water level observations.
+
+### Subordinate station
+
+Subordinate stations are locations that have very similar tides to a reference station. Usually these are geographically close to another reference station.
+
+Subordinate stations have four kinds of offsets, two to correct for water level, and two for the time of high and low tide. They use an `offsets` object to define these items, along with the name of the reference station they are based on.
 
 ## Maintenance
 

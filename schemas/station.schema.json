@@ -19,6 +19,7 @@
   "$defs": {
     "offsets": {
       "type": "object",
+      "description": "Offsets for subordinate stations relative to a reference station",
       "required": [
         "reference",
         "height",
@@ -27,10 +28,12 @@
       "additionalProperties": false,
       "properties": {
         "reference": {
-          "type": "string"
+          "type": "string",
+          "description": "The ID of the reference station"
         },
         "height": {
           "type": "object",
+          "description": "Defines the values to add to water levels",
           "required": [
             "high",
             "low",
@@ -39,10 +42,12 @@
           "additionalProperties": false,
           "properties": {
             "high": {
-              "type": "number"
+              "type": "number",
+              "description": "Height offset to add to the high tide (can be negative)"
             },
             "low": {
-              "type": "number"
+              "type": "number",
+              "description": "Height offset to add to the low tide (can be negative)"
             },
             "type": {
               "enum": [
@@ -54,6 +59,7 @@
         },
         "time": {
           "type": "object",
+          "description": "Defines the time to add to when a high or low tide will occur",
           "required": [
             "high",
             "low"
@@ -61,10 +67,12 @@
           "additionalProperties": false,
           "properties": {
             "high": {
-              "type": "number"
+              "type": "number",
+              "description": "Time offset, in minutes, to add to the high tide (can be negative)"
             },
             "low": {
-              "type": "number"
+              "type": "number",
+              "description": "Time offset, in minutes, to add to the low tide (can be negative)"
             }
           }
         }
@@ -74,7 +82,12 @@
   "properties": {
     "id": {
       "type": "string",
-      "minLength": 1
+      "description": "Unique station ID for this database only, in the format of `country-region-station-name`.",
+      "examples": [
+        "us-ma-boston",
+        "ar-u-puerto-madryn"
+      ],
+      "minLength": 4
     },
     "name": {
       "type": "string",
@@ -82,35 +95,44 @@
     },
     "continent": {
       "type": "string",
+      "description": "One of `africa`, `antartica` `asia`, `australia`, `europe`, `north america`, `south america`",
       "minLength": 1
     },
     "country": {
       "type": "string",
+      "description": "ISO 3166-1 alpha-3 country code",
       "minLength": 1
     },
     "region": {
-      "type": "string"
+      "type": "string",
+      "description": "ISO 3166-2 region code, if available. If not, whatever local postal codes"
     },
     "timezone": {
-      "type": "string"
+      "type": "string",
+      "description": "IANA time zone code (e.g. `America/Los_Angeles`)"
     },
     "disclaimers": {
-      "type": "string"
+      "type": "string",
+      "description": "Any disclaimers about using this data"
     },
     "type": {
+      "type": "string",
       "enum": [
         "reference",
         "subordinate"
       ]
     },
     "latitude": {
-      "type": "number"
+      "type": "number",
+      "description": "Latitude, in decimal degrees"
     },
     "longitude": {
-      "type": "number"
+      "type": "number",
+      "description": "Longitude, in decimal degrees"
     },
     "source": {
       "type": "object",
+      "description": "",
       "required": [
         "name",
         "id",
@@ -121,29 +143,35 @@
       "additionalProperties": true,
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "name": "Name of the source, i.e. `NOAA`"
         },
         "id": {
           "type": [
             "string",
             "number"
-          ]
+          ],
+          "description": "The identifier used by the source for this station."
         },
         "published_harmonics": {
-          "type": "boolean"
+          "type": "boolean",
+          "description": "Are the harmonics from published harmonic data? False means harmonics were computed."
         },
         "url": {
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "description": "URL to this station's data or information in the source's website"
         },
         "source_url": {
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "description": "URL to the source's homepage. TODO: rename this to `homepage`"
         }
       }
     },
     "license": {
       "type": "object",
+      "description": "Defines the license and whatever restrictions are placed on use of the data.",
       "required": [
         "type",
         "commercial_use",
@@ -152,17 +180,21 @@
       "additionalProperties": true,
       "properties": {
         "type": {
-          "type": "string"
+          "type": "string",
+          "description": "A short description of the type of license (i.e. MIT, public domain, etc)"
         },
         "commercial_use": {
-          "type": "boolean"
+          "type": "boolean",
+          "description": "If `true` then there are no restrictions on commercial use."
         },
         "url": {
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "description": "A URL to the license information"
         },
         "notes": {
-          "type": "string"
+          "type": "string",
+          "description": "Any additional restrictions or information on the license."
         }
       }
     },
@@ -179,26 +211,32 @@
         "additionalProperties": false,
         "properties": {
           "name": {
-            "type": "string"
+            "type": "string",
+            "description": "Harmonic Constituent code (i.e. M2) - should be upper-case"
           },
           "description": {
             "type": [
               "string",
               "number",
               "null"
-            ]
+            ],
+            "description": "Human-friendly description of the constituent"
           },
           "amplitude": {
-            "type": "number"
+            "type": "number",
+            "description": "Amplitude"
           },
           "phase_UTC": {
-            "type": "number"
+            "type": "number",
+            "description": "Phase in UTC"
           },
           "phase_local": {
-            "type": "number"
+            "type": "number",
+            "description": "Phase for local timezone"
           },
           "speed": {
-            "type": "number"
+            "type": "number",
+            "description": "Angular speed"
           },
           "comments": {
             "type": "string"
