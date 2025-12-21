@@ -1,6 +1,6 @@
 {
-  "name": "@neaps/tide-stations",
-  "version": "1.0.0",
+  "name": "@neaps/tide-database",
+  "version": "0.0.0",
   "description": "A public database of tide harmonics",
   "keywords": [
     "tides",
@@ -36,5 +36,9 @@
     "vite": "^7.2.6",
     "vite-plugin-dts": "^4.5.4",
     "vitest": "^4.0.15"
-  }
+  },
+  "files": [
+    "dist",
+    "schemas"
+  ]
 }
