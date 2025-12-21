@@ -54,8 +54,6 @@ console.log('5 nearest stations:', near({ lat: 26.722, lon: -80.031 }, 10));
 
 ## Maintenance
 
-### Automated Updates
-
 A GitHub Action runs monthly on the 1st of each month to automatically update NOAA tide station data. The workflow:
 - Fetches the latest station list and harmonic constituents from NOAA's API
 - Updates existing station files with new data
@@ -64,8 +62,6 @@ A GitHub Action runs monthly on the 1st of each month to automatically update NO
 
 You can also manually trigger the workflow from the Actions tab in GitHub.
 
-### Manual Updates
-
 To manually update NOAA stations:
 
 ```bash
@@ -73,3 +69,11 @@ $ tools/update-noaa-stations
 ```
 
 This will scan all existing NOAA station files, fetch any new stations from NOAA's API, and update harmonic constituents for all stations.
+
+## Versioning
+
+Releases of this database use [Semantic Versioning](https://semver.org/), with these added semantics:
+
+* Major version changes indicate breaking changes to the data structure or APIs. However, as long as the version is "0.x", breaking changes may occur without a major version bump.
+* Minor version changes indicate backward-compatible additions to the data structure or APIs, such as new fields.
+* Patch version changes indicate updates to station data, and will always be the current date. For example, "0.1.20260101".
