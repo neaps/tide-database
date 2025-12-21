@@ -1,0 +1,35 @@
+{
+  "id": "us-me-bass-harbor",
+  "name": "Bass Harbor",
+  "continent": "North America",
+  "country": "United States",
+  "region": "ME",
+  "type": "subordinate",
+  "latitude": 44.2417,
+  "longitude": -68.3533,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8413651",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8413651",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8413651.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-bar-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 0.93,
+      "low": 0.93
+    },
+    "time": {
+      "high": 4,
+      "low": -27
+    }
+  }
+}

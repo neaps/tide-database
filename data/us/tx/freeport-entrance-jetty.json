@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-freeport-entrance-jetty",
+  "name": "Freeport Entrance Jetty",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Freeport Entrance Jetty",
-  "id": "us-tx-freeport-entrance-jetty",
   "type": "reference",
-  "latitude": 28.9303,
-  "longitude": -95.3059,
+  "latitude": 28.930299758911133,
+  "longitude": -95.30590057373047,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8772479",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8772479",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8772479.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8772479",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8772479",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8772479.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.468,
     "HAT": 7.643,
@@ -337,5 +334,6 @@
     "DHQ": 0.042,
     "DLQ": 0.068,
     "NAVD88": 6.98
-  }
+  },
+  "disclaimers": ""
 }

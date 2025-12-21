@@ -1,12 +1,25 @@
 {
+  "id": "us-nc-varnamtown-lockwoods-folly-river",
+  "name": "Varnamtown, Lockwoods Folly River",
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "name": "Varnamtown, Lockwoods Folly River",
-  "id": "us-nc-varnamtown-lockwoods-folly-river",
   "type": "reference",
-  "latitude": 33.9331,
-  "longitude": -78.2189,
+  "latitude": 33.933101654052734,
+  "longitude": -78.21890258789062,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8659414",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8659414",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8659414.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8659414",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8659414",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8659414.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.6879997,
     "HAT": 9.68,
@@ -339,5 +336,6 @@
     "HWI": 1.054,
     "LWI": 7.616,
     "NAVD88": 8.57
-  }
+  },
+  "disclaimers": ""
 }

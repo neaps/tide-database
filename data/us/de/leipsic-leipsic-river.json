@@ -1,0 +1,35 @@
+{
+  "id": "us-de-leipsic-leipsic-river",
+  "name": "Leipsic, Leipsic River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "DE",
+  "type": "subordinate",
+  "latitude": 39.245,
+  "longitude": -75.5183,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8554038",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8554038",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8554038.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-lewes-breakwater-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.63
+    },
+    "time": {
+      "high": 215,
+      "low": 229
+    }
+  }
+}

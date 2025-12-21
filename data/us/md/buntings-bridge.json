@@ -1,12 +1,25 @@
 {
+  "id": "us-md-buntings-bridge",
+  "name": "Buntings Bridge",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "Buntings Bridge",
-  "id": "us-md-buntings-bridge",
   "type": "reference",
-  "latitude": 38.138943,
-  "longitude": -75.183525,
+  "latitude": 38.13894444444445,
+  "longitude": -75.18352777777778,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8570691",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8570691",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8570691.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8570691",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8570691",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8570691.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.839,
     "HAT": 9.131,
@@ -339,5 +336,6 @@
     "HWI": 4.31,
     "LWI": 11.12,
     "NAVD88": 9.1
-  }
+  },
+  "disclaimers": ""
 }

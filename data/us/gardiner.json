@@ -1,0 +1,35 @@
+{
+  "id": "us-gardiner",
+  "name": "Gardiner",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 43.73333333333299,
+  "longitude": -124.11666666666996,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC0831",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC0831",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC0831.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-or-charleston",
+    "height": {
+      "type": "ratio",
+      "high": 0.88,
+      "low": 0.8
+    },
+    "time": {
+      "high": 56,
+      "low": 69
+    }
+  }
+}

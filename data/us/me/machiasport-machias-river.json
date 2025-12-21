@@ -1,0 +1,35 @@
+{
+  "id": "us-me-machiasport-machias-river",
+  "name": "Machiasport, Machias River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "ME",
+  "type": "subordinate",
+  "latitude": 44.6983,
+  "longitude": -67.3933,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8411467",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8411467",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8411467.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-eastport",
+    "height": {
+      "type": "ratio",
+      "high": 0.69,
+      "low": 0.69
+    },
+    "time": {
+      "high": 1,
+      "low": -9
+    }
+  }
+}

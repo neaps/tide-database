@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-yokeko-point-deception-pass",
+  "name": "Yokeko Point, Deception Pass",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.4133,
+  "longitude": -122.615,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9448601",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9448601",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9448601.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-seattle-madison-st-elliott-bay",
+    "height": {
+      "type": "fixed",
+      "high": -0.3,
+      "low": -0.06
+    },
+    "time": {
+      "high": 26,
+      "low": 38
+    }
+  }
+}

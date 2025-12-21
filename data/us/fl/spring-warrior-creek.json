@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-spring-warrior-creek",
+  "name": "Spring Warrior Creek",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "SPRING WARRIOR CREEK",
-  "id": "us-fl-spring-warrior-creek",
   "type": "reference",
   "latitude": 29.92,
   "longitude": -83.6717,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727843",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727843",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727843.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8727843",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727843",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727843.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.25899994,
     "HAT": 2.1859999,
@@ -339,5 +336,6 @@
     "HWI": 6.75,
     "LWI": 0.869,
     "NAVD88": 1.265
-  }
+  },
+  "disclaimers": ""
 }

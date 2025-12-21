@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-dolgoi-harbor-dolgoi-island",
+  "name": "Dolgoi Harbor, Dolgoi Island",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Dolgoi Harbor, Dolgoi Island",
-  "id": "us-ak-dolgoi-harbor-dolgoi-island",
   "type": "reference",
-  "latitude": 55.1217,
-  "longitude": -161.792,
+  "latitude": 55.121700286865234,
+  "longitude": -161.79200744628906,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9459758",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459758",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459758.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9459758",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459758",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459758.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.399,
     "HAT": 8.968,
@@ -338,5 +335,6 @@
     "DLQ": 0.4,
     "HWI": 11.394,
     "LWI": 4.962
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-marco-island-caxambas-pass",
+  "name": "Marco Island, Caxambas Pass",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "MARCO ISLAND, CAXAMBAS PASS",
-  "id": "us-fl-marco-island-caxambas-pass",
   "type": "reference",
   "latitude": 25.9083,
   "longitude": -81.7283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724967",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724967",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724967.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8724967",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724967",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724967.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.027999997,
     "HAT": 1.5309999,
@@ -339,5 +336,6 @@
     "HWI": 5.535,
     "LWI": 11.587,
     "NAVD88": 1.08
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-dog-island-west-end",
+  "name": "Dog Island, west end",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 29.785,
+  "longitude": -84.6667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728465",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728465",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728465.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-apalachicola",
+    "height": {
+      "type": "ratio",
+      "high": 1.73,
+      "low": 1.4
+    },
+    "time": {
+      "high": -113,
+      "low": -158
+    }
+  }
+}

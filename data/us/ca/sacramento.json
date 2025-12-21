@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-sacramento",
+  "name": "Sacramento",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 38.58,
+  "longitude": -121.507,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9416174",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9416174",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9416174.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-port-chicago-suisun-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.6,
+      "low": 0.41
+    },
+    "time": {
+      "high": 307,
+      "low": 392
+    }
+  }
+}

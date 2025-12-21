@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-unalakleet",
+  "name": "Unalakleet",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Unalakleet",
-  "id": "us-ak-unalakleet",
   "type": "reference",
   "latitude": 63.875,
-  "longitude": -160.788,
+  "longitude": -160.78799438476562,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9468333",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468333",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468333.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9468333",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468333",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468333.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.22199994,
     "HAT": 2.118,
@@ -337,5 +334,6 @@
     "DHQ": 0.12,
     "DLQ": 0.087,
     "NAVD88": -0.17
-  }
+  },
+  "disclaimers": ""
 }

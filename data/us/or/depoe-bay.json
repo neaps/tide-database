@@ -1,12 +1,25 @@
 {
+  "id": "us-or-depoe-bay",
+  "name": "Depoe Bay",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "DEPOE BAY",
-  "id": "us-or-depoe-bay",
   "type": "reference",
   "latitude": 44.81,
   "longitude": -124.058,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9435827",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9435827",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9435827.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9435827",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9435827",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9435827.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.09399986,
     "HAT": 4.282,
@@ -339,5 +336,6 @@
     "HWI": 7.811,
     "LWI": 1.54,
     "NAVD88": 1.229
-  }
+  },
+  "disclaimers": ""
 }

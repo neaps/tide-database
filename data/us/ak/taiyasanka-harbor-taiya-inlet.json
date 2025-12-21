@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-taiyasanka-harbor-taiya-inlet",
+  "name": "Taiyasanka Harbor, Taiya Inlet",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 59.3017,
+  "longitude": -135.428,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452434",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452434",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452434.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-juneau",
+    "height": {
+      "type": "ratio",
+      "high": 1.03,
+      "low": 1.01
+    },
+    "time": {
+      "high": -4,
+      "low": -2
+    }
+  }
+}

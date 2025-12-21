@@ -1,12 +1,25 @@
 {
+  "id": "us-ri-rumford-seekonk-river",
+  "name": "Rumford, Seekonk River",
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "name": "RUMFORD, SEEKONK RIVER",
-  "id": "us-ri-rumford-seekonk-river",
   "type": "reference",
-  "latitude": 41.84,
-  "longitude": -71.3733,
+  "latitude": 41.84000015258789,
+  "longitude": -71.37329864501953,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8453433",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8453433",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8453433.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8453433",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8453433",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8453433.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.717,
     "HAT": 2.9650002,
@@ -338,5 +335,6 @@
     "DLQ": 0.056,
     "HWI": 0.47,
     "LWI": 6.024
-  }
+  },
+  "disclaimers": ""
 }

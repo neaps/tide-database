@@ -1,0 +1,35 @@
+{
+  "id": "us-castries-st-lucia",
+  "name": "Castries, St. Lucia",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 14.016666666666993,
+  "longitude": -61,
+  "timezone": "America/St_Lucia",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4775",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4775",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4775.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 0.62,
+      "low": 0.62
+    },
+    "time": {
+      "high": -429,
+      "low": -425
+    }
+  }
+}

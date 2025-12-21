@@ -1,12 +1,25 @@
 {
+  "id": "us-nc-core-creek-bridge",
+  "name": "Core Creek Bridge",
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "name": "CORE CREEK BRIDGE",
-  "id": "us-nc-core-creek-bridge",
   "type": "reference",
-  "latitude": 34.825,
-  "longitude": -76.69,
+  "latitude": 34.82500076293945,
+  "longitude": -76.69000244140625,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656084",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656084",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656084.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8656084",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656084",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8656084.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.123000026,
     "HAT": 1.413,
@@ -338,5 +335,6 @@
     "DLQ": 0.027,
     "HWI": 1.035,
     "LWI": 7.63
-  }
+  },
+  "disclaimers": ""
 }

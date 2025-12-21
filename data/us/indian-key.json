@@ -1,0 +1,35 @@
+{
+  "id": "us-indian-key",
+  "name": "Indian Key",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 25.799999237060547,
+  "longitude": -81.4666976928711,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724932",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724932",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724932.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-naples-outer-coast",
+    "height": {
+      "type": "ratio",
+      "high": 1.48,
+      "low": 0.98
+    },
+    "time": {
+      "high": 55,
+      "low": 79
+    }
+  }
+}

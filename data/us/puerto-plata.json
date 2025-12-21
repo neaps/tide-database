@@ -1,0 +1,35 @@
+{
+  "id": "us-puerto-plata",
+  "name": "Puerto Plata",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 19.816666666667007,
+  "longitude": -70.7,
+  "timezone": "America/Santo_Domingo",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4713",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4713",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4713.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pr-san-juan",
+    "height": {
+      "type": "ratio",
+      "high": 1.44,
+      "low": 1.44
+    },
+    "time": {
+      "high": -72,
+      "low": -80
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-or-garibaldi",
+  "name": "Garibaldi",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "Garibaldi",
-  "id": "us-or-garibaldi",
   "type": "reference",
   "latitude": 45.55453,
-  "longitude": -123.918945,
+  "longitude": -123.9189444443915,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9437540",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9437540",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9437540.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9437540",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9437540",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9437540.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.42599988,
     "HAT": 4.394,
@@ -338,5 +335,6 @@
     "DLQ": 0.418,
     "HWI": 8.589,
     "LWI": 2.09
-  }
+  },
+  "disclaimers": ""
 }

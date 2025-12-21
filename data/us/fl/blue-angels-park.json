@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-blue-angels-park",
+  "name": "Blue Angels Park",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Blue Angels Park",
-  "id": "us-fl-blue-angels-park",
   "type": "reference",
-  "latitude": 30.386944,
-  "longitude": -87.4288,
+  "latitude": 30.38694444444445,
+  "longitude": -87.42880555555556,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729941",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729941",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729941.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729941",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729941",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729941.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.3810005,
     "HAT": 8.793,
@@ -336,5 +333,6 @@
     "MN": 0.25,
     "DHQ": 0.002,
     "DLQ": 0
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-cannery-cove-pybus-bay",
+  "name": "Cannery Cove, Pybus Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 57.3067,
+  "longitude": -134.133,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451781",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451781",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451781.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-juneau",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.94
+    },
+    "time": {
+      "high": -8,
+      "low": -6
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-or-reedsport",
+  "name": "Reedsport",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "REEDSPORT",
-  "id": "us-or-reedsport",
   "type": "reference",
-  "latitude": 43.7083,
-  "longitude": -124.098,
+  "latitude": 43.70830154418945,
+  "longitude": -124.0979995727539,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9433501",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9433501",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9433501.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9433501",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9433501",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9433501.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 3.6360002,
     "HAT": 7.037,
@@ -339,5 +336,6 @@
     "HWI": 8.914,
     "LWI": 2.682,
     "NAVD88": 4.254
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-point-adolphus",
+  "name": "Point Adolphus",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.2867,
+  "longitude": -135.803,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452516",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452516",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452516.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-elfin-cove-port-althorp",
+    "height": {
+      "type": "ratio",
+      "high": 1.31,
+      "low": 1.11
+    },
+    "time": {
+      "high": 29,
+      "low": 35
+    }
+  }
+}

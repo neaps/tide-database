@@ -1,0 +1,35 @@
+{
+  "id": "us-jupiter-inlet-u-s-highway-1-bridge",
+  "name": "Jupiter Inlet, U.S. Highway 1 Bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 26.948333333332993,
+  "longitude": -80.085,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3783",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3783",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC3783.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-government-cut-miami-harbor-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 1.14
+    },
+    "time": {
+      "high": 28,
+      "low": 65
+    }
+  }
+}

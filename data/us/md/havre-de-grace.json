@@ -1,12 +1,25 @@
 {
+  "id": "us-md-havre-de-grace",
+  "name": "Havre de Grace",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "Havre De Grace",
-  "id": "us-md-havre-de-grace",
   "type": "reference",
   "latitude": 39.5367,
   "longitude": -76.09,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8574070",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8574070",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8574070.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8574070",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8574070",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8574070.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.754,
     "HAT": 2.883,
@@ -338,5 +335,6 @@
     "DLQ": 0.063,
     "HWI": 2.332,
     "LWI": 9.146
-  }
+  },
+  "disclaimers": ""
 }

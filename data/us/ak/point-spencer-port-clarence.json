@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-point-spencer-port-clarence",
+  "name": "Point Spencer, Port Clarence",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Point Spencer, Port Clarence",
-  "id": "us-ak-point-spencer-port-clarence",
   "type": "reference",
   "latitude": 65.2567,
   "longitude": -166.847,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9469237",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9469237",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9469237.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9469237",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9469237",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9469237.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.345,
     "HAT": 1.8540001,
@@ -338,5 +335,6 @@
     "DLQ": 0.04,
     "HWI": 5,
     "LWI": 0.23
-  }
+  },
+  "disclaimers": ""
 }

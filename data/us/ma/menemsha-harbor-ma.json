@@ -1,12 +1,25 @@
 {
+  "id": "us-ma-menemsha-harbor-ma",
+  "name": "Menemsha Harbor, MA",
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "name": "Menemsha Harbor, MA",
-  "id": "us-ma-menemsha-harbor-ma",
   "type": "reference",
-  "latitude": 41.354443,
-  "longitude": -70.76783,
+  "latitude": 41.35444444444445,
+  "longitude": -70.76783333333333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8448725",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8448725",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8448725.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8448725",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8448725",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8448725.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.432,
     "HAT": 8.968,
@@ -338,5 +335,6 @@
     "DLQ": 0.038,
     "HWI": 0.6,
     "LWI": 6.77
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-ogliuga-island-east-coast",
+  "name": "Ogliuga Island (east coast)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 51.6033,
+  "longitude": -178.617,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9461081",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9461081",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9461081.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sweeper-cove-kuluk-bay-adak-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 0.95
+    },
+    "time": {
+      "high": 1,
+      "low": -43
+    }
+  }
+}

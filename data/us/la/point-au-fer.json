@@ -1,0 +1,35 @@
+{
+  "id": "us-la-point-au-fer",
+  "name": "Point Au Fer",
+  "continent": "North America",
+  "country": "United States",
+  "region": "LA",
+  "type": "subordinate",
+  "latitude": 29.3333,
+  "longitude": -91.3533,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8764256",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8764256",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8764256.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-tx-galveston-galveston-channel",
+    "height": {
+      "type": "ratio",
+      "high": 1.4,
+      "low": 1.4
+    },
+    "time": {
+      "high": -21,
+      "low": -146
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-corkscrew-slough",
+  "name": "Corkscrew Slough",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 37.5083,
+  "longitude": -122.21,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414505",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414505",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414505.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-san-francisco-golden-gate",
+    "height": {
+      "type": "fixed",
+      "high": 0.67,
+      "low": 0.03
+    },
+    "time": {
+      "high": 63,
+      "low": 102
+    }
+  }
+}

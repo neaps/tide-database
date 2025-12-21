@@ -1,0 +1,35 @@
+{
+  "id": "us-sunset-beach-bridge",
+  "name": "Sunset Beach Bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 33.88166666666701,
+  "longitude": -78.51,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8659899",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8659899",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8659899.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-springmaid-pier-myrtle-beach",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.84
+    },
+    "time": {
+      "high": 34,
+      "low": 56
+    }
+  }
+}

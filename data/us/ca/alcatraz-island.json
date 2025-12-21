@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-alcatraz-island",
+  "name": "Alcatraz Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 37.8267,
+  "longitude": -122.417,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414792",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414792",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414792.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-san-francisco-golden-gate",
+    "height": {
+      "type": "fixed",
+      "high": 0,
+      "low": 0
+    },
+    "time": {
+      "high": 14,
+      "low": 18
+    }
+  }
+}

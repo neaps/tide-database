@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-chester-bells-river",
+  "name": "Chester, Bells River",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "CHESTER, BELLS RIVER",
-  "id": "us-fl-chester-bells-river",
   "type": "reference",
   "latitude": 30.6833,
   "longitude": -81.5333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720023",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720023",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720023.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8720023",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720023",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720023.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.23399997,
     "HAT": 3.2779999,
@@ -339,5 +336,6 @@
     "HWI": 1.81,
     "LWI": 7.58,
     "NAVD88": 1.804
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-me-eastport",
+  "name": "EASTPORT",
   "continent": "North America",
   "country": "United States",
   "region": "ME",
-  "name": "Eastport",
-  "id": "us-me-eastport",
   "type": "reference",
-  "latitude": 44.90461,
-  "longitude": -66.98289,
+  "latitude": 44.90460968017578,
+  "longitude": -66.9828872680664,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8410140",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8410140",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8410140.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8410140",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8410140",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8410140.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.40991163,
     "HAT": 8.399912,
@@ -339,5 +336,6 @@
     "HWI": 3.3,
     "LWI": 9.695,
     "NAVD88": 4.491
-  }
+  },
+  "disclaimers": ""
 }

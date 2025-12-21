@@ -1,12 +1,25 @@
 {
+  "id": "us-nc-wrightsville-beach",
+  "name": "Wrightsville Beach",
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "name": "Wrightsville Beach",
-  "id": "us-nc-wrightsville-beach",
   "type": "reference",
-  "latitude": 34.213306,
-  "longitude": -77.7867,
+  "latitude": 34.21330555555556,
+  "longitude": -77.78669444444445,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8658163",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8658163",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8658163.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8658163",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8658163",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8658163.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.324,
     "HAT": 7.5699997,
@@ -339,5 +336,6 @@
     "HWI": 12.317,
     "LWI": 6.156,
     "NAVD88": 6.579
-  }
+  },
+  "disclaimers": ""
 }

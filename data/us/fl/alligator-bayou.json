@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-alligator-bayou",
+  "name": "Alligator Bayou",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.17,
+  "longitude": -85.755,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729152",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729152",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729152.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-pensacola",
+    "height": {
+      "type": "ratio",
+      "high": 1.07,
+      "low": 1.07
+    },
+    "time": {
+      "high": -47,
+      "low": -70
+    }
+  }
+}

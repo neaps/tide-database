@@ -1,12 +1,25 @@
 {
+  "id": "us-la-pointe-au-chien-cut-off-canal",
+  "name": "Pointe Au Chien, Cut Off Canal",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Pointe Au Chien, Cut Off Canal",
-  "id": "us-la-pointe-au-chien-cut-off-canal",
   "type": "reference",
-  "latitude": 29.4167,
-  "longitude": -90.4467,
+  "latitude": 29.41670036315918,
+  "longitude": -90.44670104980469,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8762525",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762525",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762525.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8762525",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762525",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762525.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.88900006,
     "HAT": 1.347,
@@ -336,5 +333,6 @@
     "MN": 0.135,
     "DHQ": 0,
     "DLQ": 0.001
-  }
+  },
+  "disclaimers": ""
 }

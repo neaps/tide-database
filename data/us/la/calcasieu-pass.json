@@ -1,12 +1,25 @@
 {
+  "id": "us-la-calcasieu-pass",
+  "name": "Calcasieu Pass",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Calcasieu Pass",
-  "id": "us-la-calcasieu-pass",
   "type": "reference",
-  "latitude": 29.768167,
-  "longitude": -93.34289,
+  "latitude": 29.76816666666667,
+  "longitude": -93.3428888888889,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8768094",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8768094",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8768094.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8768094",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8768094",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8768094.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.735,
     "HAT": 8.96,
@@ -337,5 +334,6 @@
     "DHQ": 0.031,
     "DLQ": 0.15,
     "NAVD88": 8.622
-  }
+  },
+  "disclaimers": ""
 }

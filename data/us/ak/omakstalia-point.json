@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-omakstalia-point",
+  "name": "Omakstalia Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.70669937133789,
+  "longitude": -156.7570037841797,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9465174",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465174",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9465174.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-naknek-naknek-river",
+    "height": {
+      "type": "ratio",
+      "high": 0.44,
+      "low": 1.03
+    },
+    "time": {
+      "high": -174,
+      "low": -48
+    }
+  }
+}

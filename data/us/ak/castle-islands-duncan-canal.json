@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-castle-islands-duncan-canal",
+  "name": "Castle Islands, Duncan Canal",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Castle Islands, Duncan Canal",
-  "id": "us-ak-castle-islands-duncan-canal",
   "type": "reference",
-  "latitude": 56.643307,
-  "longitude": -133.152,
+  "latitude": 56.643306732177734,
+  "longitude": -133.15199279785156,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451321",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451321",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451321.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451321",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451321",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451321.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 3.381,
     "HAT": 10.971,
@@ -339,5 +336,6 @@
     "HWI": 9.799,
     "LWI": 3.292,
     "NAVD88": 5.803
-  }
+  },
+  "disclaimers": ""
 }

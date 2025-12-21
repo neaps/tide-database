@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-mount-sinai-harbor",
+  "name": "Mount Sinai Harbor",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.9633,
+  "longitude": -73.04,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8514421",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8514421",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8514421.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ct-bridgeport",
+    "height": {
+      "type": "ratio",
+      "high": 0.89,
+      "low": 0.88
+    },
+    "time": {
+      "high": 4,
+      "low": 18
+    }
+  }
+}

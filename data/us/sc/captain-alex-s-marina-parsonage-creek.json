@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-captain-alex-s-marina-parsonage-creek",
+  "name": "Captain Alex's Marina, Parsonage Creek",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 33.5517,
+  "longitude": -79.0367,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8661529",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8661529",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8661529.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-springmaid-pier-myrtle-beach",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.68
+    },
+    "time": {
+      "high": 57,
+      "low": 88
+    }
+  }
+}

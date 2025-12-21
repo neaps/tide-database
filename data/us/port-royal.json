@@ -1,0 +1,35 @@
+{
+  "id": "us-port-royal",
+  "name": "Port Royal",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 17.933333333332993,
+  "longitude": -76.85,
+  "timezone": "America/Jamaica",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4697",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4697",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4697.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-tx-galveston-galveston-channel",
+    "height": {
+      "type": "ratio",
+      "high": 0.5,
+      "low": 0.5
+    },
+    "time": {
+      "high": -427,
+      "low": -494
+    }
+  }
+}

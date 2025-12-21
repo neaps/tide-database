@@ -1,0 +1,35 @@
+{
+  "id": "us-kiska-harbor-kiska-island",
+  "name": "Kiska Harbor, Kiska Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 51.983299255371094,
+  "longitude": 177.5500030517578,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2307",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2307",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC2307.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sweeper-cove-kuluk-bay-adak-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.97
+    },
+    "time": {
+      "high": 24,
+      "low": -73
+    }
+  }
+}

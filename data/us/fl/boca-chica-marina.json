@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-boca-chica-marina",
+  "name": "Boca Chica Marina",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "BOCA CHICA MARINA",
-  "id": "us-fl-boca-chica-marina",
   "type": "reference",
   "latitude": 24.575,
   "longitude": -81.7083,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724493",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724493",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724493.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8724493",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724493",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724493.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 3.6750002,
     "HAT": 4.321,
@@ -337,5 +334,6 @@
     "DHQ": 0.076,
     "DLQ": 0.051,
     "NAVD88": 4.214
-  }
+  },
+  "disclaimers": ""
 }

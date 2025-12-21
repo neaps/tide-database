@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-ceiba-roosevelt-road",
+  "name": "Ceiba, Roosevelt Road",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Ceiba, Roosevelt Road",
-  "id": "us-pr-ceiba-roosevelt-road",
   "type": "reference",
-  "latitude": 18.2281,
-  "longitude": -65.6197,
+  "latitude": 18.228099822998047,
+  "longitude": -65.61969757080078,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9753182",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9753182",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9753182.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9753182",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9753182",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9753182.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.415,
     "HAT": 8.005,
@@ -337,5 +334,6 @@
     "DHQ": 0.059,
     "DLQ": 0.042,
     "PRVD02": 7.677
-  }
+  },
+  "disclaimers": ""
 }

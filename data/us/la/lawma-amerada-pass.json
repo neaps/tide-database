@@ -1,12 +1,25 @@
 {
+  "id": "us-la-lawma-amerada-pass",
+  "name": "LAWMA, Amerada Pass",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "LAWMA, Amerada Pass",
-  "id": "us-la-lawma-amerada-pass",
   "type": "reference",
-  "latitude": 29.4496,
-  "longitude": -91.3381,
+  "latitude": 29.449600219726562,
+  "longitude": -91.33809661865234,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8764227",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8764227",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8764227.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8764227",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8764227",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8764227.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.774,
     "HAT": 7.833,
@@ -337,5 +334,6 @@
     "DHQ": 0.047,
     "DLQ": 0.099,
     "NAVD88": 7.421
-  }
+  },
+  "disclaimers": ""
 }

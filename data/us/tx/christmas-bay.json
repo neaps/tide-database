@@ -1,0 +1,35 @@
+{
+  "id": "us-tx-christmas-bay",
+  "name": "Christmas Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "TX",
+  "type": "subordinate",
+  "latitude": 29.0417,
+  "longitude": -95.175,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8772132",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8772132",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8772132.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-tx-galveston-galveston-channel",
+    "height": {
+      "type": "ratio",
+      "high": 0.58,
+      "low": 0.23
+    },
+    "time": {
+      "high": 287,
+      "low": 157
+    }
+  }
+}

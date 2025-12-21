@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-red-bay-point-st-johns-river",
+  "name": "Red Bay Point, St Johns River",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Red Bay Point, St Johns River",
-  "id": "us-fl-red-bay-point-st-johns-river",
   "type": "reference",
-  "latitude": 29.981667,
-  "longitude": -81.63416,
+  "latitude": 29.98166666666667,
+  "longitude": -81.63416666666667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720503",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720503",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720503.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8720503",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720503",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720503.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.235,
     "HAT": 0.144,
@@ -339,5 +336,6 @@
     "HWI": 6.032,
     "LWI": 0.181,
     "NAVD88": 0.008
-  }
+  },
+  "disclaimers": ""
 }

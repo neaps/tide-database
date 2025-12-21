@@ -1,12 +1,25 @@
 {
+  "id": "us-ri-point-judith-harbor-of-refuge",
+  "name": "Point Judith, Harbor of Refuge",
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "name": "POINT JUDITH, HARBOR OF REFUGE",
-  "id": "us-ri-point-judith-harbor-of-refuge",
   "type": "reference",
   "latitude": 41.3633,
   "longitude": -71.49,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8455083",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8455083",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8455083.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8455083",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8455083",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8455083.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.263,
     "HAT": 1.4679999,
@@ -338,5 +335,6 @@
     "DLQ": 0.039,
     "HWI": 0.262,
     "LWI": 6.464
-  }
+  },
+  "disclaimers": ""
 }

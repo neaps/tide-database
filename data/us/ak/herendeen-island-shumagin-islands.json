@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-herendeen-island-shumagin-islands",
+  "name": "Herendeen Island, Shumagin Islands",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Herendeen Island, Shumagin Islands",
-  "id": "us-ak-herendeen-island-shumagin-islands",
   "type": "reference",
-  "latitude": 55.065556,
-  "longitude": -159.41867,
+  "latitude": 55.06555555555556,
+  "longitude": -159.4186666666667,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9459163",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459163",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459163.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9459163",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459163",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459163.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.4779999,
     "HAT": 2.373,
@@ -338,5 +335,6 @@
     "DLQ": 0.413,
     "HWI": 11.204,
     "LWI": 4.899
-  }
+  },
+  "disclaimers": ""
 }

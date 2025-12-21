@@ -1,12 +1,25 @@
 {
+  "id": "us-al-alabama-point",
+  "name": "Alabama Point",
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "name": "Alabama Point",
-  "id": "us-al-alabama-point",
   "type": "reference",
-  "latitude": 30.27861,
-  "longitude": -87.555,
+  "latitude": 30.27861111111111,
+  "longitude": -87.55500030517578,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8730667",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8730667",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8730667.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8730667",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8730667",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8730667.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.691,
     "HAT": 1.26,
@@ -336,5 +333,6 @@
     "MN": 0.243,
     "DHQ": 0.012,
     "DLQ": 0.007
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-tuntutuliak",
+  "name": "Tuntutuliak",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Tuntutuliak",
-  "id": "us-ak-tuntutuliak",
   "type": "reference",
-  "latitude": 60.3415,
-  "longitude": -162.686,
+  "latitude": 60.34149932861328,
+  "longitude": -162.68600463867188,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9466197",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9466197",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9466197.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9466197",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9466197",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9466197.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.507,
     "HAT": 9.736,
@@ -339,5 +336,6 @@
     "HWI": 10.697,
     "LWI": 5.89,
     "NAVD88": 6.223
-  }
+  },
+  "disclaimers": ""
 }

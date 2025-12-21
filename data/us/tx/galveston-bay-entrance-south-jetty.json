@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-galveston-bay-entrance-south-jetty",
+  "name": "Galveston Bay Entrance, South Jetty",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Galveston Bay Entrance, South Jetty",
-  "id": "us-tx-galveston-bay-entrance-south-jetty",
   "type": "reference",
-  "latitude": 29.3267,
-  "longitude": -94.6933,
+  "latitude": 29.32670021057129,
+  "longitude": -94.69329833984375,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8771416",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771416",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771416.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8771416",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771416",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771416.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.859,
     "HAT": 3.2350001,
@@ -336,5 +333,6 @@
     "MN": 0.466,
     "DHQ": 0.061,
     "DLQ": 0.126
-  }
+  },
+  "disclaimers": ""
 }

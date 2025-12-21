@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-alameda",
+  "name": "Alameda",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "Alameda",
-  "id": "us-ca-alameda",
   "type": "reference",
-  "latitude": 37.771954,
-  "longitude": -122.30026,
+  "latitude": 37.77195277777778,
+  "longitude": -122.3002611111111,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414750",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414750",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414750.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9414750",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414750",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414750.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.4369861,
     "HAT": 3.4409862,
@@ -339,5 +336,6 @@
     "HWI": 8.009,
     "LWI": 1.498,
     "NAVD88": 1.086
-  }
+  },
+  "disclaimers": ""
 }

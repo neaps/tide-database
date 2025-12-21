@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-st-augustine-beach",
+  "name": "St. Augustine Beach",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "St. Augustine Beach",
-  "id": "us-fl-st-augustine-beach",
   "type": "reference",
   "latitude": 29.8567,
   "longitude": -81.2633,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720587",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720587",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720587.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8720587",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720587",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720587.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.508,
     "HAT": 3.019,
@@ -339,5 +336,6 @@
     "HWI": 0.524,
     "LWI": 6.732,
     "NAVD88": 1.872
-  }
+  },
+  "disclaimers": ""
 }

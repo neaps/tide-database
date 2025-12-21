@@ -1,0 +1,35 @@
+{
+  "id": "us-asau-harbor-savaii-island",
+  "name": "Asau Harbor, Savaii Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -13.5,
+  "longitude": -172.6333333333333,
+  "timezone": "Pacific/Apia",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2859",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2859",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2859.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-as-apia-observatory-upolu-island",
+    "height": {
+      "type": "fixed",
+      "high": 0.06,
+      "low": -0.09
+    },
+    "time": {
+      "high": -3,
+      "low": -32
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-me-north-haven",
+  "name": "North Haven",
+  "continent": "North America",
+  "country": "United States",
+  "region": "ME",
+  "type": "subordinate",
+  "latitude": 44.1267,
+  "longitude": -68.8733,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8414856",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8414856",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8414856.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-bar-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 0.91,
+      "low": 0.9
+    },
+    "time": {
+      "high": 13,
+      "low": 10
+    }
+  }
+}

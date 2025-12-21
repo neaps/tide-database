@@ -1,12 +1,25 @@
 {
+  "id": "us-ga-little-wassaw-island-green-island-sound",
+  "name": "Little Wassaw Island, Green Island Sound",
   "continent": "North America",
   "country": "United States",
   "region": "GA",
-  "name": "Little Wassaw Island, Green Island Sound",
-  "id": "us-ga-little-wassaw-island-green-island-sound",
   "type": "reference",
-  "latitude": 31.8897,
-  "longitude": -81.0617,
+  "latitude": 31.889699935913086,
+  "longitude": -81.06169891357422,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8671946",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8671946",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8671946.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8671946",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8671946",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8671946.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 11.502999,
     "HAT": 15.065,
@@ -338,5 +335,6 @@
     "DLQ": 0.062,
     "HWI": 0.838,
     "LWI": 7.108
-  }
+  },
+  "disclaimers": ""
 }

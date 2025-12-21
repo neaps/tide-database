@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-indian-key-anchorage-lower-matecumbe-key",
+  "name": "Indian Key Anchorage, Lower Matecumbe Key",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.8683,
+  "longitude": -80.7033,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723851",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723851",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723851.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 1.38,
+      "low": 0.88
+    },
+    "time": {
+      "high": -85,
+      "low": -54
+    }
+  }
+}

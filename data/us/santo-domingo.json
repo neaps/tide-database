@@ -1,0 +1,35 @@
+{
+  "id": "us-santo-domingo",
+  "name": "Santo Domingo",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 18.45,
+  "longitude": -69.883333333333,
+  "timezone": "America/Santo_Domingo",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4723",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4723",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4723.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-tx-galveston-galveston-channel",
+    "height": {
+      "type": "ratio",
+      "high": 0.57,
+      "low": 0.57
+    },
+    "time": {
+      "high": -388,
+      "low": -661
+    }
+  }
+}

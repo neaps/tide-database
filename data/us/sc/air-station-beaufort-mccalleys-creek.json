@@ -1,12 +1,25 @@
 {
+  "id": "us-sc-air-station-beaufort-mccalleys-creek",
+  "name": "Air Station Beaufort, McCalleys creek",
   "continent": "North America",
   "country": "United States",
   "region": "SC",
-  "name": "Air Station Beaufort, McCalleys Creek",
-  "id": "us-sc-air-station-beaufort-mccalleys-creek",
   "type": "reference",
-  "latitude": 32.5019,
-  "longitude": -80.6849,
+  "latitude": 32.50189971923828,
+  "longitude": -80.68489837646484,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8667612",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8667612",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8667612.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8667612",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8667612",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8667612.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.07,
     "HAT": 8.658,
@@ -339,5 +336,6 @@
     "HWI": 1.778,
     "LWI": 8.045,
     "NAVD88": 6.969
-  }
+  },
+  "disclaimers": ""
 }

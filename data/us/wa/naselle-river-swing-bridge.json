@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-naselle-river-swing-bridge",
+  "name": "Naselle River, swing bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 46.43,
+  "longitude": -123.903,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9440691",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440691",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440691.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-toke-point",
+    "height": {
+      "type": "ratio",
+      "high": 1.22,
+      "low": 1.08
+    },
+    "time": {
+      "high": 42,
+      "low": 37
+    }
+  }
+}

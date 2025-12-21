@@ -1,0 +1,35 @@
+{
+  "id": "us-ga-floyd-creek-2-8-miles-above-entrance",
+  "name": "Floyd Creek, 2.8 miles above entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "GA",
+  "type": "subordinate",
+  "latitude": 30.9367,
+  "longitude": -81.5067,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8678642",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8678642",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8678642.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-fernandina-beach-amelia-river",
+    "height": {
+      "type": "ratio",
+      "high": 1.17,
+      "low": 1.17
+    },
+    "time": {
+      "high": 8,
+      "low": 21
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-fm-malakal-harbor-palau-island",
+  "name": "Malakal Harbor, Palau Island",
   "continent": "North America",
   "country": "United States",
   "region": "FM",
-  "name": "Malakal Harbor, Palau Island",
-  "id": "us-fm-malakal-harbor-palau-island",
   "type": "reference",
-  "latitude": 7.3333,
-  "longitude": 134.4667,
+  "latitude": 7.3333001136779785,
+  "longitude": 134.46670532226562,
+  "timezone": "Pacific/Palau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "1841367",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=1841367",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/1841367.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,25 +318,10 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "Pacific/Palau",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "1841367",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=1841367",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/1841367.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "STND": 0,
     "MSL": 0,
     "MLLW": -1.109
-  }
+  },
+  "disclaimers": ""
 }

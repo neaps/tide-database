@@ -13,12 +13,64 @@
     "longitude",
     "timezone",
     "source",
-    "license",
-    "harmonic_constituents",
-    "secondary_offset",
-    "datums"
+    "license"
   ],
   "additionalProperties": false,
+  "$defs": {
+    "offsets": {
+      "type": "object",
+      "required": [
+        "reference",
+        "height",
+        "time"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "reference": {
+          "type": "string"
+        },
+        "height": {
+          "type": "object",
+          "required": [
+            "high",
+            "low",
+            "type"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "high": {
+              "type": "number"
+            },
+            "low": {
+              "type": "number"
+            },
+            "type": {
+              "enum": [
+                "ratio",
+                "fixed"
+              ]
+            }
+          }
+        },
+        "time": {
+          "type": "object",
+          "required": [
+            "high",
+            "low"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "high": {
+              "type": "number"
+            },
+            "low": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  },
   "properties": {
     "id": {
       "type": "string",
@@ -45,13 +97,10 @@
     "disclaimers": {
       "type": "string"
     },
-    "restriction": {
-      "type": "string"
-    },
     "type": {
       "enum": [
         "reference",
-        "secondary"
+        "subordinate"
       ]
     },
     "latitude": {
@@ -157,57 +206,14 @@
         }
       }
     },
-    "secondary_offset": {
+    "offsets": {
       "anyOf": [
         {
           "type": "object",
           "maxProperties": 0
         },
         {
-          "type": "object",
-          "required": [
-            "reference_station",
-            "height_offset",
-            "time_offset"
-          ],
-          "additionalProperties": false,
-          "properties": {
-            "reference_station": {
-              "type": "string"
-            },
-            "height_offset": {
-              "type": "object",
-              "required": [
-                "high",
-                "low"
-              ],
-              "additionalProperties": false,
-              "properties": {
-                "high": {
-                  "type": "number"
-                },
-                "low": {
-                  "type": "number"
-                }
-              }
-            },
-            "time_offset": {
-              "type": "object",
-              "required": [
-                "high",
-                "low"
-              ],
-              "additionalProperties": false,
-              "properties": {
-                "high": {
-                  "type": "number"
-                },
-                "low": {
-                  "type": "number"
-                }
-              }
-            }
-          }
+          "$ref": "#/$defs/offsets"
         }
       ]
     },
@@ -226,7 +232,7 @@
       "if": {
         "properties": {
           "type": {
-            "const": "secondary"
+            "const": "subordinate"
           }
         }
       },
@@ -235,55 +241,8 @@
           "harmonic_constituents": {
             "maxItems": 0
           },
-          "secondary_offset": {
-            "anyOf": [
-              {
-                "type": "object",
-                "required": [
-                  "reference_station",
-                  "height_offset",
-                  "time_offset"
-                ],
-                "additionalProperties": false,
-                "properties": {
-                  "reference_station": {
-                    "type": "string"
-                  },
-                  "height_offset": {
-                    "type": "object",
-                    "required": [
-                      "high",
-                      "low"
-                    ],
-                    "additionalProperties": false,
-                    "properties": {
-                      "high": {
-                        "type": "number"
-                      },
-                      "low": {
-                        "type": "number"
-                      }
-                    }
-                  },
-                  "time_offset": {
-                    "type": "object",
-                    "required": [
-                      "high",
-                      "low"
-                    ],
-                    "additionalProperties": false,
-                    "properties": {
-                      "high": {
-                        "type": "number"
-                      },
-                      "low": {
-                        "type": "number"
-                      }
-                    }
-                  }
-                }
-              }
-            ]
+          "offsets": {
+            "$ref": "#/$defs/offsets"
           }
         }
       }

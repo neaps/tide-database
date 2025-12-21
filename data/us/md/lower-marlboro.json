@@ -1,12 +1,25 @@
 {
+  "id": "us-md-lower-marlboro",
+  "name": "Lower Marlboro",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "Lower Marlboro",
-  "id": "us-md-lower-marlboro",
   "type": "reference",
   "latitude": 38.655,
-  "longitude": -76.683334,
+  "longitude": -76.68333333333334,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8579542",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8579542",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8579542.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8579542",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8579542",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8579542.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 2.523,
     "HAT": 3.273,
@@ -338,5 +335,6 @@
     "DLQ": 0.053,
     "HWI": 8.774,
     "LWI": 2.803
-  }
+  },
+  "disclaimers": ""
 }

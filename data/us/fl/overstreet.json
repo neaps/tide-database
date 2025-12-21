@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-overstreet",
+  "name": "Overstreet",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "OVERSTREET",
-  "id": "us-fl-overstreet",
   "type": "reference",
-  "latitude": 29.9967,
-  "longitude": -85.37,
+  "latitude": 29.996700286865234,
+  "longitude": -85.37000274658203,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728957",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728957",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728957.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728957",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728957",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728957.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.48400003,
     "HAT": 1.544,
@@ -337,5 +334,6 @@
     "DHQ": 0.029,
     "DLQ": 0.045,
     "NAVD88": 0.98
-  }
+  },
+  "disclaimers": ""
 }

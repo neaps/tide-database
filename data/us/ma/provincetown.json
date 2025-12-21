@@ -1,12 +1,25 @@
 {
+  "id": "us-ma-provincetown",
+  "name": "Provincetown",
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "name": "Provincetown",
-  "id": "us-ma-provincetown",
   "type": "reference",
-  "latitude": 42.04959,
-  "longitude": -70.18216,
+  "latitude": 42.04959166666666,
+  "longitude": -70.18215833333333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8446121",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8446121",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8446121.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8446121",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8446121",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8446121.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.5869999,
     "HAT": 4.902,
@@ -338,5 +335,6 @@
     "DLQ": 0.101,
     "HWI": 3.831,
     "LWI": 10.008
-  }
+  },
+  "disclaimers": ""
 }

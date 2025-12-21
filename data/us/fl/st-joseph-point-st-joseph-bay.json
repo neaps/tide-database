@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-st-joseph-point-st-joseph-bay",
+  "name": "St. Joseph Point, St. Joseph Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "ST. JOSEPH POINT, ST. JOSEPH BAY",
-  "id": "us-fl-st-joseph-point-st-joseph-bay",
   "type": "reference",
-  "latitude": 29.8733,
-  "longitude": -85.39,
+  "latitude": 29.873300552368164,
+  "longitude": -85.38999938964844,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728958",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728958",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728958.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728958",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728958",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728958.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.16,
     "HAT": 0.845,
@@ -337,5 +334,6 @@
     "DHQ": 0.093,
     "DLQ": 0.027,
     "NAVD88": 0.376
-  }
+  },
+  "disclaimers": ""
 }

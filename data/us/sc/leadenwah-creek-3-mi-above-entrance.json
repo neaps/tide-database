@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-leadenwah-creek-3-mi-above-entrance",
+  "name": "Leadenwah Creek, 3 mi. above entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 32.6367,
+  "longitude": -80.2017,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8666775",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8666775",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8666775.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-charleston-customhouse-wharf",
+    "height": {
+      "type": "ratio",
+      "high": 1.15,
+      "low": 1.11
+    },
+    "time": {
+      "high": 54,
+      "low": 23
+    }
+  }
+}

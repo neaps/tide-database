@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-okee-bay",
+  "name": "Okee Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 53.0167,
+  "longitude": -168.835,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9462354",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462354",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462354.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-unalaska",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 1.1
+    },
+    "time": {
+      "high": -7,
+      "low": -43
+    }
+  }
+}

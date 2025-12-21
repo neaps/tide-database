@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-fossil-river-entrance",
+  "name": "Fossil River entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 63.4667,
+  "longitude": -170.017,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9468123",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468123",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468123.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-nome",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 0.67
+    },
+    "time": {
+      "high": -240,
+      "low": -248
+    }
+  }
+}

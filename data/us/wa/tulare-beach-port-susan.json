@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-tulare-beach-port-susan",
+  "name": "Tulare Beach, Port Susan",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Tulare Beach, Port Susan",
-  "id": "us-wa-tulare-beach-port-susan",
   "type": "reference",
-  "latitude": 48.106804,
-  "longitude": -122.347275,
+  "latitude": 48.10680555555555,
+  "longitude": -122.3472777777778,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9448043",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9448043",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9448043.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9448043",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9448043",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9448043.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.915,
     "HAT": 10.319,
@@ -339,5 +336,6 @@
     "HWI": 0.36,
     "LWI": 6.58,
     "NAVD88": 6.899
-  }
+  },
+  "disclaimers": ""
 }

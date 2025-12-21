@@ -1,12 +1,25 @@
 {
+  "id": "us-or-florence-uscg-pier-siuslaw-river",
+  "name": "Florence USCG Pier, Siuslaw River",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "Florence USCG Pier, Siuslaw River",
-  "id": "us-or-florence-uscg-pier-siuslaw-river",
   "type": "reference",
-  "latitude": 44.0021,
-  "longitude": -124.123,
+  "latitude": 44.00210189819336,
+  "longitude": -124.12300109863281,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9434098",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9434098",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9434098.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9434098",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9434098",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9434098.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.403,
     "HAT": 9.027,
@@ -338,5 +335,6 @@
     "DLQ": 0.379,
     "HWI": 8.073,
     "LWI": 1.79
-  }
+  },
+  "disclaimers": ""
 }

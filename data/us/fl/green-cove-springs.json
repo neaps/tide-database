@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-green-cove-springs",
+  "name": "Green Cove Springs",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 29.99,
+  "longitude": -81.6633,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720496",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720496",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720496.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-mayport-bar-pilot-dock",
+    "height": {
+      "type": "ratio",
+      "high": 0.17,
+      "low": 0.27
+    },
+    "time": {
+      "high": 297,
+      "low": 355
+    }
+  }
+}

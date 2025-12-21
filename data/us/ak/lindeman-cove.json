@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-lindeman-cove",
+  "name": "Lindeman Cove",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Lindeman Cove",
-  "id": "us-ak-lindeman-cove",
   "type": "reference",
   "latitude": 55.6017,
   "longitude": -132.512,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450625",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450625",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450625.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9450625",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450625",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450625.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 2.027251,
     "HAT": 9.723251,
@@ -338,5 +335,6 @@
     "DLQ": 0.483,
     "HWI": 9.51,
     "LWI": 3.15
-  }
+  },
+  "disclaimers": ""
 }

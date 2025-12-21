@@ -1,12 +1,25 @@
 {
+  "id": "us-la-rat-bayou",
+  "name": "Rat Bayou",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Rat Bayou",
-  "id": "us-la-rat-bayou",
   "type": "reference",
-  "latitude": 29.566694,
-  "longitude": -89.76336,
+  "latitude": 29.56669444444444,
+  "longitude": -89.76336111111111,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8761431",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761431",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8761431.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8761431",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761431",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8761431.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 9.192,
     "HAT": 9.733,
@@ -337,5 +334,6 @@
     "DHQ": 0,
     "DLQ": 0,
     "NAVD88": 9.133
-  }
+  },
+  "disclaimers": ""
 }

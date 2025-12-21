@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-lake-wimico",
+  "name": "Lake Wimico",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Lake Wimico",
-  "id": "us-fl-lake-wimico",
   "type": "reference",
-  "latitude": 29.8214,
-  "longitude": -85.1733,
+  "latitude": 29.821399688720703,
+  "longitude": -85.17330169677734,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728819",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728819",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728819.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728819",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728819",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728819.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 9.208,
     "HAT": 9.852,
@@ -336,5 +333,6 @@
     "MN": 0.207,
     "DHQ": 0.013,
     "DLQ": 0.015
-  }
+  },
+  "disclaimers": ""
 }

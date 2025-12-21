@@ -1,0 +1,35 @@
+{
+  "id": "us-ny-whitestone",
+  "name": "Whitestone",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NY",
+  "type": "subordinate",
+  "latitude": 40.7983,
+  "longitude": -73.8133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8517125",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517125",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8517125.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ny-kings-point",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1.04
+    },
+    "time": {
+      "high": 7,
+      "low": 9
+    }
+  }
+}

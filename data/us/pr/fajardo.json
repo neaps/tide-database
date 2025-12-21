@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-fajardo",
+  "name": "Fajardo",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Fajardo",
-  "id": "us-pr-fajardo",
   "type": "reference",
-  "latitude": 18.335278,
-  "longitude": -65.63111,
+  "latitude": 18.3352778,
+  "longitude": -65.6311111,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9753216",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9753216",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9753216.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9753216",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9753216",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9753216.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "[object Object]",
-  "restriction": "",
   "datums": {
     "LAT": 6.945,
     "HAT": 7.7,
@@ -338,5 +335,6 @@
     "DLQ": 0.05,
     "HWI": 0.363,
     "LWI": 6.658
-  }
+  },
+  "disclaimers": "These data are measured by the Puerto Rico Seismic Network (PRSN), located at the University of Puerto Rico Mayaguez. PRSN is a National Ocean Service (NOS) partner that adheres to NOS data collection standards. For more information on the PRSN, visit their <a href=\"http://tidesandcurrents.noaa.gov/redirect.shtml?url=45\">website</a>."
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-me-oceanville-deer-isle",
+  "name": "Oceanville, Deer Isle",
   "continent": "North America",
   "country": "United States",
   "region": "ME",
-  "name": "Oceanville, Deer Isle",
-  "id": "us-me-oceanville-deer-isle",
   "type": "reference",
-  "latitude": 44.192307,
-  "longitude": -68.62093,
+  "latitude": 44.19230555555556,
+  "longitude": -68.62093055555556,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8414249",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8414249",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8414249.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8414249",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8414249",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8414249.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.218,
     "HAT": 9.830999,
@@ -338,5 +335,6 @@
     "DLQ": 0.109,
     "HWI": 3.411,
     "LWI": 9.604
-  }
+  },
+  "disclaimers": ""
 }

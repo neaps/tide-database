@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-divine-s-dock",
+  "name": "Divine's Dock",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 33.5417,
+  "longitude": -79.0283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8661582",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8661582",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8661582.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-springmaid-pier-myrtle-beach",
+    "height": {
+      "type": "ratio",
+      "high": 0.84,
+      "low": 0.84
+    },
+    "time": {
+      "high": 40,
+      "low": 78
+    }
+  }
+}

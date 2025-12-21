@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-reaves-point",
+  "name": "Reaves Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 34.0033,
+  "longitude": -77.955,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8658622",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8658622",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8658622.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-wilmington",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 1.07
+    },
+    "time": {
+      "high": -54,
+      "low": -78
+    }
+  }
+}

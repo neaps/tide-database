@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-port-jefferson",
+  "name": "Port Jefferson",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "PORT JEFFERSON",
-  "id": "us-ny-port-jefferson",
   "type": "reference",
-  "latitude": 40.95,
-  "longitude": -73.0767,
+  "latitude": 40.95000076293945,
+  "longitude": -73.07669830322266,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8514560",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8514560",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8514560.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8514560",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8514560",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8514560.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.73800004,
     "HAT": 3.786,
@@ -339,5 +336,6 @@
     "HWI": 3.873,
     "LWI": 10.208,
     "NAVD88": 2.292
-  }
+  },
+  "disclaimers": ""
 }

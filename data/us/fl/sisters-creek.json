@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-sisters-creek",
+  "name": "Sisters Creek",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "SISTERS CREEK",
-  "id": "us-fl-sisters-creek",
   "type": "reference",
   "latitude": 30.4167,
   "longitude": -81.4533,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720196",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720196",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720196.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8720196",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720196",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720196.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.554,
     "HAT": 2.856,
@@ -338,5 +335,6 @@
     "DLQ": 0.038,
     "HWI": 1.697,
     "LWI": 7.846
-  }
+  },
+  "disclaimers": ""
 }

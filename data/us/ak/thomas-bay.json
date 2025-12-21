@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-thomas-bay",
+  "name": "Thomas Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Thomas Bay",
-  "id": "us-ak-thomas-bay",
   "type": "reference",
-  "latitude": 56.996693,
-  "longitude": -132.785,
+  "latitude": 56.9966926574707,
+  "longitude": -132.78500366210938,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451561",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451561",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451561.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451561",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451561",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451561.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 2.687,
     "HAT": 10.214,
@@ -339,5 +336,6 @@
     "HWI": 9.825,
     "LWI": 3.568,
     "NAVD88": 5.065
-  }
+  },
+  "disclaimers": ""
 }

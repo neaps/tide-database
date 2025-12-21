@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-nunam-iqua-sheldon-point",
+  "name": "Nunam Iqua (Sheldon Point)",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Nunam Iqua (Sheldon Point)",
-  "id": "us-ak-nunam-iqua-sheldon-point",
   "type": "reference",
-  "latitude": 62.532944,
-  "longitude": -164.84528,
+  "latitude": 62.53294444444445,
+  "longitude": -164.8452777777778,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9467551",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9467551",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9467551.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9467551",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9467551",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9467551.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.355,
     "HAT": 9.698,
@@ -336,5 +333,6 @@
     "MN": 0.551,
     "DHQ": 0.204,
     "DLQ": 0.05
-  }
+  },
+  "disclaimers": ""
 }

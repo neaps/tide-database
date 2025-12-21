@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-turtle-bay",
+  "name": "Turtle Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "TURTLE BAY",
-  "id": "us-fl-turtle-bay",
   "type": "reference",
   "latitude": 26.7967,
   "longitude": -82.1833,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725649",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725649",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725649.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8725649",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725649",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725649.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.68700004,
     "HAT": 1.644,
@@ -338,5 +335,6 @@
     "DLQ": 0.109,
     "HWI": 7.863,
     "LWI": 1.325
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-cape-peirce-west-side",
+  "name": "Cape Peirce, West Side",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "CAPE PEIRCE, WEST SIDE",
-  "id": "us-ak-cape-peirce-west-side",
   "type": "reference",
-  "latitude": 58.6267,
-  "longitude": -161.837,
+  "latitude": 58.62670135498047,
+  "longitude": -161.83700561523438,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9465137",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465137",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9465137.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9465137",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465137",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9465137.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.7869997,
     "HAT": 8.946,
@@ -336,5 +333,6 @@
     "MN": 1.342,
     "DHQ": 0.42,
     "DLQ": 0.174
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-windfall-harbor-seymour-canal",
+  "name": "Windfall Harbor, Seymour Canal",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 57.86666666666701,
+  "longitude": -134.2666666666701,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1683",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1683",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC1683.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-juneau",
+    "height": {
+      "type": "fixed",
+      "high": -0.06,
+      "low": 0
+    },
+    "time": {
+      "high": 14,
+      "low": 18
+    }
+  }
+}

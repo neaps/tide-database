@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-jensen-beach-causeway-park",
+  "name": "Jensen Beach Causeway Park",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Jensen Beach Causeway Park",
-  "id": "us-fl-jensen-beach-causeway-park",
   "type": "reference",
-  "latitude": 27.2517,
-  "longitude": -80.2183,
+  "latitude": 27.251699447631836,
+  "longitude": -80.21829986572266,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722329",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722329",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722329.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8722329",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722329",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8722329.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.655,
     "HAT": -0.0019999743,
@@ -339,5 +336,6 @@
     "HWI": 3.025,
     "LWI": 9.688,
     "NAVD88": -0.008
-  }
+  },
+  "disclaimers": ""
 }

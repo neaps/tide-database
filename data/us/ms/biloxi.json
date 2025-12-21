@@ -1,12 +1,25 @@
 {
+  "id": "us-ms-biloxi",
+  "name": "Biloxi",
   "continent": "North America",
   "country": "United States",
   "region": "MS",
-  "name": "Biloxi",
-  "id": "us-ms-biloxi",
   "type": "reference",
   "latitude": 30.4117,
   "longitude": -88.9033,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8744117",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8744117",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8744117.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8744117",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8744117",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8744117.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.022,
     "HAT": 7.06,
@@ -336,5 +333,6 @@
     "MN": 0.47,
     "DHQ": 0.027,
     "DLQ": 0.045
-  }
+  },
+  "disclaimers": ""
 }

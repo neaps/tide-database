@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-whale-harbor-channel-hwy-1-bridge-windley-key",
+  "name": "Whale Harbor Channel, Hwy. 1 bridge, Windley Key",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.9383,
+  "longitude": -80.61,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723797",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723797",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723797.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-government-cut-miami-harbor-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.59,
+      "low": 0.71
+    },
+    "time": {
+      "high": 16,
+      "low": 60
+    }
+  }
+}

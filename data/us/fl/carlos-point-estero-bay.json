@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-carlos-point-estero-bay",
+  "name": "Carlos Point, Estero Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "CARLOS POINT, ESTERO BAY",
-  "id": "us-fl-carlos-point-estero-bay",
   "type": "reference",
-  "latitude": 26.405,
-  "longitude": -81.885,
+  "latitude": 26.405000686645508,
+  "longitude": -81.88500213623047,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725325",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725325",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725325.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8725325",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725325",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725325.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.93100005,
     "HAT": 2.282,
@@ -339,5 +336,6 @@
     "HWI": 5.796,
     "LWI": 11.956,
     "NAVD88": 1.885
-  }
+  },
+  "disclaimers": ""
 }

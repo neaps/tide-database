@@ -1,0 +1,35 @@
+{
+  "id": "us-nandi-waters-viti-levu",
+  "name": "Nandi Waters, Viti Levu",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -17.75,
+  "longitude": -177.4166666666667,
+  "timezone": "Etc/GMT+12",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2871",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2871",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2871.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-suva-harbor-viti-levu-island",
+    "height": {
+      "type": "fixed",
+      "high": 0.4,
+      "low": 0.3
+    },
+    "time": {
+      "high": -3,
+      "low": -8
+    }
+  }
+}

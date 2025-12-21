@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-white-beach-east-bay",
+  "name": "WHITE BEACH, EAST BAY",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "WHITE BEACH, EAST BAY",
-  "id": "us-fl-white-beach-east-bay",
   "type": "reference",
   "latitude": 29.785,
   "longitude": -84.8983,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728694",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728694",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728694.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728694",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728694",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728694.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.546,
     "HAT": 1.5929999,
@@ -338,5 +335,6 @@
     "DLQ": 0.17,
     "HWI": 8.58,
     "LWI": 2.98
-  }
+  },
+  "disclaimers": ""
 }

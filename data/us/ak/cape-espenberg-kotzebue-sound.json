@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-cape-espenberg-kotzebue-sound",
+  "name": "CAPE ESPENBERG, KOTZEBUE SOUND",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Cape Espenberg, Kotzebue Sound",
-  "id": "us-ak-cape-espenberg-kotzebue-sound",
   "type": "reference",
-  "latitude": 66.58569,
-  "longitude": -164.25084,
+  "latitude": 66.58569444444444,
+  "longitude": -164.2508333333333,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9490096",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9490096",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9490096.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9490096",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9490096",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9490096.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 46.497,
     "HAT": 46.95,
@@ -338,5 +335,6 @@
     "DLQ": 0.05,
     "HWI": 10.99,
     "LWI": 4.91
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-smith-point-bridge-narrow-bay",
+  "name": "Smith Point Bridge, Narrow Bay",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "SMITH POINT BRIDGE, NARROW BAY",
-  "id": "us-ny-smith-point-bridge-narrow-bay",
   "type": "reference",
   "latitude": 40.7383,
   "longitude": -72.8683,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8513825",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8513825",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8513825.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8513825",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8513825",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8513825.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.678,
     "HAT": 1.375,
@@ -338,5 +335,6 @@
     "DLQ": 0.036,
     "HWI": 2.218,
     "LWI": 9.199
-  }
+  },
+  "disclaimers": ""
 }

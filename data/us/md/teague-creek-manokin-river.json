@@ -1,0 +1,35 @@
+{
+  "id": "us-md-teague-creek-manokin-river",
+  "name": "Teague Creek, Manokin River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MD",
+  "type": "subordinate",
+  "latitude": 38.1083,
+  "longitude": -75.8383,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571269",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571269",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571269.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-chesapeake-bay-bridge-tunnel",
+    "height": {
+      "type": "ratio",
+      "high": 0.82,
+      "low": 0.83
+    },
+    "time": {
+      "high": 338,
+      "low": 365
+    }
+  }
+}

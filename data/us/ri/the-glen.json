@@ -1,0 +1,35 @@
+{
+  "id": "us-ri-the-glen",
+  "name": "The Glen",
+  "continent": "North America",
+  "country": "United States",
+  "region": "RI",
+  "type": "subordinate",
+  "latitude": 41.5583,
+  "longitude": -71.2367,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8451301",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8451301",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8451301.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ri-newport",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 1
+    },
+    "time": {
+      "high": -13,
+      "low": -3
+    }
+  }
+}

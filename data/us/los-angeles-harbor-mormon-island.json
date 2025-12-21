@@ -1,0 +1,35 @@
+{
+  "id": "us-los-angeles-harbor-mormon-island",
+  "name": "Los Angeles Harbor, Mormon Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 33.75,
+  "longitude": -118.26666666666995,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC0439",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC0439",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC0439.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-los-angeles-outer-harbor",
+    "height": {
+      "type": "fixed",
+      "high": -0.03,
+      "low": 0
+    },
+    "time": {
+      "high": 4,
+      "low": 2
+    }
+  }
+}

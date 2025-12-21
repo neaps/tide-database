@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-excursion-inlet-north-end",
+  "name": "Excursion Inlet, North End",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.4967,
+  "longitude": -135.488,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452447",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452447",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452447.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-elfin-cove-port-althorp",
+    "height": {
+      "type": "ratio",
+      "high": 1.36,
+      "low": 1.07
+    },
+    "time": {
+      "high": 26,
+      "low": 24
+    }
+  }
+}

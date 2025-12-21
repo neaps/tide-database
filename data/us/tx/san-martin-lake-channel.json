@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-san-martin-lake-channel",
+  "name": "San Martin Lake Channel",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "San Martin Lake Channel",
-  "id": "us-tx-san-martin-lake-channel",
   "type": "reference",
-  "latitude": 26.0018,
-  "longitude": -97.2986,
+  "latitude": 26.001800537109375,
+  "longitude": -97.29859924316406,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8779911",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8779911",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8779911.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8779911",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8779911",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8779911.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.725,
     "HAT": 9.709,
@@ -337,5 +334,6 @@
     "DHQ": 0.023,
     "DLQ": 0.055,
     "NAVD88": 9.303
-  }
+  },
+  "disclaimers": ""
 }

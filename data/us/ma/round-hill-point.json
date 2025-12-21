@@ -1,12 +1,25 @@
 {
+  "id": "us-ma-round-hill-point",
+  "name": "Round Hill Point",
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "name": "ROUND HILL POINT",
-  "id": "us-ma-round-hill-point",
   "type": "reference",
   "latitude": 41.5383,
   "longitude": -70.9283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447842",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447842",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447842.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8447842",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447842",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447842.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.07800007,
     "HAT": 2.3109999,
@@ -338,5 +335,6 @@
     "DLQ": 0.041,
     "HWI": 0.502,
     "LWI": 6.287
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ms-waveland",
+  "name": "Waveland",
   "continent": "North America",
   "country": "United States",
   "region": "MS",
-  "name": "Waveland",
-  "id": "us-ms-waveland",
   "type": "reference",
   "latitude": 30.2817,
   "longitude": -89.3667,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8747766",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8747766",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8747766.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8747766",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8747766",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8747766.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.9960003,
     "HAT": 9.28,
@@ -336,5 +333,6 @@
     "MN": 0.438,
     "DHQ": 0.023,
     "DLQ": 0.027
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-ms-biloxi-cadet-point-biloxi-bay",
+  "name": "Biloxi (Cadet Point), Biloxi Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MS",
+  "type": "subordinate",
+  "latitude": 30.39,
+  "longitude": -88.8567,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8743735",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8743735",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8743735.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-south-pass",
+    "height": {
+      "type": "ratio",
+      "high": 1.38,
+      "low": 1.38
+    },
+    "time": {
+      "high": 124,
+      "low": 90
+    }
+  }
+}

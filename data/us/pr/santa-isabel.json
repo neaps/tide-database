@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-santa-isabel",
+  "name": "Santa Isabel",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Santa Isabel",
-  "id": "us-pr-santa-isabel",
   "type": "reference",
   "latitude": 17.955,
   "longitude": -66.4067,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9756639",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9756639",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9756639.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9756639",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9756639",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9756639.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.644,
     "HAT": 8.177,
@@ -336,5 +333,6 @@
     "MN": 0.209,
     "DHQ": 0.003,
     "DLQ": 0.003
-  }
+  },
+  "disclaimers": ""
 }

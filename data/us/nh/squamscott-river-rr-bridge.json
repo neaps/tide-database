@@ -1,0 +1,35 @@
+{
+  "id": "us-nh-squamscott-river-rr-bridge",
+  "name": "Squamscott River RR. Bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NH",
+  "type": "subordinate",
+  "latitude": 43.0533,
+  "longitude": -70.9133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8422687",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8422687",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8422687.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-portland",
+    "height": {
+      "type": "ratio",
+      "high": 0.75,
+      "low": 0.75
+    },
+    "time": {
+      "high": 139,
+      "low": 161
+    }
+  }
+}

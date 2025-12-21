@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-mckay-bay-entrance",
+  "name": "McKay Bay Entrance",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Mckay Bay Entrance",
-  "id": "us-fl-mckay-bay-entrance",
   "type": "reference",
-  "latitude": 27.9133,
-  "longitude": -82.425,
+  "latitude": 27.913299560546875,
+  "longitude": -82.42500305175781,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726667",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726667",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726667.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8726667",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726667",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726667.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.302,
     "HAT": 1.151,
@@ -339,5 +336,6 @@
     "HWI": 7.223,
     "LWI": 1.033,
     "NAVD88": 0.597
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-tuckers-island-homosassa-river",
+  "name": "Tuckers Island, Homosassa River",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "TUCKERS ISLAND, HOMOSASSA RIVER",
-  "id": "us-fl-tuckers-island-homosassa-river",
   "type": "reference",
   "latitude": 28.7717,
   "longitude": -82.695,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727277",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727277",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727277.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8727277",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727277",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727277.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.504,
     "HAT": 1.461,
@@ -338,5 +335,6 @@
     "DLQ": 0.071,
     "HWI": 7.97,
     "LWI": 2.81
-  }
+  },
+  "disclaimers": ""
 }

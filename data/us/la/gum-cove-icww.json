@@ -1,12 +1,25 @@
 {
+  "id": "us-la-gum-cove-icww",
+  "name": "Gum Cove, ICWW",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Gum Cove, ICWW",
-  "id": "us-la-gum-cove-icww",
   "type": "reference",
-  "latitude": 30.0587,
-  "longitude": -93.5226,
+  "latitude": 30.058700561523438,
+  "longitude": -93.52259826660156,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8768772",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8768772",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8768772.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8768772",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8768772",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8768772.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.064,
     "HAT": 8.811,
@@ -337,5 +334,6 @@
     "DHQ": 0.018,
     "DLQ": 0.029,
     "NAVD88": 8.494
-  }
+  },
+  "disclaimers": ""
 }

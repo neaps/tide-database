@@ -1,12 +1,25 @@
 {
+  "id": "us-or-portland-morrison-street-bridge",
+  "name": "Portland Morrison Street Bridge",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "Portland Morrison Street Bridge",
-  "id": "us-or-portland-morrison-street-bridge",
   "type": "reference",
   "latitude": 45.51,
   "longitude": -122.673,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9439221",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9439221",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9439221.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9439221",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9439221",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9439221.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.39200002,
     "HAT": 1.758,
@@ -339,5 +336,6 @@
     "HWI": 1.104,
     "LWI": 9.508,
     "NAVD88": -1.64
-  }
+  },
+  "disclaimers": ""
 }

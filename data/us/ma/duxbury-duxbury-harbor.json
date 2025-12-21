@@ -1,12 +1,25 @@
 {
+  "id": "us-ma-duxbury-duxbury-harbor",
+  "name": "Duxbury, Duxbury Harbor",
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "name": "DUXBURY, DUXBURY HARBOR",
-  "id": "us-ma-duxbury-duxbury-harbor",
   "type": "reference",
   "latitude": 42.0383,
   "longitude": -70.67,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8446166",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8446166",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8446166.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8446166",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8446166",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8446166.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.31400013,
     "HAT": 4.776,
@@ -339,5 +336,6 @@
     "HWI": 3.841,
     "LWI": 10.478,
     "NAVD88": 2.684
-  }
+  },
+  "disclaimers": ""
 }

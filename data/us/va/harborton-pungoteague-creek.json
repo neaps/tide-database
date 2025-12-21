@@ -1,0 +1,35 @@
+{
+  "id": "us-va-harborton-pungoteague-creek",
+  "name": "Harborton, Pungoteague Creek",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 37.6667,
+  "longitude": -75.8333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8633091",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8633091",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8633091.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-va-chesapeake-bay-bridge-tunnel",
+    "height": {
+      "type": "ratio",
+      "high": 0.7,
+      "low": 0.83
+    },
+    "time": {
+      "high": 191,
+      "low": 213
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-composite-island",
+  "name": "Composite Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.8883,
+  "longitude": -136.573,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452682",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452682",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452682.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-elfin-cove-port-althorp",
+    "height": {
+      "type": "ratio",
+      "high": 1.54,
+      "low": 1.2
+    },
+    "time": {
+      "high": 45,
+      "low": 51
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-ms-cat-island",
+  "name": "Cat Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "MS",
+  "type": "subordinate",
+  "latitude": 30.2317,
+  "longitude": -89.1167,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8745799",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8745799",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8745799.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-south-pass",
+    "height": {
+      "type": "ratio",
+      "high": 1.23,
+      "low": 1.23
+    },
+    "time": {
+      "high": 133,
+      "low": 120
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-guanica",
+  "name": "Guanica",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Guanica",
-  "id": "us-pr-guanica",
   "type": "reference",
-  "latitude": 17.958,
-  "longitude": -66.9068,
+  "latitude": 17.95800018310547,
+  "longitude": -66.90679931640625,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9758627",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9758627",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9758627.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9758627",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9758627",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9758627.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.801,
     "HAT": 8.26,
@@ -337,5 +334,6 @@
     "DHQ": 0,
     "DLQ": 0.005,
     "PRVD02": 8.05
-  }
+  },
+  "disclaimers": ""
 }

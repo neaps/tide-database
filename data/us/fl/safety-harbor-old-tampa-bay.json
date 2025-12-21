@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-safety-harbor-old-tampa-bay",
+  "name": "Safety Harbor, Old Tampa Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "SAFETY HARBOR, OLD TAMPA BAY",
-  "id": "us-fl-safety-harbor-old-tampa-bay",
   "type": "reference",
   "latitude": 27.9883,
   "longitude": -82.685,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726738",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726738",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726738.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -209,22 +222,6 @@
       "speed": 115.93642
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8726738",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726738",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726738.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.24600005,
     "HAT": 1.6700001,
@@ -241,5 +238,6 @@
     "DHQ": 0.106,
     "DLQ": 0.161,
     "NAVD88": 1.109
-  }
+  },
+  "disclaimers": ""
 }

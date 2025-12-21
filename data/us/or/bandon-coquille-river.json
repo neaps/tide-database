@@ -1,0 +1,35 @@
+{
+  "id": "us-or-bandon-coquille-river",
+  "name": "Bandon, Coquille River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "OR",
+  "type": "subordinate",
+  "latitude": 43.12,
+  "longitude": -124.413,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9432373",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9432373",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9432373.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-or-charleston",
+    "height": {
+      "type": "ratio",
+      "high": 0.92,
+      "low": 0.94
+    },
+    "time": {
+      "high": -5,
+      "low": 2
+    }
+  }
+}

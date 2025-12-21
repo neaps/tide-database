@@ -1,12 +1,25 @@
 {
+  "id": "us-nj-stouts-creek",
+  "name": "Stouts Creek",
   "continent": "North America",
   "country": "United States",
   "region": "NJ",
-  "name": "Stouts Creek",
-  "id": "us-nj-stouts-creek",
   "type": "reference",
-  "latitude": 39.845,
-  "longitude": -74.1517,
+  "latitude": 39.845001220703125,
+  "longitude": -74.15170288085938,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8533365",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8533365",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8533365.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8533365",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8533365",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8533365.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.13999999,
     "HAT": 0.62,
@@ -338,5 +335,6 @@
     "DLQ": 0.028,
     "HWI": 2.899,
     "LWI": 9.426
-  }
+  },
+  "disclaimers": ""
 }

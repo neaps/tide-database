@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-allanton-east-bay",
+  "name": "Allanton, East Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.03,
+  "longitude": -85.465,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729015",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729015",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729015.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-pensacola",
+    "height": {
+      "type": "ratio",
+      "high": 1.15,
+      "low": 1.15
+    },
+    "time": {
+      "high": -16,
+      "low": -61
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-al-lower-hall-landing-tensaw-river",
+  "name": "Lower Hall Landing, Tensaw River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AL",
+  "type": "subordinate",
+  "latitude": 30.8183,
+  "longitude": -87.915,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8737182",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8737182",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8737182.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-al-mobile-mobile-river-state-dock",
+    "height": {
+      "type": "ratio",
+      "high": 0.87,
+      "low": 0.87
+    },
+    "time": {
+      "high": 136,
+      "low": 185
+    }
+  }
+}

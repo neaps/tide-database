@@ -1,12 +1,25 @@
 {
+  "id": "us-ct-south-norwalk",
+  "name": "South Norwalk",
   "continent": "North America",
   "country": "United States",
   "region": "CT",
-  "name": "South Norwalk",
-  "id": "us-ct-south-norwalk",
   "type": "reference",
   "latitude": 41.0967,
   "longitude": -73.415,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8468448",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8468448",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8468448.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8468448",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8468448",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8468448.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.705,
     "HAT": 9.132,
@@ -339,5 +336,6 @@
     "HWI": 3.805,
     "LWI": 10.237,
     "NAVD88": 7.455
-  }
+  },
+  "disclaimers": ""
 }

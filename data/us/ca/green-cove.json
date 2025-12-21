@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-green-cove",
+  "name": "Green Cove",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "Green Cove",
-  "id": "us-ca-green-cove",
   "type": "reference",
-  "latitude": 38.704334,
-  "longitude": -123.44939,
+  "latitude": 38.70433333333333,
+  "longitude": -123.4493888888889,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9416409",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9416409",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9416409.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9416409",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9416409",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9416409.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 3.301,
     "HAT": 6.124,
@@ -338,5 +335,6 @@
     "DLQ": 0.284,
     "HWI": 6.847,
     "LWI": 0.495
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-matecumbe-harbor-lower-matecumbe-key-fla-bay",
+  "name": "Matecumbe Harbor, Lower Matecumbe Key, Fla. Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.8517,
+  "longitude": -80.74,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723862",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723862",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723862.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 0.59,
+      "low": 0.33
+    },
+    "time": {
+      "high": -25,
+      "low": 23
+    }
+  }
+}

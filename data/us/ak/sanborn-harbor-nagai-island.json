@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-sanborn-harbor-nagai-island",
+  "name": "Sanborn Harbor, Nagai Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 55.155,
+  "longitude": -159.995,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9459311",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9459311",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9459311.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sand-point-popof-island",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 0.98
+    },
+    "time": {
+      "high": 3,
+      "low": -3
+    }
+  }
+}

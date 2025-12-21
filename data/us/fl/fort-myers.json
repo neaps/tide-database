@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-fort-myers",
+  "name": "Fort Myers",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Fort Myers",
-  "id": "us-fl-fort-myers",
   "type": "reference",
-  "latitude": 26.647778,
-  "longitude": -81.87111,
+  "latitude": 26.64777777777778,
+  "longitude": -81.8711111111111,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725520",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725520",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725520.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8725520",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725520",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725520.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.127,
     "HAT": 1.928,
@@ -339,5 +336,6 @@
     "HWI": 8.95,
     "LWI": 2.99,
     "NAVD88": 1.647
-  }
+  },
+  "disclaimers": ""
 }

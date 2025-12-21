@@ -1,12 +1,25 @@
 {
+  "id": "us-la-martello-castle-lake-borgne",
+  "name": "MARTELLO CASTLE, LAKE BORGNE",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "MARTELLO CASTLE, LAKE BORGNE",
-  "id": "us-la-martello-castle-lake-borgne",
   "type": "reference",
   "latitude": 29.945,
   "longitude": -89.835,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8761529",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761529",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8761529.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8761529",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761529",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8761529.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 19.131,
     "HAT": 19.851,
@@ -336,5 +333,6 @@
     "MN": 0.366,
     "DHQ": 0.038,
     "DLQ": 0.015
-  }
+  },
+  "disclaimers": ""
 }

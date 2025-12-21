@@ -1,12 +1,25 @@
 {
+  "id": "us-la-east-timbalier-island-timbalier-bay",
+  "name": "East Timbalier Island, Timbalier Bay",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "EAST TIMBALIER ISLAND, TIMBALIER BAY",
-  "id": "us-la-east-timbalier-island-timbalier-bay",
   "type": "reference",
   "latitude": 29.0767,
   "longitude": -90.285,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8762223",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762223",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762223.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8762223",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762223",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762223.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.552,
     "HAT": 1.513,
@@ -336,5 +333,6 @@
     "MN": 0.381,
     "DHQ": 0.01,
     "DLQ": 0.012
-  }
+  },
+  "disclaimers": ""
 }

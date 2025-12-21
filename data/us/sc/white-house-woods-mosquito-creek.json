@@ -1,12 +1,25 @@
 {
+  "id": "us-sc-white-house-woods-mosquito-creek",
+  "name": "White House Woods, Mosquito Creek",
   "continent": "North America",
   "country": "United States",
   "region": "SC",
-  "name": "White House Woods, Mosquito Creek",
-  "id": "us-sc-white-house-woods-mosquito-creek",
   "type": "reference",
-  "latitude": 32.5587,
-  "longitude": -80.4544,
+  "latitude": 32.55870056152344,
+  "longitude": -80.45439910888672,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8667295",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8667295",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8667295.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8667295",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8667295",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8667295.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "STND": 0,
     "MHHW": 8.491,
@@ -337,5 +334,6 @@
     "HWI": 1.136,
     "LWI": 7.533,
     "NAVD88": 7.638
-  }
+  },
+  "disclaimers": ""
 }

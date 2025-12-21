@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-beacon-rock-state-park",
+  "name": "Beacon Rock State Park",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Beacon Rock State Park",
-  "id": "us-wa-beacon-rock-state-park",
   "type": "reference",
-  "latitude": 45.6203,
-  "longitude": -122.0203,
+  "latitude": 45.62030029296875,
+  "longitude": -122.02030181884766,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9440079",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440079",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440079.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9440079",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440079",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440079.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 10.064,
     "HAT": 10.804,
@@ -338,5 +335,6 @@
     "DLQ": 0.098,
     "HWI": 4.226,
     "LWI": 12.376
-  }
+  },
+  "disclaimers": ""
 }

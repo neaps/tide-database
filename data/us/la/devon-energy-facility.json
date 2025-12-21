@@ -1,12 +1,25 @@
 {
+  "id": "us-la-devon-energy-facility",
+  "name": "Devon Energy Facility",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Devon Energy Facility",
-  "id": "us-la-devon-energy-facility",
   "type": "reference",
   "latitude": 29.20075,
-  "longitude": -89.044464,
+  "longitude": -89.04446666666666,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760417",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760417",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760417.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8760417",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760417",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760417.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 11.8,
     "HAT": 12.811001,
@@ -336,5 +333,6 @@
     "MN": 0.356,
     "DHQ": 0.001,
     "DLQ": 0.004
-  }
+  },
+  "disclaimers": ""
 }

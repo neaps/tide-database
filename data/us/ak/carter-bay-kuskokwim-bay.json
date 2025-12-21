@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-carter-bay-kuskokwim-bay",
+  "name": "Carter Bay, Kuskokwim Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Carter Bay, Kuskokwim Bay",
-  "id": "us-ak-carter-bay-kuskokwim-bay",
   "type": "reference",
-  "latitude": 59.378017,
-  "longitude": -162.02933,
+  "latitude": 59.37801666666667,
+  "longitude": -162.0293333333333,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9465601",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465601",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9465601.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9465601",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465601",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9465601.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 3.1460001,
     "HAT": 7.943,
@@ -338,5 +335,6 @@
     "DLQ": 0.203,
     "HWI": 6.5,
     "LWI": 0.11
-  }
+  },
+  "disclaimers": ""
 }

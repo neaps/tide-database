@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-hernando-beach-rocky-creek-little-pine-i-bay",
+  "name": "Hernando Beach, Rocky Creek, Little Pine I. Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 28.4867,
+  "longitude": -82.6617,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727122",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727122",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727122.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-cedar-key",
+    "height": {
+      "type": "ratio",
+      "high": 0.83,
+      "low": 0.83
+    },
+    "time": {
+      "high": -20,
+      "low": 58
+    }
+  }
+}

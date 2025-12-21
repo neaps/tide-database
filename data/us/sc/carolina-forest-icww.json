@@ -1,0 +1,44 @@
+{
+  "id": "us-sc-carolina-forest-icww",
+  "name": "Carolina Forest, ICWW",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "reference",
+  "latitude": 33.734901428222656,
+  "longitude": -78.88269805908203,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8660754",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8660754",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8660754.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "harmonic_constituents": [],
+  "datums": {
+    "LAT": 3.317,
+    "HAT": 4.18,
+    "STND": 0,
+    "MHHW": 4.016,
+    "MHW": 3.975,
+    "DTL": 3.736,
+    "MTL": 3.747,
+    "MSL": 3.73,
+    "MLW": 3.519,
+    "MLLW": 3.456,
+    "GT": 0.561,
+    "MN": 0.456,
+    "DHQ": 0.041,
+    "DLQ": 0.063,
+    "HWI": 2.983,
+    "LWI": 10.485,
+    "NAVD88": 3.617
+  },
+  "disclaimers": ""
+}

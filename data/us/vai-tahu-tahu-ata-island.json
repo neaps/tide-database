@@ -1,0 +1,35 @@
+{
+  "id": "us-vai-tahu-tahu-ata-island",
+  "name": "Vai Tahu, Tahu Ata Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -9.933333333333334,
+  "longitude": -139.1,
+  "timezone": "Pacific/Marquesas",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2833",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2833",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2833.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pago-pago-harbor-tutuila-island",
+    "height": {
+      "type": "ratio",
+      "high": 1.44,
+      "low": 1.44
+    },
+    "time": {
+      "high": -303,
+      "low": -298
+    }
+  }
+}

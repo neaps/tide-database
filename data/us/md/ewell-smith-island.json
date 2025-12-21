@@ -1,12 +1,25 @@
 {
+  "id": "us-md-ewell-smith-island",
+  "name": "Ewell, Smith Island",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "Ewell, Smith Island",
-  "id": "us-md-ewell-smith-island",
   "type": "reference",
   "latitude": 37.995,
   "longitude": -76.0317,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571117",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571117",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571117.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -225,22 +238,6 @@
       "speed": 115.93642
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8571117",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571117",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571117.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.052000016,
     "HAT": 0.84000003,
@@ -258,5 +255,6 @@
     "DLQ": 0.046,
     "HWI": 5.549,
     "LWI": 12.072
-  }
+  },
+  "disclaimers": ""
 }

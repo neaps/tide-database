@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-fishing-bend-santa-rosa-sound",
+  "name": "Fishing Bend, Santa Rosa Sound",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "FISHING BEND, SANTA ROSA SOUND",
-  "id": "us-fl-fishing-bend-santa-rosa-sound",
   "type": "reference",
-  "latitude": 30.3367,
-  "longitude": -87.14,
+  "latitude": 30.336700439453125,
+  "longitude": -87.13999938964844,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729806",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729806",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729806.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729806",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729806",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729806.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.603,
     "HAT": 1.444,
@@ -337,5 +334,6 @@
     "DHQ": 0.021,
     "DLQ": 0.016,
     "NAVD88": 0.986
-  }
+  },
+  "disclaimers": ""
 }

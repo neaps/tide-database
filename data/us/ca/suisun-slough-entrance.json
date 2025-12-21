@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-suisun-slough-entrance",
+  "name": "Suisun Slough entrance",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "SUISUN SLOUGH ENTRANCE",
-  "id": "us-ca-suisun-slough-entrance",
   "type": "reference",
   "latitude": 38.1283,
   "longitude": -122.073,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415265",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415265",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9415265.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9415265",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415265",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9415265.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.531,
     "HAT": 2.7259998,
@@ -338,5 +335,6 @@
     "DLQ": 0.224,
     "HWI": 10.062,
     "LWI": 4.175
-  }
+  },
+  "disclaimers": ""
 }

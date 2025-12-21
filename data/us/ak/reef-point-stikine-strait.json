@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-reef-point-stikine-strait",
+  "name": "Reef Point, Stikine Strait",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "REEF POINT, STIKINE STRAIT",
-  "id": "us-ak-reef-point-stikine-strait",
   "type": "reference",
   "latitude": 56.3533,
   "longitude": -132.553,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451124",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451124",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451124.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451124",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451124",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451124.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -3.062749,
     "HAT": 4.428251,
@@ -338,5 +335,6 @@
     "DLQ": 0.457,
     "HWI": 9.56,
     "LWI": 3.13
-  }
+  },
+  "disclaimers": ""
 }

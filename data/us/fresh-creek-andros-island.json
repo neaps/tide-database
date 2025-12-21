@@ -1,0 +1,35 @@
+{
+  "id": "us-fresh-creek-andros-island",
+  "name": "Fresh Creek, Andros Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 24.733333333332993,
+  "longitude": -77.8,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4613",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4613",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4613.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-settlement-point-grand-bahamas-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 1.11
+    },
+    "time": {
+      "high": 5,
+      "low": -8
+    }
+  }
+}

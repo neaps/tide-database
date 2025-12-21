@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-kirby-park-elkhorn-slough",
+  "name": "Kirby Park, Elkhorn Slough",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "Kirby Park, Elkhorn Slough",
-  "id": "us-ca-kirby-park-elkhorn-slough",
   "type": "reference",
-  "latitude": 36.8413,
-  "longitude": -121.7453,
+  "latitude": 36.84130096435547,
+  "longitude": -121.74530029296875,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9413651",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9413651",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9413651.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9413651",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9413651",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9413651.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 2.026,
     "HAT": 4.785,
@@ -339,5 +336,6 @@
     "HWI": 6.86,
     "LWI": 12.353,
     "NAVD88": 2.531
-  }
+  },
+  "disclaimers": ""
 }

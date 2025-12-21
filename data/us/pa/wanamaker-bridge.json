@@ -1,0 +1,35 @@
+{
+  "id": "us-pa-wanamaker-bridge",
+  "name": "Wanamaker Bridge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "PA",
+  "type": "subordinate",
+  "latitude": 39.8767,
+  "longitude": -75.305,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8542425",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8542425",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8542425.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pa-philadelphia-us-coast-guard-station-pa",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 0.95
+    },
+    "time": {
+      "high": -46,
+      "low": -34
+    }
+  }
+}

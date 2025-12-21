@@ -1,0 +1,35 @@
+{
+  "id": "us-pa-tinicum-national-wildlife-refuge",
+  "name": "Tinicum National Wildlife Refuge",
+  "continent": "North America",
+  "country": "United States",
+  "region": "PA",
+  "type": "subordinate",
+  "latitude": 39.8867,
+  "longitude": -75.265,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8543024",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8543024",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8543024.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pa-philadelphia-us-coast-guard-station-pa",
+    "height": {
+      "type": "ratio",
+      "high": 0.74,
+      "low": 0.74
+    },
+    "time": {
+      "high": -24,
+      "low": 27
+    }
+  }
+}

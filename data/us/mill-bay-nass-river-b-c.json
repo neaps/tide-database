@@ -1,0 +1,35 @@
+{
+  "id": "us-mill-bay-nass-river-b-c",
+  "name": "Mill Bay, Nass River, B.C.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 55,
+  "longitude": -129.9,
+  "timezone": "America/Vancouver",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8218617",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8218617",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8218617.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-ketchikan",
+    "height": {
+      "type": "fixed",
+      "high": 0.03,
+      "low": -0.03
+    },
+    "time": {
+      "high": 51,
+      "low": 77
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-twin-rivers-marina",
+  "name": "Twin Rivers Marina",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Twin Rivers Marina",
-  "id": "us-fl-twin-rivers-marina",
   "type": "reference",
   "latitude": 28.905,
   "longitude": -82.6383,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727348",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727348",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727348.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8727348",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727348",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727348.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.53400004,
     "HAT": 1.7260001,
@@ -339,5 +336,6 @@
     "HWI": 8.251,
     "LWI": 2.825,
     "NAVD88": 1.145
-  }
+  },
+  "disclaimers": ""
 }

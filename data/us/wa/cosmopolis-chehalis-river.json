@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-cosmopolis-chehalis-river",
+  "name": "Cosmopolis, Chehalis River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 46.9667,
+  "longitude": -123.778,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9441158",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9441158",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9441158.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-toke-point",
+    "height": {
+      "type": "ratio",
+      "high": 1.23,
+      "low": 1.12
+    },
+    "time": {
+      "high": 26,
+      "low": 15
+    }
+  }
+}

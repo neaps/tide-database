@@ -1,12 +1,25 @@
 {
+  "id": "us-nc-oriental-neuse-river",
+  "name": "Oriental, Neuse River",
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "name": "ORIENTAL, NEUSE RIVER",
-  "id": "us-nc-oriental-neuse-river",
   "type": "reference",
-  "latitude": 35.0246,
-  "longitude": -76.6918,
+  "latitude": 35.024600982666016,
+  "longitude": -76.69180297851562,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8655133",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8655133",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8655133.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8655133",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8655133",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8655133.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.174,
     "HAT": 0.058,
@@ -337,5 +334,6 @@
     "DHQ": 0.018,
     "DLQ": 0.034,
     "NAVD88": -0.006
-  }
+  },
+  "disclaimers": ""
 }

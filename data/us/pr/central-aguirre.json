@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-central-aguirre",
+  "name": "Central Aguirre",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Central Aguirre",
-  "id": "us-pr-central-aguirre",
   "type": "reference",
-  "latitude": 17.95,
-  "longitude": -66.2264,
+  "latitude": 17.950000762939453,
+  "longitude": -66.22640228271484,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9755971",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9755971",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9755971.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9755971",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9755971",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9755971.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.602,
     "HAT": 8.054,
@@ -337,5 +334,6 @@
     "DHQ": 0.004,
     "DLQ": 0.002,
     "PRVD02": 7.858
-  }
+  },
+  "disclaimers": ""
 }

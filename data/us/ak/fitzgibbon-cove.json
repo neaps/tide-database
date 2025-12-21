@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-fitzgibbon-cove",
+  "name": "Fitzgibbon Cove",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 55.9833,
+  "longitude": -131.175,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450879",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450879",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450879.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-ketchikan",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 0.96
+    },
+    "time": {
+      "high": -5,
+      "low": -1
+    }
+  }
+}

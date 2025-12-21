@@ -1,0 +1,35 @@
+{
+  "id": "us-st-barthelemy",
+  "name": "St. Barthelemy",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 17.9,
+  "longitude": -62.85,
+  "timezone": "America/St_Barthelemy",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4765",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4765",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4765.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-vi-lime-tree-bay-st-croix-island",
+    "height": {
+      "type": "ratio",
+      "high": 1.87,
+      "low": 1
+    },
+    "time": {
+      "high": -206,
+      "low": -71
+    }
+  }
+}

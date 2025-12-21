@@ -1,12 +1,25 @@
 {
+  "id": "us-me-thomaston",
+  "name": "Thomaston",
   "continent": "North America",
   "country": "United States",
   "region": "ME",
-  "name": "Thomaston",
-  "id": "us-me-thomaston",
   "type": "reference",
   "latitude": 44.0717,
   "longitude": -69.1817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8415709",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8415709",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8415709.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8415709",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8415709",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8415709.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.187,
     "HAT": 9.461,
@@ -339,5 +336,6 @@
     "HWI": 3.53,
     "LWI": 9.774,
     "NAVD88": 7.187
-  }
+  },
+  "disclaimers": ""
 }

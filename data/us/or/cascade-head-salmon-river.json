@@ -1,12 +1,25 @@
 {
+  "id": "us-or-cascade-head-salmon-river",
+  "name": "Cascade Head, Salmon River",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "Cascade Head, Salmon River",
-  "id": "us-or-cascade-head-salmon-river",
   "type": "reference",
-  "latitude": 45.047943,
-  "longitude": -124.00731,
+  "latitude": 45.04794444444445,
+  "longitude": -124.0073055555556,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9436381",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9436381",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9436381.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9436381",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9436381",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9436381.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.632,
     "HAT": 8.272,
@@ -338,5 +335,6 @@
     "DLQ": 0.296,
     "HWI": 7.955,
     "LWI": 2.12
-  }
+  },
+  "disclaimers": ""
 }

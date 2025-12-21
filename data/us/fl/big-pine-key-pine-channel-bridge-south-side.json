@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-big-pine-key-pine-channel-bridge-south-side",
+  "name": "Big Pine Key, Pine Channel Bridge, south side",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.6683,
+  "longitude": -81.3717,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724213",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724213",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724213.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 0.67,
+      "low": 0.33
+    },
+    "time": {
+      "high": -13,
+      "low": 63
+    }
+  }
+}

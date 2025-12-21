@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-floridatown-escambia-bay",
+  "name": "Floridatown, Escambia Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "FLORIDATOWN, ESCAMBIA BAY",
-  "id": "us-fl-floridatown-escambia-bay",
   "type": "reference",
-  "latitude": 30.5817,
-  "longitude": -87.18,
+  "latitude": 30.58169937133789,
+  "longitude": -87.18000030517578,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729824",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729824",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729824.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729824",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729824",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729824.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.44499993,
     "HAT": 1.4929999,
@@ -337,5 +334,6 @@
     "DHQ": 0.019,
     "DLQ": 0.03,
     "NAVD88": 0.903
-  }
+  },
+  "disclaimers": ""
 }

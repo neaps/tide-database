@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-unalaska",
+  "name": "Unalaska",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Unalaska",
-  "id": "us-ak-unalaska",
   "type": "reference",
-  "latitude": 53.879196,
-  "longitude": -166.5403,
+  "latitude": 53.87919444444444,
+  "longitude": -166.5403055555556,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9462620",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462620",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462620.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9462620",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462620",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462620.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.23600006,
     "HAT": 2.357,
@@ -339,5 +336,6 @@
     "HWI": 2.79,
     "LWI": 8.98,
     "NAVD88": 0.712
-  }
+  },
+  "disclaimers": ""
 }

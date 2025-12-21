@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-santa-barbara",
+  "name": "Santa Barbara",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "Santa Barbara",
-  "id": "us-ca-santa-barbara",
   "type": "reference",
-  "latitude": 34.40459,
-  "longitude": -119.6925,
+  "latitude": 34.40458888888889,
+  "longitude": -119.6924944444445,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9411340",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9411340",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9411340.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9411340",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9411340",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9411340.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.33099997,
     "HAT": 3.162,
@@ -339,5 +336,6 @@
     "HWI": 5.528,
     "LWI": 11.59,
     "NAVD88": 0.998
-  }
+  },
+  "disclaimers": ""
 }

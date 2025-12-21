@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-melbourne-causeway",
+  "name": "Melbourne Causeway",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "MELBOURNE CAUSEWAY",
-  "id": "us-fl-melbourne-causeway",
   "type": "reference",
-  "latitude": 28.0833,
-  "longitude": -80.5917,
+  "latitude": 28.08329963684082,
+  "longitude": -80.5916976928711,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8721843",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8721843",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8721843.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8721843",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8721843",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8721843.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.375,
     "HAT": 0.010000005,
@@ -337,5 +334,6 @@
     "DHQ": 0.003,
     "DLQ": 0.013,
     "NAVD88": -0.003
-  }
+  },
+  "disclaimers": ""
 }

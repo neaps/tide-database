@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-o-hara-key-north-end-waltz-key-basin",
+  "name": "O'Hara Key, north end, Waltz Key Basin",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 24.6167,
+  "longitude": -81.645,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724441",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724441",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8724441.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-key-west",
+    "height": {
+      "type": "ratio",
+      "high": 1.03,
+      "low": 0.83
+    },
+    "time": {
+      "high": 233,
+      "low": 339
+    }
+  }
+}

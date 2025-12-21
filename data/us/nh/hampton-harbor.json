@@ -1,0 +1,35 @@
+{
+  "id": "us-nh-hampton-harbor",
+  "name": "Hampton Harbor",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NH",
+  "type": "subordinate",
+  "latitude": 42.895,
+  "longitude": -70.8167,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8429489",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8429489",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8429489.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-portland",
+    "height": {
+      "type": "ratio",
+      "high": 0.91,
+      "low": 0.91
+    },
+    "time": {
+      "high": 14,
+      "low": 32
+    }
+  }
+}

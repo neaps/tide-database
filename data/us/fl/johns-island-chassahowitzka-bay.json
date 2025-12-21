@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-johns-island-chassahowitzka-bay",
+  "name": "Johns Island, Chassahowitzka Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "JOHNS ISLAND, CHASSAHOWITZKA BAY",
-  "id": "us-fl-johns-island-chassahowitzka-bay",
   "type": "reference",
   "latitude": 28.6917,
   "longitude": -82.6383,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727235",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727235",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727235.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8727235",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727235",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727235.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.296,
     "HAT": 1.469,
@@ -338,5 +335,6 @@
     "DLQ": 0.073,
     "HWI": 7.415,
     "LWI": 2.22
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-al-bayou-la-batre-mississippi-sound",
+  "name": "Bayou La Batre, Mississippi Sound",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AL",
+  "type": "subordinate",
+  "latitude": 30.3717,
+  "longitude": -88.275,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8739051",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8739051",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8739051.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-south-pass",
+    "height": {
+      "type": "ratio",
+      "high": 1.23,
+      "low": 1.23
+    },
+    "time": {
+      "high": 112,
+      "low": 74
+    }
+  }
+}

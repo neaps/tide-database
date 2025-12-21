@@ -1,12 +1,25 @@
 {
+  "id": "us-de-brandywine-shoal-light",
+  "name": "Brandywine Shoal Light",
   "continent": "North America",
   "country": "United States",
   "region": "DE",
-  "name": "Brandywine Shoal Light",
-  "id": "us-de-brandywine-shoal-light",
   "type": "reference",
-  "latitude": 38.986668,
-  "longitude": -75.113335,
+  "latitude": 38.98666666666667,
+  "longitude": -75.11333333333333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8555889",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8555889",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8555889.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8555889",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8555889",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8555889.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.428,
     "HAT": 7.837,
@@ -338,5 +335,6 @@
     "DLQ": 0.05,
     "HWI": 1.32,
     "LWI": 7.42
-  }
+  },
+  "disclaimers": ""
 }

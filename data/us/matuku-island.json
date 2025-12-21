@@ -1,0 +1,35 @@
+{
+  "id": "us-matuku-island",
+  "name": "Matuku Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -19.16666666666667,
+  "longitude": 179.75,
+  "timezone": "Pacific/Fiji",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2875",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2875",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2875.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-suva-harbor-viti-levu-island",
+    "height": {
+      "type": "fixed",
+      "high": 0.21,
+      "low": 0.34
+    },
+    "time": {
+      "high": -4,
+      "low": -1
+    }
+  }
+}

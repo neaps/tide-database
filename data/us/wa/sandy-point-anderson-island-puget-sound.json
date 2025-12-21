@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-sandy-point-anderson-island-puget-sound",
+  "name": "SANDY POINT ANDERSON ISLAND, PUGET SOUND",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "SANDY POINT ANDERSON ISLAND, PUGET SOUND",
-  "id": "us-wa-sandy-point-anderson-island-puget-sound",
   "type": "reference",
-  "latitude": 47.153,
-  "longitude": -122.6751,
+  "latitude": 47.15299987792969,
+  "longitude": -122.67510223388672,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9446804",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9446804",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9446804.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9446804",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9446804",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9446804.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.859,
     "HAT": 7.32,
@@ -338,5 +335,6 @@
     "DLQ": 0.769,
     "HWI": 0.987,
     "LWI": 7.347
-  }
+  },
+  "disclaimers": ""
 }

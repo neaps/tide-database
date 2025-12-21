@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-lower-toogoodoo-creek-2-mi-above-entrance",
+  "name": "Lower Toogoodoo Creek, 2 mi. above entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 32.7033,
+  "longitude": -80.2783,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8666131",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8666131",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8666131.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-charleston-customhouse-wharf",
+    "height": {
+      "type": "ratio",
+      "high": 1.29,
+      "low": 1.26
+    },
+    "time": {
+      "high": 86,
+      "low": 47
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-al-bon-secour-bon-secour-river",
+  "name": "Bon Secour, Bon Secour River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AL",
+  "type": "subordinate",
+  "latitude": 30.3033,
+  "longitude": -87.735,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8731952",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8731952",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8731952.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-al-mobile-mobile-river-state-dock",
+    "height": {
+      "type": "ratio",
+      "high": 1.07,
+      "low": 1.07
+    },
+    "time": {
+      "high": -73,
+      "low": -77
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-va-chincoteague-channel-south-end",
+  "name": "Chincoteague Channel (south end)",
   "continent": "North America",
   "country": "United States",
   "region": "VA",
-  "name": "CHINCOTEAGUE CHANNEL, SOUTH END",
-  "id": "us-va-chincoteague-channel-south-end",
   "type": "reference",
   "latitude": 37.9067,
   "longitude": -75.405,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8630308",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8630308",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8630308.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8630308",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8630308",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8630308.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.86800003,
     "HAT": 1.97,
@@ -339,5 +336,6 @@
     "HWI": 0.55,
     "LWI": 6.96,
     "NAVD88": 1.412
-  }
+  },
+  "disclaimers": ""
 }

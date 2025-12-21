@@ -1,12 +1,25 @@
 {
+  "id": "us-md-cambridge",
+  "name": "Cambridge",
   "continent": "North America",
   "country": "United States",
   "region": "MD",
-  "name": "Cambridge",
-  "id": "us-md-cambridge",
   "type": "reference",
   "latitude": 38.5725,
-  "longitude": -76.06167,
+  "longitude": -76.0616667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571892",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571892",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571892.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8571892",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571892",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8571892.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.56272805,
     "HAT": 1.528728,
@@ -339,5 +336,6 @@
     "HWI": 8.83,
     "LWI": 3.059,
     "NAVD88": 1.087
-  }
+  },
+  "disclaimers": ""
 }

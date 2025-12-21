@@ -1,12 +1,25 @@
 {
+  "id": "us-la-weeks-bay",
+  "name": "Weeks Bay",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "Weeks Bay",
-  "id": "us-la-weeks-bay",
   "type": "reference",
-  "latitude": 29.837223,
+  "latitude": 29.83722222222222,
   "longitude": -91.8375,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8765148",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8765148",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8765148.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8765148",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8765148",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8765148.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.24100003,
     "HAT": 0.92499995,
@@ -336,5 +333,6 @@
     "MN": 0.387,
     "DHQ": 0.027,
     "DLQ": 0.076
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-sc-waccamaw-river-entrance",
+  "name": "Waccamaw River Entrance",
   "continent": "North America",
   "country": "United States",
   "region": "SC",
-  "name": "WACCAMAW RIVER ENTRANCE",
-  "id": "us-sc-waccamaw-river-entrance",
   "type": "reference",
-  "latitude": 33.3667,
-  "longitude": -79.255,
+  "latitude": 33.36669921875,
+  "longitude": -79.25499725341797,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8662931",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8662931",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8662931.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8662931",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8662931",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8662931.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.6579999,
     "HAT": 3.3979998,
@@ -339,5 +336,6 @@
     "HWI": 1.739,
     "LWI": 8.822,
     "NAVD88": 2.5
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-ca-upper-guadalupe-slough",
+  "name": "Upper Guadalupe Slough",
+  "continent": "North America",
+  "country": "United States",
+  "region": "CA",
+  "type": "subordinate",
+  "latitude": 37.435,
+  "longitude": -122.007,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414549",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414549",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414549.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-san-francisco-golden-gate",
+    "height": {
+      "type": "ratio",
+      "high": 1.66,
+      "low": 1.13
+    },
+    "time": {
+      "high": 74,
+      "low": 133
+    }
+  }
+}

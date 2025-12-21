@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-siesta-key-big-sarasota-pass",
+  "name": "Siesta Key, Big Sarasota Pass",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Siesta Key, Big Sarasota Pass",
-  "id": "us-fl-siesta-key-big-sarasota-pass",
   "type": "reference",
-  "latitude": 27.2839,
-  "longitude": -82.565,
+  "latitude": 27.283899307250977,
+  "longitude": -82.56500244140625,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726034",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726034",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726034.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8726034",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726034",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726034.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.812,
     "HAT": 8.972,
@@ -337,5 +334,6 @@
     "DHQ": 0.084,
     "DLQ": 0.108,
     "NAVD88": 8.6
-  }
+  },
+  "disclaimers": ""
 }

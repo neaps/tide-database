@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-puerto-real",
+  "name": "Puerto Real",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Puerto Real",
-  "id": "us-pr-puerto-real",
   "type": "reference",
-  "latitude": 18.074806,
-  "longitude": -67.188774,
+  "latitude": 18.07480555555556,
+  "longitude": -67.18877777777777,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9759189",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759189",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759189.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9759189",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9759189",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9759189.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.786,
     "HAT": 9.249,
@@ -336,5 +333,6 @@
     "MN": 0.192,
     "DHQ": 0.025,
     "DLQ": 0.03
-  }
+  },
+  "disclaimers": ""
 }

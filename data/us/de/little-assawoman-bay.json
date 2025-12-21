@@ -1,12 +1,25 @@
 {
+  "id": "us-de-little-assawoman-bay",
+  "name": "Little Assawoman Bay",
   "continent": "North America",
   "country": "United States",
   "region": "DE",
-  "name": "Little Assawoman Bay",
-  "id": "us-de-little-assawoman-bay",
   "type": "reference",
-  "latitude": 38.455,
-  "longitude": -75.0583,
+  "latitude": 38.45500183105469,
+  "longitude": -75.05829620361328,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8559957",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8559957",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8559957.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8559957",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8559957",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8559957.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.394,
     "HAT": 0.178,
@@ -338,5 +335,6 @@
     "DLQ": 0.04,
     "HWI": 3.636,
     "LWI": 9.982
-  }
+  },
+  "disclaimers": ""
 }

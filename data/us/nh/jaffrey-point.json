@@ -1,0 +1,35 @@
+{
+  "id": "us-nh-jaffrey-point",
+  "name": "Jaffrey Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NH",
+  "type": "subordinate",
+  "latitude": 43.0567,
+  "longitude": -70.7133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8424601",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8424601",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8424601.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-me-portland",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 0.95
+    },
+    "time": {
+      "high": -3,
+      "low": -5
+    }
+  }
+}

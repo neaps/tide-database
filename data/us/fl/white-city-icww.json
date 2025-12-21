@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-white-city-icww",
+  "name": "White City, ICWW",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "White City, ICWW",
-  "id": "us-fl-white-city-icww",
   "type": "reference",
-  "latitude": 29.880695,
-  "longitude": -85.22144,
+  "latitude": 29.88069444444444,
+  "longitude": -85.22144444444444,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728853",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728853",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728853.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728853",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728853",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728853.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.604,
     "HAT": 1.262,
@@ -337,5 +334,6 @@
     "DHQ": 0.021,
     "DLQ": 0.026,
     "NAVD88": 0.824
-  }
+  },
+  "disclaimers": ""
 }

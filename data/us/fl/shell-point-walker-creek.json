@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-shell-point-walker-creek",
+  "name": "Shell Point, Walker Creek",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "SHELL POINT, WALKER CREEK",
-  "id": "us-fl-shell-point-walker-creek",
   "type": "reference",
-  "latitude": 30.058332,
-  "longitude": -84.29056,
+  "latitude": 30.05833333333333,
+  "longitude": -84.29055555555556,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728229",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728229",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728229.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728229",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728229",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728229.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.132,
     "HAT": 0.79099995,
@@ -339,5 +336,6 @@
     "HWI": 7.136,
     "LWI": 0.928,
     "NAVD88": 0.001
-  }
+  },
+  "disclaimers": ""
 }

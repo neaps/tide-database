@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-okaloosa-island",
+  "name": "Okaloosa Island",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Okaloosa Island",
-  "id": "us-fl-okaloosa-island",
   "type": "reference",
-  "latitude": 30.3914,
-  "longitude": -86.5932,
+  "latitude": 30.391399383544922,
+  "longitude": -86.59320068359375,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729547",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729547",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729547.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8729547",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729547",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8729547.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.452,
     "HAT": 8.467,
@@ -337,5 +334,6 @@
     "DHQ": 0.026,
     "DLQ": 0.02,
     "NAVD88": 7.931
-  }
+  },
+  "disclaimers": ""
 }

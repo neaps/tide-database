@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-isla-palominos",
+  "name": "Isla Palominos",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Isla Palominos",
-  "id": "us-pr-isla-palominos",
   "type": "reference",
-  "latitude": 18.344973,
+  "latitude": 18.34497222222222,
   "longitude": -65.5695,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9752962",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752962",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752962.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9752962",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9752962",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9752962.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.105,
     "HAT": 6.953,
@@ -338,5 +335,6 @@
     "DLQ": 0.049,
     "HWI": 0.5,
     "LWI": 6.793
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-la-grand-pass",
+  "name": "Grand Pass",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "GRAND PASS",
-  "id": "us-la-grand-pass",
   "type": "reference",
-  "latitude": 30.1267,
-  "longitude": -89.2217,
+  "latitude": 30.126699447631836,
+  "longitude": -89.2217025756836,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760668",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760668",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760668.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8760668",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760668",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8760668.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.39199996,
     "HAT": 1.589,
@@ -336,5 +333,6 @@
     "MN": 0.413,
     "DHQ": 0.017,
     "DLQ": 0.017
-  }
+  },
+  "disclaimers": ""
 }

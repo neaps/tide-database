@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-mandalay-aucilla-river",
+  "name": "Mandalay, Aucilla River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.1267,
+  "longitude": -83.975,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727989",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727989",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8727989.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-st-marks-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.69,
+      "low": 0.55
+    },
+    "time": {
+      "high": 25,
+      "low": 57
+    }
+  }
+}

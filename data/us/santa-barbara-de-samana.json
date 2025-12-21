@@ -1,0 +1,35 @@
+{
+  "id": "us-santa-barbara-de-samana",
+  "name": "Santa Barbara de Samana",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 19.2,
+  "longitude": -69.33333333333299,
+  "timezone": "America/Santo_Domingo",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4715",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4715",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4715.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pr-san-juan",
+    "height": {
+      "type": "ratio",
+      "high": 1.25,
+      "low": 1.25
+    },
+    "time": {
+      "high": -54,
+      "low": -53
+    }
+  }
+}

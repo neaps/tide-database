@@ -1,0 +1,35 @@
+{
+  "id": "us-tinian-island",
+  "name": "Tinian Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 14.966666666667008,
+  "longitude": 145.61666666667008,
+  "timezone": "Pacific/Saipan",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2625",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2625",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2625.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-apra-harbor-guam",
+    "height": {
+      "type": "ratio",
+      "high": 0.74,
+      "low": 0.33
+    },
+    "time": {
+      "high": -2,
+      "low": -23
+    }
+  }
+}

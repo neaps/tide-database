@@ -1,0 +1,35 @@
+{
+  "id": "us-north-bimini",
+  "name": "North Bimini",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 25.733333333332993,
+  "longitude": -79.3,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4617",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4617",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4617.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-settlement-point-grand-bahamas-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 1.11
+    },
+    "time": {
+      "high": 5,
+      "low": 22
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-or-north-jetty-tillamook-bay",
+  "name": "North Jetty, Tillamook Bay",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "NORTH JETTY, TILLAMOOK BAY",
-  "id": "us-or-north-jetty-tillamook-bay",
   "type": "reference",
-  "latitude": 45.57,
-  "longitude": -123.965,
+  "latitude": 45.56999969482422,
+  "longitude": -123.96499633789062,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9437585",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9437585",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9437585.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9437585",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9437585",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9437585.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 9.145,
     "HAT": 13.161,
@@ -339,5 +336,6 @@
     "HWI": 8.15,
     "LWI": 1.69,
     "NAVD88": 10.128
-  }
+  },
+  "disclaimers": ""
 }

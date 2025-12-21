@@ -1,0 +1,35 @@
+{
+  "id": "us-la-empire-jetty",
+  "name": "Empire Jetty",
+  "continent": "North America",
+  "country": "United States",
+  "region": "LA",
+  "type": "subordinate",
+  "latitude": 29.25,
+  "longitude": -89.6083,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8761212",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761212",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8761212.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-east-point-grand-isle",
+    "height": {
+      "type": "ratio",
+      "high": 1.23,
+      "low": 1.23
+    },
+    "time": {
+      "high": -63,
+      "low": -105
+    }
+  }
+}

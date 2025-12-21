@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-cove-point-berner-s-bay",
+  "name": "Cove Point, Berner's Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.7517,
+  "longitude": -135.028,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452346",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452346",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452346.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-juneau",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1.02
+    },
+    "time": {
+      "high": -2,
+      "low": 0
+    }
+  }
+}

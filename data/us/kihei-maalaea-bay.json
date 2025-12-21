@@ -1,0 +1,35 @@
+{
+  "id": "us-kihei-maalaea-bay",
+  "name": "Kihei, Maalaea Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 20.78333333333299,
+  "longitude": -156.46666666667008,
+  "timezone": "Pacific/Honolulu",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2797",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2797",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2797.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-hi-kahului",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.54
+    },
+    "time": {
+      "high": 112,
+      "low": 79
+    }
+  }
+}

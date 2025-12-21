@@ -1,0 +1,35 @@
+{
+  "id": "us-wingham-island-controller-bay",
+  "name": "Wingham Island, Controller Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 60.05,
+  "longitude": -144.4,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1863",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1863",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC1863.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-yakutat-yakutat-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 1.01
+    },
+    "time": {
+      "high": 5,
+      "low": 8
+    }
+  }
+}

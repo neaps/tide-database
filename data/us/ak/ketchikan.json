@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-ketchikan",
+  "name": "Ketchikan",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Ketchikan",
-  "id": "us-ak-ketchikan",
   "type": "reference",
-  "latitude": 55.331944,
-  "longitude": -131.62611,
+  "latitude": 55.3319444,
+  "longitude": -131.6261111,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450460",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450460",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450460.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9450460",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450460",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9450460.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.48925114,
     "HAT": 7.865251,
@@ -338,5 +335,6 @@
     "DLQ": 0.479,
     "HWI": 9.409,
     "LWI": 3.105
-  }
+  },
+  "disclaimers": ""
 }

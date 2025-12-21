@@ -1,12 +1,25 @@
 {
+  "id": "us-sc-windsor-plantation-black-river",
+  "name": "Windsor Plantation, Black River",
   "continent": "North America",
   "country": "United States",
   "region": "SC",
-  "name": "WINDSOR PLANTATION, BLACK RIVER",
-  "id": "us-sc-windsor-plantation-black-river",
   "type": "reference",
   "latitude": 33.415,
   "longitude": -79.25,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8662953",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8662953",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8662953.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8662953",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8662953",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8662953.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.897,
     "HAT": 2.572,
@@ -339,5 +336,6 @@
     "HWI": 2.424,
     "LWI": 9.38,
     "NAVD88": 1.73
-  }
+  },
+  "disclaimers": ""
 }

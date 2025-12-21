@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-cat-point-apalachicola-bay",
+  "name": "Cat Point, Apalachicola Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "CAT POINT, APALACHICOLA BAY",
-  "id": "us-fl-cat-point-apalachicola-bay",
   "type": "reference",
-  "latitude": 29.7233,
-  "longitude": -84.8867,
+  "latitude": 29.72330093383789,
+  "longitude": -84.88670349121094,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728619",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728619",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728619.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8728619",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728619",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728619.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.731,
     "HAT": 0.48000002,
@@ -337,5 +334,6 @@
     "DHQ": 0.044,
     "DLQ": 0.15,
     "NAVD88": -0.006
-  }
+  },
+  "disclaimers": ""
 }

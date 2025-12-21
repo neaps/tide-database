@@ -1,0 +1,35 @@
+{
+  "id": "us-de-wilmington-marine-terminal",
+  "name": "Wilmington Marine Terminal",
+  "continent": "North America",
+  "country": "United States",
+  "region": "DE",
+  "type": "subordinate",
+  "latitude": 39.7183,
+  "longitude": -75.52,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8550714",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8550714",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8550714.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-reedy-point",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 1.11
+    },
+    "time": {
+      "high": 50,
+      "low": 66
+    }
+  }
+}

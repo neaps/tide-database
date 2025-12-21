@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-alakanuk-yukon-river",
+  "name": "Alakanuk, Yukon River",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Alakanuk, Yukon River",
-  "id": "us-ak-alakanuk-yukon-river",
   "type": "reference",
-  "latitude": 62.6872,
-  "longitude": -164.6669,
+  "latitude": 62.687198638916016,
+  "longitude": -164.66690063476562,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9467645",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9467645",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9467645.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9467645",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9467645",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9467645.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.96,
     "HAT": 9.1380005,
@@ -337,5 +334,6 @@
     "DHQ": 0.199,
     "DLQ": 0.048,
     "NAVD88": 6.372
-  }
+  },
+  "disclaimers": ""
 }

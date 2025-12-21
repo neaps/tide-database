@@ -1,12 +1,25 @@
 {
+  "id": "us-wa-sneeoosh-point",
+  "name": "Sneeoosh Point",
   "continent": "North America",
   "country": "United States",
   "region": "WA",
-  "name": "Sneeoosh Point",
-  "id": "us-wa-sneeoosh-point",
   "type": "reference",
   "latitude": 48.4,
   "longitude": -122.548,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9448576",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9448576",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9448576.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9448576",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9448576",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9448576.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.204,
     "HAT": 5.013,
@@ -338,5 +335,6 @@
     "DLQ": 0.781,
     "HWI": 0.93,
     "LWI": 7.29
-  }
+  },
+  "disclaimers": ""
 }

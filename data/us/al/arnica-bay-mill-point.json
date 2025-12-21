@@ -1,12 +1,25 @@
 {
+  "id": "us-al-arnica-bay-mill-point",
+  "name": "Arnica Bay, Mill Point",
   "continent": "North America",
   "country": "United States",
   "region": "AL",
-  "name": "Arnica Bay, Mill Point",
-  "id": "us-al-arnica-bay-mill-point",
   "type": "reference",
-  "latitude": 30.3102,
-  "longitude": -87.5193,
+  "latitude": 30.310199737548828,
+  "longitude": -87.51930236816406,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8730561",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8730561",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8730561.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8730561",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8730561",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8730561.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.908,
     "HAT": 9.339999,
@@ -337,5 +334,6 @@
     "DHQ": 0.007,
     "DLQ": 0.005,
     "NAVD88": 9.02
-  }
+  },
+  "disclaimers": ""
 }

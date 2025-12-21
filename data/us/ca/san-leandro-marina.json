@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-san-leandro-marina",
+  "name": "San Leandro Marina",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "San Leandro Marina",
-  "id": "us-ca-san-leandro-marina",
   "type": "reference",
   "latitude": 37.695,
   "longitude": -122.192,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414688",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414688",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414688.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9414688",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414688",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414688.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.86,
     "HAT": 4.171,
@@ -337,5 +334,6 @@
     "DHQ": 0.195,
     "DLQ": 0.355,
     "NAVD88": 1.627
-  }
+  },
+  "disclaimers": ""
 }

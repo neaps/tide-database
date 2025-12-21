@@ -1,0 +1,35 @@
+{
+  "id": "us-suwarrow-suvarov-island",
+  "name": "Suwarrow (Suvarov) Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -18.06666666,
+  "longitude": -140.9833333,
+  "timezone": "Pacific/Tahiti",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2829",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2829",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2829.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pago-pago-harbor-tutuila-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.86
+    },
+    "time": {
+      "high": 64,
+      "low": 58
+    }
+  }
+}

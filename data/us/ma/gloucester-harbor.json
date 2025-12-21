@@ -1,12 +1,25 @@
 {
+  "id": "us-ma-gloucester-harbor",
+  "name": "Gloucester Harbor",
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "name": "GLOUCESTER HARBOR",
-  "id": "us-ma-gloucester-harbor",
   "type": "reference",
-  "latitude": 42.61,
-  "longitude": -70.66,
+  "latitude": 42.61000061035156,
+  "longitude": -70.66000366210938,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8441841",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8441841",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8441841.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8441841",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8441841",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8441841.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "STND": 0,
     "MHHW": 4.149,
@@ -336,5 +333,6 @@
     "DLQ": 0.1,
     "HWI": 3.725,
     "LWI": 9.868
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-or-port-orford",
+  "name": "Port Orford",
   "continent": "North America",
   "country": "United States",
   "region": "OR",
-  "name": "Port Orford",
-  "id": "us-or-port-orford",
   "type": "reference",
-  "latitude": 42.739,
-  "longitude": -124.4983,
+  "latitude": 42.73899841308594,
+  "longitude": -124.49829864501953,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9431647",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9431647",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9431647.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9431647",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9431647",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9431647.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.2209997,
     "HAT": 9.888,
@@ -339,5 +336,6 @@
     "HWI": 7.576,
     "LWI": 1.261,
     "NAVD88": 7.168
-  }
+  },
+  "disclaimers": ""
 }

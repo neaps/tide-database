@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-surge-bay",
+  "name": "Surge Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 58.0183,
+  "longitude": -136.528,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452672",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452672",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452672.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-elfin-cove-port-althorp",
+    "height": {
+      "type": "ratio",
+      "high": 0.88,
+      "low": 0.96
+    },
+    "time": {
+      "high": 0,
+      "low": 2
+    }
+  }
+}

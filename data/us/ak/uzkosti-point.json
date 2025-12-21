@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-uzkosti-point",
+  "name": "Uzkosti Point",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Uzkosti Point",
-  "id": "us-ak-uzkosti-point",
   "type": "reference",
   "latitude": 57.9283,
   "longitude": -152.812,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457376",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457376",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457376.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9457376",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457376",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457376.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.4000001,
     "HAT": 5.8789997,
@@ -338,5 +335,6 @@
     "DLQ": 0.516,
     "HWI": 10.564,
     "LWI": 5.231
-  }
+  },
+  "disclaimers": ""
 }

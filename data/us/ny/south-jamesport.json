@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-south-jamesport",
+  "name": "South Jamesport",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "South Jamesport",
-  "id": "us-ny-south-jamesport",
   "type": "reference",
   "latitude": 40.935,
   "longitude": -72.5817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8512735",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8512735",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8512735.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8512735",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8512735",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8512735.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.277,
     "HAT": 1.62,
@@ -338,5 +335,6 @@
     "DLQ": 0.053,
     "HWI": 4.643,
     "LWI": 11.17
-  }
+  },
+  "disclaimers": ""
 }

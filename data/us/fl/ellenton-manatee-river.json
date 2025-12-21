@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-ellenton-manatee-river",
+  "name": "Ellenton, Manatee River",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Ellenton, Manatee River",
-  "id": "us-fl-ellenton-manatee-river",
   "type": "reference",
-  "latitude": 27.5149,
-  "longitude": -82.5338,
+  "latitude": 27.51490020751953,
+  "longitude": -82.53379821777344,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726265",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726265",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726265.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8726265",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726265",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726265.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.431,
     "HAT": 9.672,
@@ -337,5 +334,6 @@
     "DHQ": 0.091,
     "DLQ": 0.097,
     "NAVD88": 9.16
-  }
+  },
+  "disclaimers": ""
 }

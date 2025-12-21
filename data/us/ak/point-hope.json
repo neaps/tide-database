@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-point-hope",
+  "name": "Point Hope",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Point Hope",
-  "id": "us-ak-point-hope",
   "type": "reference",
   "latitude": 68.3417,
   "longitude": -166.808,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9491873",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9491873",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9491873.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9491873",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9491873",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9491873.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.468,
     "HAT": 1.16,
@@ -338,5 +335,6 @@
     "DLQ": 0.03,
     "HWI": 10.52,
     "LWI": 4.24
-  }
+  },
+  "disclaimers": ""
 }

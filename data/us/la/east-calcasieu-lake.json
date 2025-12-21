@@ -1,12 +1,25 @@
 {
+  "id": "us-la-east-calcasieu-lake",
+  "name": "East Calcasieu Lake",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "East Calcasieu Lake",
-  "id": "us-la-east-calcasieu-lake",
   "type": "reference",
-  "latitude": 29.9939,
-  "longitude": -93.2705,
+  "latitude": 29.993900299072266,
+  "longitude": -93.27050018310547,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8767911",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8767911",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8767911.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8767911",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8767911",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8767911.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.129001,
     "HAT": 8.97,
@@ -337,5 +334,6 @@
     "DHQ": 0.025,
     "DLQ": 0.062,
     "NAVD88": 8.729
-  }
+  },
+  "disclaimers": ""
 }

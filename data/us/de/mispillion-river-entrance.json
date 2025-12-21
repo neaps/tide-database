@@ -1,0 +1,35 @@
+{
+  "id": "us-de-mispillion-river-entrance",
+  "name": "Mispillion River entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "DE",
+  "type": "subordinate",
+  "latitude": 38.945,
+  "longitude": -75.3133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8556198",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8556198",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8556198.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-de-lewes-breakwater-harbor",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1
+    },
+    "time": {
+      "high": 22,
+      "low": 50
+    }
+  }
+}

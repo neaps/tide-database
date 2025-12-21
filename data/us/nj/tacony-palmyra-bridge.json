@@ -1,12 +1,25 @@
 {
+  "id": "us-nj-tacony-palmyra-bridge",
+  "name": "Tacony-Palmyra Bridge",
   "continent": "North America",
   "country": "United States",
   "region": "NJ",
-  "name": "Tacony-Palmyra Bridge",
-  "id": "us-nj-tacony-palmyra-bridge",
   "type": "reference",
   "latitude": 40.01194,
-  "longitude": -75.043,
+  "longitude": -75.04299999978807,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8538886",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8538886",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8538886.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8538886",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8538886",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8538886.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.023,
     "HAT": 7.854,
@@ -338,5 +335,6 @@
     "DLQ": 0.058,
     "HWI": 6.751,
     "LWI": 1.397
-  }
+  },
+  "disclaimers": ""
 }

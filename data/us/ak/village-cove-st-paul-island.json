@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-village-cove-st-paul-island",
+  "name": "Village Cove, St. Paul Island",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Village Cove, St Paul Island",
-  "id": "us-ak-village-cove-st-paul-island",
   "type": "reference",
-  "latitude": 57.1253,
-  "longitude": -170.2852,
+  "latitude": 57.125301361083984,
+  "longitude": -170.2852020263672,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9464212",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9464212",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9464212.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9464212",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9464212",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9464212.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.046000004,
     "HAT": 1.752,
@@ -339,5 +336,6 @@
     "HWI": 3.33,
     "LWI": 9.52,
     "NAVD88": 0.217
-  }
+  },
+  "disclaimers": ""
 }

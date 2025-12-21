@@ -1,0 +1,35 @@
+{
+  "id": "us-va-lake-rudee-south-end",
+  "name": "Lake Rudee, south end",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 36.825,
+  "longitude": -75.9817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8639219",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8639219",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8639219.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-duck-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.07
+    },
+    "time": {
+      "high": 20,
+      "low": 19
+    }
+  }
+}

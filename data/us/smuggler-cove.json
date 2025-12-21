@@ -1,0 +1,35 @@
+{
+  "id": "us-smuggler-cove",
+  "name": "Smuggler Cove",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 20.516666666667007,
+  "longitude": -156.68333333332993,
+  "timezone": "Pacific/Honolulu",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2803",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2803",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2803.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-hi-honolulu",
+    "height": {
+      "type": "fixed",
+      "high": 0.06,
+      "low": 0
+    },
+    "time": {
+      "high": -15,
+      "low": 3
+    }
+  }
+}

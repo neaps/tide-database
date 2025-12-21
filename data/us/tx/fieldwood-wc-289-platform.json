@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-fieldwood-wc-289-platform",
+  "name": "Fieldwood WC-289 Platform",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Fieldwood WC-289 Platform",
-  "id": "us-tx-fieldwood-wc-289-platform",
   "type": "reference",
-  "latitude": 29.347,
-  "longitude": -93.635,
+  "latitude": 29.34700012207031,
+  "longitude": -93.63500213623047,
+  "timezone": "Etc/GMT+6",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8771074",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771074",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771074.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "Etc/GMT+6",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8771074",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8771074",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8771074.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -12.274,
     "HAT": -10.973001,
@@ -337,5 +334,6 @@
     "DHQ": 0.061,
     "DLQ": 0.153,
     "NAVD88": -11.545
-  }
+  },
+  "disclaimers": ""
 }

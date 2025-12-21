@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-trident-bay-akun-island",
+  "name": "Trident Bay, Akun Island",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Trident Bay, Akun Island",
-  "id": "us-ak-trident-bay-akun-island",
   "type": "reference",
   "latitude": 54.14,
   "longitude": -165.527,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9462721",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462721",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462721.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9462721",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462721",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462721.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.46,
     "HAT": 9.862,
@@ -336,5 +333,6 @@
     "MN": 0.967,
     "DHQ": 0.122,
     "DLQ": 0.17
-  }
+  },
+  "disclaimers": ""
 }

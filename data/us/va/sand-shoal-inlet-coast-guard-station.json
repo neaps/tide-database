@@ -1,0 +1,35 @@
+{
+  "id": "us-va-sand-shoal-inlet-coast-guard-station",
+  "name": "Sand Shoal Inlet (Coast Guard Station)",
+  "continent": "North America",
+  "country": "United States",
+  "region": "VA",
+  "type": "subordinate",
+  "latitude": 37.3017,
+  "longitude": -75.7783,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8631542",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8631542",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8631542.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-md-ocean-city-fishing-pier",
+    "height": {
+      "type": "ratio",
+      "high": 1.18,
+      "low": 1
+    },
+    "time": {
+      "high": 32,
+      "low": 17
+    }
+  }
+}

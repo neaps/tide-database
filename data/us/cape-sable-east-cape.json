@@ -1,0 +1,35 @@
+{
+  "id": "us-cape-sable-east-cape",
+  "name": "Cape Sable, East Cape",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 25.116666666667008,
+  "longitude": -81.08333333333299,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4165",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4165",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TEC4165.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-naples-outer-coast",
+    "height": {
+      "type": "ratio",
+      "high": 1.3,
+      "low": 0.98
+    },
+    "time": {
+      "high": 93,
+      "low": 110
+    }
+  }
+}

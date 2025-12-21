@@ -1,12 +1,25 @@
 {
+  "id": "us-vi-water-bay",
+  "name": "Water Bay",
   "continent": "North America",
   "country": "United States",
   "region": "VI",
-  "name": "Water Bay",
-  "id": "us-vi-water-bay",
   "type": "reference",
-  "latitude": 18.348944,
-  "longitude": -64.86417,
+  "latitude": 18.34894444444445,
+  "longitude": -64.86416666666666,
+  "timezone": "America/St_Thomas",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9751583",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9751583",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9751583.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/St_Thomas",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9751583",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9751583",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9751583.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.3,
     "HAT": 5.979,
@@ -338,5 +335,6 @@
     "DLQ": 0.046,
     "HWI": 0.33,
     "LWI": 6.92
-  }
+  },
+  "disclaimers": ""
 }

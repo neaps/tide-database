@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-dunn-sound-north-end",
+  "name": "Dunn Sound, north end",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 33.86,
+  "longitude": -78.58,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8660147",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8660147",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8660147.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-sc-springmaid-pier-myrtle-beach",
+    "height": {
+      "type": "ratio",
+      "high": 0.93,
+      "low": 0.84
+    },
+    "time": {
+      "high": 25,
+      "low": 40
+    }
+  }
+}

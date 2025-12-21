@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-shelter-cove",
+  "name": "Shelter Cove",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "SHELTER COVE",
-  "id": "us-ca-shelter-cove",
   "type": "reference",
-  "latitude": 40.025,
-  "longitude": -124.058,
+  "latitude": 40.025001525878906,
+  "longitude": -124.05799865722656,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9418024",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9418024",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9418024.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9418024",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9418024",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9418024.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.317,
     "HAT": 9.474,
@@ -338,5 +335,6 @@
     "DLQ": 0.369,
     "HWI": 7.033,
     "LWI": 0.699
-  }
+  },
+  "disclaimers": ""
 }

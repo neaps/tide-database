@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-nikiski",
+  "name": "NIKISKI",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Nikiski",
-  "id": "us-ak-nikiski",
   "type": "reference",
-  "latitude": 60.683334,
-  "longitude": -151.39806,
+  "latitude": 60.6833333,
+  "longitude": -151.3980556,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455760",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455760",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455760.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9455760",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455760",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9455760.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.25300026,
     "HAT": 9.807,
@@ -339,5 +336,6 @@
     "HWI": 1.189,
     "LWI": 7.567,
     "NAVD88": 4.216
-  }
+  },
+  "disclaimers": ""
 }

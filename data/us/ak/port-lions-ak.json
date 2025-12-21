@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-port-lions-ak",
+  "name": "Port Lions, AK",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Port Lions, AK",
-  "id": "us-ak-port-lions-ak",
   "type": "reference",
-  "latitude": 57.873474,
-  "longitude": -152.86711,
+  "latitude": 57.87347222222222,
+  "longitude": -152.8671111111111,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457391",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457391",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457391.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9457391",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457391",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9457391.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.7290006,
     "HAT": 10.373,
@@ -338,5 +335,6 @@
     "DLQ": 0.35,
     "HWI": 10.57,
     "LWI": 4.29
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-false-bay-chatham-strait",
+  "name": "False Bay, Chatham Strait",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "False Bay, Chatham Strait",
-  "id": "us-ak-false-bay-chatham-strait",
   "type": "reference",
   "latitude": 57.9667,
   "longitude": -134.935,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452328",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452328",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452328.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Juneau",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9452328",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452328",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9452328.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -1.1899998,
     "HAT": 5.918,
@@ -338,5 +335,6 @@
     "DLQ": 0.488,
     "HWI": 9.777,
     "LWI": 3.562
-  }
+  },
+  "disclaimers": ""
 }

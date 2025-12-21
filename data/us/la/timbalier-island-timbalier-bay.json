@@ -1,0 +1,35 @@
+{
+  "id": "us-la-timbalier-island-timbalier-bay",
+  "name": "Timbalier Island, Timbalier Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "LA",
+  "type": "subordinate",
+  "latitude": 29.0867,
+  "longitude": -90.5267,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8762675",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762675",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8762675.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-la-east-point-grand-isle",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1.13
+    },
+    "time": {
+      "high": 19,
+      "low": 23
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-howland-island",
+  "name": "Howland Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 0.8,
+  "longitude": -176.63333333332992,
+  "timezone": "Etc/GMT+12",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2737",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2737",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2737.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-hi-honolulu",
+    "height": {
+      "type": "fixed",
+      "high": 1.28,
+      "low": 0.12
+    },
+    "time": {
+      "high": 228,
+      "low": 226
+    }
+  }
+}

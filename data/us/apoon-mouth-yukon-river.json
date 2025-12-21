@@ -1,0 +1,35 @@
+{
+  "id": "us-apoon-mouth-yukon-river",
+  "name": "Apoon Mouth, Yukon River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 63.05,
+  "longitude": -163.38333333332992,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2405",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2405",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC2405.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-unalakleet",
+    "height": {
+      "type": "ratio",
+      "high": 1.03,
+      "low": 1.03
+    },
+    "time": {
+      "high": -90,
+      "low": -90
+    }
+  }
+}

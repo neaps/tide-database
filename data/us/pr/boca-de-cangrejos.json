@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-boca-de-cangrejos",
+  "name": "Boca de Cangrejos",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "BOCA DE CANGREJOS",
-  "id": "us-pr-boca-de-cangrejos",
   "type": "reference",
-  "latitude": 18.4566,
-  "longitude": -65.9915,
+  "latitude": 18.456600189208984,
+  "longitude": -65.99150085449219,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9754986",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9754986",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9754986.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9754986",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9754986",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9754986.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.354,
     "HAT": 9.102,
@@ -339,5 +336,6 @@
     "HWI": 0.965,
     "LWI": 7.235,
     "PRVD02": 8.743
-  }
+  },
+  "disclaimers": ""
 }

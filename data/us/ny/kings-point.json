@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-kings-point",
+  "name": "Kings Point",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "Kings Point",
-  "id": "us-ny-kings-point",
   "type": "reference",
-  "latitude": 40.8103,
-  "longitude": -73.7649,
+  "latitude": 40.810298919677734,
+  "longitude": -73.76490020751953,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8516945",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516945",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8516945.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8516945",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516945",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8516945.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 3.362,
     "HAT": 6.8999996,
@@ -339,5 +336,6 @@
     "HWI": 4.03,
     "LWI": 10.73,
     "NAVD88": 5.209
-  }
+  },
+  "disclaimers": ""
 }

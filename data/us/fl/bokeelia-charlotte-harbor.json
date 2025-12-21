@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-bokeelia-charlotte-harbor",
+  "name": "Bokeelia, Charlotte Harbor",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "BOKEELIA, CHARLOTTE HARBOR",
-  "id": "us-fl-bokeelia-charlotte-harbor",
   "type": "reference",
-  "latitude": 26.7067,
-  "longitude": -82.1633,
+  "latitude": 26.70669937133789,
+  "longitude": -82.16329956054688,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725541",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725541",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725541.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8725541",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725541",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725541.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.68999994,
     "HAT": 1.652,
@@ -337,5 +334,6 @@
     "DHQ": 0.045,
     "DLQ": 0.072,
     "NAVD88": 1.417
-  }
+  },
+  "disclaimers": ""
 }

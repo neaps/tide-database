@@ -1,0 +1,35 @@
+{
+  "id": "us-freshwater-bay-chichagof-island",
+  "name": "Freshwater Bay, Chichagof Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 57.85,
+  "longitude": -135.0166666666701,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1743",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1743",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC1743.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-juneau",
+    "height": {
+      "type": "fixed",
+      "high": -0.46,
+      "low": 0.09
+    },
+    "time": {
+      "high": -8,
+      "low": 0
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-tigalda-bay-tigalda-island",
+  "name": "Tigalda Bay, Tigalda Island",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Tigalda Bay, Tigalda Island",
-  "id": "us-ak-tigalda-bay-tigalda-island",
   "type": "reference",
   "latitude": 54.12,
   "longitude": -164.977,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9462782",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462782",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462782.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9462782",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462782",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462782.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.344,
     "HAT": 7.357,
@@ -336,5 +333,6 @@
     "MN": 0.876,
     "DHQ": 0.037,
     "DLQ": 0.042
-  }
+  },
+  "disclaimers": ""
 }

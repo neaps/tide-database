@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-se-tigalda-island-pacific-ocean",
+  "name": "SE Tigalda Island, Pacific Ocean",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "SE Tigalda Island, Pacific Ocean",
-  "id": "us-ak-se-tigalda-island-pacific-ocean",
   "type": "reference",
-  "latitude": 54.101807,
-  "longitude": -164.94159,
+  "latitude": 54.10180555555556,
+  "longitude": -164.9415833333333,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9462786",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462786",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462786.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9462786",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9462786",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9462786.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.889,
     "HAT": 8.781,
@@ -338,5 +335,6 @@
     "DLQ": 0.403,
     "HWI": 11.632,
     "LWI": 5.275
-  }
+  },
+  "disclaimers": ""
 }

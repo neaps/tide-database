@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-chinook-baker-bay-wash",
+  "name": "Chinook, Baker Bay, Wash.",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 46.2717,
+  "longitude": -123.948,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9440573",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440573",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9440573.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-or-astoria-tongue-point-oreg",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 1.12
+    },
+    "time": {
+      "high": -30,
+      "low": -52
+    }
+  }
+}

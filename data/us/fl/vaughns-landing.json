@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-vaughns-landing",
+  "name": "Vaughns Landing",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Vaughns Landing",
-  "id": "us-fl-vaughns-landing",
   "type": "reference",
   "latitude": 30.63,
   "longitude": -81.5767,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720059",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720059",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720059.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8720059",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720059",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720059.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 8.562,
     "HAT": 9.636,
@@ -338,5 +335,6 @@
     "DLQ": 0.084,
     "HWI": 5.862,
     "LWI": 11.888
-  }
+  },
+  "disclaimers": ""
 }

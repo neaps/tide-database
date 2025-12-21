@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-umbrella-point-trinity-bay",
+  "name": "Umbrella Point, Trinity Bay",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "UMBRELLA POINT, TRINITY BAY",
-  "id": "us-tx-umbrella-point-trinity-bay",
   "type": "reference",
   "latitude": 29.68,
   "longitude": -94.8683,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8770625",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8770625",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8770625.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8770625",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8770625",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8770625.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.6240001,
     "HAT": 2.561,
@@ -336,5 +333,6 @@
     "MN": 0.347,
     "DHQ": 0.012,
     "DLQ": 0.029
-  }
+  },
+  "disclaimers": ""
 }

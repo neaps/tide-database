@@ -1,12 +1,25 @@
 {
+  "id": "us-ga-priest-landing-wilmington-river",
+  "name": "Priest Landing, Wilmington River",
   "continent": "North America",
   "country": "United States",
   "region": "GA",
-  "name": "PRIEST LANDING, WILMINGTON RIVER",
-  "id": "us-ga-priest-landing-wilmington-river",
   "type": "reference",
-  "latitude": 31.9633,
-  "longitude": -81.0117,
+  "latitude": 31.963300704956055,
+  "longitude": -81.01170349121094,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8671315",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8671315",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8671315.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8671315",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8671315",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8671315.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.462272,
     "HAT": 5.031272,
@@ -338,5 +335,6 @@
     "DLQ": 0.071,
     "HWI": 0.93,
     "LWI": 6.92
-  }
+  },
+  "disclaimers": ""
 }

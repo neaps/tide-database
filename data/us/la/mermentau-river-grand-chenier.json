@@ -1,12 +1,25 @@
 {
+  "id": "us-la-mermentau-river-grand-chenier",
+  "name": "Mermentau River, Grand Chenier",
   "continent": "North America",
   "country": "United States",
   "region": "LA",
-  "name": "MERMENTAU RIVER, GRAND CHENIER",
-  "id": "us-la-mermentau-river-grand-chenier",
   "type": "reference",
-  "latitude": 29.775,
-  "longitude": -93.0083,
+  "latitude": 29.774999618530273,
+  "longitude": -93.00830078125,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8767403",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8767403",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8767403.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8767403",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8767403",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8767403.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.567,
     "HAT": 1.848,
@@ -337,5 +334,6 @@
     "DHQ": 0.039,
     "DLQ": 0.127,
     "NAVD88": 1.435
-  }
+  },
+  "disclaimers": ""
 }

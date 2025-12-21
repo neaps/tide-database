@@ -1,12 +1,25 @@
 {
+  "id": "us-nj-ship-john-shoal",
+  "name": "Ship John Shoal",
   "continent": "North America",
   "country": "United States",
   "region": "NJ",
-  "name": "Ship John Shoal",
-  "id": "us-nj-ship-john-shoal",
   "type": "reference",
-  "latitude": 39.30539,
-  "longitude": -75.37668,
+  "latitude": 39.30538888888889,
+  "longitude": -75.37667777777777,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537121",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537121",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8537121.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8537121",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537121",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8537121.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 5.162,
     "HAT": 7.803,
@@ -338,5 +335,6 @@
     "DLQ": 0.059,
     "HWI": 2.385,
     "LWI": 9.08
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-nc-bowen-point-shallotte-inlet",
+  "name": "Bowen Point, Shallotte Inlet",
   "continent": "North America",
   "country": "United States",
   "region": "NC",
-  "name": "BOWEN POINT, SHALLOTTE INLET",
-  "id": "us-nc-bowen-point-shallotte-inlet",
   "type": "reference",
-  "latitude": 33.915,
-  "longitude": -78.3733,
+  "latitude": 33.915000915527344,
+  "longitude": -78.37329864501953,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8659665",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8659665",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8659665.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8659665",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8659665",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8659665.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.822,
     "HAT": 9.162,
@@ -339,5 +336,6 @@
     "HWI": 0.516,
     "LWI": 6.898,
     "NAVD88": 8.159
-  }
+  },
+  "disclaimers": ""
 }

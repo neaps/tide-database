@@ -1,0 +1,35 @@
+{
+  "id": "us-mendocino-mendocino-bay",
+  "name": "Mendocino, Mendocino Bay",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 39.3,
+  "longitude": -123.8,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC0777",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC0777",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC0777.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ca-arena-cove",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.95
+    },
+    "time": {
+      "high": 7,
+      "low": 1
+    }
+  }
+}

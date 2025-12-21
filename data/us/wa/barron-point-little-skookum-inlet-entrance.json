@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-barron-point-little-skookum-inlet-entrance",
+  "name": "Barron Point, Little Skookum Inlet Entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 47.156700134277344,
+  "longitude": -123.00800323486328,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9446742",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9446742",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9446742.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-seattle-madison-st-elliott-bay",
+    "height": {
+      "type": "ratio",
+      "high": 1.29,
+      "low": 1.06
+    },
+    "time": {
+      "high": 50,
+      "low": 59
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-tebenkof-bay-kuiu-island",
+  "name": "Tebenkof Bay, Kuiu Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 56.416666666667005,
+  "longitude": -134.13333333332992,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1723",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1723",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TWC1723.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-sitka",
+    "height": {
+      "type": "fixed",
+      "high": 0.55,
+      "low": 0.03
+    },
+    "time": {
+      "high": 4,
+      "low": 11
+    }
+  }
+}

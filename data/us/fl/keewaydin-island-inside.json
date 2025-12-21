@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-keewaydin-island-inside",
+  "name": "Keewaydin island (inside)",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "KEEWAYDIN ISLAND, INSIDE",
-  "id": "us-fl-keewaydin-island-inside",
   "type": "reference",
   "latitude": 26.025,
   "longitude": -81.7683,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725019",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725019",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725019.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8725019",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725019",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8725019.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.09899998,
     "HAT": 1.2490001,
@@ -339,5 +336,6 @@
     "HWI": 6.083,
     "LWI": 12.203,
     "NAVD88": 0.802
-  }
+  },
+  "disclaimers": ""
 }

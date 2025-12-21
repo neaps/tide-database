@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-turkey-point-biscayne-bay",
+  "name": "Turkey Point, Biscayne Bay",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "TURKEY POINT, BISCAYNE BAY",
-  "id": "us-fl-turkey-point-biscayne-bay",
   "type": "reference",
   "latitude": 25.4367,
   "longitude": -80.33,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723423",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723423",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723423.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8723423",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723423",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8723423.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.37600002,
     "HAT": 1.287,
@@ -339,5 +336,6 @@
     "HWI": 3.338,
     "LWI": 10.313,
     "NAVD88": 1.074
-  }
+  },
+  "disclaimers": ""
 }

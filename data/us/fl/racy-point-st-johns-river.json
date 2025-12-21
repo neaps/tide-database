@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-racy-point-st-johns-river",
+  "name": "Racy Point, St Johns River",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "Racy Point, St Johns River",
-  "id": "us-fl-racy-point-st-johns-river",
   "type": "reference",
   "latitude": 29.8017,
   "longitude": -81.5483,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720625",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720625",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720625.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8720625",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720625",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8720625.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -0.33400002,
     "HAT": 0.4,
@@ -339,5 +336,6 @@
     "HWI": 7.271,
     "LWI": 1.505,
     "NAVD88": -0.002
-  }
+  },
+  "disclaimers": ""
 }

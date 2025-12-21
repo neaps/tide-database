@@ -1,0 +1,35 @@
+{
+  "id": "us-ak-niyrakpak-lagoon-entrance",
+  "name": "Niyrakpak Lagoon entrance",
+  "continent": "North America",
+  "country": "United States",
+  "region": "AK",
+  "type": "subordinate",
+  "latitude": 63.62,
+  "longitude": -171.383,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9468216",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9468216",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9468216.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ak-nome",
+    "height": {
+      "type": "ratio",
+      "high": 0.83,
+      "low": 0.67
+    },
+    "time": {
+      "high": -267,
+      "low": -271
+    }
+  }
+}

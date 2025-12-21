@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-the-summit",
+  "name": "The Summit",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "The Summit",
-  "id": "us-ak-the-summit",
   "type": "reference",
-  "latitude": 56.682423,
-  "longitude": -133.73691,
+  "latitude": 56.68242222222222,
+  "longitude": -133.7369083333333,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451349",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451349",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451349.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451349",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451349",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451349.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": -2.251,
     "HAT": 4.743,
@@ -338,5 +335,6 @@
     "DLQ": 0.492,
     "HWI": 9.82,
     "LWI": 3.58
-  }
+  },
+  "disclaimers": ""
 }

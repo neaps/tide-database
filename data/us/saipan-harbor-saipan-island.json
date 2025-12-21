@@ -1,0 +1,35 @@
+{
+  "id": "us-saipan-harbor-saipan-island",
+  "name": "Saipan Harbor, Saipan Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 15.2,
+  "longitude": 145.71666666667008,
+  "timezone": "Pacific/Saipan",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2623",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2623",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2623.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-apra-harbor-guam",
+    "height": {
+      "type": "ratio",
+      "high": 0.8,
+      "low": 0.8
+    },
+    "time": {
+      "high": 2,
+      "low": 7
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-kipnuk-kugkaktlik-river",
+  "name": "Kipnuk, Kugkaktlik River",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Kipnuk, Kugkaktlik River",
-  "id": "us-ak-kipnuk-kugkaktlik-river",
   "type": "reference",
-  "latitude": 59.9432,
-  "longitude": -164.0434,
+  "latitude": 59.943199157714844,
+  "longitude": -164.04339599609375,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9465951",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465951",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9465951.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Nome",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9465951",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465951",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9465951.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.5220003,
     "HAT": 10.112,
@@ -339,5 +336,6 @@
     "HWI": 8.527,
     "LWI": 3.255,
     "NAVD88": 7.054
-  }
+  },
+  "disclaimers": ""
 }

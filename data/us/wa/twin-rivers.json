@@ -1,0 +1,35 @@
+{
+  "id": "us-wa-twin-rivers",
+  "name": "Twin Rivers",
+  "continent": "North America",
+  "country": "United States",
+  "region": "WA",
+  "type": "subordinate",
+  "latitude": 48.17499923706055,
+  "longitude": -123.94999694824219,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9443644",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9443644",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9443644.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-wa-neah-bay",
+    "height": {
+      "type": "ratio",
+      "high": 0.89,
+      "low": 1.2
+    },
+    "time": {
+      "high": 47,
+      "low": 59
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-north-anclote-key",
+  "name": "North Anclote Key",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 28.21,
+  "longitude": -82.84,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726942",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726942",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726942.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-cedar-key",
+    "height": {
+      "type": "ratio",
+      "high": 0.8,
+      "low": 0.86
+    },
+    "time": {
+      "high": -115,
+      "low": -98
+    }
+  }
+}

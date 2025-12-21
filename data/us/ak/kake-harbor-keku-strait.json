@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-kake-harbor-keku-strait",
+  "name": "Kake Harbor, Keku Strait",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Kake Harbor, Keku Strait",
-  "id": "us-ak-kake-harbor-keku-strait",
   "type": "reference",
-  "latitude": 56.948307,
-  "longitude": -133.89473,
+  "latitude": 56.94830555555556,
+  "longitude": -133.8947222222222,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451528",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451528",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451528.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451528",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451528",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451528.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 6.303741,
     "HAT": 13.112741,
@@ -338,5 +335,6 @@
     "DLQ": 0.466,
     "HWI": 9.69,
     "LWI": 3.43
-  }
+  },
+  "disclaimers": ""
 }

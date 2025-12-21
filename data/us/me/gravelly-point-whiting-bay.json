@@ -1,12 +1,25 @@
 {
+  "id": "us-me-gravelly-point-whiting-bay",
+  "name": "Gravelly Point, Whiting Bay",
   "continent": "North America",
   "country": "United States",
   "region": "ME",
-  "name": "Gravelly Point, Whiting Bay",
-  "id": "us-me-gravelly-point-whiting-bay",
   "type": "reference",
-  "latitude": 44.8233,
-  "longitude": -67.1517,
+  "latitude": 44.823299407958984,
+  "longitude": -67.15170288085938,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8410864",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8410864",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8410864.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8410864",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8410864",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8410864.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.973,
     "HAT": 9.053,
@@ -338,5 +335,6 @@
     "DLQ": 0.099,
     "HWI": 4.408,
     "LWI": 10.983
-  }
+  },
+  "disclaimers": ""
 }

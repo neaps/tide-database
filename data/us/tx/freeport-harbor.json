@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-freeport-harbor",
+  "name": "Freeport Harbor",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Freeport Harbor",
-  "id": "us-tx-freeport-harbor",
   "type": "reference",
-  "latitude": 28.9357,
-  "longitude": -95.2942,
+  "latitude": 28.935699462890625,
+  "longitude": -95.29419708251953,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8772471",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8772471",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8772471.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8772471",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8772471",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8772471.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.9040003,
     "HAT": 9.1380005,
@@ -337,5 +334,6 @@
     "DHQ": 0.042,
     "DLQ": 0.086,
     "NAVD88": 8.534
-  }
+  },
+  "disclaimers": ""
 }

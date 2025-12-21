@@ -1,0 +1,35 @@
+{
+  "id": "us-mangareva-island",
+  "name": "Mangareva Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": -23.13333333333333,
+  "longitude": -134.9666666666667,
+  "timezone": "Pacific/Gambier",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2835",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2835",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2835.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-pago-pago-harbor-tutuila-island",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.86
+    },
+    "time": {
+      "high": -290,
+      "low": -287
+    }
+  }
+}

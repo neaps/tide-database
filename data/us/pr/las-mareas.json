@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-las-mareas",
+  "name": "Las Mareas",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Las Mareas",
-  "id": "us-pr-las-mareas",
   "type": "reference",
   "latitude": 17.9283,
   "longitude": -66.1583,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9755679",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9755679",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9755679.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9755679",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9755679",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9755679.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 3.9139998,
     "HAT": 4.344,
@@ -336,5 +333,6 @@
     "MN": 0.195,
     "DHQ": 0.002,
     "DLQ": 0.006
-  }
+  },
+  "disclaimers": ""
 }

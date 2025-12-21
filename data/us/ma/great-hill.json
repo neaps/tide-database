@@ -1,12 +1,25 @@
 {
+  "id": "us-ma-great-hill",
+  "name": "Great Hill",
   "continent": "North America",
   "country": "United States",
   "region": "MA",
-  "name": "Great Hill",
-  "id": "us-ma-great-hill",
   "type": "reference",
-  "latitude": 41.7117,
-  "longitude": -70.715,
+  "latitude": 41.711700439453125,
+  "longitude": -70.71499633789062,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447368",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447368",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447368.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8447368",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447368",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8447368.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.94600004,
     "HAT": 3.0300002,
@@ -338,5 +335,6 @@
     "DLQ": 0.055,
     "HWI": 0.526,
     "LWI": 6.302
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,0 +1,35 @@
+{
+  "id": "us-fanning-island",
+  "name": "Fanning Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "",
+  "type": "subordinate",
+  "latitude": 3.85,
+  "longitude": -159.36666666667008,
+  "timezone": "Pacific/Kiritimati",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2743",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2743",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/TPT2743.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-hi-honolulu",
+    "height": {
+      "type": "fixed",
+      "high": 0.12,
+      "low": 0.12
+    },
+    "time": {
+      "high": 158,
+      "low": 159
+    }
+  }
+}

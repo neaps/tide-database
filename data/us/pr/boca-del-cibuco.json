@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-boca-del-cibuco",
+  "name": "Boca del Cibuco",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Boca del Cibuco",
-  "id": "us-pr-boca-del-cibuco",
   "type": "reference",
-  "latitude": 18.4852,
-  "longitude": -66.3844,
+  "latitude": 18.485200881958008,
+  "longitude": -66.3843994140625,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9756567",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9756567",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9756567.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9756567",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9756567",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9756567.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 4.399,
     "HAT": 5.341,
@@ -339,5 +336,6 @@
     "HWI": 0.56,
     "LWI": 6.895,
     "PRVD02": 4.817
-  }
+  },
+  "disclaimers": ""
 }

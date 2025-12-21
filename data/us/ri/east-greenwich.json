@@ -1,12 +1,25 @@
 {
+  "id": "us-ri-east-greenwich",
+  "name": "East Greenwich",
   "continent": "North America",
   "country": "United States",
   "region": "RI",
-  "name": "East Greenwich",
-  "id": "us-ri-east-greenwich",
   "type": "reference",
-  "latitude": 41.665,
-  "longitude": -71.445,
+  "latitude": 41.665000915527344,
+  "longitude": -71.44499969482422,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8454578",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8454578",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8454578.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8454578",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8454578",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8454578.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.059,
     "HAT": 3.149,
@@ -339,5 +336,6 @@
     "HWI": 0.46,
     "LWI": 5.87,
     "NAVD88": 2.111
-  }
+  },
+  "disclaimers": ""
 }

@@ -1,12 +1,25 @@
 {
+  "id": "us-ca-corte-madera-creek",
+  "name": "Corte Madera Creek",
   "continent": "North America",
   "country": "United States",
   "region": "CA",
-  "name": "CORTE MADERA CREEK",
-  "id": "us-ca-corte-madera-creek",
   "type": "reference",
-  "latitude": 37.9433,
-  "longitude": -122.513,
+  "latitude": 37.94329833984375,
+  "longitude": -122.51300048828125,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414874",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414874",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414874.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Los_Angeles",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9414874",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414874",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414874.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 2.322,
     "HAT": 5.058,
@@ -338,5 +335,6 @@
     "DLQ": 0.328,
     "HWI": 8.125,
     "LWI": 1.701
-  }
+  },
+  "disclaimers": ""
 }

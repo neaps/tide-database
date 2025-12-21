@@ -1,0 +1,35 @@
+{
+  "id": "us-nc-orton-point",
+  "name": "Orton Point",
+  "continent": "North America",
+  "country": "United States",
+  "region": "NC",
+  "type": "subordinate",
+  "latitude": 34.0567,
+  "longitude": -77.94,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8658501",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8658501",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8658501.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-nc-wilmington",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 1
+    },
+    "time": {
+      "high": -36,
+      "low": -58
+    }
+  }
+}

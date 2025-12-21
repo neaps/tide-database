@@ -1,0 +1,35 @@
+{
+  "id": "us-sc-capers-creek-cowen-creek-st-helena-island",
+  "name": "Capers Creek, Cowen Creek, St. Helena Island",
+  "continent": "North America",
+  "country": "United States",
+  "region": "SC",
+  "type": "subordinate",
+  "latitude": 32.3717,
+  "longitude": -80.605,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8668255",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8668255",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8668255.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-ga-fort-pulaski-savannah-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 1.08,
+      "low": 0.95
+    },
+    "time": {
+      "high": 58,
+      "low": 34
+    }
+  }
+}

@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-sag-harbor",
+  "name": "Sag Harbor",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "Sag Harbor",
-  "id": "us-ny-sag-harbor",
   "type": "reference",
   "latitude": 41.0033,
   "longitude": -72.2967,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8511629",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8511629",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8511629.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8511629",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8511629",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8511629.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.178,
     "HAT": 8.521,
@@ -339,5 +336,6 @@
     "HWI": 3.04,
     "LWI": 9.29,
     "NAVD88": 7.941
-  }
+  },
+  "disclaimers": ""
 }

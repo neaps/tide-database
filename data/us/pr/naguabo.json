@@ -1,12 +1,25 @@
 {
+  "id": "us-pr-naguabo",
+  "name": "Naguabo",
   "continent": "North America",
   "country": "United States",
   "region": "PR",
-  "name": "Naguabo",
-  "id": "us-pr-naguabo",
   "type": "reference",
-  "latitude": 18.187056,
-  "longitude": -65.71139,
+  "latitude": 18.18705555555556,
+  "longitude": -65.71138888888889,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9753641",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9753641",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9753641.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Puerto_Rico",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9753641",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9753641",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9753641.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.9390001,
     "HAT": 2.423,
@@ -336,5 +333,6 @@
     "MN": 0.207,
     "DHQ": 0.017,
     "DLQ": 0.023
-  }
+  },
+  "disclaimers": ""
 }

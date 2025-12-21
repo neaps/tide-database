@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-baranof-warm-spring-bay",
+  "name": "Baranof, Warm Spring Bay",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Baranof,  Warm Spring Bay",
-  "id": "us-ak-baranof-warm-spring-bay",
   "type": "reference",
-  "latitude": 57.088333,
+  "latitude": 57.08833333333333,
   "longitude": -134.825,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451625",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451625",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451625.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Sitka",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9451625",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451625",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9451625.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.24000001,
     "HAT": 6.736,
@@ -338,5 +335,6 @@
     "DLQ": 0.47,
     "HWI": 9.685,
     "LWI": 3.425
-  }
+  },
+  "disclaimers": ""
 }

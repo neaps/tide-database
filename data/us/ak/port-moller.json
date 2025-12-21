@@ -1,12 +1,25 @@
 {
+  "id": "us-ak-port-moller",
+  "name": "Port Moller",
   "continent": "North America",
   "country": "United States",
   "region": "AK",
-  "name": "Port Moller",
-  "id": "us-ak-port-moller",
   "type": "reference",
-  "latitude": 55.985832,
-  "longitude": -160.57361,
+  "latitude": 55.9858333,
+  "longitude": -160.5736111,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9463502",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9463502",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9463502.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Anchorage",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "9463502",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9463502",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9463502.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 7.846,
     "HAT": 12.943,
@@ -338,5 +335,6 @@
     "DLQ": 0.664,
     "HWI": 7.257,
     "LWI": 1.095
-  }
+  },
+  "disclaimers": ""
 }

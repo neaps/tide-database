@@ -1,0 +1,35 @@
+{
+  "id": "us-fl-st-marks-st-marks-river",
+  "name": "St. Marks, St. Marks River",
+  "continent": "North America",
+  "country": "United States",
+  "region": "FL",
+  "type": "subordinate",
+  "latitude": 30.1533,
+  "longitude": -84.2033,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728142",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728142",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8728142.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "offsets": {
+    "reference": "us-fl-st-marks-river-entrance",
+    "height": {
+      "type": "ratio",
+      "high": 0.93,
+      "low": 0.91
+    },
+    "time": {
+      "high": 36,
+      "low": 64
+    }
+  }
+}

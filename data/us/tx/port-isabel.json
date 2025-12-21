@@ -1,12 +1,25 @@
 {
+  "id": "us-tx-port-isabel",
+  "name": "Port Isabel",
   "continent": "North America",
   "country": "United States",
   "region": "TX",
-  "name": "Port Isabel",
-  "id": "us-tx-port-isabel",
   "type": "reference",
-  "latitude": 26.061167,
-  "longitude": -97.21553,
+  "latitude": 26.06116666666667,
+  "longitude": -97.21552777777778,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8779770",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8779770",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8779770.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/Chicago",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8779770",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8779770",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8779770.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.85886097,
     "HAT": 1.846861,
@@ -337,5 +334,6 @@
     "DHQ": 0.018,
     "DLQ": 0.049,
     "NAVD88": 1.435
-  }
+  },
+  "disclaimers": ""
 }

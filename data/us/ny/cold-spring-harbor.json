@@ -1,12 +1,25 @@
 {
+  "id": "us-ny-cold-spring-harbor",
+  "name": "Cold Spring Harbor",
   "continent": "North America",
   "country": "United States",
   "region": "NY",
-  "name": "COLD SPRING HARBOR",
-  "id": "us-ny-cold-spring-harbor",
   "type": "reference",
-  "latitude": 40.8733,
-  "longitude": -73.47,
+  "latitude": 40.87329864501953,
+  "longitude": -73.47000122070312,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8516061",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516061",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8516061.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8516061",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516061",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8516061.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 1.1980001,
     "HAT": 4.718,
@@ -338,5 +335,6 @@
     "DLQ": 0.068,
     "HWI": 3.663,
     "LWI": 10.185
-  }
+  },
+  "disclaimers": ""
 }

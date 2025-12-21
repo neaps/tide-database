@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-newman-branch",
+  "name": "NEWMAN BRANCH",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "NEWMAN BRANCH",
-  "id": "us-fl-newman-branch",
   "type": "reference",
   "latitude": 27.7833,
   "longitude": -82.4067,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726539",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726539",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726539.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8726539",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726539",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726539.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.46200007,
     "HAT": 1.8460001,
@@ -339,5 +336,6 @@
     "HWI": 6.987,
     "LWI": 0.777,
     "NAVD88": 1.296
-  }
+  },
+  "disclaimers": ""
 }

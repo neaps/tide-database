@@ -1,12 +1,25 @@
 {
+  "id": "us-fl-st-petersburg",
+  "name": "St. Petersburg",
   "continent": "North America",
   "country": "United States",
   "region": "FL",
-  "name": "St. Petersburg",
-  "id": "us-fl-st-petersburg",
   "type": "reference",
-  "latitude": 27.7606,
-  "longitude": -82.6269,
+  "latitude": 27.76059913635254,
+  "longitude": -82.62689971923828,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726520",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726520",
+    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726520.json"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
   "harmonic_constituents": [
     {
       "name": "M2",
@@ -305,22 +318,6 @@
       "speed": 58.984104
     }
   ],
-  "secondary_offset": {},
-  "timezone": "America/New_York",
-  "source": {
-    "name": "US National Oceanic and Atmospheric Administration",
-    "id": "8726520",
-    "published_harmonics": true,
-    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726520",
-    "source_url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8726520.json"
-  },
-  "license": {
-    "type": "public domain",
-    "commercial_use": true,
-    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
-  },
-  "disclaimers": "",
-  "restriction": "",
   "datums": {
     "LAT": 0.67200005,
     "HAT": 1.978,
@@ -339,5 +336,6 @@
     "HWI": 7.01,
     "LWI": 0.6,
     "NAVD88": 1.478
-  }
+  },
+  "disclaimers": ""
 }
