@@ -33,7 +33,7 @@
         },
         "height": {
           "type": "object",
-          "description": "Defines the values to add to water levels",
+          "description": "Defines the values to add or multiply with water levels (depending on type)",
           "required": [
             "high",
             "low",
@@ -43,11 +43,11 @@
           "properties": {
             "high": {
               "type": "number",
-              "description": "Height offset to add to the high tide (can be negative)"
+              "description": "Height offset/multiplier for high tide - if type is 'ratio', this is a multiplier; if 'fixed', this is an offset to add (can be negative)"
             },
             "low": {
               "type": "number",
-              "description": "Height offset to add to the low tide (can be negative)"
+              "description": "Height offset/multiplier for low tide - if type is 'ratio', this is a multiplier; if 'fixed', this is an offset to add (can be negative)"
             },
             "type": {
               "enum": [
@@ -95,12 +95,12 @@
     },
     "continent": {
       "type": "string",
-      "description": "One of `africa`, `antartica` `asia`, `australia`, `europe`, `north america`, `south america`",
+      "description": "Continent name in title case (e.g., `North America`, `Asia`, `Europe`)",
       "minLength": 1
     },
     "country": {
       "type": "string",
-      "description": "ISO 3166-1 alpha-3 country code",
+      "description": "Full country name (e.g., `United States`)",
       "minLength": 1
     },
     "region": {
@@ -165,7 +165,7 @@
         "source_url": {
           "type": "string",
           "format": "uri",
-          "description": "URL to the source's homepage. TODO: rename this to `homepage`"
+          "description": "URL to the source API endpoint for this station's data"
         }
       }
     },
