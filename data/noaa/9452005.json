@@ -3,7 +3,7 @@
   "region": "AK",
   "country": "United States",
   "continent": "Americas",
-  "latitude": 57.52169418334961,
+  "latitude": 57.52170181274414,
   "longitude": -133.05499267578125,
   "timezone": "America/Juneau",
   "source": {
@@ -17,18 +17,215 @@
     "commercial_use": true,
     "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
   },
+  "disclaimers": "",
+  "datums": {
+    "STND": 0,
+    "MHHW": 3.38,
+    "MHW": 3.093,
+    "DTL": 0.955,
+    "MTL": 1.051,
+    "MSL": 1.095,
+    "MLW": -0.989,
+    "MLLW": -1.468,
+    "GT": 4.848,
+    "MN": 4.083,
+    "DHQ": 0.287,
+    "DLQ": 0.478,
+    "HWI": 9.87,
+    "LWI": 3.62,
+    "NAVD88": -0.458
+  },
   "chart_datum": "MLLW",
-  "type": "subordinate",
-  "offsets": {
-    "reference": "noaa/9452210",
-    "height": {
-      "type": "ratio",
-      "high": 0.98,
-      "low": 0.99
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.916,
+      "phase": 284.9
     },
-    "time": {
-      "high": 1,
-      "low": 6
+    {
+      "name": "S2",
+      "amplitude": 0.659,
+      "phase": 319.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.381,
+      "phase": 261.1
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.483,
+      "phase": 268.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.041,
+      "phase": 41.8
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.3,
+      "phase": 251.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.001,
+      "phase": 175.7
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 173.3
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.074,
+      "phase": 264.3
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 217.2
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.046,
+      "phase": 250.6
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.05,
+      "phase": 237.2
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.013,
+      "phase": 284.8
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.013,
+      "phase": 300.9
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.021,
+      "phase": 260.2
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.024,
+      "phase": 276.5
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.087,
+      "phase": 253.3
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.029,
+      "phase": 181.6
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.011,
+      "phase": 244.8
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.058,
+      "phase": 243.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.039,
+      "phase": 317.9
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.005,
+      "phase": 320.7
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.008,
+      "phase": 235.6
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.16,
+      "phase": 267.1
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.054,
+      "phase": 308.7
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.179,
+      "phase": 322.1
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.004,
+      "phase": 173.2
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
     }
+  ],
+  "epoch": {
+    "start": "2012-01-01",
+    "end": "2016-12-31"
   }
 }

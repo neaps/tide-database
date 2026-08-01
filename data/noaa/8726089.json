@@ -1,0 +1,34 @@
+{
+  "name": "Longboats Key, Sarasota Bay",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.34000015258789,
+  "longitude": -82.58999633789062,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726089",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726089"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726520",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 1.11
+    },
+    "time": {
+      "high": -90,
+      "low": -77
+    }
+  }
+}

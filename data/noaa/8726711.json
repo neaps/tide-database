@@ -1,0 +1,34 @@
+{
+  "name": "West Tampa, Hillsborough River",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.959999084472656,
+  "longitude": -82.46829986572266,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726711",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726711"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726674",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 0.66
+    },
+    "time": {
+      "high": 17,
+      "low": 27
+    }
+  }
+}

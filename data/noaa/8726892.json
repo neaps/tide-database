@@ -1,0 +1,34 @@
+{
+  "name": "Spring Bayou, Tarpon Springs",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.146699905395508,
+  "longitude": -82.75830078125,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726892",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726892"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726724",
+    "height": {
+      "type": "ratio",
+      "high": 1.11,
+      "low": 0.94
+    },
+    "time": {
+      "high": 57,
+      "low": 87
+    }
+  }
+}

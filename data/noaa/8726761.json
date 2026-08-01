@@ -3,8 +3,8 @@
   "region": "FL",
   "country": "United States",
   "continent": "Americas",
-  "latitude": 28.0133,
-  "longitude": -82.7933,
+  "latitude": 28.0132999420166,
+  "longitude": -82.79329681396484,
   "timezone": "America/New_York",
   "source": {
     "name": "US National Oceanic and Atmospheric Administration",
@@ -20,15 +20,15 @@
   "chart_datum": "MLLW",
   "type": "subordinate",
   "offsets": {
-    "reference": "noaa/8727520",
+    "reference": "noaa/8726724",
     "height": {
       "type": "ratio",
-      "high": 0.7,
-      "low": 0.79
+      "high": 1,
+      "low": 0.94
     },
     "time": {
-      "high": -110,
-      "low": -105
+      "high": 26,
+      "low": 40
     }
   }
 }

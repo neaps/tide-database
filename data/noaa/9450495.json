@@ -3,8 +3,8 @@
   "region": "AK",
   "country": "United States",
   "continent": "Americas",
-  "latitude": 55.4017,
-  "longitude": -132.328,
+  "latitude": 55.40169906616211,
+  "longitude": -132.3280029296875,
   "timezone": "America/Sitka",
   "source": {
     "name": "US National Oceanic and Atmospheric Administration",
@@ -17,18 +17,214 @@
     "commercial_use": true,
     "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
   },
+  "disclaimers": "",
+  "datums": {
+    "STND": 0,
+    "MHHW": 6.228,
+    "MHW": 5.951,
+    "DTL": 3.855,
+    "MTL": 3.959,
+    "MSL": 3.955,
+    "MLW": 1.967,
+    "MLLW": 1.482,
+    "GT": 4.746,
+    "MN": 3.985,
+    "DHQ": 0.277,
+    "DLQ": 0.485,
+    "HWI": 9.479,
+    "LWI": 3.135
+  },
   "chart_datum": "MLLW",
-  "type": "subordinate",
-  "offsets": {
-    "reference": "noaa/9450460",
-    "height": {
-      "type": "ratio",
-      "high": 1.01,
-      "low": 1.01
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.909,
+      "phase": 271.7
     },
-    "time": {
-      "high": 4,
-      "low": 2
+    {
+      "name": "S2",
+      "amplitude": 0.655,
+      "phase": 303.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.386,
+      "phase": 250.6
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.519,
+      "phase": 261.2
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.028,
+      "phase": 265.3
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.31,
+      "phase": 246.5
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.004,
+      "phase": 62.2
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 336.5
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.075,
+      "phase": 253.4
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 214.8
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.046,
+      "phase": 240
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.051,
+      "phase": 229.4
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.013,
+      "phase": 276
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.013,
+      "phase": 286.5
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.022,
+      "phase": 253.9
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.025,
+      "phase": 268.6
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.11,
+      "phase": 262.6
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.026,
+      "phase": 183.4
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.012,
+      "phase": 240.2
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.06,
+      "phase": 239.2
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.039,
+      "phase": 302.3
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.005,
+      "phase": 304.8
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.008,
+      "phase": 231.8
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.172,
+      "phase": 260.1
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.053,
+      "phase": 292.9
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.178,
+      "phase": 306.1
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.004,
+      "phase": 10.9
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
     }
+  ],
+  "epoch": {
+    "start": "1983-01-01",
+    "end": "2001-12-31"
   }
 }
