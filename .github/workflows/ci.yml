@@ -39,6 +39,15 @@ jobs:
           name: npm-dist
           path: "*.tgz"
 
+      # GeoNames data (cities500 + admin1 codes) is downloaded by the geocode
+      # test on first run. Cache it so we don't re-fetch ~10MB from
+      # download.geonames.org on every run. Bump the -v1 suffix to force a refresh.
+      - name: Cache GeoNames data
+        uses: actions/cache@v4
+        with:
+          path: tmp/geonames
+          key: geonames-v1
+
       - name: Run tests
         run: npm run test
 
