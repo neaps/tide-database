@@ -1,0 +1,230 @@
+{
+  "name": "Multnomah Channel",
+  "region": "OR",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 45.81169891357422,
+  "longitude": -122.8270034790039,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9438125",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9438125"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "STND": 0,
+    "MHHW": 1.538,
+    "MHW": 1.375,
+    "DTL": 1.057,
+    "MTL": 1.011,
+    "MSL": 1.006,
+    "MLW": 0.647,
+    "MLLW": 0.577,
+    "GT": 0.961,
+    "MN": 0.728,
+    "DHQ": 0.163,
+    "DLQ": 0.07,
+    "HWI": 0.546,
+    "LWI": 8.224
+  },
+  "chart_datum": "MLLW",
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.289,
+      "phase": 32
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.06,
+      "phase": 60
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.052,
+      "phase": 12.6
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.136,
+      "phase": 349.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.054,
+      "phase": 334
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.051,
+      "phase": 350.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.007,
+      "phase": 308.9
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 292.8
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.01,
+      "phase": 15.2
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.003,
+      "phase": 216.7
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.007,
+      "phase": 4
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.007,
+      "phase": 353.3
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 347.8
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.002,
+      "phase": 45
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.004,
+      "phase": 350.1
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.004,
+      "phase": 348.6
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.113,
+      "phase": 308.7
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.026,
+      "phase": 187.9
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 351.6
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.01,
+      "phase": 351.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.004,
+      "phase": 58.9
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 61.1
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 352.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.045,
+      "phase": 349.5
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.008,
+      "phase": 51.4
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.016,
+      "phase": 62.3
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.003,
+      "phase": 18.1
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ],
+  "epoch": {
+    "start": "1983-01-01",
+    "end": "2001-12-31"
+  }
+}

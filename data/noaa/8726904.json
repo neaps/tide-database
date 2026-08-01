@@ -1,0 +1,34 @@
+{
+  "name": "Howard Park Causeway",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.15329933166504,
+  "longitude": -82.80169677734375,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726904",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726904"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726724",
+    "height": {
+      "type": "ratio",
+      "high": 1.11,
+      "low": 1.04
+    },
+    "time": {
+      "high": 14,
+      "low": 28
+    }
+  }
+}

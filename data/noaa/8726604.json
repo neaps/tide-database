@@ -1,0 +1,34 @@
+{
+  "name": "Long Shoal, MacDill AFB",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.854999542236328,
+  "longitude": -82.4800033569336,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726604",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726604"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726674",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 0.72
+    },
+    "time": {
+      "high": -18,
+      "low": 1
+    }
+  }
+}

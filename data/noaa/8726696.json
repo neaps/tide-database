@@ -1,0 +1,34 @@
+{
+  "name": "Palm River Entrance",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.946699142456055,
+  "longitude": -82.40170288085938,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726696",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726696"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726674",
+    "height": {
+      "type": "ratio",
+      "high": 1.06,
+      "low": 0.83
+    },
+    "time": {
+      "high": 3,
+      "low": 6
+    }
+  }
+}

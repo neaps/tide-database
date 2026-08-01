@@ -1,0 +1,34 @@
+{
+  "name": "Fillman's Creek, New Port Richey",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.229999542236328,
+  "longitude": -82.75330352783203,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726988",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726988"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726724",
+    "height": {
+      "type": "ratio",
+      "high": 1.23,
+      "low": 1.04
+    },
+    "time": {
+      "high": 30,
+      "low": 65
+    }
+  }
+}

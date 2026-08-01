@@ -1,0 +1,34 @@
+{
+  "name": "Fillmans Bayou",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.413299560546875,
+  "longitude": -82.67669677734375,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727086",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727086"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8727520",
+    "height": {
+      "type": "ratio",
+      "high": 0.58,
+      "low": 0.29
+    },
+    "time": {
+      "high": -34,
+      "low": 61
+    }
+  }
+}

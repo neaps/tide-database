@@ -1,0 +1,230 @@
+{
+  "name": "Shinaku Inlet",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.592899322509766,
+  "longitude": -133.15199279785156,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450618",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450618"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "STND": 0,
+    "MHHW": 2.988,
+    "MHW": 2.724,
+    "DTL": 1.45,
+    "MTL": 1.526,
+    "MSL": 1.525,
+    "MLW": 0.327,
+    "MLLW": -0.089,
+    "GT": 3.077,
+    "MN": 2.396,
+    "DHQ": 0.264,
+    "DLQ": 0.416,
+    "HWI": 9.38,
+    "LWI": 3.11
+  },
+  "chart_datum": "MLLW",
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.129,
+      "phase": 270.1
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.331,
+      "phase": 300.8
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.242,
+      "phase": 247.9
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.428,
+      "phase": 261.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.008,
+      "phase": 346
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.275,
+      "phase": 250
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.004,
+      "phase": 341.8
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.006,
+      "phase": 349.7
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.047,
+      "phase": 250.9
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.003,
+      "phase": 303.4
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.027,
+      "phase": 333.1
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.032,
+      "phase": 225.8
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.012,
+      "phase": 272.8
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.008,
+      "phase": 284.4
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.02,
+      "phase": 255.8
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.022,
+      "phase": 267
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.01,
+      "phase": 245.2
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.053,
+      "phase": 244.4
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.02,
+      "phase": 299.6
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.003,
+      "phase": 302.1
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.007,
+      "phase": 238.7
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.142,
+      "phase": 260.5
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.032,
+      "phase": 292.3
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.09,
+      "phase": 303.3
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.004,
+      "phase": 225.7
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ],
+  "epoch": {
+    "start": "1983-01-01",
+    "end": "2001-12-31"
+  }
+}

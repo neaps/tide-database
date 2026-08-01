@@ -1,0 +1,34 @@
+{
+  "name": "Indian Bluff Island",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.103300094604492,
+  "longitude": -82.7782974243164,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726853",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726853"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726724",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1.04
+    },
+    "time": {
+      "high": 13,
+      "low": 38
+    }
+  }
+}

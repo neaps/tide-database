@@ -1,0 +1,34 @@
+{
+  "name": "North Fork, Anclote River",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.158300399780273,
+  "longitude": -82.75669860839844,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726908",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726908"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726724",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 0.85
+    },
+    "time": {
+      "high": 62,
+      "low": 95
+    }
+  }
+}

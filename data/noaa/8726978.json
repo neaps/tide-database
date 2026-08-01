@@ -1,0 +1,34 @@
+{
+  "name": "Bailey's Bluff, Gulfside",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.204999923706055,
+  "longitude": -82.7833023071289,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726978",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726978"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "chart_datum": "MLLW",
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726724",
+    "height": {
+      "type": "ratio",
+      "high": 1.17,
+      "low": 1.02
+    },
+    "time": {
+      "high": 20,
+      "low": 45
+    }
+  }
+}

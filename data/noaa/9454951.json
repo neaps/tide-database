@@ -1,0 +1,230 @@
+{
+  "name": "Kings Bay (inside)",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 60.45669937133789,
+  "longitude": -148.6649932861328,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454951",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454951"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "STND": 0,
+    "MHHW": 2.684,
+    "MHW": 2.402,
+    "DTL": 0.804,
+    "MTL": 0.902,
+    "MSL": 0.947,
+    "MLW": -0.598,
+    "MLLW": -1.075,
+    "GT": 3.759,
+    "MN": 3,
+    "DHQ": 0.282,
+    "DLQ": 0.477,
+    "HWI": 10.05,
+    "LWI": 3.73
+  },
+  "chart_datum": "MLLW",
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.391,
+      "phase": 288.6
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.478,
+      "phase": 319.9
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.28,
+      "phase": 267.6
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.545,
+      "phase": 273.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.043,
+      "phase": 37.5
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.286,
+      "phase": 256.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.004,
+      "phase": 191.6
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.011,
+      "phase": 13.8
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.054,
+      "phase": 270.4
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 237.3
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.033,
+      "phase": 257.4
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.037,
+      "phase": 246.5
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.012,
+      "phase": 290
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.01,
+      "phase": 303.2
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.02,
+      "phase": 265.3
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.023,
+      "phase": 281.7
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.114,
+      "phase": 228.5
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.027,
+      "phase": 174.3
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.011,
+      "phase": 249.9
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.055,
+      "phase": 248.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.028,
+      "phase": 318.7
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.004,
+      "phase": 321.2
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.007,
+      "phase": 240.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.18,
+      "phase": 272.2
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.039,
+      "phase": 309.8
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.13,
+      "phase": 322.5
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 173.1
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ],
+  "epoch": {
+    "start": "1983-01-01",
+    "end": "2001-12-31"
+  }
+}
