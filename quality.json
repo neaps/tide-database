@@ -13373,20 +13373,17 @@
   },
   {
     "id": "noaa/8655875",
-    "accepted": false,
-    "score": 0,
+    "accepted": true,
+    "score": 87,
     "factors": {
       "epoch": 1,
       "recency": 0.75,
       "source": 1,
       "quality": 1,
-      "amplitude": 0,
+      "amplitude": 1,
       "coverage": 0.269
     },
-    "issues": [
-      "Missing constituents for prediction: M2, S2, K1, O1"
-    ],
-    "reason": "constituents"
+    "issues": []
   },
   {
     "id": "noaa/8656084",
@@ -21691,7 +21688,7 @@
       "source": 1,
       "quality": 1,
       "amplitude": 1,
-      "coverage": 0.025
+      "coverage": 0.014
     },
     "issues": []
   },
@@ -21705,7 +21702,7 @@
       "source": 1,
       "quality": 1,
       "amplitude": 1,
-      "coverage": 0.025
+      "coverage": 0.014
     },
     "issues": []
   },
