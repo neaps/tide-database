@@ -24,11 +24,18 @@ const META_KEYS: StationMetaKey[] = [
 ];
 
 function readAll(): { id: string; data: StationData }[] {
-  const modules = import.meta.glob<StationData>("./**/*.json", {
-    eager: true,
-    import: "default",
-    base: "../data",
-  });
+  // data/ also holds non-station GeoJSON (e.g. baltic-sea.geo.json); only plain
+  // .json files are stations. Must stay in sync with the walk in
+  // scripts/generate-database.ts so the search indexes share the database's
+  // station order.
+  const modules = import.meta.glob<StationData>(
+    ["./**/*.json", "!./**/*.geo.json"],
+    {
+      eager: true,
+      import: "default",
+      base: "../data",
+    },
+  );
   // Sorted by id so the geo/text indexes share the database file's station
   // order (buildDatabase sorts the stations vector by id, its FlatBuffers key).
   return Object.entries(modules)
