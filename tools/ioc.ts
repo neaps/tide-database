@@ -37,15 +37,14 @@ export interface IocOperator {
   fullname: string;
 }
 
-interface IocRow {
-  slevel: number | "NA";
-  stime: string; // "YYYY-MM-DD HH:MM:SS" UTC
-}
-
-async function getJSON<T>(path: string, cacheFile: string): Promise<T> {
+async function getText(
+  path: string,
+  cacheFile: string,
+  accept = "application/json",
+): Promise<string> {
   const file = join(IOC_DIR, cacheFile);
   try {
-    return JSON.parse(gunzipSync(await readFile(file)).toString());
+    return gunzipSync(await readFile(file)).toString();
   } catch {
     // not cached
   }
@@ -56,10 +55,12 @@ async function getJSON<T>(path: string, cacheFile: string): Promise<T> {
     );
   }
   // ponytail: three tries with a flat back-off; make-fetch-happen's streaming
-  // was ~10× slower than undici on these 40 MB station-years.
+  // was ~10× slower than undici on these multi-MB station-years.
   let text = "";
   for (let attempt = 1; ; attempt++) {
-    const res = await fetch(`${API}${path}`, { headers: { "X-API-KEY": key } });
+    const res = await fetch(`${API}${path}`, {
+      headers: { "X-API-KEY": key, Accept: accept },
+    });
     if (res.ok) {
       text = await res.text();
       break;
@@ -71,8 +72,11 @@ async function getJSON<T>(path: string, cacheFile: string): Promise<T> {
   }
   await mkdir(dirname(file), { recursive: true });
   await writeFile(file, gzipSync(text));
-  return JSON.parse(text);
+  return text;
 }
+
+const getJSON = async <T>(path: string, cacheFile: string): Promise<T> =>
+  JSON.parse(await getText(path, cacheFile));
 
 /** All SLSMF stations (cached; delete tmp/IOC/stations.json.gz to refresh). */
 export const fetchStations = () =>
@@ -84,14 +88,24 @@ export async function fetchOperators(): Promise<Map<number, string>> {
   return new Map(ops.map((o) => [o.id, o.fullname]));
 }
 
-/** Convert research-endpoint rows to samples, dropping QC-nulled (`NA`) values. */
-export function parseIocSamples(rows: IocRow[]): Sample[] {
+/**
+ * Parse the research endpoint's CSV (a pagination block, then tab-separated
+ * `slevel stime sensor` rows) into samples, dropping QC-nulled (`NA`) values.
+ * CSV is ~40% the size of the JSON form and the server produces it faster.
+ */
+export function parseIocSamples(csv: string): Sample[] {
   const samples: Sample[] = [];
-  for (const r of rows) {
-    if (typeof r.slevel !== "number" || !Number.isFinite(r.slevel)) continue;
-    const t = Date.parse(r.stime.replace(" ", "T") + "Z");
-    if (Number.isFinite(t))
-      samples.push({ time: new Date(t), level: r.slevel });
+  for (const line of csv.split("\n")) {
+    const [slevel, stime] = line.split("\t");
+    const level = Number(slevel);
+    // Skips the header/pagination lines and NA (V8's Date.parse is lenient,
+    // so gate on the timestamp shape rather than on NaN).
+    if (
+      !Number.isFinite(level) ||
+      !/^\d{4}-\d\d-\d\d \d\d:\d\d:\d\d$/.test(stime ?? "")
+    )
+      continue;
+    samples.push({ time: new Date(stime!.replace(" ", "T") + "Z"), level });
   }
   return samples;
 }
@@ -110,15 +124,18 @@ export async function fetchHourlySamples(
 ): Promise<Sample[]> {
   const years: Sample[][] = [];
   for (let year = until; year >= from; year--) {
-    const rows = await getJSON<{ data: IocRow[] }>(
-      `/research/stations/${code}/sensors/one-sensor/data` +
+    // Catalog codes can be upper-case but the research route only knows lower.
+    const csv = await getText(
+      `/research/stations/${code.toLowerCase()}/sensors/one-sensor/data` +
         `?timestart=${year}-01-01&timestop=${year + 1}-01-01&days_per_page=365&page=1&fit_to_sample_rate=true`,
-      join(code, `${year}.json.gz`),
+      join(code, `${year}.csv.gz`),
+      "text/csv",
     );
-    // ponytail: rows only exist from the gauge's first report, so an empty year
-    // means we've reached the start of the record; a full-year outage truncates it.
-    if (rows.data.length === 0) break;
-    years.unshift(binHourly(parseIocSamples(rows.data)));
+    // ponytail: rows only exist from the gauge's first report, so a year with
+    // no rows at all means we've reached the start of the record; a full-year
+    // outage truncates it. (All-NA years still have rows, so keep walking.)
+    if (!/\t\d{4}-\d\d-\d\d /.test(csv)) break;
+    years.unshift(binHourly(parseIocSamples(csv)));
   }
   return years.flat();
 }

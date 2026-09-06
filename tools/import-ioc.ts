@@ -204,57 +204,63 @@ async function main() {
 
   let saved = 0;
   let skipped = 0;
-  for (const s of candidates) {
-    const lat = s.Lat!;
-    const lon = s.Lon!;
-    try {
-      const geo = geocoder.nearest(lat, lon, 50);
-      const region = geo?.region;
-      const operator =
-        s.localoperator != null ? operators.get(s.localoperator) : undefined;
-      const fitted = await fit(s.Code);
+  const queue = [...candidates];
+  // ponytail: 4 in flight — the server's per-request latency dominates, so a
+  // small pool is ~4× faster and still polite.
+  const worker = async () => {
+    for (let s = queue.shift(); s; s = queue.shift()) {
+      const lat = s.Lat!;
+      const lon = s.Lon!;
+      try {
+        const geo = geocoder.nearest(lat, lon, 50);
+        const region = geo?.region;
+        const operator =
+          s.localoperator != null ? operators.get(s.localoperator) : undefined;
+        const fitted = await fit(s.Code);
 
-      const candidate: PartialStationData = {
-        // "Bahia Mansa_CL" → "Bahia Mansa": strip the country suffix some operators append.
-        name: s.Location.trim().replace(/_[A-Z]{2}$/, ""),
-        ...(region ? { region } : {}),
-        country: geo?.country ?? s.countryname,
-        latitude: lat,
-        longitude: lon,
-        type: "reference",
-        disclaimers: [
-          DATUM_DISCLAIMER,
-          fitted.datums_source === "harmonic"
-            ? "Datums derived from harmonic prediction; the observation record is too short for an empirical reduction, so datum values carry higher uncertainty."
-            : "",
-        ]
-          .filter(Boolean)
-          .join(" "),
-        source: {
-          name: "IOC SLSMF",
-          url: `https://www.ioc-sealevelmonitoring.org/station.php?code=${s.Code}`,
-          id: s.Code,
-          published_harmonics: false,
-          ...(operator ? { operator } : {}),
-        },
-        license: {
-          type: "IOC Oceanographic Data Exchange Policy",
-          commercial_use: false,
-          url: "https://www.ioc-sealevelmonitoring.org/disclaimer.php",
-          notes:
-            `Non-commercial use only per the SLSMF data policy; commercial users should contact the data originator${operator ? ` (${operator})` : ""}. ` +
-            "Constituents fit by this project from SLSMF quality-controlled observations. Cite: Flanders Marine Institute (VLIZ); Intergovernmental Oceanographic Commission (IOC) (2026): Sea level station monitoring facility. https://doi.org/10.14284/482",
-        },
-        ...fitted,
-      };
-      await save(SOURCE, normalize(candidate));
-      saved++;
-      process.stdout.write(".");
-    } catch (err: any) {
-      skipped++;
-      console.error(`\n${s.Code} (${s.Location.trim()}): ${err.message}`);
+        const candidate: PartialStationData = {
+          // "Bahia Mansa_CL" → "Bahia Mansa": strip the country suffix some operators append.
+          name: s.Location.trim().replace(/_[A-Z]{2}$/, ""),
+          ...(region ? { region } : {}),
+          country: geo?.country ?? s.countryname,
+          latitude: lat,
+          longitude: lon,
+          type: "reference",
+          disclaimers: [
+            DATUM_DISCLAIMER,
+            fitted.datums_source === "harmonic"
+              ? "Datums derived from harmonic prediction; the observation record is too short for an empirical reduction, so datum values carry higher uncertainty."
+              : "",
+          ]
+            .filter(Boolean)
+            .join(" "),
+          source: {
+            name: "IOC SLSMF",
+            url: `https://www.ioc-sealevelmonitoring.org/station.php?code=${s.Code}`,
+            id: s.Code,
+            published_harmonics: false,
+            ...(operator ? { operator } : {}),
+          },
+          license: {
+            type: "IOC Oceanographic Data Exchange Policy",
+            commercial_use: false,
+            url: "https://www.ioc-sealevelmonitoring.org/disclaimer.php",
+            notes:
+              `Non-commercial use only per the SLSMF data policy; commercial users should contact the data originator${operator ? ` (${operator})` : ""}. ` +
+              "Constituents fit by this project from SLSMF quality-controlled observations. Cite: Flanders Marine Institute (VLIZ); Intergovernmental Oceanographic Commission (IOC) (2026): Sea level station monitoring facility. https://doi.org/10.14284/482",
+          },
+          ...fitted,
+        };
+        await save(SOURCE, normalize(candidate));
+        saved++;
+        process.stdout.write(".");
+      } catch (err: any) {
+        skipped++;
+        console.error(`\n${s.Code} (${s.Location.trim()}): ${err.message}`);
+      }
     }
-  }
+  };
+  await Promise.all(Array.from({ length: 4 }, worker));
   console.log(
     `\n\nDone. Saved ${saved}, skipped ${skipped} of ${candidates.length}.`,
   );
