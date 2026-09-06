@@ -58,17 +58,17 @@ async function getText(
   // was ~10× slower than undici on these multi-MB station-years.
   let text = "";
   for (let attempt = 1; ; attempt++) {
-    const res = await fetch(`${API}${path}`, {
-      headers: { "X-API-KEY": key, Accept: accept },
-    });
-    if (res.ok) {
+    try {
+      const res = await fetch(`${API}${path}`, {
+        headers: { "X-API-KEY": key, Accept: accept },
+      });
+      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
       text = await res.text();
       break;
+    } catch (err: any) {
+      if (attempt === 3) throw new Error(`IOC ${path}: ${err.message}`);
+      await new Promise((r) => setTimeout(r, 5_000 * attempt));
     }
-    if (attempt === 3) {
-      throw new Error(`IOC ${path}: ${res.status} ${res.statusText}`);
-    }
-    await new Promise((r) => setTimeout(r, 5_000 * attempt));
   }
   await mkdir(dirname(file), { recursive: true });
   await writeFile(file, gzipSync(text));
