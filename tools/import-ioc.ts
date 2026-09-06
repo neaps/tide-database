@@ -222,7 +222,9 @@ async function main() {
           // "Bahia Mansa_CL" → "Bahia Mansa": strip the country suffix some operators append.
           name: s.Location.trim().replace(/_[A-Z]{2}$/, ""),
           ...(region ? { region } : {}),
-          country: geo?.country ?? s.countryname,
+          // Remote gauges miss the geocoder; IOC's own label needs its qualifier
+          // dropped ("Taiwan (Province of China)", "Puerto Rico; U.S.A.").
+          country: geo?.country ?? s.countryname.replace(/\s*[(;].*$/, ""),
           latitude: lat,
           longitude: lon,
           type: "reference",
