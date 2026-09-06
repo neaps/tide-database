@@ -190,6 +190,8 @@ async function main() {
   const candidates = stations.filter((s) => {
     if (only) return only.includes(s.Code);
     if (s.Lat == null || s.Lon == null) return false;
+    // DART tsunameters are deep-ocean pressure sensors, not tide stations.
+    if (s.Location.trim().startsWith("DART")) return false;
     if (!s.lasttime || Date.parse(s.lasttime.replace(" ", "T") + "Z") < cutoff)
       return false;
     return existing.every(
